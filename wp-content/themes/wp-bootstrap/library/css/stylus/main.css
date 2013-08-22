@@ -3,14 +3,14 @@ body,html{height:100%}
 #wrap{min-height:100%}
 #main{overflow:auto;padding-bottom:320px}
 h1,h2,h3,h4,h5,h6{color:#320961;margin:0}
-h1{font-size:2em}
-h2{font-size:1.5em}
-h3{font-size:1.17em}
-h4{font-size:1em}
-h5{font-size:.93em}
-h6{font-size:.75em}
-.pageHeader h1,.pageHeader h2,.pageHeader h3,.pageHeader h4,.pageHeader h5,.pageHeader h6,.pageHeader h1 a,.pageHeader h2 a,.pageHeader h3 a,.pageHeader h4 a,.pageHeader h5 a,.pageHeader h6 a{color:#1f033f;margin:0 0 .5em}
-.postHeader h1,.postHeader h2,.postHeader h3,.postHeader h4,.postHeader h5,.postHeader h6,.postHeader h1 a,.postHeader h2 a,.postHeader h3 a,.postHeader h4 a,.postHeader h5 a,.postHeader h6 a{color:#2e1749;margin:0 0 .5em}
+h1{font-size:2em;line-height:1.8em}
+h2{font-size:1.6em;line-height:1.7em}
+h3{font-size:1.25em;line-height:1.6em}
+h4{font-size:1em;line-height:1.5em}
+h5{font-size:.93em;line-height:1.4em}
+h6{font-size:.75em;line-height:1.3em}
+.pageHeader h1,.pageHeader h2,.pageHeader h3,.pageHeader h4,.pageHeader h5,.pageHeader h6,.pageHeader h1 a,.pageHeader h2 a,.pageHeader h3 a,.pageHeader h4 a,.pageHeader h5 a,.pageHeader h6 a{color:#1f033f}
+.postHeader h1,.postHeader h2,.postHeader h3,.postHeader h4,.postHeader h5,.postHeader h6,.postHeader h1 a,.postHeader h2 a,.postHeader h3 a,.postHeader h4 a,.postHeader h5 a,.postHeader h6 a{color:#2e1749}
 .navbar{margin:0}
 .navbar .logo{float:left}
 .navbar .nav{padding:0}

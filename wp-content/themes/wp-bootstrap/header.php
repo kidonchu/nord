@@ -106,40 +106,22 @@
 						<div class="nav-collapse collapse">
 							<ul class="nav">
 								<li>
-									<a href="<?php home_url() ?>/get-involved/donate">DONATE</a>
+									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
 								</li>
-								<li class="dropdown">
-									<a href="<?php home_url() ?>/renal-disease-library">Renal Disease Library</a>
-									<!-- <a data-target="#" href="<?php // home_url() ?>/get_educated" class="dropdown-toggle" data-toggle="dropdown">Get Educated <b class="caret"></b></a> -->
-									<!-- <ul class="dropdown-menu">
-										<li><a href="<?php // home_url() ?>/renal-disease">Renal Disease</a></li>
-										<li><a href="<?php // home_url() ?>/statistics">Statistics</a></li>
-										<li><a href="<?php // home_url() ?>/resources">Resources</a></li>
-									</ul> -->
-								</li>
-								<li><a href="<?php home_url() ?>/get-screened">Get Screened</a></li>
-								<li class="dropdown">
-									<a href="<?php home_url() ?>/get-involved">Get Involved</a>
-									<!-- <a data-target="#" href="<?php // home_url() ?>/get-involved" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a> -->
-<!-- 									<ul class="dropdown-menu">
-										<li><a href="<?php home_url() ?>/events">Events</a></li>
-										<li><a href="<?php home_url() ?>/donation">Donation</a></li>
-										<li><a href="<?php home_url() ?>/volunteer">Volunteer</a></li>
-									</ul>
- -->								</li>
-								<li class="dropdown">
-									<a href="<?php home_url() ?>/about-us">About Us</a>
-									<!-- <a data-target="#" href="<?php // home_url() ?>/about-us" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a> -->
-<!-- 									<ul class="dropdown-menu">
-										<li><a href="<?php home_url() ?>/who-we-are">Who we are</a></li>
-										<li><a href="<?php home_url() ?>/what-we-do">What we do</a></li>
-										<li><a href="<?php home_url() ?>/media">Media</a></li>
-										<li><a href="<?php home_url() ?>/contact-us">Contact Info</a></li>
-									</ul>
- -->								</li>
-
 								<li>
-									<a href="<?php home_url() ?>/contact-us">Contact</a>
+									<a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('about-us') ?>">About Us</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('contact-us') ?>">Contact</a>
 								</li>
 							</ul>
 
