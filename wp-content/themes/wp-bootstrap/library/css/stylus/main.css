@@ -83,3 +83,4 @@ hr{background:url("../../img/logo-hr.png") no-repeat center bottom;border:none;m
 .no-list-style{list-style-type:none;margin-left:0}
 .partners-list li{height:4em;}
 .partners-list li img{height:auto;vertical-align:middle;width:100%}
+.border-bottom{border-bottom:1px solid #320961;margin-bottom:1em}
