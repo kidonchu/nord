@@ -2,10 +2,10 @@
 -->
 <nav class="sidebar">
 
-	<header class="pageHeader">
+<!-- 	<header class="pageHeader">
 		<h3><a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease A to Z</a></h3>
 	</header>
-
+ -->
 	<div class="well">
 
 		<article class="topic">

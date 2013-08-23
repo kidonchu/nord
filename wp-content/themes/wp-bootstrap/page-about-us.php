@@ -7,6 +7,8 @@
 
 	<p> The National Organization for Renal Disease is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research. </p>
 
+	<div class="spacer30"></div>
+
 	<div class="row-fluid">
 		<div class="span3">
 			<a href="<?php echo home_url('about-us/mission') ?>">
