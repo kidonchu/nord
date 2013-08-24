@@ -80,10 +80,17 @@
 				<div class="container-fluid">
 
 					<!-- start Logo -->
-					<a class="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
+					<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
 						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo.png" alt="NORD Logo">
 					</a>
 					<!-- end Logo -->
+
+					<form id="custom-search-form" class="form-search form-horizontal pull-right">
+						<div class="input-append">
+							<input type="text" class="search-query" placeholder="Search">
+							<button type="submit" class="btn"><i class="icon-search"></i></button>
+						</div>
+					</form>
 
 				</div>
 
