@@ -173,7 +173,7 @@ function bones_comments($comment, $args, $depth) {
 	 $GLOBALS['comment'] = $comment; ?>
 	<li <?php comment_class(); ?>>
 		<article id="comment-<?php comment_ID(); ?>" class="clearfix">
-			<div class="comment-author vcard row-fluid clearfix">
+			<div class="comment-author vcard row clearfix">
 				<div class="avatar span3">
 					<?php echo get_avatar( $comment, $size='75' ); ?>
 				</div>
@@ -779,4 +779,3 @@ function get_wpbs_theme_options(){
 remove_filter('the_content', 'wpautop');
 remove_filter('the_excerpt', 'wpautop');
 ?>
-

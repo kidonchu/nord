@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="content-container container-fluid">
+<div class="content-container container">
 
 	<div class="border-bottom">
 		<ul class="breadcrumb">
@@ -16,7 +16,7 @@
 
 	<div class="spacer10"></div>
 
-	<div class="row-fluid">
+	<div class="row">
 
 			<div class="span4">
 				<a href="<?php echo home_url('get-involved/donate') ?>">

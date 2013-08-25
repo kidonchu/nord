@@ -1,0 +1,251 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nib',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.16
+4 verbose cache add [ 'nib', null ]
+5 verbose cache add name=undefined spec="nib" args=["nib",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nib',
+6 verbose parsed url   path: 'nib',
+6 verbose parsed url   href: 'nib' }
+7 silly lockFile ae909a05-nib nib
+8 verbose lock nib /home/kidon/.npm/ae909a05-nib.lock
+9 silly lockFile ae909a05-nib nib
+10 silly lockFile ae909a05-nib nib
+11 verbose addNamed [ 'nib', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 30a48e40-nib nib@
+14 verbose lock nib@ /home/kidon/.npm/30a48e40-nib.lock
+15 silly addNameRange { name: 'nib', range: '*', hasData: false }
+16 verbose url raw nib
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nib' ]
+18 verbose url resolved https://registry.npmjs.org/nib
+19 info trying registry request attempt 1 at 19:04:39
+20 http GET https://registry.npmjs.org/nib
+21 http 200 https://registry.npmjs.org/nib
+22 silly registry.get cb [ 200,
+22 silly registry.get   { vary: 'Accept',
+22 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"9192BBD1DQJ8QFYEBWRSQO5NJ"',
+22 silly registry.get     date: 'Tue, 27 Aug 2013 00:04:39 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '61041' } ]
+23 silly addNameRange number 2 { name: 'nib', range: '*', hasData: true }
+24 silly addNameRange versions [ 'nib',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1' ] ]
+25 verbose addNamed [ 'nib', '1.0.1' ]
+26 verbose addNamed [ '1.0.1', '1.0.1' ]
+27 silly lockFile 0e2c8e2a-nib-1-0-1 nib@1.0.1
+28 verbose lock nib@1.0.1 /home/kidon/.npm/0e2c8e2a-nib-1-0-1.lock
+29 silly lockFile 1cfd1715-stry-npmjs-org-nib-nib-1-0-1-tgz https://registry.npmjs.org/nib/-/nib-1.0.1.tgz
+30 verbose lock https://registry.npmjs.org/nib/-/nib-1.0.1.tgz /home/kidon/.npm/1cfd1715-stry-npmjs-org-nib-nib-1-0-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/nib/-/nib-1.0.1.tgz',
+31 verbose addRemoteTarball   '505b9eb9998e9f24d507e954b37d2a44278f3470' ]
+32 info retry fetch attempt 1 at 19:04:39
+33 verbose fetch to= /home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz
+34 http GET https://registry.npmjs.org/nib/-/nib-1.0.1.tgz
+35 http 200 https://registry.npmjs.org/nib/-/nib-1.0.1.tgz
+36 verbose tar unpack /home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz
+37 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+38 verbose lock tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package /home/kidon/.npm/0d189012-79955-0-0768276893068105-package.lock
+39 silly lockFile e54051c3-79955-0-0768276893068105-tmp-tgz tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz
+40 verbose lock tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz /home/kidon/.npm/e54051c3-79955-0-0768276893068105-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry .travis.yml
+45 silly gunzTarPerm extractEntry Readme.md
+46 silly gunzTarPerm extractEntry iconic/demo.html
+47 silly gunzTarPerm extractEntry iconic/iconic.css
+48 silly gunzTarPerm extractEntry iconic/iconic_stroke.eot
+49 silly gunzTarPerm extractEntry iconic/iconic_stroke.otf
+50 silly gunzTarPerm extractEntry iconic/iconic_stroke.svg
+51 silly gunzTarPerm extractEntry iconic/iconic_stroke.ttf
+52 silly gunzTarPerm extractEntry index.styl
+53 silly gunzTarPerm extractEntry lib/nib.js
+54 silly gunzTarPerm extractEntry lib/nib/image.styl
+55 silly gunzTarPerm extractEntry lib/nib/border.styl
+56 silly gunzTarPerm extractEntry lib/nib/color-image.styl
+57 silly gunzTarPerm extractEntry lib/nib/config.styl
+58 silly gunzTarPerm extractEntry lib/nib/flex.styl
+59 silly gunzTarPerm extractEntry lib/nib/gradients.styl
+60 silly gunzTarPerm extractEntry lib/nib/iconic.styl
+61 silly gunzTarPerm extractEntry lib/nib/clearfix.styl
+62 silly gunzTarPerm extractEntry lib/nib/index.styl
+63 silly gunzTarPerm extractEntry lib/nib/overflow.styl
+64 silly gunzTarPerm extractEntry lib/nib/positions.styl
+65 silly gunzTarPerm extractEntry lib/nib/reset.styl
+66 silly gunzTarPerm extractEntry lib/nib/size.styl
+67 silly gunzTarPerm extractEntry lib/nib/text/aliases.styl
+68 silly gunzTarPerm extractEntry lib/nib/text/ellipsis.styl
+69 silly gunzTarPerm extractEntry lib/nib/text/hide-text.styl
+70 silly gunzTarPerm extractEntry lib/nib/text/index.styl
+71 silly gunzTarPerm extractEntry lib/nib/text/replace-text.styl
+72 silly gunzTarPerm extractEntry lib/nib/vendor.styl
+73 silly gunzTarPerm extractEntry lib/nodes/color-image.js
+74 silly gunzTarPerm extractEntry lib/nodes/gradient.js
+75 silly gunzTarPerm extractEntry lib/nodes/vendor-helpers.js
+76 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+77 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+78 silly lockFile e54051c3-79955-0-0768276893068105-tmp-tgz tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz
+79 silly lockFile e54051c3-79955-0-0768276893068105-tmp-tgz tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/tmp.tgz
+80 verbose tar pack [ '/home/kidon/.npm/nib/1.0.1/package.tgz',
+80 verbose tar pack   '/home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package' ]
+81 verbose tarball /home/kidon/.npm/nib/1.0.1/package.tgz
+82 verbose folder /home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+83 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+84 verbose lock tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package /home/kidon/.npm/0d189012-79955-0-0768276893068105-package.lock
+85 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+86 verbose lock tar:///home/kidon/.npm/nib/1.0.1/package.tgz /home/kidon/.npm/a801c726--kidon-npm-nib-1-0-1-package-tgz.lock
+87 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+88 silly lockFile 0d189012-79955-0-0768276893068105-package tar:///home/kidon/tmp/npm-8531-zyWG5mjM/1377561879955-0.0768276893068105/package
+89 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+90 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+91 silly lockFile 0509b1e5-home-kidon-npm-nib-1-0-1-package /home/kidon/.npm/nib/1.0.1/package
+92 verbose lock /home/kidon/.npm/nib/1.0.1/package /home/kidon/.npm/0509b1e5-home-kidon-npm-nib-1-0-1-package.lock
+93 silly lockFile 0509b1e5-home-kidon-npm-nib-1-0-1-package /home/kidon/.npm/nib/1.0.1/package
+94 silly lockFile 0509b1e5-home-kidon-npm-nib-1-0-1-package /home/kidon/.npm/nib/1.0.1/package
+95 verbose tar unpack /home/kidon/.npm/nib/1.0.1/package.tgz
+96 silly lockFile ba39111e-home-kidon-npm-nib-1-0-1-package tar:///home/kidon/.npm/nib/1.0.1/package
+97 verbose lock tar:///home/kidon/.npm/nib/1.0.1/package /home/kidon/.npm/ba39111e-home-kidon-npm-nib-1-0-1-package.lock
+98 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+99 verbose lock tar:///home/kidon/.npm/nib/1.0.1/package.tgz /home/kidon/.npm/a801c726--kidon-npm-nib-1-0-1-package-tgz.lock
+100 silly gunzTarPerm modes [ '755', '644' ]
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry .npmignore
+103 silly gunzTarPerm extractEntry .travis.yml
+104 silly gunzTarPerm extractEntry Readme.md
+105 silly gunzTarPerm extractEntry iconic/demo.html
+106 silly gunzTarPerm extractEntry iconic/iconic.css
+107 silly gunzTarPerm extractEntry iconic/iconic_stroke.eot
+108 silly gunzTarPerm extractEntry iconic/iconic_stroke.otf
+109 silly gunzTarPerm extractEntry iconic/iconic_stroke.svg
+110 silly gunzTarPerm extractEntry iconic/iconic_stroke.ttf
+111 silly gunzTarPerm extractEntry index.styl
+112 silly gunzTarPerm extractEntry lib/nib.js
+113 silly gunzTarPerm extractEntry lib/nib/image.styl
+114 silly gunzTarPerm extractEntry lib/nib/border.styl
+115 silly gunzTarPerm extractEntry lib/nib/color-image.styl
+116 silly gunzTarPerm extractEntry lib/nib/config.styl
+117 silly gunzTarPerm extractEntry lib/nib/flex.styl
+118 silly gunzTarPerm extractEntry lib/nib/gradients.styl
+119 silly gunzTarPerm extractEntry lib/nib/iconic.styl
+120 silly gunzTarPerm extractEntry lib/nib/clearfix.styl
+121 silly gunzTarPerm extractEntry lib/nib/index.styl
+122 silly gunzTarPerm extractEntry lib/nib/overflow.styl
+123 silly gunzTarPerm extractEntry lib/nib/positions.styl
+124 silly gunzTarPerm extractEntry lib/nib/reset.styl
+125 silly gunzTarPerm extractEntry lib/nib/size.styl
+126 silly gunzTarPerm extractEntry lib/nib/text/aliases.styl
+127 silly gunzTarPerm extractEntry lib/nib/text/ellipsis.styl
+128 silly gunzTarPerm extractEntry lib/nib/text/hide-text.styl
+129 silly gunzTarPerm extractEntry lib/nib/text/index.styl
+130 silly gunzTarPerm extractEntry lib/nib/text/replace-text.styl
+131 silly gunzTarPerm extractEntry lib/nib/vendor.styl
+132 silly gunzTarPerm extractEntry lib/nodes/color-image.js
+133 silly gunzTarPerm extractEntry lib/nodes/gradient.js
+134 silly gunzTarPerm extractEntry lib/nodes/vendor-helpers.js
+135 silly lockFile ba39111e-home-kidon-npm-nib-1-0-1-package tar:///home/kidon/.npm/nib/1.0.1/package
+136 silly lockFile ba39111e-home-kidon-npm-nib-1-0-1-package tar:///home/kidon/.npm/nib/1.0.1/package
+137 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+138 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+139 verbose chmod /home/kidon/.npm/nib/1.0.1/package.tgz 644
+140 verbose chown /home/kidon/.npm/nib/1.0.1/package.tgz [ 1000, 1000 ]
+141 silly lockFile 1cfd1715-stry-npmjs-org-nib-nib-1-0-1-tgz https://registry.npmjs.org/nib/-/nib-1.0.1.tgz
+142 silly lockFile 1cfd1715-stry-npmjs-org-nib-nib-1-0-1-tgz https://registry.npmjs.org/nib/-/nib-1.0.1.tgz
+143 silly lockFile 0e2c8e2a-nib-1-0-1 nib@1.0.1
+144 silly lockFile 0e2c8e2a-nib-1-0-1 nib@1.0.1
+145 silly lockFile 30a48e40-nib nib@
+146 silly lockFile 30a48e40-nib nib@
+147 silly resolved [ { name: 'nib',
+147 silly resolved     description: 'Stylus mixins and utilities',
+147 silly resolved     version: '1.0.1',
+147 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/nib.git' },
+147 silly resolved     dependencies: { stylus: '~0.35.1' },
+147 silly resolved     devDependencies: { connect: '1.x', jade: '0.22.0', mocha: '*', should: '*' },
+147 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+147 silly resolved     main: 'lib/nib.js',
+147 silly resolved     engines: { node: '*' },
+147 silly resolved     scripts: { test: 'mocha', 'test-server': 'node test/server.js' },
+147 silly resolved     readme: '[![Build Status](https://travis-ci.org/visionmedia/nib.png?branch=master)](https://travis-ci.org/visionmedia/nib)\n\n# Nib\n\n  Stylus mixins, utilities, components, and gradient image generation. Don\'t forget to check out the [documentation](http://visionmedia.github.com/nib/).\n\n## Installation\n\n```bash\n$ npm install nib\n```\n\n If the image generation features of Nib are desired, such as generating the linear gradient images, install [node-canvas](http://github.com/learnboost/node-canvas):\n \n```bash \n$ npm install canvas\n```\n\n## JavaScript API\n\n Below is an example of how to utilize nib and stylus with the connect framework (or express).\n\n```javascript\nvar connect = require(\'connect\')\n  , stylus = require(\'stylus\')\n  , nib = require(\'nib\');\n\nvar server = connect();\n\nfunction compile(str, path) {\n  return stylus(str)\n\t.set(\'filename\', path)\n\t.set(\'compress\', true)\n\t.use(nib());\n}\n\nserver.use(stylus.middleware({\n\tsrc: __dirname\n  , compile: compile\n}));\n```\n\n## Stylus API\n\n  To gain access to everything nib has to offer, simply add:\n\n  ```css\n  @import \'nib\'\n  ```\n  \n  Or you may also pick and choose based on the directory structure in `./lib`, for example:\n  \n  ```css\n  @import \'nib/gradients\'\n  @import \'nib/overflow\'\n  ```\n  \nto be continued....\n\n## More Information\n\n  - Introduction [screencast](http://www.screenr.com/M6a)\n\n## Testing\n\n You will first need to install the dependencies:\n \n ```bash\n    $ npm install -d\n ```\n \n Run the automated test cases:\n \n ```bash\n    $ npm test\n ```\n \n For visual testing run the test server:\n \n ```bash\n    $ npm run-script test-server\n ```\n \n Then visit `localhost:3000` in your browser.\n\n## Contributors\n\nI would love more contributors. And if you have helped out, you are awesome! I want to give a huge thanks to these people:\n\n  - [TJ Holowaychuk](https://github.com/visionmedia) (Original Creator)\n  - [Sean Lang](https://github.com/slang800) (Current Maintainer)\n  - [Isaac Johnston](https://github.com/superstructor)\n  - [Everyone Else](https://github.com/visionmedia/nib/contributors)\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+147 silly resolved     readmeFilename: 'Readme.md',
+147 silly resolved     bugs: { url: 'https://github.com/visionmedia/nib/issues' },
+147 silly resolved     _id: 'nib@1.0.1',
+147 silly resolved     dist: { shasum: '505b9eb9998e9f24d507e954b37d2a44278f3470' },
+147 silly resolved     _from: 'nib@',
+147 silly resolved     _resolved: 'https://registry.npmjs.org/nib/-/nib-1.0.1.tgz' } ]
+148 info install nib@1.0.1 into /usr/local/lib
+149 info installOne nib@1.0.1
+150 info /usr/local/lib/node_modules/nib unbuild
+151 verbose tar unpack /home/kidon/.npm/nib/1.0.1/package.tgz
+152 silly lockFile 55e836be-r-usr-local-lib-node-modules-nib tar:///usr/local/lib/node_modules/nib
+153 verbose lock tar:///usr/local/lib/node_modules/nib /home/kidon/.npm/55e836be-r-usr-local-lib-node-modules-nib.lock
+154 silly lockFile a801c726--kidon-npm-nib-1-0-1-package-tgz tar:///home/kidon/.npm/nib/1.0.1/package.tgz
+155 verbose lock tar:///home/kidon/.npm/nib/1.0.1/package.tgz /home/kidon/.npm/a801c726--kidon-npm-nib-1-0-1-package-tgz.lock
+156 silly gunzTarPerm modes [ '755', '644' ]
+157 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nib'
+157 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nib']
+157 error   errno: 3,
+157 error   code: 'EACCES',
+157 error   path: '/usr/local/lib/node_modules/nib',
+157 error   fstream_type: 'Directory',
+157 error   fstream_path: '/usr/local/lib/node_modules/nib',
+157 error   fstream_class: 'DirWriter',
+157 error   fstream_stack:
+157 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+157 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+157 error      'Object.oncomplete (fs.js:107:15)' ] }
+158 error Please try running this command again as root/Administrator.
+159 error System Linux 3.9.10-100.fc17.i686
+160 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "nib" "-g"
+161 error cwd /home/kidon/sites/nord/wp-content/themes/wp-bootstrap/library/css/stylus
+162 error node -v v0.10.16
+163 error npm -v 1.3.8
+164 error path /usr/local/lib/node_modules/nib
+165 error fstream_path /usr/local/lib/node_modules/nib
+166 error fstream_type Directory
+167 error fstream_class DirWriter
+168 error code EACCES
+169 error errno 3
+170 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nib'
+171 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+171 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+171 error fstream_stack Object.oncomplete (fs.js:107:15)
+172 verbose exit [ 3, true ]

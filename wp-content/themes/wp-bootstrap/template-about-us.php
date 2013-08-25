@@ -4,9 +4,9 @@
 */
 ?>
 <?php get_header() ?>
-<div class="content-container container-fluid">
+<div class="content-container container">
 
-	<div class="row-fluid">
+	<div class="row">
 
 		<!-- navigation -->
 		<div class="span3">
@@ -58,8 +58,8 @@
 
 		</div><!-- end span -->
 
-	</div><!-- end row-fluid -->
+	</div><!-- end row -->
 
-</div><!-- end container-fluid -->
+</div><!-- end container -->
 
 <?php get_footer(); ?>

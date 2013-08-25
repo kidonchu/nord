@@ -13,6 +13,7 @@
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
@@ -24,26 +25,13 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
-		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
-		<!-- end of wordpress head -->
-		<link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
-		<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-		<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/stylus/main.css' rel='stylesheet' type='text/css'>
-		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/stylus/main.css' rel='stylesheet'>
+		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet'>
+
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome-ie7.min.css">
 		<![endif]-->
-
-		<!-- theme options from options panel -->
-		<?php // get_wpbs_theme_options(); ?>
-
-		<!-- typeahead plugin - if top nav search bar enabled -->
-		<?php require_once('library/typeahead.php'); ?>
 
 		<script>
 			// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -60,24 +48,46 @@
 
 		<header role="banner">
 
-			<!-- start subscription -->
-			<!-- TODO: Implement logic -->
-<!-- 			<div class="subscription-form-container">
-				<div class="container-fluid">
-					<form action="post_actions" class="form-inline subscribe">
-						GET monthly e-Newsletter <i class="icon-mail-forward"></i>
-						<input type="text" name="email" class="span3" placeholder="E-mail">
-						<button class="btn btn-small btn-info">Subscribe</button>
-						<a href="#" class="btn btn-link no">No, thanks</a>
-						<label class="checkbox"><input type="checkbox">Do not show this again</label>
+			<div class="container">
+
+				<!-- share icons -->
+				<div class="social-icons pull-left">
+					<a href="#">
+						<span class="social social-facebook"></span>
+					</a>
+					<a href="#">
+						<span class="social social-twitter"></span>
+					</a>
+				</div>
+
+				<!-- subscription -->
+					<!-- TODO: Implement logic -->
+				<div class="subscription-form-container pull-left">
+					<form action="#" class="form-inline subscribe">
+						<div class="form-group">
+							<label for="email" class="sr-only">E-mail</label>
+							<input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
+						</div>
+						<button type="submit" class="btn btn-info">Subscribe</button>
 					</form>
 				</div>
+
+				<!-- search bar -->
+				<div class="">
+					<form id="custom-search-form" class="form-search form-horizontal pull-right">
+						<div class="input-append">
+							<input type="text" class="search-query" placeholder="Search">
+							<button type="submit" class="btn"><i class="icon-search"></i></button>
+						</div>
+					</form>
+				</div>
+
 			</div>
- -->			<!-- end subscription -->
 
-			<div class="header-top">
 
-				<div class="container-fluid">
+				<div class="container">
+
+					<div class="header-top">
 
 					<!-- start Logo -->
 					<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
@@ -85,27 +95,59 @@
 					</a>
 					<!-- end Logo -->
 
-					<form id="custom-search-form" class="form-search form-horizontal pull-right">
-						<div class="input-append">
-							<input type="text" class="search-query" placeholder="Search">
-							<button type="submit" class="btn"><i class="icon-search"></i></button>
-						</div>
-					</form>
-
 				</div>
 
-				<div class="container-fluid">
+<!-- 				<div class="container">
 					<header class="slogan">
 						<h3>A. P. E.R. fect solution for controlling kidney disease.... prolonging health and life!</h3>
 					</header>
 				</div>
-
+ -->
 			</div>
 
-			<div class="header navbar clearfix">
+			<div class="container">
 
-				<div class="container-fluid">
+				<section id="main-navbar">
 
+					<nav class="navbar navbar-default" role="navigation">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<div class="collapse navbar-collapse navbar-main">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('about-us') ?>">About Us</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a>
+								</li>
+							</ul>
+						</div>
+
+					</nav>
+
+				</section>
+				<!-- end #main-navbar -->
+
+				<div class="header-bottom navbar clearfix">
 
 					<!-- start main menu -->
 					<div class="menu-main">

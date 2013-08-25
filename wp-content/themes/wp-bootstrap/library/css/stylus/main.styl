@@ -1,10 +1,11 @@
+@import "nib"
 @import "variables.styl"
+@import "mixins.styl"
+@import "typography.styl"
+@import "utilities.styl"
 
-body
+html, body
 	background bg-color
-	font font-size/line-height font-family
-
-body, html
 	height 100%
 
 #wrap
@@ -14,84 +15,35 @@ body, html
 	overflow auto
 	padding-bottom footer-height
 
-h1, h2, h3, h4, h5, h6
-	color  mid-purple
-	margin 0
-
-h1
-	font-size 2em
-	line-height 1.8em
-h2
-	font-size 1.6em
-	line-height 1.7em
-h3
-	font-size 1.25em
-	line-height 1.6em
-h4
-	font-size 1em
-	line-height 1.5em
-h5
-	font-size 0.93em
-	line-height 1.4em
-h6
-	font-size 0.75em
-	line-height 1.3em
-
-.pageHeader
-	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-		color  darkest-purple
-		// margin 0 0 .5em
-
-.postHeader
-	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-		color  darker-purple
-		// margin 0 0 .5em
-
-.slogan
-	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-		color orange
-
 .slogan
 	left 15px
 	position relative
+.logo
+	padding-left 1em
 
-.navbar {margin: 0; }
-.navbar .logo {float: left; }
-.navbar .nav {padding: 0; }
-.navbar .nav > li > a {color: #fff; text-shadow: none; }
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {background: transparent; color: #fff; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
-.navbar .nav > li > a:hover {text-decoration: underline; }
-.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {color: #fafafa; background-purple: #320961; }
-.navbar .nav li.dropdown > .dropdown-toggle .caret {border-top-purple: #aaa; border-bottom-purple: #aaa; }
-.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-purple: #ddd; border-bottom-purple: #ddd; }
+// .navbar {margin: 0; }
+// .navbar .logo {float: left; padding-left 1em;}
+// .navbar .nav {padding: 0; }
+// .navbar .nav > li
+// 	border-right 1px solid #888
+// 	padding 0 19px
+// 	&:first-child
+// 		padding-left 10px
+// 	&:last-child
+// 		border-right none
+// 		padding-right 10px
+// .navbar .nav > li > a {color: #fff; text-shadow: none; }
+// .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {background: transparent; color: #fff; display: block; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+// .navbar .nav > li > a:hover {background-color mid-purple}
+// .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {color: #fafafa; background-purple: #320961; }
+// .navbar .nav li.dropdown > .dropdown-toggle .caret {border-top-purple: #aaa; border-bottom-purple: #aaa; }
+// .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-purple: #ddd; border-bottom-purple: #ddd; }
 
-.header-top
-	background mid-purple
-	border-bottom 3px solid orange
-	padding 1em 0
-
-.header
-	background lightest-purple
-	border-top 3px solid mid-purple
-	font-size .95em
-	font-weight 600
-	// min-height 3em
-	padding 0
-
-// .menu-main
-// 	margin 0 auto
-// 	width 800px
-
-.main-feature-container
-	background lighter-purple
-	// font-weight bold
-	margin 0
-	padding 1em 0
-
+.social-icons
+	padding-right: 10px
+	relative: left top 5px
 
 .subscription-form-container
-	border 1px solid #c0c0c0
-	border-width 1px 0
 	font-size .75em
 	vertical-align middle
 	p
@@ -100,19 +52,46 @@ h6
 	form
 		padding 5px 0
 		margin 0
-	form input
-		height 16px
+
+.header-top
+	background mid-purple
+	body-shadow()
+	border-bottom 3px solid orange
+	padding 1em 0
+
+#main-navbar
+	background lightest-purple
+	border-top 3px solid mid-purple
+	body-shadow()
+	font-size .95em
+	font-weight 600
+	padding 0
+
+.main-feature-container
+	background lighter-purple
+	margin 0
 
 .content-container
-	background-color bg-color
-	// border 1px solid #cacaca
-	// border-width 0 3px
-	padding .3em
+	background-color white
+	body-shadow()
+
+.sub-content-container
+	background-color: white
+	body-shadow()
+	padding-top: 3em
+	section
+		padding 0 2em
+		&:first-child
+			border-right 1px solid #e1e1e1
+		&:last-child
+			border-left 1px solid #e1e1e1
+		&:nth-child(2)
+			padding 0 .5em
 
 .footer-main
-	background   darker-grey
+	background darker-grey
 	clear both
-	color        dark-grey
+	color dark-grey
 	font-family "Kreon", sans-serif
 	margin-top -(footer-height)
 	min-height footer-height
@@ -148,30 +127,31 @@ h6
 			content "|"
 
 .social
-	background-image url(../../img/social_media_sprite.jpg)
+	background-image url(../../img/sprites-social.png)
 	display inline-block
 	float left
 	min-height 34px
 	min-width 34px
 	text-indent -9999px
 
-	.social-facebook
-		background-position -85px -3px
+	&.social-facebook
+		background-position -104px -10px
 
-	.social-twitter
-		background-position -454px -3px
+	&.social-twitter
+		background-position -8px -136px
 
-	.social-linkedin
+	&.social-linkedin
 		background-position -331px -3px
 
-	.social-rss
+	&.social-rss
 		background-position -85px -41px
 
 
 hr
-	background url(../../img/logo-hr.png) no-repeat center bottom
+	background url(../../img/logo-hr.png) no-repeat center center
 	border none
-	min-height 50px
+	min-height 70px
+	margin 0
 
 for i in 5 10 15 20 25 30 35 40 45 50 100 200
 	.spacer{i}
@@ -290,8 +270,7 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 	border-bottom 1px solid mid-purple
 
 #custom-search-form
-	right -20px
-	position relative
+	relative right -23px top 3px
 	.search-query
 		padding-right 3px
 		padding-right 4px \9
@@ -332,3 +311,18 @@ form
 .breadcrumb
 	margin 0
 	padding 0
+
+.pt2
+	padding-top 2em;
+
+.img-polaroid
+	relative: left -5px top
+
+.vertical-divider
+	background-color #444
+	float left
+	min-height 200px
+	width 2px
+
+.text90
+	font-size .9em

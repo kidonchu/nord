@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<div class="content-container container-fluid">
+<div class="content-container container">
 
 	<div class="border-bottom">
 		<ul class="breadcrumb">
@@ -16,7 +16,7 @@
 
 	<div class="spacer10"></div>
 
-	<div class="row-fluid">
+	<div class="row">
 		<div class="span3">
 			<a href="<?php echo home_url('about-us/mission') ?>">
 				<img src="http://lorempixel.com/200/150/people/10" alt="img1" class="img-polaroid">
@@ -57,7 +57,7 @@
 
 	<div class="spacer30"></div>
 
-	<div class="row-fluid">
+	<div class="row">
 		<div class="span3">
 			<a href="<?php echo home_url('about-us/history') ?>">
 				<img src="http://lorempixel.com/200/150/people/3" alt="img1" class="img-polaroid">
@@ -98,9 +98,9 @@
 
 	<div class="spacer30"></div>
 
-	<div class="row-fluid">
-	</div><!-- end row-fluid -->
+	<div class="row">
+	</div><!-- end row -->
 
-</div><!-- end container-fluid -->
+</div><!-- end container -->
 
 <?php get_footer(); ?>

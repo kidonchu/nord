@@ -4,9 +4,9 @@
  */
 ?>
 <?php get_header() ?>
-<div class="content-container container-fluid">
+<div class="content-container container">
 
-	<div class="row-fluid">
+	<div class="row">
 
 		<!-- navigation -->
 		<div class="span3">

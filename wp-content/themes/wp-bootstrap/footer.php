@@ -1,9 +1,9 @@
 	</div><!-- end #main -->
 </div><!-- end #wrap -->
-<footer class="footer-main" role="contentinfo">
-	<div class="container-fluid">
+<div class="container">
+	<footer class="footer-main" role="contentinfo">
 		<div class="footer-top">
-			<div class="row-fluid">
+			<div class="row">
 				<div class="span3">
 					<ul>
 						<li class="title">get involved</li>
@@ -20,24 +20,27 @@
 				</div>
 				<div class="span3">
 					<ul>
-						<li class="title">about us</li>
-						<li><a href="<?php echo home_url('about-us/mission') ?>">our mission</a></li>
-						<li><a href="<?php echo home_url('about-us/program') ?>">our program</a></li>
-						<li><a href="<?php echo home_url('about-us/media') ?>">on media</a></li>
-					</ul>
-				</div>
-				<div class="span3">
-					<ul>
 						<li class="title">connect</li>
 						<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact info</a></li>
 						<li>+1.818.769-6245</li>
 						<li>nord4kidneydisease@yahoo.com</li>
 					</ul>
 				</div>
+				<div class="span3">
+					<ul>
+						<li class="title">about us</li>
+						<li><a href="<?php echo home_url('about-us/mission') ?>">our mission</a></li>
+						<li><a href="<?php echo home_url('about-us/program') ?>">our program</a></li>
+						<li><a href="<?php echo home_url('about-us/media') ?>">on media</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
 		<div class="footer-bottom">
+			<ul class="inline">
+				<li><a href="<?php echo home_url('site-map') ?>">site map</a></li>
+			</ul>
 			<p class="text-center">
 				11018 Aqua Vista Street #19 •
 				Studio City, CA 91602
@@ -49,8 +52,8 @@
 				<a href="#">Disclaimer, Copyright, and Service mark information</a>
 			</p>
 		</div>
-	</div>
-</footer>
+	</footer>
+</div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
 $('form.subscribe').submit(function(e){
