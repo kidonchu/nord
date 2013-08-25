@@ -1,13 +1,20 @@
 <?php get_header() ?>
 <div class="content-container container-fluid">
 
-	<header class="pageHeader border-bottom">
+	<div class="border-bottom">
+		<ul class="breadcrumb">
+			<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
+			<li class="active"><?php the_title() ?></li>
+		</ul>
+	</div>
+
+	<header class="pageHeader">
 		<h1>ABOUT US</h1>
 	</header>
 
 	<p> The National Organization for Renal Disease is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research. </p>
 
-	<div class="spacer30"></div>
+	<div class="spacer10"></div>
 
 	<div class="row-fluid">
 		<div class="span3">

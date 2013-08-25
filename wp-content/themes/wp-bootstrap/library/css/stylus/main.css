@@ -1,7 +1,7 @@
 body{background:#fafafa;font:100%/1.5em "Droid Sans",Georgia,Times,serif}
 body,html{height:100%}
 #wrap{min-height:100%}
-#main{overflow:auto;padding-bottom:320px}
+#main{overflow:auto;padding-bottom:360px}
 h1,h2,h3,h4,h5,h6{color:#320961;margin:0}
 h1{font-size:2em;line-height:1.8em}
 h2{font-size:1.6em;line-height:1.7em}
@@ -11,6 +11,8 @@ h5{font-size:.93em;line-height:1.4em}
 h6{font-size:.75em;line-height:1.3em}
 .pageHeader h1,.pageHeader h2,.pageHeader h3,.pageHeader h4,.pageHeader h5,.pageHeader h6,.pageHeader h1 a,.pageHeader h2 a,.pageHeader h3 a,.pageHeader h4 a,.pageHeader h5 a,.pageHeader h6 a{color:#1f033f}
 .postHeader h1,.postHeader h2,.postHeader h3,.postHeader h4,.postHeader h5,.postHeader h6,.postHeader h1 a,.postHeader h2 a,.postHeader h3 a,.postHeader h4 a,.postHeader h5 a,.postHeader h6 a{color:#2e1749}
+.slogan h1,.slogan h2,.slogan h3,.slogan h4,.slogan h5,.slogan h6,.slogan h1 a,.slogan h2 a,.slogan h3 a,.slogan h4 a,.slogan h5 a,.slogan h6 a{color:#f3c14c}
+.slogan{left:15px;position:relative}
 .navbar{margin:0}
 .navbar .logo{float:left}
 .navbar .nav{padding:0}
@@ -20,23 +22,23 @@ h6{font-size:.75em;line-height:1.3em}
 .navbar .nav li.dropdown.open > .dropdown-toggle,.navbar .nav li.dropdown.active > .dropdown-toggle,.navbar .nav li.dropdown.open.active > .dropdown-toggle{color:#fafafa;background-purple:#320961}
 .navbar .nav li.dropdown > .dropdown-toggle .caret{border-top-purple:#aaa;border-bottom-purple:#aaa}
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,.navbar .nav li.dropdown.active > .dropdown-toggle .caret,.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret{border-top-purple:#ddd;border-bottom-purple:#ddd}
-.header-top{background:#320961;padding:1em 0}
-.header{background:#1f033f;font-size:.95em;font-weight:600;padding:0}
-.main-feature-container{font-weight:bold;margin:0;padding:20px 0}
+.header-top{background:#320961;border-bottom:3px solid #f3c14c;padding:1em 0}
+.header{background:#8158b0;border-top:3px solid #320961;font-size:.95em;font-weight:600;padding:0}
+.main-feature-container{background:#7038b0;margin:0;padding:1em 0}
 .subscription-form-container{border:1px solid #c0c0c0;border-width:1px 0;font-size:.75em;vertical-align:middle;}
 .subscription-form-container p{padding:7px 15px 0 0;margin:0}
 .subscription-form-container form{padding:5px 0;margin:0}
 .subscription-form-container form input{height:16px}
-.content-container{padding:20px}
-.footer-main{background:#303030;clear:both;color:#6e6e6e;font-family:"Kreon",sans-serif;margin-top:-320px;height:320px;position:relative;}
-.footer-main ul{list-style-type:none;}
-.footer-main ul li{margin-bottom:5px;}
-.footer-main ul li.title{color:#e6e6e6;margin-bottom:1em}
-.footer-main a{color:#6e6e6e;}
-.footer-main a.text-emphasize{color:#7038b0}
-.footer-main a:hover,.footer-main a:active{color:#e6e6e6;text-decoration:none}
-.footer-top{border-bottom:1px solid #151515;padding:3em 0 2.5em}
-.footer-bottom{border-top:1px solid #515151;padding:2.5em 0 3em;text-align:center;}
+.content-container{background-color:#fafafa;padding:.3em}
+.footer-main{background:#303030;clear:both;color:#6e6e6e;font-family:"Kreon",sans-serif;margin-top:-360px;min-height:360px;position:relative}
+.footer-top{border-bottom:1px solid #151515;padding:3em 0 2.5em;}
+.footer-top ul{list-style-type:none;}
+.footer-top ul li{margin-bottom:5px;}
+.footer-top ul li.title{color:#e6e6e6;margin-bottom:1em}
+.footer-top a{color:#6e6e6e;}
+.footer-top a.text-emphasize{color:#7038b0}
+.footer-top a:hover,.footer-top a:active{color:#e6e6e6;text-decoration:none}
+.footer-bottom{border-top:1px solid #515151;padding:2.5em 0 0;text-align:center;}
 .footer-bottom .divider{display:inline-block;padding:0 5px;}
 .footer-bottom .divider:before{content:"|"}
 .social{background-image:url("../../img/social_media_sprite.jpg");display:inline-block;float:left;min-height:34px;min-width:34px;text-indent:-9999px;}
@@ -83,4 +85,13 @@ hr{background:url("../../img/logo-hr.png") no-repeat center bottom;border:none;m
 .no-list-style{list-style-type:none;margin-left:0}
 .partners-list li{height:4em;}
 .partners-list li img{height:auto;vertical-align:middle;width:100%}
-.border-bottom{border-bottom:1px solid #320961;margin-bottom:1em}
+.border-bottom{border-bottom:1px solid #320961}
+#custom-search-form{right:-20px;position:relative;}
+#custom-search-form .search-query{padding-right:3px;padding-right:4px 9;padding-left:3px;padding-left:4px 9;margin-bottom:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#custom-search-form button{border:0;background:none;padding:2px 5px;margin-top:2px;position:relative;left:-28px;margin-bottom:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#custom-search-form .search-query:focus + button{z-index:3}
+.nav .divider-vertical{border-left:1px solid #8158b0;border-right:1px solid #8158b0}
+.carousel{margin:0;}
+.carousel .carousel-control{top:50%}
+form{margin:0}
+.breadcrumb{margin:0;padding:0}

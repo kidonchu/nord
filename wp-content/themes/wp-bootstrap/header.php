@@ -81,7 +81,7 @@
 
 					<!-- start Logo -->
 					<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
-						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo.png" alt="NORD Logo">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
 					</a>
 					<!-- end Logo -->
 
@@ -92,6 +92,12 @@
 						</div>
 					</form>
 
+				</div>
+
+				<div class="container-fluid">
+					<header class="slogan">
+						<h3>A. P. E.R. fect solution for controlling kidney disease.... prolonging health and life!</h3>
+					</header>
 				</div>
 
 			</div>
@@ -128,7 +134,7 @@
 									<a href="<?php echo home_url('about-us') ?>">About Us</a>
 								</li>
 								<li>
-									<a href="<?php echo home_url('contact-us') ?>">Contact</a>
+									<a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a>
 								</li>
 							</ul>
 

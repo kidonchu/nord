@@ -38,15 +38,16 @@
 		</div>
 
 		<div class="footer-bottom">
-			<div class="row-fluid">
-				<a href="<?php echo home_url('about-us/partners') ?>">Partners</a>
-				<span class="divider"></span>
-				<a href="#">Disclaimer</a>
-				<span class="divider"></span>
-				<a href="#">Service mark</a>
-				<span class="divider"></span>
-				<a href="#">&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?></a>
-			</div>
+			<p class="text-center">
+				11018 Aqua Vista Street #19 •
+				Studio City, CA 91602
+			</p>
+			<p>
+				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?>. All rights reserved.
+			</p>
+			<p>
+				<a href="#">Disclaimer, Copyright, and Service mark information</a>
+			</p>
 		</div>
 	</div>
 </footer>

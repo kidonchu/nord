@@ -12,6 +12,17 @@
 
 		<div class="span9">
 
+			<div class="border-bottom">
+				<ul class="breadcrumb">
+					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
+					<li class="active">Screeneing & Diagnostic Center</li>
+				</ul>
+			</div>
+
+			<header class="pageHeader">
+				<h1>Screening & Diagnostic Center</h1>
+			</header>
+
 			<p>
 				<strong><i class="icon-check"></i> Urinalysis</strong><br>
 				Health screenings for kidney disease

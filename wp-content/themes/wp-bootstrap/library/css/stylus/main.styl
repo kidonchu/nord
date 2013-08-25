@@ -47,6 +47,14 @@ h6
 		color  darker-purple
 		// margin 0 0 .5em
 
+.slogan
+	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+		color orange
+
+.slogan
+	left 15px
+	position relative
+
 .navbar {margin: 0; }
 .navbar .logo {float: left; }
 .navbar .nav {padding: 0; }
@@ -59,19 +67,27 @@ h6
 
 .header-top
 	background mid-purple
+	border-bottom 3px solid orange
 	padding 1em 0
 
 .header
-	background darkest-purple
+	background lightest-purple
+	border-top 3px solid mid-purple
 	font-size .95em
 	font-weight 600
 	// min-height 3em
 	padding 0
 
+// .menu-main
+// 	margin 0 auto
+// 	width 800px
+
 .main-feature-container
-	font-weight bold
+	background lighter-purple
+	// font-weight bold
 	margin 0
-	padding 20px 0
+	padding 1em 0
+
 
 .subscription-form-container
 	border 1px solid #c0c0c0
@@ -88,7 +104,10 @@ h6
 		height 16px
 
 .content-container
-	padding 20px
+	background-color bg-color
+	// border 1px solid #cacaca
+	// border-width 0 3px
+	padding .3em
 
 .footer-main
 	background   darker-grey
@@ -96,8 +115,12 @@ h6
 	color        dark-grey
 	font-family "Kreon", sans-serif
 	margin-top -(footer-height)
-	height footer-height
+	min-height footer-height
 	position relative
+
+.footer-top
+	border-bottom 1px solid #151515
+	padding 3em 0 2.5em
 	ul
 		list-style-type none
 		li
@@ -114,13 +137,9 @@ h6
 			color light-grey
 			text-decoration none
 
-.footer-top
-	border-bottom 1px solid #151515
-	padding 3em 0 2.5em
-
 .footer-bottom
 	border-top 1px solid #515151
-	padding 2.5em 0 3em
+	padding 2.5em 0 0
 	text-align center
 	.divider
 		display inline-block
@@ -269,9 +288,10 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 
 .border-bottom
 	border-bottom 1px solid mid-purple
-	margin-bottom 1em
 
 #custom-search-form
+	right -20px
+	position relative
 	.search-query
 		padding-right 3px
 		padding-right 4px \9
@@ -297,3 +317,18 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 		        border-radius 3px
 	.search-query:focus + button
 		z-index 3
+
+.nav .divider-vertical
+	border-left 1px solid lightest-purple
+	border-right 1px solid lightest-purple
+
+.carousel
+	margin 	0
+	.carousel-control
+		top 50%
+form
+	margin 0
+
+.breadcrumb
+	margin 0
+	padding 0

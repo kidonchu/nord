@@ -17,9 +17,15 @@
 
 		<div class="span9">
 
-
-
 			<?php if (have_posts()) : while (have_posts()) : the_post() ?>
+
+			<div class="border-bottom">
+				<ul class="breadcrumb">
+					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
+					<li><a href="<?php echo home_url('about-us') ?>">About Us</a> <span class="divider">/</span></li>
+					<li class="active"><?php the_title() ?></li>
+				</ul>
+			</div>
 
 			<article id="post-<?php the_ID() ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting">
 

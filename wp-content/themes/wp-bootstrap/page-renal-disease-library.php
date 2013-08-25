@@ -1,10 +1,6 @@
 <?php get_header(); ?>
 <div class="content-container container-fluid">
 
-	<header class="pageHeader border-bottom">
-		<h1>RENAL DISEASE LIBRARY</h1>
-	</header>
-
 	<div class="row-fluid">
 
 		<!-- navigation -->
@@ -15,6 +11,13 @@
 		</div><!-- end span -->
 
 		<div class="span9">
+
+			<div class="border-bottom">
+				<ul class="breadcrumb">
+					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
+					<li class="active">Renal Diease Library</li>
+				</ul>
+			</div>
 
 			<header class="pageHeader">
 				<h1>Recent News on Kidney</h1>
