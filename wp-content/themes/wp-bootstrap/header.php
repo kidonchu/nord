@@ -26,8 +26,8 @@
 		<![endif]-->
 
 		<?php wp_head(); ?>
-		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/stylus/main.css' rel='stylesheet'>
-		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet'>
+		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/main.css' rel='stylesheet'>
+		<!-- <link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet'> -->
 
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome-ie7.min.css">
@@ -50,66 +50,76 @@
 
 			<div class="container">
 
-				<!-- share icons -->
-				<div class="social-icons pull-left">
-					<a href="#">
-						<span class="social social-facebook"></span>
-					</a>
-					<a href="#">
-						<span class="social social-twitter"></span>
-					</a>
-				</div>
+				<div class="header-meta">
 
-				<!-- subscription -->
-					<!-- TODO: Implement logic -->
-				<div class="subscription-form-container pull-left">
-					<form action="#" class="form-inline subscribe">
-						<div class="form-group">
-							<label for="email" class="sr-only">E-mail</label>
-							<input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
+					<div class="row">
+
+						<div class="col-md-5">
+							<!-- search bar -->
+							<form id="custom-search-form" class="form-search form-horizontal pull-left">
+								<div class="form-group">
+									<label for="search" class="sr-only">Search</label>
+									<div class="input-group">
+										<input type="search" class="form-control" id="search" name="search" placeholder="Search">
+										<span class="input-group-btn">
+											<button type="submit" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button>
+										</span>
+									</div>
+								</div>
+							</form>
 						</div>
-						<button type="submit" class="btn btn-info">Subscribe</button>
-					</form>
-				</div>
 
-				<!-- search bar -->
-				<div class="">
-					<form id="custom-search-form" class="form-search form-horizontal pull-right">
-						<div class="input-append">
-							<input type="text" class="search-query" placeholder="Search">
-							<button type="submit" class="btn"><i class="icon-search"></i></button>
+						<div class="col-md-7">
+							<!-- subscription -->
+							<!-- TODO: Implement logic -->
+							<div class="subscription-form-container pull-right">
+								<form action="#" class="form-inline subscribe">
+									<div class="form-group">
+										<label for="email" class="sr-only">E-mail</label>
+										<input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
+									</div>
+									<button type="submit" class="btn btn-info">Subscribe</button>
+								</form>
+							</div>
+
+							<!-- share icons -->
+							<div class="social-icons pull-right">
+								<a href="#">
+									<span class="social social-facebook"></span>
+								</a>
+								<a href="#">
+									<span class="social social-twitter"></span>
+								</a>
+							</div>
 						</div>
-					</form>
-				</div>
 
-			</div>
-
-
-				<div class="container">
-
-					<div class="header-top">
-
-					<!-- start Logo -->
-					<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
-						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
-					</a>
-					<!-- end Logo -->
+					</div>
 
 				</div>
+				<!-- end .header-meta -->
 
-<!-- 				<div class="container">
-					<header class="slogan">
-						<h3>A. P. E.R. fect solution for controlling kidney disease.... prolonging health and life!</h3>
-					</header>
+				<div class="header-top">
+
+					<div class="row">
+
+						<div class="col-xs-4">
+
+							<!-- start Logo -->
+							<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
+								<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
+							</a>
+							<!-- end Logo -->
+
+						</div>
+
+					</div>
+
 				</div>
- -->
-			</div>
+				<!-- end .header-top -->
 
-			<div class="container">
+				<div id="main-navbar">
 
-				<section id="main-navbar">
-
-					<nav class="navbar navbar-default" role="navigation">
+					<nav class="navbar" role="navigation">
 
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
@@ -124,16 +134,16 @@
 								<li>
 									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
 								</li>
-								<li>
+								<li class="library" data-sub-nav="library">
 									<a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a>
 								</li>
-								<li>
+								<li class="get-screened" data-sub-nav="get-screened">
 									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>
 								</li>
-								<li>
+								<li class="get-involved" data-sub-nav="get-involved">
 									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
 								</li>
-								<li>
+								<li class="about-us" data-sub-nav="about-us">
 									<a href="<?php echo home_url('about-us') ?>">About Us</a>
 								</li>
 								<li>
@@ -144,50 +154,130 @@
 
 					</nav>
 
-				</section>
+				</div>
 				<!-- end #main-navbar -->
 
-				<div class="header-bottom navbar clearfix">
+				<div id="sub-navbar">
 
-					<!-- start main menu -->
-					<div class="menu-main">
-
-						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</a>
-
-						<div class="nav-collapse collapse">
-							<ul class="nav">
-								<li>
-									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
-								</li>
-								<li>
-									<a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a>
-								</li>
-								<li>
-									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>
-								</li>
-								<li>
-									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
-								</li>
-								<li>
-									<a href="<?php echo home_url('about-us') ?>">About Us</a>
-								</li>
-								<li>
-									<a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a>
-								</li>
-							</ul>
-
+					<nav data-sub-nav="library" class="library sub-nav hidden">
+						<div class="row">
+							<div class="col-md-3 col-md-offset-1">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
 						</div>
+					</nav>
 
-					</div>
-					<!-- end main menu -->
+					<nav data-sub-nav="get-screened" class="get-screened sub-nav hidden">
+						<div class="row">
+							<div class="col-md-3 col-md-offset-1">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<nav data-sub-nav="get-involved" class="get-involved sub-nav hidden">
+						<div class="row">
+							<div class="col-md-3 col-md-offset-1">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<nav data-sub-nav="about-us" class="about-us sub-nav hidden">
+						<div class="row">
+							<div class="col-md-3 col-md-offset-1">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul class="nav">
+									<li>Lorem</li>
+									<li>Ipsum</li>
+									<li>is not a</li>
+									<li>mighty</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
 
 				</div>
 
-			</div><!-- end header-bottom -->
+			</div><!-- end .container -->
 
 		</header> <!-- end header -->
 

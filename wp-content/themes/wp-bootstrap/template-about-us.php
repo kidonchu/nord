@@ -4,62 +4,57 @@
 */
 ?>
 <?php get_header() ?>
-<div class="content-container container">
+<div class="container">
 
-	<div class="row">
+	<div class="content-container with-padding-top with-padding-bottom">
 
-		<!-- navigation -->
-		<div class="span3">
+		<div class="row min-height-400">
 
-			<?php include('sidebar-about-us.php') ?>
+			<!-- navigation -->
+			<div class="col-md-3 border-right min-height-400 no-padding-right">
 
-		</div><!-- end span -->
+				<?php include('sidebar-about-us.php') ?>
 
-		<div class="span9">
+			</div><!-- end span -->
 
-			<?php if (have_posts()) : while (have_posts()) : the_post() ?>
+			<div class="col-md-8 with-padding-left">
 
-			<div class="border-bottom">
-				<ul class="breadcrumb">
-					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
-					<li><a href="<?php echo home_url('about-us') ?>">About Us</a> <span class="divider">/</span></li>
-					<li class="active"><?php the_title() ?></li>
-				</ul>
-			</div>
+				<?php if (have_posts()) : while (have_posts()) : the_post() ?>
 
-			<article id="post-<?php the_ID() ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+				<div class="border-bottom">
+					<ul class="breadcrumb">
+						<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider"></span></li>
+						<li><a href="<?php echo home_url('about-us') ?>">About Us</a> <span class="divider"></span></li>
+						<li class="active"><?php the_title() ?></li>
+					</ul>
+				</div>
 
-				<header class="pageHeader">
-					<h1 itemprop="headline"><?php the_title() ?></h1>
-				</header>
+				<article id="post-<?php the_ID() ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-				<section class="post_content clearfix" itemprop="articleBody">
+					<header class="pageHeader">
+						<h1 itemprop="headline"><?php the_title() ?></h1>
+					</header>
 
-					<?php the_content() ?>
+					<section class="post_content clearfix" itemprop="articleBody">
 
-				</section>
+						<?php the_content() ?>
 
-			</article> <!-- end article -->
+					</section>
 
-			<?php endwhile ?>
+				</article> <!-- end article -->
 
-			<?php else : ?>
+				<?php endwhile ?>
+				<?php endif ?>
 
-			<article id="post-not-found">
-				<header>
-					<h1><?php _e("Not Found", "bonestheme") ?></h1>
-				</header>
-				<section class="post_content">
-					<p><?php _e("Sorry, but the requested resource was not found on this site.", "bonestheme") ?></p>
-				</section>
-			</article>
+			</div><!-- end span -->
 
-			<?php endif ?>
+		</div>
+		<!-- end .row -->
 
-		</div><!-- end span -->
+	</div>
+	<!-- end .content-container -->
 
-	</div><!-- end row -->
-
-</div><!-- end container -->
+</div>
+<!-- end container -->
 
 <?php get_footer(); ?>

@@ -1,79 +1,84 @@
 <?php get_header() ?>
-<div class="content-container container">
+<div class="container">
 
-	<div class="row">
+	<div class="content-container with-padding-top with-padding-bottom">
 
-		<!-- navigation -->
-		<div class="span3">
+		<div class="row min-height-400">
 
-			<?php include('sidebar-get-screened.php') ?>
+			<!-- navigation -->
+			<div class="col-md-3 border-right min-height-400 no-padding-right">
 
-		</div><!-- end span -->
+				<?php include('sidebar-get-screened.php') ?>
 
-		<div class="span9">
+			</div><!-- end span -->
 
-			<div class="border-bottom">
-				<ul class="breadcrumb">
-					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
-					<li class="active">Screeneing & Diagnostic Center</li>
-				</ul>
-			</div>
+			<div class="col-md-8 with-padding-left">
 
-			<header class="pageHeader">
-				<h1>Screening & Diagnostic Center</h1>
-			</header>
+				<div class="border-bottom">
+					<ul class="breadcrumb">
+						<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider"></span></li>
+						<li class="active">Screeneing & Diagnostic Center</li>
+					</ul>
+				</div>
 
-			<p>
-				<strong><i class="icon-check"></i> Urinalysis</strong><br>
-				Health screenings for kidney disease
-			</p>
-			<p>
-				<strong><i class="icon-check"></i> Blood glucose finger stick</strong><br>
-				Diabetes
-			</p>
-			<p>
-				<strong><i class="icon-check"></i> Blood pressure check</strong><br>
-				High blood pressure
-			</p>
-
-			<div class="location">
-				<header class="postHeader">
-					<h4>Location</h4>
+				<header class="pageHeader">
+					<h1>Coming Soon</h1>
 				</header>
-				<p>
-					11018 Aqua Vista Street #19<br>
-					Studio City, CA 91602
+
+<!-- 				<p>
+					<strong><i class="icon-check"></i> Urinalysis</strong><br>
+					Health screenings for kidney disease
 				</p>
-				<p>View in <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200634320733553876780.0004e3a510e98bad76d46&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">Google map</a></p>
-			</div>
+				<p>
+					<strong><i class="icon-check"></i> Blood glucose finger stick</strong><br>
+					Diabetes
+				</p>
+				<p>
+					<strong><i class="icon-check"></i> Blood pressure check</strong><br>
+					High blood pressure
+				</p>
 
-			<div class="spacer20"></div>
-
-			<div class="date">
-				<header class="postHeader">
-					<h4>Date &amp; Time</h4>
+				<div class="location">
+					<header class="postHeader">
+						<h4>Location</h4>
+					</header>
 					<p>
-						T.B.A.
+						11018 Aqua Vista Street #19<br>
+						Studio City, CA 91602
 					</p>
-				</header>
-			</div>
+					<p>View in <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200634320733553876780.0004e3a510e98bad76d46&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">Google map</a></p>
+				</div>
 
-			<div class="what-to-prepare">
-				<header class="postHeader">
-					<h4>What to prepare</h4>
-				</header>
+				<div class="spacer20"></div>
 
-				<ul>
-					<li>Driver License</li>
-					<li>Medical History</li>
-					<li></li>
-					<li></li>
-				</ul>
+				<div class="date">
+					<header class="postHeader">
+						<h4>Date &amp; Time</h4>
+						<p>
+							T.B.A.
+						</p>
+					</header>
+				</div>
+
+				<div class="what-to-prepare">
+					<header class="postHeader">
+						<h4>What to prepare</h4>
+					</header>
+
+					<ul>
+						<li>Driver License</li>
+						<li>Medical History</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+ -->
 			</div>
 
 		</div>
 
 	</div>
+
 
 </div>
 <?php get_footer() ?>

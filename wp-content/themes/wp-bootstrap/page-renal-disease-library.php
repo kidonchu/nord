@@ -1,63 +1,43 @@
 <?php get_header(); ?>
-<div class="content-container container">
+<div class="container">
 
-	<div class="row">
+	<div class="content-container with-padding-top with-padding-bottom">
 
-		<!-- navigation -->
-		<div class="span3">
+		<div class="row min-height-400">
 
-			<?php include('sidebar-renal-disease-library.php') ?>
+			<!-- navigation -->
+			<div class="col-md-3 border-right min-height-600 no-padding-right">
 
-		</div><!-- end span -->
+				<?php include('sidebar-renal-disease-library.php') ?>
 
-		<div class="span9">
+			</div><!-- end span -->
 
-			<div class="border-bottom">
-				<ul class="breadcrumb">
-					<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
-					<li class="active">Renal Diease Library</li>
-				</ul>
-			</div>
+			<div class="col-md-8 with-padding-left">
 
-			<header class="pageHeader">
-				<h1>Recent News on Kidney</h1>
-			</header>
-			<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.sciencedaily.com%2Frss%2Fhealth_medicine%2Fkidney_disease.xml&chan=title&num=6&desc=1&date=y&targ=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+				<div class="border-bottom">
+					<ul class="breadcrumb">
+						<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
+						<li class="active">Renal Diease Library</li>
+					</ul>
+				</div>
 
-			<div class="more-btn pull-right">
-				<a href="http://www.sciencedaily.com/news/health_medicine/kidney_disease" class="btn btn-link">View more articles on ScienceDaily.com <i class="icon-external-link"></i></a>
-			</div>
+				<header class="pageHeader">
+					<h1>What should be on this page?</h1>
+				</header>
+				<!-- <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.sciencedaily.com%2Frss%2Fhealth_medicine%2Fkidney_disease.xml&chan=title&num=6&desc=1&date=y&targ=y&utf=y"  charset="UTF-8" type="text/javascript"></script> -->
 
-				<?php query_posts('cat=4') ?>
-				<?php if (have_posts()) : while (have_posts()) : the_post() ?>
+<!-- 				<div class="more-btn pull-right">
+					<a href="http://www.sciencedaily.com/news/health_medicine/kidney_disease" class="btn btn-link">View more articles on ScienceDaily.com <i class="icon-external-link"></i></a>
+				</div>
+ -->
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
+			</div><!-- end span -->
 
-					<header>
-							<h1><?php the_title(); ?></h1>
-							<?php echo get_post_meta($post->ID, 'custom_tagline' , true) ?>
-					</header>
-
-					<section class="post_content">
-
-						<?php the_excerpt() ?>
-
-					</section> <!-- end article header -->
-
-					<footer>
-
-						<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","bonestheme") . ': ', ', ', '</span>'); ?></p>
-
-					</footer> <!-- end article footer -->
-
-				</article> <!-- end article -->
-
-				<?php endwhile; ?>
-				<?php endif; ?>
-
-		</div><!-- end span -->
+		</div>
+		<!-- end .row -->
 
 	</div>
+	<!-- end .content-container -->
 
 </div>
 <?php get_footer(); ?>

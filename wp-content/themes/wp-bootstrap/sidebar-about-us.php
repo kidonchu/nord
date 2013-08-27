@@ -1,7 +1,5 @@
 <nav class="sidebar">
 
-	<div class="well">
-
 		<ul class="nav nav-list">
 			<li class="active">
 				<a href="<?php echo home_url('about-us/mission') ?>" class="link">Our Mission</a>
@@ -28,7 +26,5 @@
 				<a href="<?php echo home_url('about-us/contact') ?>" class="link">Contact</a>
 			</li>
 		</ul>
-
-	</div>
 
 </nav>

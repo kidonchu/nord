@@ -1,32 +1,32 @@
 	</div><!-- end #main -->
 </div><!-- end #wrap -->
 <div class="container">
-	<footer class="footer-main" role="contentinfo">
+	<footer class="footer" role="contentinfo">
 		<div class="footer-top">
 			<div class="row">
-				<div class="span3">
+				<div class="col-md-3">
 					<ul>
 						<li class="title">get involved</li>
 						<li><a href="<?php echo home_url('get-involved/donate') ?>" class="text-emphasize">donate</a></li>
 						<li><a href="<?php echo home_url('get-involved/volunteer') ?>">volunteer</a></li>
 					</ul>
 				</div>
-				<div class="span3">
+				<div class="col-md-3">
 					<ul>
-						<li class="title">get to know us</li>
+						<li class="title">get involved</li>
+						<li><a href="<?php echo home_url('get-involved/donate') ?>" class="text-emphasize">donate</a></li>
+						<li><a href="<?php echo home_url('get-involved/volunteer') ?>">volunteer</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<li class="title">connect</li>
+						<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact info</a></li>
 						<li><a href="https://www.facebook.com/NORDorg" target="_blank"><i class="icon-facebook-sign icon-white"></i> facebook</a></li>
 						<li><a href="#" target="_blank"><i class="icon-twitter icon-white"></i> twitter</a></li>
 					</ul>
 				</div>
-				<div class="span3">
-					<ul>
-						<li class="title">connect</li>
-						<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact info</a></li>
-						<li>+1.818.769-6245</li>
-						<li>nord4kidneydisease@yahoo.com</li>
-					</ul>
-				</div>
-				<div class="span3">
+				<div class="col-md-3">
 					<ul>
 						<li class="title">about us</li>
 						<li><a href="<?php echo home_url('about-us/mission') ?>">our mission</a></li>
@@ -38,7 +38,7 @@
 		</div>
 
 		<div class="footer-bottom">
-			<ul class="inline">
+			<ul class="list-inline">
 				<li><a href="<?php echo home_url('site-map') ?>">site map</a></li>
 			</ul>
 			<p class="text-center">
@@ -96,6 +96,25 @@ $('.topic').on('click', 'h4', function(){
 	}
 
 });
+
+// $('#main-navbar').find('li').on('mouseenter', function(){
+// 	var target = $(this).data('sub-nav');
+// 	$(this).addClass('active');
+// 	$('.sub-nav.' + target).removeClass('hidden');
+// })
+// .on('mouseleave', function(){
+// 	var target = $(this).data('sub-nav');
+// 	$(this).removeClass('active');
+// 	$('.sub-nav.' + target).addClass('hidden');
+// });
+// $('.sub-nav').on('mouseenter', function(){
+// 	var target = $(this).data('sub-nav');
+// 	$('#main-navbar').find('li.' + target).trigger('mouseenter');
+// })
+// .on('mouseleave', function(){
+// 	var target = $(this).data('sub-nav');
+// 	$('#main-navbar').find('li.' + target).trigger('mouseleave');
+// });
 </script>
 <!--[if lt IE 7 ]>
 		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

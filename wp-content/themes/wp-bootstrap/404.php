@@ -1,42 +1,31 @@
-<?php get_header(); ?>
+<?php get_header() ?>
+<div class="container">
 
-			<div id="content" class="clearfix row">
+	<div class="content-container with-padding-top with-padding-bottom min-height-400">
 
-				<div id="main" class="span12 clearfix" role="main">
+		<div class="row with-padding-left with-padding-right">
 
-					<article id="post-not-found" class="clearfix">
+			<!-- navigation -->
+			<div class="col-md-12 text-center">
 
-						<header>
+				<header>
+					<h1><?php _e("Epic 404 - Article Not Found","bonestheme"); ?></h1>
+				</header>
+				<p><?php _e("This is embarassing. We can't find what you were looking for.","bonestheme"); ?></p>
 
-							<div class="hero-unit">
+				<hr>
 
-								<h1><?php _e("Epic 404 - Article Not Found","bonestheme"); ?></h1>
-								<p><?php _e("This is embarassing. We can't find what you were looking for.","bonestheme"); ?></p>
+				<p><?php _e("Whatever you were looking for was not found, but maybe try looking again or search using the form below.","bonestheme"); ?></p>
 
-							</div>
+				<div class="spacer20"></div>
 
-						</header> <!-- end article header -->
+				<?php get_search_form() ?>
 
-						<section class="post_content">
+			</div>
 
-							<p><?php _e("Whatever you were looking for was not found, but maybe try looking again or search using the form below.","bonestheme"); ?></p>
+		</div>
 
-							<div class="row">
-								<div class="span12">
-									<?php get_search_form(); ?>
-								</div>
-							</div>
+	</div>
 
-						</section> <!-- end article section -->
-
-						<footer>
-
-						</footer> <!-- end article footer -->
-
-					</article> <!-- end article -->
-
-				</div> <!-- end #main -->
-
-			</div> <!-- end #content -->
-
-<?php get_footer(); ?>
+</div>
+<?php get_footer() ?>

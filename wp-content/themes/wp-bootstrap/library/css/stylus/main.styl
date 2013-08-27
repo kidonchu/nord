@@ -8,6 +8,9 @@ html, body
 	background bg-color
 	height 100%
 
+img
+	max-width 100%
+
 #wrap
 	min-height 100%
 
@@ -40,32 +43,106 @@ html, body
 // .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-purple: #ddd; border-bottom-purple: #ddd; }
 
 .social-icons
-	padding-right: 10px
+	padding-right: 5px
 	relative: left top 5px
 
 .subscription-form-container
 	font-size .75em
+	relative: left top 3px
 	vertical-align middle
-	p
-		padding 7px 15px 0 0
-		margin 0
 	form
-		padding 5px 0
+		padding 0
 		margin 0
+
+.header-meta
+	height 40px
+
+#custom-search-form
+	relative: right top 3px
+	width 250px
+	.form-group
+		margin 	0
+	input[type=search]
+		padding-right 3px
+		padding-right 4px \9
+		padding-left 3px
+		padding-left 4px \9
+		/* IE7-8 doesn't have border-radius, so don't indent the padding */
+		margin-bottom 0
+		border-radius 3px
+		&:focus + button
+			z-index 3
+	button
+		border 0
+		background none
+		/** belows styles are working good */
+		padding 2px 5px
+		relative: left -28px top
+		/* IE7-8 doesn't have border-radius, so don't indent the padding */
+		margin-bottom 0
+		border-radius 3px
 
 .header-top
 	background mid-purple
 	body-shadow()
 	border-bottom 3px solid orange
-	padding 1em 0
+	padding 1em 0 0
 
 #main-navbar
-	background lightest-purple
 	border-top 3px solid mid-purple
 	body-shadow()
 	font-size .95em
 	font-weight 600
 	padding 0
+	.navbar
+		background-color mid-purple
+		border none
+		border-radius 0
+		margin 0
+		min-height 40px
+	.navbar-collapse
+		padding 0
+	.navbar-nav > li > a
+		padding 10px 0
+	.navbar-nav
+		width 100%
+		li
+			background-color lightest-purple
+			border-right 1px solid mid-purple
+			border-left 1px solid #aaa
+			text-align center
+			a
+				color white
+				&:hover, &:active
+					background-color: mid-purple
+			&.active
+				border-left none
+				relative top 3px left
+				z-index 2
+				a, a:hover, a:active
+					background-color: mid-purple
+
+		li:nth-child(1)
+			border-left none
+			width 15%
+		li:nth-child(2)
+			width 25%
+		li:nth-child(3)
+			width 17.5%
+		li:nth-child(4)
+			width 17.5%
+		li:nth-child(5)
+			width 12.5%
+		li:nth-child(6)
+			border-right none
+			width 12.5%
+
+.sub-nav
+	background-color mid-purple
+	color white
+	height 200px
+	width 100%
+	z-index 1
 
 .main-feature-container
 	background lighter-purple
@@ -78,17 +155,17 @@ html, body
 .sub-content-container
 	background-color: white
 	body-shadow()
-	padding-top: 3em
+	padding-top: 1em
 	section
 		padding 0 2em
 		&:first-child
 			border-right 1px solid #e1e1e1
 		&:last-child
 			border-left 1px solid #e1e1e1
-		&:nth-child(2)
-			padding 0 .5em
+	// 	&:nth-child(2)
+	// 		padding 0 .5em
 
-.footer-main
+.footer
 	background darker-grey
 	clear both
 	color dark-grey
@@ -125,9 +202,14 @@ html, body
 		padding 0 5px
 		&:before
 			content "|"
-
+	a
+		color dark-grey
+		text-decoration underline
+		&:hover, &:active
+			color light-grey
+			text-decoration none
 .social
-	background-image url(../../img/sprites-social.png)
+	background-image url(../img/sprites-social.png)
 	display inline-block
 	float left
 	min-height 34px
@@ -146,12 +228,6 @@ html, body
 	&.social-rss
 		background-position -85px -41px
 
-
-hr
-	background url(../../img/logo-hr.png) no-repeat center center
-	border none
-	min-height 70px
-	margin 0
 
 for i in 5 10 15 20 25 30 35 40 45 50 100 200
 	.spacer{i}
@@ -269,33 +345,6 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 .border-bottom
 	border-bottom 1px solid mid-purple
 
-#custom-search-form
-	relative right -23px top 3px
-	.search-query
-		padding-right 3px
-		padding-right 4px \9
-		padding-left 3px
-		padding-left 4px \9
-		/* IE7-8 doesn't have border-radius, so don't indent the padding */
-		margin-bottom 0
-		-webkit-border-radius 3px
-		   -moz-border-radius 3px
-		        border-radius 3px
-	button
-		border 0
-		background none
-		/** belows styles are working good */
-		padding 2px 5px
-		margin-top 2px
-		position relative
-		left -28px
-		/* IE7-8 doesn't have border-radius, so don't indent the padding */
-		margin-bottom 0
-		-webkit-border-radius 3px
-		   -moz-border-radius 3px
-		        border-radius 3px
-	.search-query:focus + button
-		z-index 3
 
 .nav .divider-vertical
 	border-left 1px solid lightest-purple
@@ -326,3 +375,22 @@ form
 
 .text90
 	font-size .9em
+
+
+.border-right
+	border-right 1px solid border-color
+
+for pos in top bottom left right
+	.with-padding-{pos}
+		padding-{pos} 1em
+.with-padding-all
+	padding 1em
+
+for pos in top bottom left right
+	.no-padding-{pos}
+		padding-{pos} 0
+
+for height in (100..1000)
+	if ((height % 100) == 0)
+		.min-height-{height}
+			min-height height * 1px
