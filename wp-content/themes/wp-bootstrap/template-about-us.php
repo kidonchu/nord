@@ -11,7 +11,7 @@
 		<div class="row min-height-400">
 
 			<!-- navigation -->
-			<div class="col-md-3 border-right min-height-400 no-padding-right">
+			<div class="col-md-3 border-right min-height-700 no-padding-right">
 
 				<?php include('sidebar-about-us.php') ?>
 
