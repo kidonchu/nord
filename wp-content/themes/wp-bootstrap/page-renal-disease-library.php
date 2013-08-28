@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header() ?>
 <div class="container">
 
 	<div class="content-container with-padding-top with-padding-bottom">
@@ -6,13 +6,13 @@
 		<div class="row min-height-400">
 
 			<!-- navigation -->
-			<div class="col-md-3 border-right min-height-600 no-padding-right">
+			<div class="sidebar-container col-md-3 border-right no-padding-right">
 
 				<?php include('sidebar-renal-disease-library.php') ?>
 
-			</div><!-- end span -->
+			</div>
 
-			<div class="col-md-8 with-padding-left">
+			<div class="content col-md-8 with-padding-left">
 
 				<div class="border-bottom">
 					<ul class="breadcrumb">
@@ -31,7 +31,7 @@
 				</div>
  -->
 
-			</div><!-- end span -->
+			</div>
 
 		</div>
 		<!-- end .row -->

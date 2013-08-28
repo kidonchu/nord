@@ -6,13 +6,13 @@
 		<div class="row min-height-400">
 
 			<!-- navigation -->
-			<div class="col-md-3 border-right min-height-400 no-padding-right">
+			<div class="sidebar-container col-md-3 border-right no-padding-right">
 
 				<?php include('sidebar-get-screened.php') ?>
 
-			</div><!-- end span -->
+			</div>
 
-			<div class="col-md-8 with-padding-left">
+			<div class="content col-md-8 with-padding-left">
 
 				<div class="border-bottom">
 					<ul class="breadcrumb">
@@ -76,9 +76,11 @@
 			</div>
 
 		</div>
+		<!-- end .row -->
 
 	</div>
-
+	<!-- end .content-container -->
 
 </div>
+<!-- end .container -->
 <?php get_footer() ?>

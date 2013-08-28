@@ -11,13 +11,13 @@
 		<div class="row min-height-400">
 
 			<!-- navigation -->
-			<div class="col-md-3 border-right min-height-700 no-padding-right">
+			<div class="sidebar-container col-md-3 border-right no-padding-right">
 
 				<?php include('sidebar-about-us.php') ?>
 
-			</div><!-- end span -->
+			</div>
 
-			<div class="col-md-8 with-padding-left">
+			<div class="content col-md-8 with-padding-left">
 
 				<?php if (have_posts()) : while (have_posts()) : the_post() ?>
 
@@ -41,12 +41,12 @@
 
 					</section>
 
-				</article> <!-- end article -->
+				</article>
 
 				<?php endwhile ?>
 				<?php endif ?>
 
-			</div><!-- end span -->
+			</div>
 
 		</div>
 		<!-- end .row -->

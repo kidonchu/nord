@@ -122,7 +122,11 @@ form{margin:0}
 .img-polaroid{position:relative;left:-5px;top:0}
 .vertical-divider{background-color:#444;float:left;min-height:200px;width:2px}
 .text90{font-size:.9em}
+.border-top{border-top:1px solid #cacaca}
+.border-bottom{border-bottom:1px solid #cacaca}
+.border-left{border-left:1px solid #cacaca}
 .border-right{border-right:1px solid #cacaca}
+.border-all{border:1px solid #cacaca}
 .with-padding-top{padding-top:1em}
 .with-padding-bottom{padding-bottom:1em}
 .with-padding-left{padding-left:1em}

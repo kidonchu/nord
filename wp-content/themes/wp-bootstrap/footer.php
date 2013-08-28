@@ -115,6 +115,17 @@ $('.topic').on('click', 'h4', function(){
 // 	var target = $(this).data('sub-nav');
 // 	$('#main-navbar').find('li.' + target).trigger('mouseleave');
 // });
+
+var content_height = $('.content').height();
+var sidebar_height = $('.sidebar-container').height();
+if (content_height > sidebar_height)
+{
+	$('.sidebar-container').height(content_height);
+}
+else
+{
+	$('.content').height(sidebar_height);
+}
 </script>
 <!--[if lt IE 7 ]>
 		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
