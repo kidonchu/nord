@@ -21,7 +21,7 @@ html,body{background:#fafafa;height:100%}
 img{max-width:100%}
 #wrap{min-height:100%}
 #main{overflow:auto;padding-bottom:400px}
-.slogan{left:15px;position:relative}
+.slogan{padding:6px 30px 0 0}
 .logo{padding-left:1em}
 .social-icons{padding-right:5px;position:relative;left:0;top:5px}
 .subscription-form-container{font-size:.75em;position:relative;left:0;top:3px;vertical-align:middle;}
@@ -146,3 +146,4 @@ form{margin:0}
 .min-height-800{min-height:800px}
 .min-height-900{min-height:900px}
 .min-height-1000{min-height:1000px}
+.orange{color:#bc8b46}
