@@ -112,6 +112,15 @@
 
 						</div>
 
+						<div class="col-md-8">
+							<div class="slogan text-right">
+								<h3 class="orange">
+									A.P.E.R. fect solution for controlling kidney disease... <br>
+									prolongin health and life!
+								</h3>
+							</div>
+						</div>
+
 					</div>
 
 				</div>
