@@ -85,7 +85,12 @@
 				<h2>Our Partners</h2>
 			</header>
 			<div class="spacer20"></div>
-			<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/partner_logos.png">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/partner_logos.png">
+				</div>
+			</div>
+			<div class="spacer50"></div>
 		</div>
 		<!-- end .partners -->
 	</div>
