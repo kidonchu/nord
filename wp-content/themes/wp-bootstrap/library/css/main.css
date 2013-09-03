@@ -89,7 +89,7 @@ img{max-width:100%}
 .story p{font-size:140%;line-height:1.6;margin-bottom:2em}
 .address-direction{border-left:1px solid #ccc;padding-left:30px}
 .text-small p{font-size:90%}
-.breadcrumb{background:#fafafa;font-size:.8em;padding:0 0 0 1.5em;margin:-1em 0 1em 0;}
+.breadcrumb{background:none;font-size:.8em;padding:0 0 0 1.5em;margin:-1em 0 1em 0;}
 .breadcrumb a{color:#1f033f}
 .breadcrumb .active a{color:#8158b0}
 .accordion-inner{border-top:1px solid #e5e5e5;padding:9px 15px}
