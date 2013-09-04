@@ -50,29 +50,38 @@
 
 			<div class="container">
 
-				<div class="header-meta">
+				<div class="header-meta hidden-xs hidden-sm hidden-md hidden-lg">
 
 					<div class="row">
 
-						<div class="col-md-5">
-							<!-- search bar -->
-							<form id="custom-search-form" class="form-search form-horizontal pull-left">
-								<div class="form-group">
-									<label for="search" class="sr-only">Search</label>
-									<div class="input-group">
-										<input type="search" class="form-control" id="search" name="search" placeholder="Search">
-										<span class="input-group-btn">
-											<button type="submit" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button>
-										</span>
-									</div>
+						<!-- search bar -->
+						<div class="col-md-3 search-form">
+							<form action="#" method="post">
+								<label for="search" class="sr-only">Search</label>
+								<div class="input-group">
+									<input type="search" class="form-control" id="search" name="search" placeholder="Search">
+									<span class="input-group-btn">
+										<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+									</span>
 								</div>
 							</form>
 						</div>
 
-						<div class="col-md-7">
-							<!-- subscription -->
-							<!-- TODO: Implement logic -->
-							<div class="subscription-form-container pull-right">
+						<div class="col-md-3 newsletter">
+							<a class="btn btn-primary" href="http://stop-esrd.org/images/eNewsLetter_201308.pdf" target="_blank">
+								Check out our e-Newsletter
+							</a>
+						</div>
+
+						<div class="col-md-2">
+							<div class="joinus">
+								<p>Join Us <i class="glyphicon glyphicon-share"></i></p>
+							</div>
+						</div>
+
+						<!-- TODO: Implement logic -->
+						<div class="col-md-2">
+							<div class="subscription-form-container">
 								<form action="#" class="form-inline subscribe">
 									<div class="form-group">
 										<label for="email" class="sr-only">E-mail</label>
@@ -81,9 +90,11 @@
 									<button type="submit" class="btn btn-info">Subscribe</button>
 								</form>
 							</div>
+						</div>
 
-							<!-- share icons -->
-							<div class="social-icons pull-right">
+						<!-- share icons -->
+						<div class="col-md-2">
+							<div class="social-icons">
 								<a href="#">
 									<span class="social social-facebook"></span>
 								</a>

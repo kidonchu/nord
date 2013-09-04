@@ -42,9 +42,22 @@ img
 // .navbar .nav li.dropdown > .dropdown-toggle .caret {border-top-purple: #aaa; border-bottom-purple: #aaa; }
 // .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-purple: #ddd; border-bottom-purple: #ddd; }
 
+.search-form
+	border-right 1px solid #ccc
+	margin-right 10px
+	relative: left top 5px
+	.btn
+		padding-bottom 5px
+
+.newsletter
+	border-right 1px solid #ccc
+	padding 0 0 0 5px
+	relative: left top 5px
+
 .social-icons
 	padding-right: 5px
 	relative: left top 5px
+
 
 .subscription-form-container
 	font-size .75em
@@ -54,33 +67,12 @@ img
 		padding 0
 		margin 0
 
+
+.joinus
+	relative: right top 8px
+
 .header-meta
 	height 40px
-
-#custom-search-form
-	relative: right top 3px
-	width 250px
-	.form-group
-		margin 	0
-	input[type=search]
-		padding-right 3px
-		padding-right 4px \9
-		padding-left 3px
-		padding-left 4px \9
-		/* IE7-8 doesn't have border-radius, so don't indent the padding */
-		margin-bottom 0
-		border-radius 3px
-		&:focus + button
-			z-index 3
-	button
-		border 0
-		background none
-		/** belows styles are working good */
-		padding 2px 5px
-		relative: left -28px top
-		/* IE7-8 doesn't have border-radius, so don't indent the padding */
-		margin-bottom 0
-		border-radius 3px
 
 .header-top
 	background mid-purple
