@@ -1,5 +1,3 @@
-	</div><!-- end #main -->
-</div><!-- end #wrap -->
 <div class="container">
 	<footer class="footer" role="contentinfo">
 		<div class="footer-top">

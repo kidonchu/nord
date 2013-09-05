@@ -300,7 +300,3 @@
 			</div><!-- end .container -->
 
 		</header> <!-- end header -->
-
-		<div id="wrap">
-
-			<div id="main">

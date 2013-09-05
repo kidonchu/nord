@@ -19,8 +19,6 @@ hr{background:url("../img/logo-hr.png") no-repeat center center;border:none;min-
 .hidden{display:none}
 html,body{background:#fafafa;height:100%}
 img{max-width:100%}
-#wrap{min-height:100%}
-#main{overflow:auto;padding-bottom:400px}
 .slogan{padding:6px 30px 0 0}
 .logo{padding-left:1em}
 .search-form{border-right:1px solid #ccc;margin-right:10px;position:relative;left:0;top:5px;}
@@ -55,7 +53,7 @@ img{max-width:100%}
 .sub-content-container section{padding:0 2em;}
 .sub-content-container section:first-child{border-right:1px solid #e1e1e1}
 .sub-content-container section:last-child{border-left:1px solid #e1e1e1}
-.footer{background:#303030;clear:both;color:#6e6e6e;font-family:"Kreon",sans-serif;margin-top:-400px;min-height:400px;position:relative;}
+.footer{background:#303030;clear:both;color:#6e6e6e;font-family:"Kreon",sans-serif;}
 .footer ul{list-style-type:none;}
 .footer ul li{margin-bottom:5px;}
 .footer ul li.title{color:#e6e6e6;margin-bottom:1em}
