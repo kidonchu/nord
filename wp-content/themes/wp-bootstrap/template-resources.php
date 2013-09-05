@@ -8,7 +8,7 @@
 
 	<div class="content-container with-padding-top with-padding-bottom">
 
-		<div class="row min-height-400">
+		<div class="row">
 
 			<!-- navigation -->
 			<div class="sidebar-container col-md-3 border-right no-padding-right">
