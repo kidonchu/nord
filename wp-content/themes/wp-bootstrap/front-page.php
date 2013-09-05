@@ -48,14 +48,14 @@
 			<!-- Renal Disease Library -->
 			<section class="library col-md-4 cf">
 				<header>
-					<h3>Renal Disease Library</h3>
+					<h3>Resources</h3>
 				</header>
 				<p class="text90">
 					Repudiandae, quo, iure dignissimos architecto error placeat quia vitae pariatur reiciendis mollitia a deleniti maiores possimus ab repellendus ipsum consequatur ullam esse?
 				</p>
 				<div class="pull-right">
-					<a href="<?php echo home_url('renal-disease-library') ?>" class="btn btn-warning">
-						Visit Library <i class="icon-share-alt"></i>
+					<a href="<?php echo home_url('resources') ?>" class="btn btn-warning">
+						Find out more <i class="icon-share-alt"></i>
 					</a>
 				</div>
 			</section>

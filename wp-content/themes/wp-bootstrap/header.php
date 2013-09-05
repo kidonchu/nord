@@ -155,7 +155,7 @@
 									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
 								</li>
 								<li class="library" data-sub-nav="library">
-									<a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a>
+									<a href="<?php echo home_url('resources') ?>">Resources</a>
 								</li>
 								<li class="get-screened" data-sub-nav="get-screened">
 									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>

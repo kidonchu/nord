@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Renal Disease Library
+ * Template Name: Resources
  */
 ?>
 <?php get_header() ?>
@@ -13,7 +13,7 @@
 			<!-- navigation -->
 			<div class="sidebar-container col-md-3 border-right no-padding-right">
 
-				<?php include('sidebar-renal-disease-library.php') ?>
+				<?php include('sidebar-resources.php') ?>
 
 			</div>
 
@@ -24,7 +24,7 @@
 				<div class="border-bottom">
 					<ul class="breadcrumb">
 						<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider"></span></li>
-						<li><a href="<?php echo home_url('renal-disease-library') ?>">Renal Disease Library</a> <span class="divider"></span></li>
+						<li><a href="<?php echo home_url('resources') ?>">Resources</a> <span class="divider"></span></li>
 						<li class="active"><?php the_title() ?></li>
 					</ul>
 				</div>

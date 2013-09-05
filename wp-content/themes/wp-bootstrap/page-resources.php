@@ -8,7 +8,7 @@
 			<!-- navigation -->
 			<div class="sidebar-container col-md-3 border-right no-padding-right">
 
-				<?php include('sidebar-renal-disease-library.php') ?>
+				<?php include('sidebar-resources.php') ?>
 
 			</div>
 
@@ -17,7 +17,7 @@
 				<div class="border-bottom">
 					<ul class="breadcrumb">
 						<li><a href="<?php echo home_url() ?>">Home</a> <span class="divider">/</span></li>
-						<li class="active">Renal Diease Library</li>
+						<li class="active">Resources</li>
 					</ul>
 				</div>
 
