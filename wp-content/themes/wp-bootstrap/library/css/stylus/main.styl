@@ -113,21 +113,20 @@ img
 				z-index 2
 				a, a:hover, a:active
 					background-color: mid-purple
-
 		li:nth-child(1)
 			border-left none
 			width 15%
 		li:nth-child(2)
-			width 25%
+			width 15%
 		li:nth-child(3)
-			width 17.5%
+			width 20%
 		li:nth-child(4)
-			width 17.5%
+			width 20%
 		li:nth-child(5)
-			width 12.5%
+			width 15%
 		li:nth-child(6)
 			border-right none
-			width 12.5%
+			width 15%
 
 .sub-nav
 	background-color mid-purple
@@ -165,10 +164,6 @@ img
 	margin-top -(footer-height)
 	min-height footer-height
 	position relative
-
-.footer-top
-	border-bottom 1px solid #151515
-	padding 3em 0 2.5em
 	ul
 		list-style-type none
 		li
@@ -180,26 +175,23 @@ img
 		color dark-grey
 		&.text-emphasize
 			color lighter-purple
-		&:hover,
-		&:active
-			color light-grey
-			text-decoration none
-
-.footer-bottom
-	border-top 1px solid #515151
-	padding 2.5em 0 0
-	text-align center
-	.divider
-		display inline-block
-		padding 0 5px
-		&:before
-			content "|"
-	a
-		color dark-grey
-		text-decoration underline
 		&:hover, &:active
 			color light-grey
 			text-decoration none
+
+footer()
+	margin 0 auto
+	padding 2em 0
+	width 90%
+
+.footer-top
+	border-bottom 1px solid #151515
+	footer()
+
+.footer-bottom
+	border-top 1px solid #515151
+	footer()
+
 .social
 	background-image url(../img/sprites-social.png)
 	display inline-block
