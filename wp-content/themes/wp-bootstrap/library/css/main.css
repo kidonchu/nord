@@ -86,7 +86,7 @@ img{max-width:100%}
 .breadcrumb a{color:#1f033f}
 .breadcrumb .active a{color:#8158b0}
 .accordion-inner{border-top:1px solid #e5e5e5;padding:9px 15px}
-.sidebar{font-size:.9em;}
+.sidebar{font-size:.9em;padding:0 10px 0 20px;}
 .sidebar .topic{padding:0 0 .5em 0;margin:0 0 .5em 0;}
 .sidebar .topic .no-icon{margin-left:.97em}
 .sidebar .topic .link{color:#320961;cursor:pointer;}
@@ -140,3 +140,4 @@ form{margin:0}
 .min-height-900{min-height:900px}
 .min-height-1000{min-height:1000px}
 .orange{color:#bc8b46}
+.nav > li > a{padding:5px 15px}
