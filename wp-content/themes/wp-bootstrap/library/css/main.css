@@ -91,14 +91,7 @@ img{max-width:100%}
 .breadcrumb .active a{color:#8158b0}
 .accordion-inner{border-top:1px solid #e5e5e5;padding:9px 15px}
 .sidebar{font-size:.9em;padding:0 10px 0 20px;}
-.sidebar .topic{padding:0 0 .5em 0;margin:0 0 .5em 0;}
-.sidebar .topic .no-icon{margin-left:.97em}
-.sidebar .topic .link{color:#320961;cursor:pointer;}
-.sidebar .topic .link:hover{text-decoration:underline}
-.sidebar .topic ul{list-style-type:none;margin:0 0 0 1em;}
-.sidebar .topic ul a{color:#333}
-.sidebar .topic i.icon-caret-right{padding-right:.3em}
-.sidebar .topic i.icon-caret-down{padding-right:.1em}
+.sidebar a{color:#7038b0}
 .rss-box .rss-title{display:none}
 .rss-box .rss-items{list-style-type:none;margin:0;}
 .rss-box .rss-items li{margin-bottom:2em;line-height:1.5}
