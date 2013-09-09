@@ -109,29 +109,19 @@
 				</div>
 				<!-- end .header-meta -->
 
-				<div class="header-top">
+				<div class="header-top clearfix">
 
-					<div class="row">
+					<!-- start Logo -->
+					<a class="logo pull-left" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
+					</a>
+					<!-- end Logo -->
 
-						<div class="col-xs-4">
-
-							<!-- start Logo -->
-							<a class="logo" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
-								<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
-							</a>
-							<!-- end Logo -->
-
-						</div>
-
-						<div class="col-md-8">
-							<div class="slogan text-right">
-								<h3 class="orange">
-									A.P.E.R. fect solution for controlling kidney disease... <br>
-									prolongin health and life!
-								</h3>
-							</div>
-						</div>
-
+					<div class="slogan pull-right text-right">
+						<h3 class="orange">
+							A.P.E.R. fect solution for controlling kidney disease... <br>
+							prolongin health and life!
+						</h3>
 					</div>
 
 				</div>
