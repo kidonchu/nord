@@ -17,24 +17,6 @@ img
 .logo
 	padding-left 1em
 
-// .navbar {margin: 0; }
-// .navbar .logo {float: left; padding-left 1em;}
-// .navbar .nav {padding: 0; }
-// .navbar .nav > li
-// 	border-right 1px solid #888
-// 	padding 0 19px
-// 	&:first-child
-// 		padding-left 10px
-// 	&:last-child
-// 		border-right none
-// 		padding-right 10px
-// .navbar .nav > li > a {color: #fff; text-shadow: none; }
-// .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {background: transparent; color: #fff; display: block; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
-// .navbar .nav > li > a:hover {background-color mid-purple}
-// .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {color: #fafafa; background-purple: #320961; }
-// .navbar .nav li.dropdown > .dropdown-toggle .caret {border-top-purple: #aaa; border-bottom-purple: #aaa; }
-// .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-purple: #ddd; border-bottom-purple: #ddd; }
-
 .search-form
 	border-right 1px solid #ccc
 	margin-right 10px
@@ -127,8 +109,20 @@ img
 	z-index 1
 
 .main-feature-container
-	background lighter-purple
+	background white
+	body-shadow()
 	margin 0
+	& > .row > .col-md-8
+		height 400px
+	& > .row > .col-md-4
+		height 400px
+		p
+			font-size 1.3em
+			line-height 1.5em
+			padding-right 2em
+		a
+			font-size 1.3em
+			width 90%
 
 .content-container
 	background-color white
