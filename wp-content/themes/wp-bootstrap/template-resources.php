@@ -36,9 +36,9 @@
 					</header>
 
 					<section class="post_content clearfix" itemprop="articleBody">
-
-						<?php the_content() ?>
-
+						<div class="text">
+							<?php the_content() ?>
+						</div>
 					</section>
 
 				</article>

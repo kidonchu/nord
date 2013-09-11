@@ -1,12 +1,69 @@
+@import url("http://fonts.googleapis.com/css?family=Kreon:400,700")
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700")
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,600")
 @import "nib"
 @import "variables.styl"
 @import "mixins.styl"
-@import "typography.styl"
 @import "utilities.styl"
+
+dark-purple   = #320961
+pastel-purple = #7B54A8
+violet        = #883288
+light-yellow  = #EEBB4D
+pastel-yellow = #FFDD92
 
 html, body
 	background bg-color
 	height 100%
+html, body
+	font 100%/1.5em "Source Sans Pro", "Helvetica", "Arial", sans-serif
+
+heading(weight)
+	color dark-purple
+	font-family "Source Sans Pro", "Helvetica", "Arial", sans-serif
+	font-weight weight
+	line-height 1.1em
+	margin 1em 0
+
+h1
+	font-size 2.25em
+	heading(900)
+h2
+	font-size 1.875em
+	heading(700)
+h3
+	font-size 1.5em
+	heading(700)
+h4
+	font-size 1.25em
+	heading(700)
+h5
+	font-size 1em
+	heading(700)
+h6
+	font-size 0.667em
+	heading(700)
+p
+	color #444
+	margin-bottom 1.5em
+
+.leading
+	font-size 1.2em
+	line-height 1.4em
+
+.text
+	h2, h3, h4, h5, h6
+		margin-bottom 0.25em
+a, a:hover, a:active, a:visited
+	text-decoration none
+a
+	color pastel-purple
+	&:hover, &:active
+		color light-yellow
+	&:visited
+		color dark-purple
+		&:hover, &:active
+			color light-yellow
 
 img
 	max-width 100%
@@ -251,10 +308,27 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 	padding 9px 15px
 
 .sidebar
-	font-size 0.9em
 	padding 0 10px 0 20px
-	a
-		color mid-purple
+	.post-link
+		border-bottom 1px dotted #ccc
+		color dark-purple
+		display block
+		padding 3px 10px
+		&:nth-child(1)
+			border-top 1px dotted #ccc
+		&:visited
+			color dark-purple
+		&:hover, &:active
+			color #333
+			webkit-box-shadow 0 2px 5px 0px #858585
+			  -moz-box-shadow 0 2px 5px 0px #858585
+			       box-shadow 0 2px 5px 0px #858585
+		.right-caret
+			relative top 9px left
+.sidebar-header
+	color light-yellow - 10%
+	padding-left 20px
+	margin .25em 0
 
 .rss-box
 	.rss-title
@@ -350,3 +424,14 @@ for height in (100..1000)
 
 .nav > li > a
 	padding 5px 15px
+
+.right-caret {
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+	border-left: 4px solid #000000;
+	display: inline-block;
+	height: 0;
+	opacity: 0.3;
+	vertical-align: top;
+	width: 0;
+}
