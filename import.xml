@@ -29,7 +29,7 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Wed, 21 Aug 2013 21:38:56 +0000</pubDate>
+	<pubDate>Wed, 11 Sep 2013 21:58:41 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
@@ -37,49 +37,12 @@
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>admin@localhost.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>about-us</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[about-us]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>library</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[library]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 
 	
 
 	<item>
-		<title>Sample Page</title>
-		<link>http://nord.local.com/sample-page/</link>
-		<pubDate>Tue, 06 Aug 2013 20:11:19 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
-
-<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
-
-...or something like this:
-
-<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
-
-As a new WordPress user, you should go to <a href="http://nord.local.com/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date>2013-08-06 20:11:19</wp:post_date>
-		<wp:post_date_gmt>2013-08-06 20:11:19</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>sample-page</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Renal Disease</title>
-		<link>http://nord.local.com/renal-disease/</link>
+		<link>http://nord.local.com/resources/renal-disease/</link>
 		<pubDate>Wed, 07 Aug 2013 21:18:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=6</guid>
@@ -173,7 +136,7 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>renal-disease</wp:post_name>
 		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
+		<wp:post_parent>29</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
@@ -184,67 +147,15 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[single_nord.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Who We Are</title>
-		<link>http://nord.local.com/who-we-are/</link>
-		<pubDate>Mon, 12 Aug 2013 14:19:31 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=8</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
-		<wp:post_date>2013-08-12 14:19:31</wp:post_date>
-		<wp:post_date_gmt>2013-08-12 14:19:31</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>who-we-are</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Post_Actions</title>
-		<link>http://nord.local.com/post_actions/</link>
-		<pubDate>Fri, 09 Aug 2013 18:03:05 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=10</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date>2013-08-09 18:03:05</wp:post_date>
-		<wp:post_date_gmt>2013-08-09 18:03:05</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>post_actions</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page_post_actions.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -268,6 +179,14 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page_get_screened.php]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -306,35 +225,13 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[page_get_involved.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Get Educated</title>
-		<link>http://nord.local.com/get-educated/</link>
-		<pubDate>Fri, 09 Aug 2013 21:29:29 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=16</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date>2013-08-09 21:29:29</wp:post_date>
-		<wp:post_date_gmt>2013-08-09 21:29:29</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>get-educated</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page_get_educated.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[page_get_involved.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -358,6 +255,14 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page_about_us.php]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -471,6 +376,14 @@ or services, your time and effort are greatly appreciated.
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-get-involved.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-get-involved.php]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Contact Us</title>
@@ -479,34 +392,25 @@ or services, your time and effort are greatly appreciated.
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=24</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div class="row-fluid"><!-- Contact Us -->
-<div class="span6"><header class="pageHeader">
-</header><article class="contact-us">Questions? Issues? We'd love to hear from you.<form action="&lt;?php echo the_permalink() ?&gt;" method="post"><input type="hidden" name="email" /><!-- prevent spam bot -->
-<label>Name<span class="text-error">*</span></label>
-<input class="input-large" type="text" name="name" />
-<label>E-mail<span class="text-error">*</span></label>
-<input class="input-large" type="text" name="real" />
-<label>Message<span class="text-error">*</span></label>
-<textarea class="input-block-level" name="message" rows="10"></textarea>
-<div class="spaner20"></div>
-<div class="pull-left"><button class="btn btn-primary ">Send Message</button></div>
-<div class="pull-right"><small><span class="text-error">*</span> Required</small></div>
-</form></article></div>
-<div class="span5 address-direction">
+		<content:encoded><![CDATA[<p style="text-align: left;">Questions? Issues? We'd love to hear from you.<br class="blank" />
+Please use contact information below to contact us.</p>
+
+<div class="spacer10"></div>
+<div class="contact-info">
 
 <!-- Phone Number -->
 
 <article><header>
 <h5><i class="icon-phone"></i> PHONE &amp; FAX</h5>
-</header>+1.818.769.6245
+</header>
+<p style="text-align: left;">+1.818.769.6245</p>
 
 </article>
 <div class="spacer10"></div>
-<!-- E-mail -->
-
 <article><header>
 <h5><i class="icon-mail-forward"></i> E-MAIL</h5>
-</header>nord4kidneydisease@yahoo.com
+</header>
+<p style="text-align: left;">nord4kidneydisease@yahoo.com</p>
 
 </article>
 <div class="spacer10"></div>
@@ -514,20 +418,19 @@ or services, your time and effort are greatly appreciated.
 
 <article><header>
 <h5><i class="icon-envelope"></i> MAILING ADDRESS</h5>
-</header>National Organization for Renal Disease
-
+</header>
+<p style="text-align: left;">National Organization for Renal Disease
+<br class="blank" />
 11018 Aqua Vista Street #19
+<br class="blank" />
+Studio City, CA 91602</p>
 
-Studio City, CA 91602
-
+<div class="spacer10"></div>
 <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=11018+Aqua+Vista+Street+%2319+Studio+City,+CA+91602&amp;aq=&amp;sll=41.895112,-87.94369&amp;sspn=0.070662,0.169086&amp;ie=UTF8&amp;hq=&amp;hnear=11018+Aqua+Vista+St+%2319,+North+Hollywood,+California+91602&amp;t=m&amp;ll=34.144487,-118.370819&amp;spn=0.021311,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed" height="300" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 <small><a style="color: #8158b0; text-align: left;" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=11018+Aqua+Vista+Street+%2319+Studio+City,+CA+91602&amp;aq=&amp;sll=41.895112,-87.94369&amp;sspn=0.070662,0.169086&amp;ie=UTF8&amp;hq=&amp;hnear=11018+Aqua+Vista+St+%2319,+North+Hollywood,+California+91602&amp;t=m&amp;ll=34.144487,-118.370819&amp;spn=0.021311,0.025663&amp;z=14&amp;iwloc=A" target="_blank">View Larger Map</a></small>
 
-</article></div>
-<!-- end .address-direction -->
-
-</div>
-<!-- end .row-fluid -->]]></content:encoded>
+</article></div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date>2013-08-12 16:56:37</wp:post_date>
@@ -549,40 +452,18 @@ Studio City, CA 91602
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>What We Do</title>
-		<link>http://nord.local.com/what-we-do/</link>
-		<pubDate>Mon, 12 Aug 2013 16:56:58 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=26</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>26</wp:post_id>
-		<wp:post_date>2013-08-12 16:56:58</wp:post_date>
-		<wp:post_date_gmt>2013-08-12 16:56:58</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>what-we-do</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Renal Disease Library</title>
-		<link>http://nord.local.com/renal-disease-library/</link>
+		<title>Resources</title>
+		<link>http://nord.local.com/resources/</link>
 		<pubDate>Thu, 15 Aug 2013 20:54:54 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=29</guid>
@@ -593,8 +474,8 @@ Studio City, CA 91602
 		<wp:post_date>2013-08-15 20:54:54</wp:post_date>
 		<wp:post_date_gmt>2013-08-15 20:54:54</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>renal-disease-library</wp:post_name>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>resources</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -612,133 +493,103 @@ Studio City, CA 91602
 	</item>
 	<item>
 		<title>Resource Links</title>
-		<link>http://nord.local.com/renal-disease-library/resource-links/</link>
+		<link>http://nord.local.com/resources/resource-links/</link>
 		<pubDate>Fri, 16 Aug 2013 20:45:00 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=77</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3>General Health Issues</h3>
-<a href="http://www.webmd.com" target="_blank">WebMD Health</a>
+		<content:encoded><![CDATA[<header class="subHeader">
+	<h3>General Health Issues</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.webmd.com" target="_blank">WebMD Health</a></p>
+<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/" target="_blank">MedlinePlus</a></p>
+<p style="text-align: left;"><a href="http://www.eatright.org/" target="_blank">American Dietetic Association</a></p>
+<p style="text-align: left;"><a href="http://www.askthedoctor.com/" target="_blank">Ask the Doctor</a></p>
+<p style="text-align: left;"><a href="http://covertheuninsured.org/individuals" target="_blank">Cover The Uninsured</a></p>
+<p style="text-align: left;"><a href="http://www.healthcity.org/" target="_blank">Health City</a></p>
 
-<a href="http://www.nlm.nih.gov/medlineplus/" target="_blank">MedlinePlus</a>
+<header class="subHeader">
+	<h3>Renal Disease</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.kidneyschool.org/" target="_blank">Kidney School</a></p>
+<p style="text-align: left;"><a href="http://www.aafp.org/afp/20041115/1921.html" target="_blank">Chronic Kidney Disease: Prevention and Treatment of Common Complications</a></p>
+<p style="text-align: left;"><a href="http://www.davita.com/" target="_blank"> DaVita.com - Kidney disease and dialysis information</a></p>
+<p style="text-align: left;"><a href="http://www.ikidney.com/" target="_blank"> iKidney.com - Worldwide Kidney Disease Community</a></p>
+<p style="text-align: left;"><a href="http://www.johnfmartin.net/" target="_blank"> In Focus: A Photojournalist's Journey Through Kidney Failure</a></p>
+<p style="text-align: left;"><a href="http://www.aakp.org/" target="_blank"> Kidney Beginnings, Patients Guide to Living with CKD (AAKP)</a></p>
+<p style="text-align: left;"><a href="http://diabetes.about.com/library/blNIHkidneydis.htm" target="_blank"> Kidney Disease and Diabetes (reveals the course of kidney disease)</a></p>
+<p style="text-align: left;"><a href="http://www.kidneyresource.com/" target="_blank"> Kidney Resource</a></p>
+<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000471.htm" target="_blank"> MedlinePlus Medical Encyclopedia: Chronic Renal Failure</a></p>
+<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000500.htm" target="_blank"> MedlinePlus Medical Encyclopedia: End-Stage Kidney Disease</a></p>
+<p style="text-align: left;"><a href="http://www.nkdep.nih.gov/professionals/kidney_disease_statistics.htm" target="_blank"> National Kidney Disease Educational Program</a></p>
+<p style="text-align: left;"><a href="http://www.kidney.org/" target="_blank"> National Kidney Foundation</a></p>
+<p style="text-align: left;"><a href="http://nephron.com/" target="_blank"> The Nephron Information Center</a></p>
+<p style="text-align: left;"><a href="http://www.renalnetwork.org" target="_blank"> Renal Support Network</a></p>
+<p style="text-align: left;"><a href="http://www.renalworld.com" target="_blank"> Renal World: Worldwide Renal Resources</a></p>
 
-<a href="http://www.eatright.org/" target="_blank">American Dietetic Association</a>
+<header class="subHeader">
+	<h3>Diabetes</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.cdc.gov/diabetes/" target="_blank"> Centers for Disease Control and Prevention</a></p>
+<p style="text-align: left;"><a href="http://www.childrenwithdiabetes.com/dteam/d_0d_000.htm" target="_blank"> Children with Diabetes - Ask the Diabetes Team</a></p>
+<p style="text-align: left;"><a href="http://www.childrenwithdiabetes.com/dteam/index_transplants.htm" target="_blank"> Children with Diabetes - Transplants</a></p>
+<p style="text-align: left;"><a href="http://ndep.nih.gov/" target="_blank"> National Diabetes Education Program</a></p>
+<p style="text-align: left;"><a href="http://www.niddk.nih.gov/health/diabetes/pubs/dmstats/dmstats.htm#10" target="_blank"> National Diabetes Statistics</a></p>
+<p style="text-align: left;"><a href="http://www.niddk.nih.gov/" target="_blank"> National Institute of Diabetes and Digestive and Kidney Disease (NIDDK)</a></p>
+<p style="text-align: left;"><a href="http://diabetes.niddk.nih.gov/dm/pubs/complications/index.aspx" target="_blank"> Easy-to-Read Diabetes Prevention Series</a></p>
 
-<a href="http://www.askthedoctor.com/" target="_blank">Ask the Doctor</a>
+<header class="subHeader">
+	<h3>Hypertension</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.hdcn.com" target="_blank"> Hypertension, Dialysis and Clinical Nephrology (HDCN) Weekly Update</a></p>
+<p style="text-align: left;"><a href="http://www.nhlbi.nih.gov/" target="_blank"> National Heart, Lung, and Blood Institute</a></p>
 
-<a href="http://covertheuninsured.org/individuals" target="_blank">Cover The Uninsured</a>
+<header class="subHeader">
+	<h3>Minority Health</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.organdonor.gov/" target="_blank"> The Federal Government's Site to Promote Organ and Tissue Donation</a></p>
+<p style="text-align: left;"><a href="http://www.ihs.gov/" target="_blank"> Indian Health Service</a></p>
+<p style="text-align: left;"><a href="http://www.nclr.org/" target="_blank"> National Council of La Raza</a></p>
+<p style="text-align: left;"><a href="http://www.omhrc.gov/" target="_blank"> Office of Minority Health Resource Center</a></p>
 
-<a href="http://www.healthcity.org/" target="_blank">Health City</a>
-<h3>Renal Disease</h3>
-<a href="http://www.kidneyschool.org/" target="_blank">Kidney School</a>
+<header class="subHeader">
+	<h3>Transplantation and Organ Donation</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.transplantliving.org/" target="_blank"> Transplant Living</a></p>
+<p style="text-align: left;"><a href="http://www.aopo.org" target="_blank"> The Association of the Organ Procurement Organizations</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/" target="_blank"> Organ Procurement and Transplantation Network</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/members/search.asp" target="_blank"> Organ Procurement and Transplantation Network - Member Directory</a></p>
+<p style="text-align: left;"><a href="http://www.va.gov/transplant" target="_blank"> The Department of Veterans Affairs Transplant Program in Washington, D.C.</a></p>
+<p style="text-align: left;"><a href="http://www.donatelifecalifornia.org/" target="_blank"> Donate Life California</a></p>
+<p style="text-align: left;"><a href="http://www.transplant.med.va.gov/glossary-medications.asp" target="_blank"> Glossary of Commonly Used Transplant Medications</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/PoliciesandBylaws2/policies/pdfs/policy_4.pdf" target="_blank"> Transplant Waiting List information from United Network of Organ Sharing</a></p>
+<p style="text-align: left;"><a href="http://www.transplantfund.org" target="_blank"> National Transplant Assistance Fund</a></p>
+<p style="text-align: left;"><a href="http://www.onelegacy.org/site/newsroom/facts.html" target="_blank"> OneLegacy - Common Myths About Organ Donation</a></p>
+<p style="text-align: left;"><a href="http://www.onelegacy.org" target="_blank"> OneLegacy - Los Angeles</a></p>
+<p style="text-align: left;"><a href="http://www.tissotfamily.com/kidney.html" target="_blank"> The Tissot Family's Kidney Transplant Stories</a></p>
+<p style="text-align: left;"><a href="http://www.tbionline.org" target="_blank"> Tissue Banks International</a></p>
+<p style="text-align: left;"><a href="http://www.transplantrecipients.org/" target="_blank"> TransAction Council (National Kidney Foundation)</a></p>
+<p style="text-align: left;"><a href="http://trioweb.org/" target="_blank"> Transplant Recipients International Organization, Inc.</a></p>
+<p style="text-align: left;"><a href="http://transplant-speakers.org" target="_blank"> Transplant Speakers International </a></p>
+<p style="text-align: left;"><a href="http://www.transweb.org/" target="_blank"> TransWeb: All About Transplantation and Donation (including 10 myths about donation and transplantation)</a></p>
+<p style="text-align: left;"><a href="http://www.tsi-elearning.com/" target="_blank"> TSI's E Learning Center</a></p>
+<p style="text-align: left;"><a href="http://www.unos.org/" target="_blank"> United Network for Organ Sharing</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/policiesAndBylaws/publicComment/" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Main page</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/ContentDocuments/PublicComment_FactSheet.pdf" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Fact sheet</a></p>
 
-<a href="http://www.aafp.org/afp/20041115/1921.html" target="_blank">Chronic Kidney Disease: Prevention and Treatment of Common Complications</a>
+<header class="subHeader">
+	<h3>Statistics</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.srtr.org/" target="_blank"> Scientific Registry of Transplant Recipients</a></p>
+<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/latestData/viewDataReports.asp" target="_blank"> Data reports from United Network for Organ Sharing</a></p>
 
-<a href="http://www.davita.com/" target="_blank"> DaVita.com - Kidney disease and dialysis information</a>
-
-<a href="http://www.ikidney.com/" target="_blank"> iKidney.com - Worldwide Kidney Disease Community</a>
-
-<a href="http://www.johnfmartin.net/" target="_blank"> In Focus: A Photojournalist's Journey Through Kidney Failure</a>
-
-<a href="http://www.aakp.org/" target="_blank"> Kidney Beginnings, Patients Guide to Living with CKD (AAKP)</a>
-
-<a href="http://diabetes.about.com/library/blNIHkidneydis.htm" target="_blank"> Kidney Disease and Diabetes (reveals the course of kidney disease)</a>
-
-<a href="http://www.kidneyresource.com/" target="_blank"> Kidney Resource</a>
-
-<a href="http://www.nlm.nih.gov/medlineplus/ency/article/000471.htm" target="_blank"> MedlinePlus Medical Encyclopedia: Chronic Renal Failure</a>
-
-<a href="http://www.nlm.nih.gov/medlineplus/ency/article/000500.htm" target="_blank"> MedlinePlus Medical Encyclopedia: End-Stage Kidney Disease</a>
-
-<a href="http://www.nkdep.nih.gov/professionals/kidney_disease_statistics.htm" target="_blank"> National Kidney Disease Educational Program</a>
-
-<a href="http://www.kidney.org/" target="_blank"> National Kidney Foundation</a>
-
-<a href="http://nephron.com/" target="_blank"> The Nephron Information Center</a>
-
-<a href="http://www.renalnetwork.org" target="_blank"> Renal Support Network</a>
-
-<a href="http://www.renalworld.com" target="_blank"> Renal World: Worldwide Renal Resources</a>
-<h3>Diabetes</h3>
-<a href="http://www.cdc.gov/diabetes/" target="_blank"> Centers for Disease Control and Prevention</a>
-
-<a href="http://www.childrenwithdiabetes.com/dteam/d_0d_000.htm" target="_blank"> Children with Diabetes - Ask the Diabetes Team</a>
-
-<a href="http://www.childrenwithdiabetes.com/dteam/index_transplants.htm" target="_blank"> Children with Diabetes - Transplants</a>
-
-<a href="http://ndep.nih.gov/" target="_blank"> National Diabetes Education Program</a>
-
-<a href="http://www.niddk.nih.gov/health/diabetes/pubs/dmstats/dmstats.htm#10" target="_blank"> National Diabetes Statistics</a>
-
-<a href="http://www.niddk.nih.gov/" target="_blank"> National Institute of Diabetes and Digestive and Kidney Disease (NIDDK)</a>
-
-<a href="http://diabetes.niddk.nih.gov/dm/pubs/complications/index.aspx" target="_blank"> Easy-to-Read Diabetes Prevention Series</a>
-<h3>Hypertension</h3>
-<a href="http://www.hdcn.com" target="_blank"> Hypertension, Dialysis and Clinical Nephrology (HDCN) Weekly Update</a>
-
-<a href="http://www.nhlbi.nih.gov/" target="_blank"> National Heart, Lung, and Blood Institute</a>
-<h3>Minority Health</h3>
-<a href="http://www.organdonor.gov/" target="_blank"> The Federal Government's Site to Promote Organ and Tissue Donation</a>
-
-<a href="http://www.ihs.gov/" target="_blank"> Indian Health Service</a>
-
-<a href="http://www.nclr.org/" target="_blank"> National Council of La Raza</a>
-
-<a href="http://www.omhrc.gov/" target="_blank"> Office of Minority Health Resource Center</a>
-<h3>Transplantation and Organ Donation</h3>
-<a href="http://www.transplantliving.org/" target="_blank"> Transplant Living</a>
-
-<a href="http://www.aopo.org" target="_blank"> The Association of the Organ Procurement Organizations</a>
-
-<a href="http://optn.transplant.hrsa.gov/" target="_blank"> Organ Procurement and Transplantation Network</a>
-
-<a href="http://optn.transplant.hrsa.gov/members/search.asp" target="_blank"> Organ Procurement and Transplantation Network - Member Directory</a>
-
-<a href="http://www.va.gov/transplant" target="_blank"> The Department of Veterans Affairs Transplant Program in Washington, D.C.</a>
-
-<a href="http://www.donatelifecalifornia.org/" target="_blank"> Donate Life California</a>
-
-<a href="http://www.transplant.med.va.gov/glossary-medications.asp" target="_blank"> Glossary of Commonly Used Transplant Medications</a>
-
-<a href="http://optn.transplant.hrsa.gov/PoliciesandBylaws2/policies/pdfs/policy_4.pdf" target="_blank"> Transplant Waiting List information from United Network of Organ Sharing</a>
-
-<a href="http://www.transplantfund.org" target="_blank"> National Transplant Assistance Fund</a>
-
-<a href="http://www.onelegacy.org/site/newsroom/facts.html" target="_blank"> OneLegacy - Common Myths About Organ Donation</a>
-
-<a href="http://www.onelegacy.org" target="_blank"> OneLegacy - Los Angeles</a>
-
-<a href="http://www.tissotfamily.com/kidney.html" target="_blank"> The Tissot Family's Kidney Transplant Stories</a>
-
-<a href="http://www.tbionline.org" target="_blank"> Tissue Banks International</a>
-
-<a href="http://www.transplantrecipients.org/" target="_blank"> TransAction Council (National Kidney Foundation)</a>
-
-<a href="http://trioweb.org/" target="_blank"> Transplant Recipients International Organization, Inc.</a>
-
-<a href="http://transplant-speakers.org" target="_blank"> Transplant Speakers International </a>
-
-<a href="http://www.transweb.org/" target="_blank"> TransWeb: All About Transplantation and Donation (including 10 myths about donation and transplantation)</a>
-
-<a href="http://www.tsi-elearning.com/" target="_blank"> TSI's E Learning Center</a>
-
-<a href="http://www.unos.org/" target="_blank"> United Network for Organ Sharing</a>
-
-<a href="http://optn.transplant.hrsa.gov/policiesAndBylaws/publicComment/" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Main page</a>
-
-<a href="http://optn.transplant.hrsa.gov/ContentDocuments/PublicComment_FactSheet.pdf" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Fact sheet</a>
-<h3>Statistics</h3>
-<a href="http://www.srtr.org/" target="_blank"> Scientific Registry of Transplant Recipients</a>
-
-<a href="http://optn.transplant.hrsa.gov/latestData/viewDataReports.asp" target="_blank"> Data reports from United Network for Organ Sharing</a>
-<h3>New Technology or Transplant Information</h3>
-<a href="http://www.organ-recovery.com/home.php" target="_blank"> Innovations in Transplantation</a>
-
-<a href="http://www.bioethics.net/news.php?catId=9" target="_blank"> Latest News Updates on Organ Transplants</a>
-
-<a href="http://stop-esrd.org/links/CNN_Cloning_Organs.doc" target="_blank"> CNN article about cloning organs (Word document)</a>
-
-<a href="http://stop-esrd.org/links/NY_Times_Article_Regrow_your_own.doc" target="_blank"> New York Times article about organ regeneration (Word document)</a>]]></content:encoded>
+<header class="subHeader">
+	<h3>New Technology or Transplant Information</h3>
+</header>
+<p style="text-align: left;"><a href="http://www.organ-recovery.com/home.php" target="_blank"> Innovations in Transplantation</a></p>
+<p style="text-align: left;"><a href="http://www.bioethics.net/news.php?catId=9" target="_blank"> Latest News Updates on Organ Transplants</a></p>
+<p style="text-align: left;"><a href="http://stop-esrd.org/links/CNN_Cloning_Organs.doc" target="_blank"> CNN article about cloning organs (Word document)</a></p>
+<p style="text-align: left;"><a href="http://stop-esrd.org/links/NY_Times_Article_Regrow_your_own.doc" target="_blank"> New York Times article about organ regeneration (Word document)</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>77</wp:post_id>
 		<wp:post_date>2013-08-16 20:45:00</wp:post_date>
@@ -752,6 +603,18 @@ Studio City, CA 91602
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_post_restored_from</wp:meta_key>
+			<wp:meta_value><![CDATA[a:3:{s:20:"restored_revision_id";i:233;s:16:"restored_by_user";i:1;s:13:"restored_time";i:1377291972;}]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -791,6 +654,14 @@ Studio City, CA 91602
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Our Mission</title>
@@ -799,10 +670,8 @@ Studio City, CA 91602
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=86</guid>
 		<description></description>
-		<content:encoded><![CDATA[<p style="text-align: left;">Our mission is to change the face of kidney disease by aggressively promoting good health though education, disease prevention, and follow up.</p>
-<p style="text-align: left;"></p>
+		<content:encoded><![CDATA[<p style="text-align: left;">Our mission is to change the face of kidney disease by aggressively promoting good health through education, disease prevention, and follow up.</p>
 <p style="text-align: left;">National Organization for Renal Disease strives to provide the latest  preventive and critical medical information to populations at high risk for developing renal disease and its precursors through their programs of awareness, prevention, education and research. In addition, we seek to transform the remedies and delivery systems in which these illnesses are treated for the betterment of individuals and their communities.</p>
-<p style="text-align: left;"></p>
 <p style="text-align: left;">NORD promotes organ and tissue transplantation and other progressive therapies in treatment modalities through innovative, cutting edge, research and permanent testing sites until we find an effective way to treat these chronic diseases.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>86</wp:post_id>
@@ -817,6 +686,14 @@ Studio City, CA 91602
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -857,6 +734,14 @@ Studio City, CA 91602
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Our Program</title>
@@ -866,9 +751,8 @@ Studio City, CA 91602
 		<guid isPermaLink="false">http://nord.local.com/?page_id=90</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2 style="text-align: left;">Prevention Program (A.P.E.R.)</h2>
-<h3 style="text-align: left;">A.P.E.R. FECT solution for controlling kidney disease...</h3>
-<h3 style="text-align: left;">prolonging health and life</h3>
-<p style="text-align: left;">APER is a simple four-phase program, the promotion of which will inevitably improve therapies and remedies and will prevent medical precursors from developing into renal disease.</p>
+
+<p style="text-align: left;">A.P.E.R. FECT solution for controlling kidney disease, prolonging health and life. APER is a simple four-phase program, the promotion of which will inevitably improve therapies and remedies and will prevent medical precursors from developing into renal disease.</p>
 
 <h4 style="text-align: left;">Awareness</h4>
 <p style="text-align: left;">Inform people about the warning signs of renal disease. What should they look for? What tests are available?</p>
@@ -894,6 +778,14 @@ Studio City, CA 91602
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -936,6 +828,18 @@ Studio City, CA 91602
 			<wp:meta_key>_post_restored_from</wp:meta_key>
 			<wp:meta_value><![CDATA[a:3:{s:20:"restored_revision_id";i:114;s:16:"restored_by_user";i:1;s:13:"restored_time";i:1376941380;}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_post_restored_from</wp:meta_key>
+			<wp:meta_value><![CDATA[a:3:{s:20:"restored_revision_id";i:114;s:16:"restored_by_user";i:1;s:13:"restored_time";i:1376941380;}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Volunteer</title>
@@ -954,7 +858,8 @@ Studio City, CA 91602
 	<li>corporate board secretary</li>
 	<li>and more</li>
 </ul>
-<p style="text-align: left;">[VOLUNTEER-FORM]</p>]]></content:encoded>
+<p style="text-align: left;">Please visit VolunteerMatch for more information.</p>
+<a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid=11270" target="_blank"><img class="alignnone" alt="" src="http://stop-esrd.org/images/volunteerMatch.gif" width="150" height="71" /></a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>127</wp:post_id>
 		<wp:post_date>2013-08-19 20:31:41</wp:post_date>
@@ -968,6 +873,14 @@ Studio City, CA 91602
 		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-get-involved.php]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1034,10 +947,18 @@ Conference Rm. "A", 2nd. Fl.
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-get-involved.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-get-involved.php]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Causes of Renal Disease</title>
-		<link>http://nord.local.com/renal-disease-library/causes-of-renal-disease/</link>
+		<link>http://nord.local.com/resources/causes-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:32:29 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=144</guid>
@@ -1072,12 +993,20 @@ Conference Rm. "A", 2nd. Fl.
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Symptoms</title>
-		<link>http://nord.local.com/renal-disease-library/symptoms-of-renal-disease/</link>
+		<link>http://nord.local.com/resources/symptoms-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:36:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=146</guid>
@@ -1116,56 +1045,8 @@ Conference Rm. "A", 2nd. Fl.
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Testing</title>
-		<link>http://nord.local.com/renal-disease-library/testing-for-renal-disease/</link>
-		<pubDate>Wed, 21 Aug 2013 18:39:49 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=148</guid>
-		<description></description>
-		<content:encoded><![CDATA[The most common forms of testing are through blood and urine samples. If a blood or urine test indicates improper functioning of the kidneys, then the patient must undergo renal imaging using ultrasound, a computed tomography scan (CT scan), or magnetic resonance imaging (MRI).
-
-<strong>Creatinine</strong>
-
-<strong></strong>blood work is drawn to determine creatinine levels. Creatinine is a waste product resulting from the normal breakdown of muscles during activity. If creatinine levels are unusually high, the kidneys are not functioning at full capacity.
-
-<strong>Blood urea nitrogen (BUN)</strong>
-
-<strong></strong>bloodworm is drawn to determine bun levels. Urea is a waste product created when proteins are used by cells; if unusually high, the kidneys are not functioning at full capacity.
-
-<strong>Proteinuria</strong>
-
-<strong></strong>urine samples are taken to determine if there is protein in the urine (healthy kidneys separate proteins from wastes and return them to the blood stream). If protein is present in the urine, the kidneys are not functioning properly.
-
-<strong>Renal imaging</strong>
-
-<strong></strong>ultrasound, computed tomography (CT scan), and magnetic resonance imaging (MRI). Imaging is done after a blood or urine test indicates that the kidneys are not functioning properly.
-
-<strong>Renal biopsy</strong>
-
-<strong></strong>a sample of kidney tissue is taken via a needle inserted through the skin into the kidney. The sample is studied under a microscope to determine problems at a cellular level.
-
-<strong>Useful links</strong>
-
-<strong></strong><a style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 18px;" href="http://nkdep.nih.gov" target="_blank">http://nkdep.nih.gov</a>
-
-<a href="http://nkdep.nih.gov/resources/NKDEP_GenPopBrochure_508.pdf" target="_blank">Diabetes, Hypertension and Kidney disease</a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>148</wp:post_id>
-		<wp:post_date>2013-08-21 18:39:49</wp:post_date>
-		<wp:post_date_gmt>2013-08-21 18:39:49</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>testing-for-renal-disease</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>29</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1177,7 +1058,7 @@ Conference Rm. "A", 2nd. Fl.
 	</item>
 	<item>
 		<title>What is Renal Disease?</title>
-		<link>http://nord.local.com/renal-disease-library/what-is-renal-disease/</link>
+		<link>http://nord.local.com/resources/what-is-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:40:19 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=150</guid>
@@ -1210,12 +1091,20 @@ As the nephrons filter out the body's waste, they also release chemicals such as
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Current Research of Renal Disease</title>
-		<link>http://nord.local.com/renal-disease-library/current-research-of-renal-disease/</link>
+		<link>http://nord.local.com/resources/current-research-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:57:14 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=157</guid>
@@ -1272,12 +1161,20 @@ Not only has the number of minority donors increased, but access to transplantat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Transplantation</title>
-		<link>http://nord.local.com/renal-disease-library/transplantation/</link>
+		<link>http://nord.local.com/resources/transplantation/</link>
 		<pubDate>Wed, 21 Aug 2013 18:59:49 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=159</guid>
@@ -1386,12 +1283,20 @@ There are a few hospitals that use this procedure and a donor's weight is also a
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Renal Disease Statistics</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-statistics/</link>
+		<link>http://nord.local.com/resources/renal-disease-statistics/</link>
 		<pubDate>Wed, 21 Aug 2013 19:00:38 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=161</guid>
@@ -1495,12 +1400,20 @@ Organ Transplants - 836]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>New Technologies</title>
-		<link>http://nord.local.com/renal-disease-library/new-technologies/</link>
+		<link>http://nord.local.com/resources/new-technologies/</link>
 		<pubDate>Wed, 21 Aug 2013 19:01:03 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=163</guid>
@@ -1531,12 +1444,20 @@ Blood pressure control can reduce kidney disease by approximately 33%.]]></conte
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Medications for Renal Disease</title>
-		<link>http://nord.local.com/renal-disease-library/medications-for-renal-disease/</link>
+		<link>http://nord.local.com/resources/medications-for-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 19:09:46 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=167</guid>
@@ -1565,12 +1486,20 @@ These medications are used for maintenance therapy for Renal Function after orga
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>African American</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-african-american/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-african-american/</link>
 		<pubDate>Wed, 21 Aug 2013 19:15:39 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=169</guid>
@@ -1671,12 +1600,20 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Pacific Islander</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-pacific-islander/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-pacific-islander/</link>
 		<pubDate>Wed, 21 Aug 2013 19:19:47 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=171</guid>
@@ -1743,12 +1680,20 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Latino</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-latino/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-latino/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:11 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=173</guid>
@@ -1830,12 +1775,20 @@ Some information on this page is found on the National Diabetes Information Clea
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Asian</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-asian/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-asian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:31 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=175</guid>
@@ -1890,12 +1843,20 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Caucasian</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-caucasian/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-caucasian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=177</guid>
@@ -1920,12 +1881,20 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>American Indian</title>
-		<link>http://nord.local.com/renal-disease-library/renal-disease-of-american-indian/</link>
+		<link>http://nord.local.com/resources/renal-disease-of-american-indian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:21:28 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=179</guid>
@@ -2132,6 +2101,14 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
@@ -2217,6 +2194,14 @@ Mamie V. Jackson also appeared on "Community Connection" cable TV (a community f
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Partners</title>
@@ -2246,6 +2231,97 @@ Mamie V. Jackson also appeared on "Community Connection" cable TV (a community f
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[template-about-us.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>About Our Website</title>
+		<link>http://nord.local.com/disclaimer/</link>
+		<pubDate>Wed, 11 Sep 2013 21:00:16 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://nord.local.com/?page_id=246</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h3>General Disclaimer</h3>
+While every attempt has been made to ensure accuracy and reliability of the material on the web site, National Organization For Renal Disease (NORD) cannot assume responsibility for errors or omissions. In addition, NORD does not warrant the effectiveness of or the expected results of the information contained on the web site.
+
+<h3>Medical Disclaimer</h3>
+This web site is designed to provide general information only. NORD does not endorse any specific test, procedure, or medication that may be mentioned or advised on the site. The information is not intended to replace medical/health advice offered by medical professionals, health care providers or physicians. NORD is not responsible for any diagnosis made by a visitor based on the content of the web site. Visitors should consult with medical or health professionals to seek further information or support.
+
+<h3>Links to Other Sites</h3>
+The links on this site are provided for the convenience of NORD web site visitors. NORD has no responsibility for or control over the content and accuracy of these sites. Visitors should consult the other sites' privacy notices and access the linked sites at their own risk.
+
+<h3>Copyright and Trademarks</h3>
+Information presented on this web site, including documents, graphics, logos, and photographs, is copyrighted by NORD. Copyright law prohibits unauthorized reproduction or distribution of the material contained on this site. However, you may download, store, and/or print the web content for personal use.
+
+<h3>Service Mark</h3>
+All phrases and logos below are service mark of NORD.
+<ul>
+<li>National Organization for Renal Disease</li>
+<li>A.P.E.R fect solution for controlling kidney disease</li>
+<li>prolonging health and life</li>
+<li>Awareness</li>
+<li>Prevention</li>
+<li>Education</li>
+<li>Research</li>
+<li><img src="http://stop-esrd.org/images/logo.gif" alt="NORD Logo"></li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>246</wp:post_id>
+		<wp:post_date>2013-09-11 21:00:16</wp:post_date>
+		<wp:post_date_gmt>2013-09-11 21:00:16</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>disclaimer</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Sitemap</title>
+		<link>http://nord.local.com/sitemap/</link>
+		<pubDate>Wed, 11 Sep 2013 21:40:51 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://nord.local.com/?page_id=258</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>258</wp:post_id>
+		<wp:post_date>2013-09-11 21:40:51</wp:post_date>
+		<wp:post_date_gmt>2013-09-11 21:40:51</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>sitemap</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
