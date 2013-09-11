@@ -773,7 +773,4 @@ function get_wpbs_theme_options(){
 				}
 			}
 } // end get_wpbs_theme_options function
-
-remove_filter('the_content', 'wpautop');
-remove_filter('the_excerpt', 'wpautop');
 ?>

@@ -1,35 +1,11 @@
+<h4 class="sidebar-header">About Us</h4>
 <nav class="sidebar">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3>About Us</h3>
-		</div>
-		<div class="panel-body">
-			<ul class="nav nav-stacked">
-				<li class="active">
-					<a href="<?php echo home_url('about-us/mission') ?>" class="link">Our Mission</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/program') ?>" class="link">Our Program</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/history') ?>" class="link">Our History</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/founder') ?>" class="link">Founder</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/media') ?>" class="link">On Media</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/brochure') ?>" class="link">Online Brochure</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/partners') ?>" class="link">Partners</a>
-				</li>
-				<li>
-					<a href="<?php echo home_url('about-us/contact') ?>" class="link">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+	<a class="post-link" href="<?php echo home_url('about-us/mission') ?>" class="link">Our Mission</a>
+	<a class="post-link" href="<?php echo home_url('about-us/program') ?>" class="link">Our Program</a>
+	<a class="post-link" href="<?php echo home_url('about-us/history') ?>" class="link">Our History</a>
+	<!-- <a class="post-link" href="<?php echo home_url('about-us/founder') ?>" class="link">Founder</a> -->
+	<a class="post-link" href="<?php echo home_url('about-us/media') ?>" class="link">On Media</a>
+	<a class="post-link" href="<?php echo home_url('about-us/brochure') ?>" class="link">Online Brochure</a>
+	<a class="post-link" href="<?php echo home_url('about-us/partners') ?>" class="link">Partners</a>
+	<a class="post-link" href="<?php echo home_url('about-us/contact') ?>" class="link">Contact</a>
 </nav>
