@@ -113,17 +113,17 @@
 
 					<!-- start Logo -->
 					<a class="logo pull-left" title="<?php echo get_bloginfo('description') ?>" href="<?php echo home_url() ?>">
-						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo-large.png" alt="NORD Logo">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/library/img/logo.png" alt="NORD Logo">
 					</a>
 					<!-- end Logo -->
 
-					<div class="slogan pull-right text-right">
+<!-- 					<div class="slogan pull-right text-right">
 						<h3 class="orange">
 							A.P.E.R. fect solution for controlling kidney disease... <br>
 							prolongin health and life!
 						</h3>
 					</div>
-
+ -->
 				</div>
 				<!-- end .header-top -->
 
