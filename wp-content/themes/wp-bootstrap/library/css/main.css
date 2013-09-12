@@ -153,3 +153,6 @@ form{margin:0}
 .post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{margin-bottom:.25em;}
 .post-content h2:nth-child(1),.post-content h3:nth-child(1),.post-content h4:nth-child(1),.post-content h5:nth-child(1),.post-content h6:nth-child(1){margin-top:0}
 .list-sitemap{list-style-type:none;padding:0;margin:0 0 2em 1em}
+.event{border-top:3px dotted #aaa;padding:1em 0;margin-bottom:1em}
+.event-date{margin-bottom:0;font-style:italic}
+.event-header{margin:0 0 .5em}

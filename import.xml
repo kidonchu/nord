@@ -29,7 +29,7 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Wed, 11 Sep 2013 21:58:41 +0000</pubDate>
+	<pubDate>Thu, 12 Sep 2013 21:52:01 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
@@ -891,41 +891,37 @@ Studio City, CA 91602</p>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Events</title>
+		<title>Upcoming Events</title>
 		<link>http://nord.local.com/get-involved/events/</link>
 		<pubDate>Mon, 19 Aug 2013 20:44:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=132</guid>
 		<description></description>
-		<content:encoded><![CDATA[<iframe style="border-width: 0;" src="https://www.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=q8pe517khmqr2c4d9qg7ngiha8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FChicago" height="300" width="100%" frameborder="0" scrolling="no"></iframe>
+		<content:encoded><![CDATA[<div class="event">
+<p class="event-date">Saturday, October 19, 2013</p>
 
-&nbsp;
+<h4 class="event-header">Health Fair in East Los Angeles</h4>
+<p class="event-text">Sponsored by Assemblyman's Jimmy Gomez's Office</p>
 
-Are you interested in learning more about renal disease and how to aid in its prevention?
-Please join us for an informative meeting.
-Please contact the office to confirm all meeting dates and times.
+</div>
+<!-- Event start (start copying here) -->
+<div class="event">
+<p class="event-date">Tuesday, October 29, 2013</p>
 
-<a href="&lt;?php echo get_site_url() ?&gt;/contact-us"><i></i>Contact Us for more information</a>
-<div></div>
-<header>
-<h5><i></i>Meeting Time</h5>
-</header>Wednesdays 6:30 - 8:30 PM
-<div></div>
-<header>
-<h5><i></i>Meeting Location</h5>
-</header>St. Vincent Medical Center
+<h4 class="event-header">Burbank Park and Recreation - Joslyn Center Burbank</h4>
+<p class="event-text"></p>
 
-2131 W. 3rd St. (3rd.&amp; Alvarado)
+</div>
+<!-- Event end (end copying here) -->
+<h2>Past Events</h2>
+<div class="event">
+<p class="event-date">Friday, May 24, 2013</p>
 
-Conference Rm. "A", 2nd. Fl.
-<div></div>
-<header>
-<h5><i></i>Note</h5>
-</header><i></i>Park at 201 Prof. Office Bldg. 201 S. Alvarado St.
+<h4 class="event-header">Las Palmas Park and Recreation Center's Senior Health Expo</h4>
+<p class="event-text">Health Screening</p>
 
-<i></i>Must enter before 7:30 pm.
-
-<i></i>Use the rear hospital entrance &amp; follow signs.]]></content:encoded>
+</div>
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>132</wp:post_id>
 		<wp:post_date>2013-08-19 20:44:52</wp:post_date>
