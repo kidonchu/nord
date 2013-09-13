@@ -6,15 +6,15 @@
 					<ul>
 						<li class="title">connect</li>
 						<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact info</a></li>
-						<li><a href="https://www.facebook.com/NORDorg" target="_blank"><i class="icon-facebook-sign icon-white"></i> facebook</a></li>
+						<!-- <li><a href="https://www.facebook.com/NORDorg" target="_blank"><i class="icon-facebook-sign icon-white"></i> facebook</a></li> -->
 						<!-- <li><a href="#" target="_blank"><i class="icon-twitter icon-white"></i> twitter</a></li> -->
 					</ul>
 				</div>
 				<div class="col-md-3">
 					<ul>
 						<li class="title">resources</li>
-						<li><a href="<?php echo home_url('resources/what-is-renal-disease') ?>">renal diease</a></li>
-						<li><a href="<?php echo home_url('resources/links') ?>">links</a></li>
+						<li><a href="<?php echo home_url('resources/renal-disease') ?>">renal diease</a></li>
+						<li><a href="<?php echo home_url('resources/resource-links') ?>">links</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3">
@@ -36,22 +36,15 @@
 		</div>
 
 		<div class="footer-bottom">
-			<ul class="pull-right text-right">
-				<li><a href="<?php echo home_url('site-map') ?>">site map</a></li>
-				<li><a href="#">Disclaimer</a></li>
-				<li><a href="#">Copyright</a></li>
-				<li><a href="#">Service mark</a></li>
+			<ul class="list-inline">
+				<li><a href="<?php echo home_url('sitemap') ?>">Site Map</a></li>
+				<li>|</li>
+				<li><a href="<?php echo home_url('disclaimer') ?>">Disclaimer, Copyright, Service mark</a></li>
 			</ul>
 			<p>
-				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?>
-			</p>
-			<p>
-				A.P.E.R. Awareness, Prevention, Education and Research!
-			</p>
-			<p>
-				11018 Aqua Vista Street #19, Studio City, CA 91602
-			</p>
-			<p>
+				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>
+				A.P.E.R. Awareness, Prevention, Education and Research!<br>
+				11018 Aqua Vista Street #19, Studio City, CA 91602<br>
 				nord4kidneydisease@yahoo.com
 			</p>
 		</div>
