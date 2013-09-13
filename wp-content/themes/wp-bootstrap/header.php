@@ -154,7 +154,7 @@
 									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
 								</li>
 								<li class="about-us" data-sub-nav="about-us">
-									<a href="<?php echo home_url('about-us') ?>">About Us</a>
+									<a href="<?php echo home_url('about-us/mission') ?>">About Us</a>
 								</li>
 								<li>
 									<a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a>
