@@ -12,11 +12,11 @@
 		Our History
 		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
 	</a>
-	<a class="post-link" data-uri="founder" href="<?php echo home_url('about-us/founder') ?>">
+<!-- 	<a class="post-link" data-uri="founder" href="<?php echo home_url('about-us/founder') ?>">
 		Founder
 		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
 	</a>
-	<a class="post-link" data-uri="media" href="<?php echo home_url('about-us/media') ?>">
+ -->	<a class="post-link" data-uri="media" href="<?php echo home_url('about-us/media') ?>">
 		On Media
 		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
 	</a>
