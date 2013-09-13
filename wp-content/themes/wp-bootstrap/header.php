@@ -144,17 +144,26 @@
 								<li>
 									<a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a>
 								</li>
-								<li class="library" data-sub-nav="library">
-									<a href="<?php echo home_url('resources') ?>">Resources</a>
-								</li>
-								<li class="get-screened" data-sub-nav="get-screened">
-									<a href="<?php echo home_url('get-screened') ?>">Get Screened</a>
-								</li>
-								<li class="get-involved" data-sub-nav="get-involved">
-									<a href="<?php echo home_url('get-involved') ?>">Get Involved</a>
-								</li>
-								<li class="about-us" data-sub-nav="about-us">
+								<li>
 									<a href="<?php echo home_url('about-us/mission') ?>">About Us</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('about-us/program') ?>">Program</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('resources/renal-disease') ?>">Resources</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-screened') ?>">Screening</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('about-us/media') ?>">Media</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-involved/events') ?>">Event</a>
+								</li>
+								<li>
+									<a href="<?php echo home_url('get-involved/volunteer') ?>">Volunteer</a>
 								</li>
 								<li>
 									<a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a>
@@ -166,126 +175,6 @@
 
 				</div>
 				<!-- end #main-navbar -->
-
-				<div id="sub-navbar">
-
-					<nav data-sub-nav="library" class="library sub-nav hidden">
-						<div class="row">
-							<div class="col-md-3 col-md-offset-1">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-
-					<nav data-sub-nav="get-screened" class="get-screened sub-nav hidden">
-						<div class="row">
-							<div class="col-md-3 col-md-offset-1">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-
-					<nav data-sub-nav="get-involved" class="get-involved sub-nav hidden">
-						<div class="row">
-							<div class="col-md-3 col-md-offset-1">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-
-					<nav data-sub-nav="about-us" class="about-us sub-nav hidden">
-						<div class="row">
-							<div class="col-md-3 col-md-offset-1">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul class="nav">
-									<li>Lorem</li>
-									<li>Ipsum</li>
-									<li>is not a</li>
-									<li>mighty</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-
-				</div>
 
 			</div><!-- end .container -->
 

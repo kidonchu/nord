@@ -30,17 +30,14 @@
 				</div>
 
 				<article id="post-<?php the_ID() ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
-					<header class="pageHeader">
-						<h1 itemprop="headline"><?php the_title() ?></h1>
-					</header>
-
-					<section class="post_content clearfix" itemprop="articleBody">
-						<div class="text">
-							<?php the_content() ?>
+					<h1 itemprop="headline"><?php the_title() ?></h1>
+					<section class="post-content clearfix" itemprop="articleBody">
+						<div class="row">
+							<div class="col-md-9">
+								<?php the_content() ?>
+							</div>
 						</div>
 					</section>
-
 				</article>
 
 				<?php endwhile ?>

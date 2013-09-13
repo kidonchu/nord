@@ -29,17 +29,14 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 13 Sep 2013 05:13:20 +0000</pubDate>
+	<pubDate>Fri, 13 Sep 2013 21:35:47 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
 	<wp:base_blog_url>http://nord.local.com</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>root@local.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>admin@localhost.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>about-us</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[about-us]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>library</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[library]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 
 	
 
@@ -50,45 +47,29 @@
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=6</guid>
 		<description></description>
-		<content:encoded><![CDATA[<strong>Why are Kidneys Important?</strong>
+		<content:encoded><![CDATA[<h3>Why are Kidneys Important?</h3>
 
-<strong></strong>
 Kidneys are important for two reasons:
 
-Removal of waste products - each kidney contains about one million nephrons. Inside the nephrons, wastes and extra water become urine through a complex chemical process.
+<strong>Removal of waste products</strong> &ndash; each kidney contains about one million nephrons. Inside the nephrons, wastes and extra water become urine through a complex chemical process.
 
-Release of hormones and other necessary elements - as the nephrons filter out the body's waste, they also release chemicals such as sodium and potassium back into the blood stream. The kidneys also release hormones necessary to stimulate red blood cell production, regulate blood pressure, and maintain calcium levels.
+<strong>Release of hormones and other necessary elements</strong> &ndash; as the nephrons filter out the body's waste, they also release chemicals such as sodium and potassium back into the blood stream. The kidneys also release hormones necessary to stimulate red blood cell production, regulate blood pressure, and maintain calcium levels.
 
-&nbsp;
-
-<strong>What is Renal Disease?</strong>
+<h3>What is Renal Disease?</h3>
 
 Renal Disease is the chronic or acute loss of kidney function.  Diabetes is the number one cause of renal (kidney) failure.  Diabetes prevents normal release of sugar from the body.  Excess sugar left in the body acts as a poison, attacking the nephrons (tiny arteries in the kidneys that deliver blood through the organ).
 
-&nbsp;
-
-<strong>Causes of Renal Disease</strong>
+<h3>Causes</h3>
 <ul>
 	<li>Diabetes - prevents normal release of sugar from the body. Excess sugars left in the body acts as a poison, attacking the nephrons.</li>
-</ul>
-<ul>
 	<li>High blood pressure - damages the capillaries within the nephrons destroying any filtration potential.</li>
-</ul>
-<ul>
 	<li>Heredity - polycystic kidney disease (pkd) is a genetic disorder in which cysts grow in the kidneys, replacing most of the mass of the kidneys.</li>
-</ul>
-<ul>
 	<li>Congenital - autosomal recessive pkd interferes with the development of nephrons while in the womb.</li>
-</ul>
-<ul>
 	<li>Poisons - some over the counter medicines, when taken for extended periods, destroy renal function; other poisons may cause acute renal failure.</li>
-</ul>
-<ul>
 	<li>Trauma - a direct blow to the kidneys may cause extensive damage, resulting in acute renal failure.</li>
 </ul>
-&nbsp;
 
-<strong> Symptoms of Renal Disease</strong>
+<h3>Symptoms</h3>
 <ul>
 	<li>Frequent headaches</li>
 	<li>Loss of appetite</li>
@@ -104,9 +85,8 @@ Renal Disease is the chronic or acute loss of kidney function.  Diabetes is the
 	<li>Darkening of the skin</li>
 	<li>Muscle cramps</li>
 </ul>
-&nbsp;
 
-<strong>Testing for Renal Disease</strong>
+<h3>Testing</h3>
 
 The most common forms of testing are through blood and urine samples. If a blood or urine test indicates improper functioning of the kidneys, then the patient must undergo renal imaging using ultrasound, a computed tomography scan (CT scan), or magnetic resonance imaging (MRI).
 <ul>
@@ -124,12 +104,9 @@ The most common forms of testing are through blood and urine samples. If a blood
 <ul>
 	<li>Renal biopsy - a sample of kidney tissue is taken via a needle inserted through the skin into the kidney. The sample is studied under a microscope to determine problems at a cellular level.</li>
 </ul>
-&nbsp;
-<div>
 
-General Website: <a href="http://nkdep.nih.gov/" target="_blank" rel="nofollow"> http://nkdep.nih.gov/</a>
+General Website: <a href="http://nkdep.nih.gov/" target="_blank" rel="nofollow"> http://nkdep.nih.gov/</a><br>
 
-</div>
 Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resources/NKDEP_GenPopBrochure_508.pdf" target="_blank" rel="nofollow"> http://nkdep.nih.gov/resources/NKDEP_GenPopBrochure_508.pdf</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
@@ -405,14 +382,10 @@ Please use contact information below to contact us.
 <strong><span class="glyphicon glyphicon-phone"></span> PHONE &amp; FAX</strong>
 +1.818.769.6245
 </address>
-
 <address>
-	<strong><span class="glyphicon glyphicon-envelope"></span> E-MAIL</strong>
-	nord4kidneydisease@yahoo.com
+<strong><span class="glyphicon glyphicon-envelope"></span> E-MAIL</strong>
+nord4kidneydisease@yahoo.com
 </address>
-
-<!-- Mailing Address -->
-
 <address>
 <strong>MAILING ADDRESS</strong>
 National Organization for Renal Disease<br>
@@ -489,98 +462,129 @@ Studio City, CA 91602
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=77</guid>
 		<description></description>
-		<content:encoded><![CDATA[<header class="subHeader">
-	<h3>General Health Issues</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.webmd.com" target="_blank">WebMD Health</a></p>
-<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/" target="_blank">MedlinePlus</a></p>
-<p style="text-align: left;"><a href="http://www.eatright.org/" target="_blank">American Dietetic Association</a></p>
-<p style="text-align: left;"><a href="http://www.askthedoctor.com/" target="_blank">Ask the Doctor</a></p>
-<p style="text-align: left;"><a href="http://covertheuninsured.org/individuals" target="_blank">Cover The Uninsured</a></p>
-<p style="text-align: left;"><a href="http://www.healthcity.org/" target="_blank">Health City</a></p>
+		<content:encoded><![CDATA[<div class="resource-links">
+<h3 class="resource-list-header">General Health Issues</h3>
+<ul class="resource-list">
+<li><a href="http://www.webmd.com" target="_blank">WebMD Health</a><br></li>
+<li><a href="http://www.nlm.nih.gov/medlineplus/" target="_blank">MedlinePlus</a></li>
+<li><a href="http://www.eatright.org/" target="_blank">American Dietetic Association</a></li>
+<li><a href="http://www.askthedoctor.com/" target="_blank">Ask the Doctor</a></li>
+<li><a href="http://covertheuninsured.org/individuals" target="_blank">Cover The Uninsured</a></li>
+<li><a href="http://www.healthcity.org/" target="_blank">Health City</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Renal Disease</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.kidneyschool.org/" target="_blank">Kidney School</a></p>
-<p style="text-align: left;"><a href="http://www.aafp.org/afp/20041115/1921.html" target="_blank">Chronic Kidney Disease: Prevention and Treatment of Common Complications</a></p>
-<p style="text-align: left;"><a href="http://www.davita.com/" target="_blank"> DaVita.com - Kidney disease and dialysis information</a></p>
-<p style="text-align: left;"><a href="http://www.ikidney.com/" target="_blank"> iKidney.com - Worldwide Kidney Disease Community</a></p>
-<p style="text-align: left;"><a href="http://www.johnfmartin.net/" target="_blank"> In Focus: A Photojournalist's Journey Through Kidney Failure</a></p>
-<p style="text-align: left;"><a href="http://www.aakp.org/" target="_blank"> Kidney Beginnings, Patients Guide to Living with CKD (AAKP)</a></p>
-<p style="text-align: left;"><a href="http://diabetes.about.com/library/blNIHkidneydis.htm" target="_blank"> Kidney Disease and Diabetes (reveals the course of kidney disease)</a></p>
-<p style="text-align: left;"><a href="http://www.kidneyresource.com/" target="_blank"> Kidney Resource</a></p>
-<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000471.htm" target="_blank"> MedlinePlus Medical Encyclopedia: Chronic Renal Failure</a></p>
-<p style="text-align: left;"><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000500.htm" target="_blank"> MedlinePlus Medical Encyclopedia: End-Stage Kidney Disease</a></p>
-<p style="text-align: left;"><a href="http://www.nkdep.nih.gov/professionals/kidney_disease_statistics.htm" target="_blank"> National Kidney Disease Educational Program</a></p>
-<p style="text-align: left;"><a href="http://www.kidney.org/" target="_blank"> National Kidney Foundation</a></p>
-<p style="text-align: left;"><a href="http://nephron.com/" target="_blank"> The Nephron Information Center</a></p>
-<p style="text-align: left;"><a href="http://www.renalnetwork.org" target="_blank"> Renal Support Network</a></p>
-<p style="text-align: left;"><a href="http://www.renalworld.com" target="_blank"> Renal World: Worldwide Renal Resources</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Renal Disease</h3>
+<ul class="resource-list">
+<li><a href="http://www.kidneyschool.org/" target="_blank">Kidney School</a></li>
+<li><a href="http://www.aafp.org/afp/20041115/1921.html" target="_blank">Chronic Kidney Disease: Prevention and Treatment of Common Complications</a></li>
+<li><a href="http://www.davita.com/" target="_blank"> DaVita.com - Kidney disease and dialysis information</a></li>
+<li><a href="http://www.ikidney.com/" target="_blank"> iKidney.com - Worldwide Kidney Disease Community</a></li>
+<li><a href="http://www.johnfmartin.net/" target="_blank"> In Focus: A Photojournalist's Journey Through Kidney Failure</a></li>
+<li><a href="http://www.aakp.org/" target="_blank"> Kidney Beginnings, Patients Guide to Living with CKD (AAKP)</a></li>
+<li><a href="http://diabetes.about.com/library/blNIHkidneydis.htm" target="_blank"> Kidney Disease and Diabetes (reveals the course of kidney disease)</a></li>
+<li><a href="http://www.kidneyresource.com/" target="_blank"> Kidney Resource</a></li>
+<li><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000471.htm" target="_blank"> MedlinePlus Medical Encyclopedia: Chronic Renal Failure</a></li>
+<li><a href="http://www.nlm.nih.gov/medlineplus/ency/article/000500.htm" target="_blank"> MedlinePlus Medical Encyclopedia: End-Stage Kidney Disease</a></li>
+<li><a href="http://www.nkdep.nih.gov/professionals/kidney_disease_statistics.htm" target="_blank"> National Kidney Disease Educational Program</a></li>
+<li><a href="http://www.kidney.org/" target="_blank"> National Kidney Foundation</a></li>
+<li><a href="http://nephron.com/" target="_blank"> The Nephron Information Center</a></li>
+<li><a href="http://www.renalnetwork.org" target="_blank"> Renal Support Network</a></li>
+<li><a href="http://www.renalworld.com" target="_blank"> Renal World: Worldwide Renal Resources</a></li>
+<li><a href="http://www.kidneyfailureweb.com/" target="_blank"> Kidney Failure Web</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Diabetes</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.cdc.gov/diabetes/" target="_blank"> Centers for Disease Control and Prevention</a></p>
-<p style="text-align: left;"><a href="http://www.childrenwithdiabetes.com/dteam/d_0d_000.htm" target="_blank"> Children with Diabetes - Ask the Diabetes Team</a></p>
-<p style="text-align: left;"><a href="http://www.childrenwithdiabetes.com/dteam/index_transplants.htm" target="_blank"> Children with Diabetes - Transplants</a></p>
-<p style="text-align: left;"><a href="http://ndep.nih.gov/" target="_blank"> National Diabetes Education Program</a></p>
-<p style="text-align: left;"><a href="http://www.niddk.nih.gov/health/diabetes/pubs/dmstats/dmstats.htm#10" target="_blank"> National Diabetes Statistics</a></p>
-<p style="text-align: left;"><a href="http://www.niddk.nih.gov/" target="_blank"> National Institute of Diabetes and Digestive and Kidney Disease (NIDDK)</a></p>
-<p style="text-align: left;"><a href="http://diabetes.niddk.nih.gov/dm/pubs/complications/index.aspx" target="_blank"> Easy-to-Read Diabetes Prevention Series</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Diabetes</h3>
+<ul class="resource-list">
+<li><a href="http://www.cdc.gov/diabetes/" target="_blank"> Centers for Disease Control and Prevention</a></li>
+<li><a href="http://www.childrenwithdiabetes.com/dteam/d_0d_000.htm" target="_blank"> Children with Diabetes - Ask the Diabetes Team</a></li>
+<li><a href="http://www.childrenwithdiabetes.com/dteam/index_transplants.htm" target="_blank"> Children with Diabetes - Transplants</a></li>
+<li><a href="http://ndep.nih.gov/" target="_blank"> National Diabetes Education Program</a></li>
+<li><a href="http://www.niddk.nih.gov/health/diabetes/pubs/dmstats/dmstats.htm#10" target="_blank"> National Diabetes Statistics</a></li>
+<li><a href="http://www.niddk.nih.gov/" target="_blank"> National Institute of Diabetes and Digestive and Kidney Disease (NIDDK)</a></li>
+<li><a href="http://diabetes.niddk.nih.gov/dm/pubs/complications/index.aspx" target="_blank"> Easy-to-Read Diabetes Prevention Series</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Hypertension</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.hdcn.com" target="_blank"> Hypertension, Dialysis and Clinical Nephrology (HDCN) Weekly Update</a></p>
-<p style="text-align: left;"><a href="http://www.nhlbi.nih.gov/" target="_blank"> National Heart, Lung, and Blood Institute</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Hypertension</h3>
+<ul class="resource-list">
+<li><a href="http://www.hdcn.com" target="_blank"> Hypertension, Dialysis and Clinical Nephrology (HDCN) Weekly Update</a></li>
+<li><a href="http://www.nhlbi.nih.gov/" target="_blank"> National Heart, Lung, and Blood Institute</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Minority Health</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.organdonor.gov/" target="_blank"> The Federal Government's Site to Promote Organ and Tissue Donation</a></p>
-<p style="text-align: left;"><a href="http://www.ihs.gov/" target="_blank"> Indian Health Service</a></p>
-<p style="text-align: left;"><a href="http://www.nclr.org/" target="_blank"> National Council of La Raza</a></p>
-<p style="text-align: left;"><a href="http://www.omhrc.gov/" target="_blank"> Office of Minority Health Resource Center</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Minority Health</h3>
+<ul class="resource-list">
+<li><a href="http://www.organdonor.gov/" target="_blank"> The Federal Government's Site to Promote Organ and Tissue Donation</a></li>
+<li><a href="http://www.ihs.gov/" target="_blank"> Indian Health Service</a></li>
+<li><a href="http://www.nclr.org/" target="_blank"> National Council of La Raza</a></li>
+<li><a href="http://www.omhrc.gov/" target="_blank"> Office of Minority Health Resource Center</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Transplantation and Organ Donation</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.transplantliving.org/" target="_blank"> Transplant Living</a></p>
-<p style="text-align: left;"><a href="http://www.aopo.org" target="_blank"> The Association of the Organ Procurement Organizations</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/" target="_blank"> Organ Procurement and Transplantation Network</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/members/search.asp" target="_blank"> Organ Procurement and Transplantation Network - Member Directory</a></p>
-<p style="text-align: left;"><a href="http://www.va.gov/transplant" target="_blank"> The Department of Veterans Affairs Transplant Program in Washington, D.C.</a></p>
-<p style="text-align: left;"><a href="http://www.donatelifecalifornia.org/" target="_blank"> Donate Life California</a></p>
-<p style="text-align: left;"><a href="http://www.transplant.med.va.gov/glossary-medications.asp" target="_blank"> Glossary of Commonly Used Transplant Medications</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/PoliciesandBylaws2/policies/pdfs/policy_4.pdf" target="_blank"> Transplant Waiting List information from United Network of Organ Sharing</a></p>
-<p style="text-align: left;"><a href="http://www.transplantfund.org" target="_blank"> National Transplant Assistance Fund</a></p>
-<p style="text-align: left;"><a href="http://www.onelegacy.org/site/newsroom/facts.html" target="_blank"> OneLegacy - Common Myths About Organ Donation</a></p>
-<p style="text-align: left;"><a href="http://www.onelegacy.org" target="_blank"> OneLegacy - Los Angeles</a></p>
-<p style="text-align: left;"><a href="http://www.tissotfamily.com/kidney.html" target="_blank"> The Tissot Family's Kidney Transplant Stories</a></p>
-<p style="text-align: left;"><a href="http://www.tbionline.org" target="_blank"> Tissue Banks International</a></p>
-<p style="text-align: left;"><a href="http://www.transplantrecipients.org/" target="_blank"> TransAction Council (National Kidney Foundation)</a></p>
-<p style="text-align: left;"><a href="http://trioweb.org/" target="_blank"> Transplant Recipients International Organization, Inc.</a></p>
-<p style="text-align: left;"><a href="http://transplant-speakers.org" target="_blank"> Transplant Speakers International </a></p>
-<p style="text-align: left;"><a href="http://www.transweb.org/" target="_blank"> TransWeb: All About Transplantation and Donation (including 10 myths about donation and transplantation)</a></p>
-<p style="text-align: left;"><a href="http://www.tsi-elearning.com/" target="_blank"> TSI's E Learning Center</a></p>
-<p style="text-align: left;"><a href="http://www.unos.org/" target="_blank"> United Network for Organ Sharing</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/policiesAndBylaws/publicComment/" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Main page</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/ContentDocuments/PublicComment_FactSheet.pdf" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Fact sheet</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Transplantation and Organ Donation</h3>
+<ul class="resource-list">
+<li><a href="http://www.transplantliving.org/" target="_blank"> Transplant Living</a></li>
+<li><a href="http://www.aopo.org" target="_blank"> The Association of the Organ Procurement Organizations</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/" target="_blank"> Organ Procurement and Transplantation Network</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/members/search.asp" target="_blank"> Organ Procurement and Transplantation Network - Member Directory</a></li>
+<li><a href="http://www.va.gov/transplant" target="_blank"> The Department of Veterans Affairs Transplant Program in Washington, D.C.</a></li>
+<li><a href="http://www.donatelifecalifornia.org/" target="_blank"> Donate Life California</a></li>
+<li><a href="http://www.transplant.med.va.gov/glossary-medications.asp" target="_blank"> Glossary of Commonly Used Transplant Medications</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/PoliciesandBylaws2/policies/pdfs/policy_4.pdf" target="_blank"> Transplant Waiting List information from United Network of Organ Sharing</a></li>
+<li><a href="http://www.transplantfund.org" target="_blank"> National Transplant Assistance Fund</a></li>
+<li><a href="http://www.onelegacy.org/site/newsroom/facts.html" target="_blank"> OneLegacy - Common Myths About Organ Donation</a></li>
+<li><a href="http://www.onelegacy.org" target="_blank"> OneLegacy - Los Angeles</a></li>
+<li><a href="http://www.tissotfamily.com/kidney.html" target="_blank"> The Tissot Family's Kidney Transplant Stories</a></li>
+<li><a href="http://www.tbionline.org" target="_blank"> Tissue Banks International</a></li>
+<li><a href="http://www.transplantrecipients.org/" target="_blank"> TransAction Council (National Kidney Foundation)</a></li>
+<li><a href="http://trioweb.org/" target="_blank"> Transplant Recipients International Organization, Inc.</a></li>
+<li><a href="http://transplant-speakers.org" target="_blank"> Transplant Speakers International </a></li>
+<li><a href="http://www.transweb.org/" target="_blank"> TransWeb: All About Transplantation and Donation (including 10 myths about donation and transplantation)</a></li>
+<li><a href="http://www.tsi-elearning.com/" target="_blank"> TSI's E Learning Center</a></li>
+<li><a href="http://www.unos.org/" target="_blank"> United Network for Organ Sharing</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/policiesAndBylaws/publicComment/" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Main page</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/ContentDocuments/PublicComment_FactSheet.pdf" target="_blank"> Public Comment (Organ Procurement and Transplantation Network) - Fact sheet</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>Statistics</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.srtr.org/" target="_blank"> Scientific Registry of Transplant Recipients</a></p>
-<p style="text-align: left;"><a href="http://optn.transplant.hrsa.gov/latestData/viewDataReports.asp" target="_blank"> Data reports from United Network for Organ Sharing</a></p>
+<div class="resource-links">
+<h3 class="resource-list-header">Statistics</h3>
+<ul class="resource-list">
+<li><a href="http://www.srtr.org/" target="_blank"> Scientific Registry of Transplant Recipients</a></li>
+<li><a href="http://optn.transplant.hrsa.gov/latestData/viewDataReports.asp" target="_blank"> Data reports from United Network for Organ Sharing</a></li>
+</ul>
+</div>
 
-<header class="subHeader">
-	<h3>New Technology or Transplant Information</h3>
-</header>
-<p style="text-align: left;"><a href="http://www.organ-recovery.com/home.php" target="_blank"> Innovations in Transplantation</a></p>
-<p style="text-align: left;"><a href="http://www.bioethics.net/news.php?catId=9" target="_blank"> Latest News Updates on Organ Transplants</a></p>
-<p style="text-align: left;"><a href="http://stop-esrd.org/links/CNN_Cloning_Organs.doc" target="_blank"> CNN article about cloning organs (Word document)</a></p>
-<p style="text-align: left;"><a href="http://stop-esrd.org/links/NY_Times_Article_Regrow_your_own.doc" target="_blank"> New York Times article about organ regeneration (Word document)</a></p>]]></content:encoded>
+<div class="resource-links">
+<h3 class="resource-list-header">New Technology or Transplant Information</h3>
+<ul class="resource-list">
+<li><a href="http://www.organ-recovery.com/home.php" target="_blank"> Innovations in Transplantation</a></li>
+<li><a href="http://www.bioethics.net/news.php?catId=9" target="_blank"> Latest News Updates on Organ Transplants</a></li>
+<li><a href="http://stop-esrd.org/links/CNN_Cloning_Organs.doc" target="_blank"> CNN article about cloning organs (Word document)</a></li>
+<li><a href="http://stop-esrd.org/links/NY_Times_Article_Regrow_your_own.doc" target="_blank"> New York Times article about organ regeneration (Word document)</a></li>
+</ul>
+</div>
+
+<div class="resource-links">
+<h3 class="resource-list-header">Dial 24 hours 7 days a week</h3>
+<ul class="resource-list">
+<li>888-4PPA-NOW (Prescription Medication Assistance)</li>
+<li>RX Access: 800-444-4106 (40% of Medications)</li>
+<li>RX California 888-777-7818 (Assistance with paying for medications)</li>
+<li>211: Community Resources and Assistance</li>
+<li>311: City Resources and Department</li>
+<li>411: Emergency only (LA County Information)</li>
+</ul>
+</div>
+
+ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>77</wp:post_id>
 		<wp:post_date>2013-08-16 20:45:00</wp:post_date>
@@ -612,7 +616,7 @@ Studio City, CA 91602
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1074,52 +1078,6 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>What is Renal Disease?</title>
-		<link>http://nord.local.com/resources/what-is-renal-disease/</link>
-		<pubDate>Wed, 21 Aug 2013 18:40:19 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://nord.local.com/?page_id=150</guid>
-		<description></description>
-		<content:encoded><![CDATA[Renal Disease is the chronic or acute loss of kidney function. Diabetes is the number one cause of renal (kidney) failure.  Diabetes prevents normal release of sugar from the body. Excess sugar left in the body acts as a poison, attacking the nephrons (tiny arteries in the kidneys that deliver blood through the organ).
-<h3>Kidneys are important for two reasons.</h3>
-<strong>Removal of waste products</strong>
-
-Each kidney contains about one million nephrons. Inside the nephrons, wastes and extra water become urine through a complex chemical process.
-
-<strong>Release of hormones and other necessary elements</strong>
-
-As the nephrons filter out the body's waste, they also release chemicals such as sodium and potassium back into the blood stream. The kidneys also release hormones necessary to stimulate red blood cell production, regulate blood pressure, and maintain calcium levels.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>150</wp:post_id>
-		<wp:post_date>2013-08-21 18:40:19</wp:post_date>
-		<wp:post_date_gmt>2013-08-21 18:40:19</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>what-is-renal-disease</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>29</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Current Research of Renal Disease</title>
 		<link>http://nord.local.com/resources/current-research-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:57:14 +0000</pubDate>
@@ -1200,17 +1158,21 @@ Not only has the number of minority donors increased, but access to transplantat
 Some diseases that contribute to the need for transplantation are found more frequently in racial and ethnic minority populations than in the general population. For example, African Americans, Asian, Pacific Islanders and Hispanics are three times more likely than Caucasians to have end stage renal disease. Native Americans are four times more likely than Caucasians to have diabetes. Some of these diseases are best treated through transplantation while others can only be treated through transplantation.
 
 Successful transplantation is often enhanced by the matching of organs between members of the same ethnic and racial group. For example, an African American patient is often less likely to reject a kidney if it is donated by an individual who is genetically similar. Generally, people are genetically more similar to people of their race and ethnicity than to people of other races. A shortage of organs donated by minorities can contribute to death and long waiting times for minorities seeking a transplant.
+
 <h3>General Information</h3>
 Organs and tissues that can be donated include: heart, kidneys, lungs, pancreas, liver, intestines, corneas, skin, tendons, bone and heart valves.
 
 Since there is no national registry, even though you have indicated your wishes on your driver's license or a donor card, be sure to tell your family member of your decision. They will be consulted before a decision can be made.
-<h4>You do not have to be related to donate organs or be of the same race.</h4>
+
+You do not have to be related to donate organs or be of the same race.
+
 All major religions approve of organ donation and consider donation the greatest gift!
 
 According to Organ Procurement Transplant Network, as of April 2003, each day:
-
-69 people need an organ transplant.
-17 people die from the lack of availability.
+<ul>
+	<li>69 people need an organ transplant.</li>
+	<li>17 people die from the lack of availability.</li>
+</ul>
 
 On average, 13 patients die per minute while awaiting an organ. It is because they could not find a suitable organ for transplantation.
 
@@ -1229,9 +1191,11 @@ As of January 2003, over 27,000 patients have been transplanted along with more 
 When a donor donates their organs, 8 lives are saved with another 50 more enhanced.
 
 According to OneLegacy (a transplant donor network), based in Los Angeles, as of April 2001, patients waiting for kidney transplants in Los Angeles, Ventura, Riverside, Bakersfield, Orange, Santa Barbara and San Bernardino counties, include the following:
-kidney-3,308
-kidney/pancreas-144
-pancreas-34
+<ul class="list-unstyled">
+	<li>kidney-3,308</li>
+	<li>kidney/pancreas-144</li>
+	<li>pancreas-34</li>
+</ul>
 
 More than one million tissue transplants have been performed since 2001.
 
@@ -1239,48 +1203,55 @@ There are over 7,500 clients in Southern California waiting for kidney transplan
 
 There are approximately 48,500 clients waiting for kidney transplants, as of 8/25/99. Kidney transplantation has the lowest rates among minorities, with an average wait of 3 1/2 years for a transplant.
 
-Minorities needing transplants
+<h3>Minorities needing transplants</h3>
 
 50% of those waiting for organ and tissue transplants are people of color.
 
-Americans on the kidney transplant waiting list
-as of December 31, 1997:
-35.5% African American
-9.2% Hispanic
-4.6% Asian-Pacific Islander
-1.4% other racial or ethnic minorities
+Americans on the kidney transplant waiting list as of December 31, 1997:
+<ul class="list-unstyled">
+<li>35.5% African American</li>
+<li>9.2% Hispanic</li>
+<li>4.6% Asian-Pacific Islander</li>
+<li>1.4% other racial or ethnic minorities</li>
+</ul>
 
 Americans on the kidney-pancreas transplant waiting list:
-12.1% African American
-3.1% Hispanic
-1.1% Asian-Pacific Islander
-0.3% other racial or ethnic minorities
+<ul class="list-unstyled">
+<li>12.1% African American</li>
+<li>3.1% Hispanic</li>
+<li>1.1% Asian-Pacific Islander</li>
+<li>0.3% other racial or ethnic minorities</li>
+</ul>
 
 Americans on the pancreas transplant waiting list:
-4.7% African American
-0.8% Hispanic
-0.3% Asian-Pacific Islander
-0.6% other racial or ethnic minorities
+<ul class="list-unstyled">
+<li>4.7% African American</li>
+<li>0.8% Hispanic</li>
+<li>0.3% Asian-Pacific Islander</li>
+<li>0.6% other racial or ethnic minorities</li>
+</ul>
 
-Minority Donations
+<h3>Minority Donations</h3>
 
 Of 4,265 cadaveric organ donors in 1997
-11.9% African American
-10.1% Hispanic
-1.9% Asian-Pacific Islander
-0.6% other racial or ethnic minorities
+<ul>
+	<li>11.9% African American</li>
+	<li>10.1% Hispanic</li>
+	<li>1.9% Asian-Pacific Islander</li>
+	<li>0.6% other racial or ethnic minorities</li>
+</ul>
 
 1990 U.S. population
+<ul>
+	<li>12.1% African American</li>
+	<li>9.0% Hispanic</li>
+	<li>2.9% Asian-Pacific Islander</li>
+	<li>4.5% other racial or ethnic minorities</li>
+</ul>
 
-12.1% African American
-9.0% Hispanic
-2.9% Asian-Pacific Islander
-4.5% other racial or ethnic minorities
+<h3>Methods</h3>
 
-<span style="font-size: 18px; font-weight: bold; line-height: 27px; font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;">Methods</span>
-
-A fairly new procedure for Renal transplantation is Laproscopy surgery. This procedure requires a small incision and shorter healing period, less blood loss and less scaring.
-There are a few hospitals that use this procedure and a donor's weight is also a factor in utilizing the procedure.]]></content:encoded>
+A fairly new procedure for Renal transplantation is Laproscopy surgery. This procedure requires a small incision and shorter healing period, less blood loss and less scaring. There are a few hospitals that use this procedure and a donor's weight is also a factor in utilizing the procedure.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>159</wp:post_id>
 		<wp:post_date>2013-08-21 18:59:49</wp:post_date>
@@ -1308,46 +1279,8 @@ There are a few hospitals that use this procedure and a donor's weight is also a
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Hello world!</title>
-		<link>http://nord.local.com/hello-world/</link>
-		<pubDate>Fri, 23 Aug 2013 03:10:41 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date>2013-08-23 03:10:41</wp:post_date>
-		<wp:post_date_gmt>2013-08-23 03:10:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hello-world</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
-			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP></wp:comment_author_IP>
-			<wp:comment_date>2013-08-23 03:10:41</wp:comment_date>
-			<wp:comment_date_gmt>2013-08-23 03:10:41</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
 	</item>
 	<item>
 		<title>Renal Disease Statistics</title>
@@ -1369,11 +1302,13 @@ Direct and indirect cost to the government for treatment: over 132 billion dolla
 
 The percentage of people having diabetes in a certain age/sex group are:
 
-Age 19 years or younger: 0.19% (151,000 people)
-Age 20 years or older: 8.6% (16.9 million people)
-Age 65 years or older: 20.1% (7 million people)
-Men: 8.3% (7.8 million)
-Women: 8.9% (9.1 million)
+<ul>
+	<li>Age 19 years or younger: 0.19% (151,000 people)</li>
+	<li>Age 20 years or older: 8.6% (16.9 million people)</li>
+	<li>Age 65 years or older: 20.1% (7 million people)</li>
+	<li>Men: 8.3% (7.8 million)</li>
+	<li>Women: 8.9% (9.1 million)</li>
+</ul>
 
 According to the National Diabetes Information Clearinghouse, diabetes is the leading cause of treated end-stage renal disease, accounting for 43 percent of new cases.
 
@@ -1387,13 +1322,17 @@ About 1 in every 400 to 500 people have type I diabetes, which tends to occur in
 
 About 95% of people with diabetes have type II diabetes.
 
-Cost of diabetes in the United States as of 2002:
-Total (direct and indirect): $132 billion
-Direct medical costs: $91.8 billion
+<p>
+<strong>Cost of diabetes in the United States as of 2002:</strong><br>
+Total (direct and indirect): $132 billion<br>
+Direct medical costs: $91.8 billion<br>
 Indirect cost over $41 billion (disability, work loss, premature mortality)
+</p>
 
 In 1999, 450,000 deaths occurred among people with diabetes aged 25 years and older. This number is about 19% of all deaths in the United States in the same age group.
+
 <h3>Hypertension</h3>
+
 Over 65 million Americans have high blood pressure. Blacks suffer more than any other race. One in 3 people have high blood pressure.
 
 Many of these people are unaware that they have hypertension, which is why it is known as the "silent killer." There is no known cause of hypertension, but some authorities believe that its cause is genetic because certain populations are at higher risk. Minority groups are more likely than the general population to suffer from diabetes and end stage renal disease (ESRD).
@@ -1403,39 +1342,45 @@ Nearly 60 million of this high blood pressure group are over 55.
 Cost to government is more than 100 billion.
 
 Hypertension is the second leading cause of renal disease.
+
 <h3>Renal Disease</h3>
+
 Over 20 million Americans have chronic kidney disease. 10 to 20 million more have it, but few know they have chronic kidney disease and know less about the disease.
 
 According to the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), as of 2000, the number of new cases of end stage renal disease was over 96,000 and the number of patients undergoing treatment for end stage renal disease was over 370,000.
 
 Primary causes for kidney failure in 1998 are:
 
-43.2% Diabetes
-23.0% High Blood Pressure
-12.3% Glomerulonephritis
-2.9% Polycystic Kidney Disease
-18.6% Other Causes
+<ul>
+	<li>43.2% Diabetes</li>
+	<li>23.0% High Blood Pressure</li>
+	<li>12.3% Glomerulonephritis</li>
+	<li>2.9% Polycystic Kidney Disease</li>
+	<li>18.6% Other Causes</li>
+</ul>
 
 In general, it costs more than 20 billion to treat kidney disease in the United States. The cost of renal disease to society is estimated at 100 billion dollars, the same as HIV/AIDS, but less money is spent on research, prevention, or the development of new medicines. Even less publicity is given to the problem.
+
 <h3>Quick Facts</h3>
-Renal disease and hypertension affect 6 out of 10 Americans.
-Of the over 18 million people suffering with diabetes, most are type II diabetics.
-Diabetes is the number one cause of kidney failure (renal disease.)
-Among people from age 20 years or older, 8.6% or 16.9 million of them have diabetes.
-8.3% of all men have diabetes and 8.9% of all women have diabetes.
-Hypertension is the number two cause of renal failure.
-Diabetes is the number one cause of blindness. It also causes limb amputation.
-13 people are added every minute to the transplant waiting list.
-Over 93,000 are on the organ transplant waiting list. Most are people of color. 74 people get a transplant per day. 18 die every day waiting for a suitable donor organ.
-In Southern California, over 7,500 people are waiting for a kidney transplant.
-In California alone, over 500,000 people suffer with some form of kidney disease.
-Detection and treatment of early kidney disease can reduce the development of kidney failure by 30% to 70%.
-According to OneLegacy, Organ Procurement Network in California
-Organ Donation Data:
-2002 Kidney Transplants - 435
-2002 Organ Transplants - 844
-2003 Organ Donor Referral Data by County, Hospital and Medical Center January 1, 2003 through September 30, 2003
-Organ Transplants - 836]]></content:encoded>
+<ul>
+	<li>Renal disease and hypertension affect 6 out of 10 Americans.</li>
+	<li>Of the over 18 million people suffering with diabetes, most are type II diabetics.</li>
+	<li>Diabetes is the number one cause of kidney failure (renal disease.)</li>
+	<li>Among people from age 20 years or older, 8.6% or 16.9 million of them have diabetes.</li>
+	<li>8.3% of all men have diabetes and 8.9% of all women have diabetes.</li>
+	<li>Hypertension is the number two cause of renal failure.</li>
+	<li>Diabetes is the number one cause of blindness. It also causes limb amputation.</li>
+	<li>13 people are added every minute to the transplant waiting list.</li>
+	<li>Over 93,000 are on the organ transplant waiting list. Most are people of color. 74 people get a transplant per day. 18 die every day waiting for a suitable donor organ.</li>
+	<li>In Southern California, over 7,500 people are waiting for a kidney transplant.</li>
+	<li>In California alone, over 500,000 people suffer with some form of kidney disease.</li>
+	<li>Detection and treatment of early kidney disease can reduce the development of kidney failure by 30% to 70%.</li>
+	<li>According to OneLegacy, Organ Procurement Network in California Organ Donation Data:
+	2002 Kidney Transplants - 435
+	2002 Organ Transplants - 844</li>
+	<li>2003 Organ Donor Referral Data by County, Hospital and Medical Center January 1, 2003 through September 30, 2003
+	Organ Transplants - 836</li>
+</ul>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>161</wp:post_id>
 		<wp:post_date>2013-08-21 19:00:38</wp:post_date>
@@ -1463,7 +1408,7 @@ Organ Transplants - 836]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1512,7 +1457,7 @@ Blood pressure control can reduce kidney disease by approximately 33%.]]></conte
 	</item>
 	<item>
 		<title>Medications for Renal Disease</title>
-		<link>http://nord.local.com/resources/medications-for-renal-disease/</link>
+		<link>http://nord.local.com/resources/medications/</link>
 		<pubDate>Wed, 21 Aug 2013 19:09:46 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=167</guid>
@@ -1528,7 +1473,7 @@ These medications are used for maintenance therapy for Renal Function after orga
 		<wp:post_date_gmt>2013-08-21 19:09:46</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>medications-for-renal-disease</wp:post_name>
+		<wp:post_name>medications</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>29</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1549,7 +1494,7 @@ These medications are used for maintenance therapy for Renal Function after orga
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1559,7 +1504,7 @@ These medications are used for maintenance therapy for Renal Function after orga
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=169</guid>
 		<description></description>
-		<content:encoded><![CDATA[Diabetes
+		<content:encoded><![CDATA[<h3>Diabetes</h3>
 
 Clinic-based reports and regional studies indicate that type two diabetes is becoming more common among African Americans under 20 years of age.
 
@@ -1573,31 +1518,31 @@ By 1994, diabetes was the seventh leading cause of death for African Americans. 
 
 Death rates for people with diabetes are higher for African Americans than for Caucasians, as depicted in the chart below (data gathered from 1971 to 1993).
 
-<img alt="" src="http://stop-esrd.org/images/am_fig3.gif" width="400" height="300" />
+<img alt="figure1" src="http://stop-esrd.org/images/am_fig3.gif" width="400" height="300">
 
 From 1988 to 1994, the occurrence of diagnosed and undiagnosed diabetes in African Americans in the U.S. is shown in the following chart.
 
-<img alt="" src="http://stop-esrd.org/images/am_fig1.gif" width="400" height="300" />
+<img alt="figure2" src="http://stop-esrd.org/images/am_fig1.gif" width="400" height="300">
 
-Gestational Diabetes
+<h3>Gestational Diabetes</h3>
 
 Gestational diabetes is when blood glucose levels measure high above normal during pregnancy.
 
 Several studies have indicated that the prevalence of gestational diabetes in African American women may be 50% to 80% more frequent than in Caucasian women.
 
-Genetic Risk Factors
+<h3>Genetic Risk Factors</h3>
 
 Some researchers suggest that African Americans inherited a "thrifty gene" from their African ancestors. The thrifty gene may make the person more vulnerable to develop type II diabetes.
 
 African Americans suffer with chronic disease more often than any of the other cultures. (That includes diabetes, renal disease, and high blood pressure.)
 
-Lifestyle Risk Factors
+<h3>Lifestyle Risk Factors</h3>
 
 Being overweight is a major risk factor for type II diabetes.
 
 From 1988 to 1994, African American adolescents and adults have higher rates of obesity than Caucasians in the U.S., as indicated in the following chart.
 
-<img alt="" src="http://stop-esrd.org/images/am_fig2.gif" width="400" height="300" />
+<img alt="figure3" src="http://stop-esrd.org/images/am_fig2.gif" width="400" height="300">
 
 The location of the excess weight is also a risk factor for type II diabetes. Compared to excess weight carried below the waist, excess weight carried above the waist is a stronger risk factor. African Americans are more at risk of diabetes for they have a greater tendency to develop upper-body obesity.
 
@@ -1605,7 +1550,7 @@ With the same levels of obesity, age, and socioeconomic status, African American
 
 In addition to obesity, researchers suggest that a lack of exercise leads to the high rates of diabetes in African Americans.
 
-Transplantation
+<h3>Transplantation</h3>
 
 African Americans currently have the lowest kidney transplant rate of all the high risk minority groups, with only 50.4% of African American women, and 53.9% of African American men referred for transplants.
 
@@ -1615,12 +1560,10 @@ The low rates of organ transplantation in African Americans are generally due to
 
 In 2007, the organ transplant rates for African Americans have increased. A collaboration campaign with Onelegacy, (Organ Procurement Network), California DMV and Donate Life California was instrumental in reaching up to 35% more Africans to donate organs and tissues through California Department of Motor Vehicle, online sign ups.
 
-Hypertension
-
+<h3>Hypertension</h3>
 African Americans have the highest incidence of hypertension.
 
-Renal Disease
-
+<h3>Renal Disease</h3>
 In general, African Americans are 4 times more likely to develop kidney disease. African Americans with diabetes are four times more often to experience end-stage renal disease (ESRD) than diabetic Caucasians.
 
 In 1995, there were 27,258 new cases of ESRD attributed to diabetes in African Americans.
@@ -1629,13 +1572,9 @@ From 1992 to 1996, diabetes was the leading cause of kidney failure and accounte
 
 Hypertension is the second leading cause of ESRD. Also, it accounts for 42% of cases.
 
-Sources
-
+<h3>Sources</h3>
 Information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in African Americans
-
-&nbsp;
-
-&nbsp;]]></content:encoded>
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>169</wp:post_id>
 		<wp:post_date>2013-08-21 19:15:39</wp:post_date>
@@ -1663,7 +1602,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1675,7 +1614,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 		<description></description>
 		<content:encoded><![CDATA[Data on this population is limited.
 
-Diabetes
+<h3>Diabetes</h3>
 
 Hawaiians are at increased risk for diabetes. Women are more likely to suffer from diabetes than men.
 
@@ -1683,37 +1622,36 @@ According to the National Diabetes Information Clearinghouse, data collected fro
 
 The following table shows that Native Hawaiians are at increased risk for developing type II diabetes compared with Caucasians in the United States. (Prevalence of diabetes in the United States for people age 14 or older.)
 
-Population
-
-Prevalence of Diabetes (Percentage %)
-
-Caucasians
-
-0.7
-
-Native Hawaiians
-
-4.9
-
-&nbsp;
+<table class="table table-condensed table-bordered">
+	<thead>
+		<tr>
+			<td>Population</td>
+			<td>Prevalence of Diabetes (Percentage %)</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Caucasians</td>
+			<td>0.7</td>
+		</tr>
+		<tr class="danger">
+			<td>Native Hawaiians</td>
+			<td>4.9</td>
+		</tr>
+	</tbody>
+</table>
 
 For Pacific Islanders ages 45 to 64, diabetes ranked as the fifth-highest cause of death.
 
-&nbsp;
+<h3>Risk Factors</h3>
 
-<strong>Risk Factors</strong>
+Pacific Islanders have genetic, medical, and lifestyle risk factors for type II diabetes similar to African Americans. For more details, see the risk factors sections of <a href="[insert_php]echo home_url('resources/renal-disease-of-african-american');[/insert_php]">African American</a>.
 
-Pacific Islanders have genetic, medical, and lifestyle risk factors for type II diabetes similar to African Americans. For more details, see the risk factors sections of African American.
-
-&nbsp;
-
-<strong>Renal Disease</strong>
+<h3>Renal Disease</h3>
 
 Among the minority groups, Pacific Islanders have the lowest prevalence of end-stage renal disease.
 
-&nbsp;
-
-<strong>Sources</strong>
+<h3>Sources</h3>
 
 Information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in Asian and Pacific Islander Americans.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1743,7 +1681,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1753,15 +1691,9 @@ Information on this page is found on the National Diabetes Information Clearingh
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=173</guid>
 		<description></description>
-		<content:encoded><![CDATA[Diabetes
+		<content:encoded><![CDATA[<h3>Diabetes</h3>
 
-An estimated 10.2% or 2 million of all Latinos
-have diabetes. They are 1.5% more likely
-to have diabetes than Caucasians.
-
-Specifically, Mexican Americans are two times
-more likely to have diabetes than Caucasians of
-similar age.
+An estimated 10.2% or 2 million of all Latinos have diabetes. They are 1.5% more likely to have diabetes than Caucasians. Specifically, Mexican Americans are two times more likely to have diabetes than Caucasians of similar age.
 
 Likewise, residents of Puerto Rico are two times more likely to have diagnosed diabetes than Caucasians.
 
@@ -1773,20 +1705,53 @@ Diabetes is common among middle-aged and older Hispanic Americans. About 25% to 
 
 The following table shows the Hispanic American populations in the United States and percentage with diabetes from 1988 to 1994:
 
-Hispanic American population % of total Hispanic population % with diabetes, age 20-44 % with diabetes, age 45-74
-Mexican Americans 64.3 3.8 23.9
-Central/South Americans 13.4 -- --
-Puerto Ricans 10.6 4.1 26.1
-Cuban Americans 4.7 2.4 15.8
-Other Hispanic groups 7.0 -- --
-
+<table class="table table-condensed table-bordered">
+	<thead>
+		<tr>
+			<th>Hispanic American population 	</th>
+			<th>% of total Hispanic population 	</th>
+			<th>% with diabetes, age 20-44 	</th>
+			<th>% with diabetes, age 45-74</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<td>Mexican Americans </td>
+		<td class="text-right">64.3 </td>
+		<td class="text-right">3.8 </td>
+		<td class="text-right">23.9</td>
+		</tr>
+		<tr>
+		<td>Central/South Americans </td>
+		<td class="text-right">13.4 </td>
+		<td class="text-right">-- </td>
+		<td class="text-right">--</td>
+		</tr>
+		<tr>
+		<td>Puerto Ricans </td>
+		<td class="text-right">10.6 </td>
+		<td class="text-right">4.1 </td>
+		<td class="text-right">26.1</td>
+		</tr>
+		<tr>
+		<td>Cuban Americans </td>
+		<td class="text-right">4.7 </td>
+		<td class="text-right">2.4 </td>
+		<td class="text-right">15.8</td>
+		</tr>
+		<tr>
+		<td>Other Hispanic groups </td>
+		<td class="text-right">7.0 </td>
+		<td class="text-right">-- </td>
+		<td class="text-right">--</td>
+		</tr>
+	</tbody>
+</table>
 The following chart reveals the prevalence of diagnosed and undiagnosed diabetes in Mexican Americans in the United States from 1988 to 1994:
 
-<img class="alignnone" alt="" src="http://stop-esrd.org/images/mexicanAmChart.gif" width="279" height="174" />
+<img alt="Mexican American Chart" src="http://stop-esrd.org/images/mexicanAmChart.gif" width="279" height="174">
 
-&nbsp;
-
-Gestational Diabetes
+<h3>Gestational Diabetes</h3>
 
 Gestational diabetes is when blood glucose levels measure high above normal during pregnancy.
 
@@ -1794,7 +1759,7 @@ Mexican American women have higher rates of gestational diabetes than non-Hispan
 
 A study suggests that each year, about 12% of Mexican American women with gestational diabetes develop type II diabetes within 20 years of the pregnancy.
 
-Risk Factors
+<h3>Risk Factors</h3>
 
 Hispanic Americans have genetic, medical, and lifestyle risk factors for diabetes similar to African Americans. For more details, see the risk factors sections of African American.
 
@@ -1802,13 +1767,13 @@ Hispanic Americans have high rates of being overweight or physically inactive, w
 
 Specifically, Mexican Americans with upper body obesity have an increased risk of type II diabetes.
 
-Renal Disease
+<h3>Renal Disease</h3>
 
 Among people with diabetes, Mexican Americans are 4.5 to 6.6 times more frequent to suffer from end stage renal disease.
 
 In the San Antonio Heart Study, the prevalence of clinical evidence of kidney damage was more frequent in Mexican Americans with diabetes than in Caucasians.
 
-Sources
+<h3>Sources</h3>
 
 Some information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in Hispanic Americans]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1838,7 +1803,7 @@ Some information on this page is found on the National Diabetes Information Clea
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1848,35 +1813,54 @@ Some information on this page is found on the National Diabetes Information Clea
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=175</guid>
 		<description></description>
-		<content:encoded><![CDATA[* Data on this population is limited.
+		<content:encoded><![CDATA[Data on this population is limited.
 
-<strong>Diabetes</strong>
+<h3>Diabetes</h3>
 
 Asians are at increased risk for diabetes. They are twice as likely to have diabetes than Caucasians. The following table shows that some groups of Asian Americans are at increased risk for developing type II diabetes compared with Caucasians in the United States. (Prevalence of diabetes in the United States for people age 14 or older.)
 
-<strong>Population Prevalence of Diabetes (Percentage %)</strong>
-
-Caucasians 0.7
-
-Chinese 1.5
-
-Filipino 2.2
-
-Japanese 2.0
-
-Korean 2.0
+<table class="table table-condensed table-bordered">
+	<thead>
+		<tr>
+			<th>Population</th>
+			<th>Prevalence of Diabetes (Percentage %)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Caucasians</td>
+			<td class="text-right">0.7</td>
+		</tr>
+		<tr>
+			<td>Chinese</td>
+			<td class="text-right">1.5</td>
+		</tr>
+		<tr>
+			<td>Filipino</td>
+			<td class="text-right">2.2</td>
+		</tr>
+		<tr>
+			<td>Japanese</td>
+			<td class="text-right">2.0</td>
+		</tr>
+		<tr>
+			<td>Korean</td>
+			<td class="text-right">2.0</td>
+		</tr>
+	</tbody>
+</table>
 
 For Asian Americans ages 45 to 64, diabetes ranked as the fifth-highest cause of death.
 
-<strong>Risk Factors</strong>
+<h3>Risk Factors</h3>
 
 Asian Americans have genetic, medical, and lifestyle risk factors for type II diabetes similar to African Americans. For more details, see the risk factors sections of African American.
 
-<strong>Renal Disease</strong>
+<h3>Renal Disease</h3>
 
 Among the minority groups, Asian Americans have the lowest prevalence of end-stage renal disease.
 
-<strong>Sources</strong>
+<h3>Sources</h3>
 
 Information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in Asian and Pacific Islander Americans]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1906,7 +1890,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1954,7 +1938,9 @@ Information on this page is found on the National Diabetes Information Clearingh
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=179</guid>
 		<description></description>
-		<content:encoded><![CDATA[<strong>Diabetes</strong>
+		<content:encoded><![CDATA[Information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in Asian and Pacific Islander Americans
+
+<h3>Diabetes</h3>
 
 Approximately 105,000 or 15 percent of American Indians and Alaska Natives receiving care from the Indian Health Service (IHS) have diabetes.
 
@@ -1966,133 +1952,121 @@ In 1998, about 70,000 of the 2.3 million American Indians/Alaska Natives who rec
 
 From a study conducted in the United States in 1997, diabetes rates for American Indians age 20 and older vary by tribal group, as shown in the following chart.
 
-Group of Tribes Geographic Area Prevalence (%) - Per 100 persons
-
-<strong>Alaska</strong>
-
-Alaska 4.4
-
-<strong>Atlantic</strong>
-
-Alabama, Connecticut, Florida, Louisiana, Maine, Mississippi, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas 21.0
-
-<strong>Great Lakes</strong>
-
-Michigan, Minnesota, Wisconsin 15.2
-
-<strong>Northern Plains</strong>
-
-Iowa, Montana, Nebraska, North Dakota, South Dakota, Wyoming 16.3
-
-<strong>Pacific Tribes</strong>
-
-California, Idaho, Oregon, Washington 7.0
-
-<strong>Southern Plains</strong>
-
-Kansas, Oklahoma 9.6
-
-<strong>Southwest</strong>
-
-Arizona, Colorado, Nevada, New Mexico, Utah 13.9
+<table class="table table-condensed table-bordered">
+	<thead>
+		<tr>
+			<th>Group of Tribes</th>
+			<th>Geographic Area </th>
+			<th>Prevalence (%) - Per 100 persons</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Alaska</td>
+			<td>Alaska </td>
+			<td class="text-right">4.4</td>
+		</tr>
+		<tr>
+			<td>Atlantic</td>
+			<td>Alabama, Connecticut, Florida, Louisiana, Maine, Mississippi, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas </td>
+			<td class="text-right">21.0</td>
+		</tr>
+		<tr>
+			<td>Great Lakes</td>
+			<td>Michigan, Minnesota, Wisconsin </td>
+			<td class="text-right">15.2</td>
+		</tr>
+		<tr>
+			<td>Northern Plains</td>
+			<td>Iowa, Montana, Nebraska, North Dakota, South Dakota, Wyoming </td>
+			<td class="text-right">16.3</td>
+		</tr>
+		<tr>
+			<td>Pacific Tribes</td>
+			<td>California, Idaho, Oregon, Washington </td>
+			<td class="text-right">7.0</td>
+		</tr>
+		<tr>
+			<td>Southern Plains</td>
+			<td>Kansas, Oklahoma </td>
+			<td class="text-right">9.6</td>
+		</tr>
+		<tr>
+			<td>Southwest</td>
+			<td>Arizona, Colorado, Nevada, New Mexico, Utah </td>
+			<td class="text-right">13.9</td>
+		</tr>
+	</tbody>
+</table>
 
 Particularly, diabetes is common among American Indians and Alaska Natives age 20 and older. Its prevalence (per 100 persons) in American Indians and Alaska Natives, compared with that of non-Hispanic whites by age group and sex, is shown in following chart.
 
-Men
-
-Men
-
-Women
-
-Women
-
-All
-
-All
-
-Age Group (Years)
-
-American Indians/ Alaska Natives
-
-Non-Hispanic Whites
-
-American Indians/ Alaska Natives
-
-Non-Hispanic Whites
-
-American Indians/ Alaska Natives
-
-Non-Hispanic Whites
-
-20-44
-
-3.2
-
-0.6
-
-4.1
-
-1.3
-
-3.7
-
-0.9
-
-45-64
-
-17.8
-
-5.4
-
-21.7
-
-5.1
-
-19.9
-
-5.2
-
-65 and older
-
-19.8
-
-11.8
-
-24.6
-
-11.2
-
-22.6
-
-11.4
-
-20 and older
-
-8.1
-
-3.9
-
-10.6
-
-4.5
-
-9.4
-
-4.2
-
-Age-adjusted prevalence
-
-10.2
-
-3.8
-
-12.6
-
-4.0
-
-11.5
-
-3.9
+<table class="table table-condensed table-bordered">
+	<thead>
+		<tr>
+			<th></th>
+			<th colspan="2" class="text-center">Men</th>
+			<th colspan="2" class="text-center">Women</th>
+			<th colspan="2" class="text-center">All</th>
+		</tr>
+		<tr>
+			<th>Age Group (Years)</th>
+			<th>American Indians/ Alaska Natives</th>
+			<th>Non-Hispanic Whites</th>
+			<th>American Indians/ Alaska Natives</th>
+			<th>Non-Hispanic Whites</th>
+			<th>American Indians/ Alaska Natives</th>
+			<th>Non-Hispanic Whites</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>20-44</td>
+			<td class="text-right">3.2</td>
+			<td class="text-right">0.6</td>
+			<td class="text-right">4.1</td>
+			<td class="text-right">1.3</td>
+			<td class="text-right">3.7</td>
+			<td class="text-right">0.9</td>
+		</tr>
+		<tr>
+			<td>45-64</td>
+			<td class="text-right">17.8</td>
+			<td class="text-right">5.4</td>
+			<td class="text-right">21.7</td>
+			<td class="text-right">5.1</td>
+			<td class="text-right">19.9</td>
+			<td class="text-right">5.2</td>
+		</tr>
+		<tr>
+			<td>65 and older</td>
+			<td class="text-right">19.8</td>
+			<td class="text-right">11.8</td>
+			<td class="text-right">24.6</td>
+			<td class="text-right">11.2</td>
+			<td class="text-right">22.6</td>
+			<td class="text-right">11.4</td>
+		</tr>
+		<tr>
+			<td>20 and older</td>
+			<td class="text-right">8.1</td>
+			<td class="text-right">3.9</td>
+			<td class="text-right">10.6</td>
+			<td class="text-right">4.5</td>
+			<td class="text-right">9.4</td>
+			<td class="text-right">4.2</td>
+		</tr>
+		<tr>
+			<td>Age-adjusted prevalence</td>
+			<td class="text-right">10.2</td>
+			<td class="text-right">3.8</td>
+			<td class="text-right">12.6</td>
+			<td class="text-right">4.0</td>
+			<td class="text-right">11.5</td>
+			<td class="text-right">3.9</td>
+		</tr>
+	</tbody>
+</table>
 
 The prevalence of type II diabetes was about 50% in the most widely studied American Indian group, Pima Indians, ages 30 to 64.
 
@@ -2102,17 +2076,17 @@ Most cases of type I diabetes are found in people who have both American Indian 
 
 According to the Alaska Area Native Health Service, from 1986 to 1993, the death rate for diabetes in Alaska Natives was 43.2 per 1,000 person-years of diabetes.
 
-<strong>Gestational Diabetes</strong>
+<h3>Gestational Diabetes</h3>
 
 Gestational diabetes is when blood glucose levels measure high above normal during pregnancy.
 
 The prevalence of gestational diabetes is 14.5% of pregnancies for Zuni Indians, 3.4% deliveries in Navajo Indians, and 5.8% of deliveries for Yup'ik Eskimos
 
-<strong>Genetic Risk Factors</strong>
+<h3>Genetic Risk Factors</h3>
 
 In the Choctaw Indians and the Pima Indians, compared with the more mixed heritage individuals, the more full-blooded individuals were found to have the highest prevalence of type II diabetes.
 
-<strong>Lifestyle Risk Factors</strong>
+<h3>Lifestyle Risk Factors</h3>
 
 There are increasing rates of obesity found in many American Indian and Alaska Native communities. In Pima Indians, 95% of those with diabetes are overweight.
 
@@ -2120,11 +2094,11 @@ The location of the excess weight affects the degree to which obesity is a risk 
 
 In a study, Pima Indians living in Mexico had a lower prevalence of type II diabetes than Pima Indians living in Arizona. It is because the Pima Indians in Mexico consumed a more traditional diet that contained less animal fat and more complex carbohydrates. In addition, Pima Indians in Mexico used up more calories through activity.
 
-<strong>Hypertension</strong>
+<h3>Hypertension</h3>
 
 In a national survey, the prevalence of hypertension was higher in American Indians in Arizona and Oklahoma than non-Hispanic whites.
 
-<strong>Renal Disease</strong>
+<h3>Renal Disease</h3>
 
 American Indians with diabetes were six times more likely to experience end-stage renal disease than non-Hispanic whites.
 
@@ -2134,7 +2108,7 @@ In 1989, end-stage renal disease was a leading cause of death among Pima Indians
 
 Compared to men, Alaska Natives women were more likely to develop end-stage renal disease and more likely to die of renal failure.
 
-<strong>Sources</strong>
+<h3>Sources</h3>
 
 Information on this page is found on the National Diabetes Information Clearinghouse website. For more information, go to Diabetes in American Indians and Alaska Natives]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2164,7 +2138,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[template-renal-disease-library.php]]></wp:meta_value>
+			<wp:meta_value><![CDATA[template-resources.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
