@@ -1,11 +1,35 @@
 <h4 class="sidebar-header">About Us</h4>
 <nav class="sidebar">
-	<a class="post-link" href="<?php echo home_url('about-us/mission') ?>" class="link">Our Mission</a>
-	<a class="post-link" href="<?php echo home_url('about-us/program') ?>" class="link">Our Program</a>
-	<a class="post-link" href="<?php echo home_url('about-us/history') ?>" class="link">Our History</a>
-	<!-- <a class="post-link" href="<?php echo home_url('about-us/founder') ?>" class="link">Founder</a> -->
-	<a class="post-link" href="<?php echo home_url('about-us/media') ?>" class="link">On Media</a>
-	<a class="post-link" href="<?php echo home_url('about-us/brochure') ?>" class="link">Online Brochure</a>
-	<a class="post-link" href="<?php echo home_url('about-us/partners') ?>" class="link">Partners</a>
-	<a class="post-link" href="<?php echo home_url('about-us/contact') ?>" class="link">Contact</a>
+	<a class="post-link" data-uri="mission" href="<?php echo home_url('about-us/mission') ?>">
+		Our Mission
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="program" href="<?php echo home_url('about-us/program') ?>">
+		Our Program
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="history" href="<?php echo home_url('about-us/history') ?>">
+		Our History
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="founder" href="<?php echo home_url('about-us/founder') ?>">
+		Founder
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="media" href="<?php echo home_url('about-us/media') ?>">
+		On Media
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="brochure" href="<?php echo home_url('about-us/brochure') ?>">
+		Online Brochure
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="partners" href="<?php echo home_url('about-us/partners') ?>">
+		Partners
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<a class="post-link" data-uri="contact-us" href="<?php echo home_url('about-us/contact-us') ?>">
+		Contact
+		<span class="pull-right glyphicon glyphicon-chevron-right"></span>
+	</a>
 </nav>

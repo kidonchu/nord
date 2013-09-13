@@ -99,7 +99,9 @@ img{max-width:100%}
 .sidebar .post-link:nth-child(1){border-top:1px dotted #ccc}
 .sidebar .post-link:visited{color:#320961}
 .sidebar .post-link:hover,.sidebar .post-link:active{color:#333;webkit-box-shadow:0 2px 5px 0 #858585;-moz-box-shadow:0 2px 5px 0 #858585;-webkit-box-shadow:0 2px 5px 0 #858585;box-shadow:0 2px 5px 0 #858585}
-.sidebar .post-link .right-caret{position:relative;top:9px;left:0}
+.sidebar .post-link.active{background:#eee;}
+.sidebar .post-link.active .glyphicon{color:#7b54a8}
+.sidebar .post-link .glyphicon{color:#fff}
 .sidebar-header{color:#ebb030;padding-left:20px;margin:.25em 0}
 .rss-box .rss-title{display:none}
 .rss-box .rss-items{list-style-type:none;margin:0;}
