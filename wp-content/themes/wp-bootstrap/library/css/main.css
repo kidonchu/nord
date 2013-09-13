@@ -9,6 +9,8 @@ hr{background:url("../img/logo-hr.png") no-repeat center center;border:none;min-
 .hidden{display:none}
 html,body{background:#fafafa;height:100%}
 html,body{font:100%/1.5em "Source Sans Pro","Helvetica","Arial",sans-serif}
+.em{color:#ebb030}
+p + ul{margin:-1em 0 1.5em}
 h1{font-size:2.25em;color:#320961;font-family:"Source Sans Pro","Helvetica","Arial",sans-serif;font-weight:900;line-height:1.1em;margin:1em 0}
 h2{font-size:1.875em;color:#320961;font-family:"Source Sans Pro","Helvetica","Arial",sans-serif;font-weight:700;line-height:1.1em;margin:1em 0}
 h3{font-size:1.5em;color:#320961;font-family:"Source Sans Pro","Helvetica","Arial",sans-serif;font-weight:700;line-height:1.1em;margin:1em 0}
@@ -98,11 +100,11 @@ img{max-width:100%}
 .accordion-inner{border-top:1px solid #e5e5e5;padding:9px 15px}
 .sidebar-container{padding-right:0}
 .sidebar{padding:0 10px 0 20px;}
-.sidebar .post-link{border-bottom:1px dotted #ccc;color:#320961;display:block;padding:3px 10px;}
+.sidebar .post-link{border-bottom:1px dotted #ccc;color:#320961;display:block;padding:3px 10px;z-index:2;}
 .sidebar .post-link:nth-child(1){border-top:1px dotted #ccc}
 .sidebar .post-link:visited{color:#320961}
 .sidebar .post-link:hover,.sidebar .post-link:active{color:#333;webkit-box-shadow:0 2px 5px 0 #858585;-moz-box-shadow:0 2px 5px 0 #858585;-webkit-box-shadow:0 2px 5px 0 #858585;box-shadow:0 2px 5px 0 #858585}
-.sidebar .post-link.active{background:#eee;}
+.sidebar .post-link.active{background:#eee;z-index:1;}
 .sidebar .post-link.active .glyphicon{color:#7b54a8}
 .sidebar .post-link .glyphicon{color:#fff}
 .sidebar-header{color:#ebb030;padding-left:20px;margin:.25em 0}

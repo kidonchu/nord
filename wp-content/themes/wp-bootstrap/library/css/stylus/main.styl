@@ -25,6 +25,13 @@ heading(weight)
 	line-height 1.1em
 	margin 1em 0
 
+.em
+	color light-yellow - 10%
+
+p + ul
+	margin -1em 0 1.5em
+
+
 h1
 	font-size 2.25em
 	heading(900)
@@ -319,6 +326,7 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 		color dark-purple
 		display block
 		padding 3px 10px
+		z-index 2
 		&:nth-child(1)
 			border-top 1px dotted #ccc
 		&:visited
@@ -330,6 +338,7 @@ for i in 5 10 15 20 25 30 35 40 45 50 100 200
 			       box-shadow 0 2px 5px 0px #858585
 		&.active
 			background #eee
+			z-index 1
 			.glyphicon
 				color pastel-purple
 		.glyphicon
