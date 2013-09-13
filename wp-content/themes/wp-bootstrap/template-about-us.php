@@ -35,9 +35,13 @@
 						<h1 itemprop="headline"><?php the_title() ?></h1>
 					</header>
 
-					<section class="post_content clearfix" itemprop="articleBody">
+					<section class="post-content clearfix" itemprop="articleBody">
 
-						<?php the_content() ?>
+						<div class="row">
+							<div class="col-md-9">
+								<?php the_content() ?>
+							</div>
+						</div>
 
 					</section>
 
