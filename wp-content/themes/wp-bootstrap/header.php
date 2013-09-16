@@ -29,6 +29,8 @@
 		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/main.css' rel='stylesheet'>
 		<!-- <link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet'> -->
 
+		<link href='<?php echo get_stylesheet_directory_uri() ?>/favicon.ico' rel='shortcut icon'>
+
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome-ie7.min.css">
 		<![endif]-->
