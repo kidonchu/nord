@@ -23,9 +23,7 @@
 				<iframe width="100%" height="100%" src="//www.youtube.com/embed/M60yzOXTl0Y?rel=0&autoplay=0&autohide=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-4">
-				<header class="pageHeader">
-					<h1>NORD</h1>
-				</header>
+				<h1>NORD</h1>
 				<p>
 					is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research.
 				</p>
@@ -46,14 +44,14 @@
 			<!-- Screening & Diagnostic Center -->
 			<section class="screening col-md-4 cf">
 				<header>
-					<h3>Screening &amp; Diagnostic</h3>
+					<h3>Screening</h3>
 				</header>
-				<p class="text90">
-					ipsum dolor sit amet, consectetur adipisicing elit. Animi, architecto, corporis, commodi cupiditate quae exercitationem dolorem ipsam eius numquam eligendi et voluptates iste?
+				<p>
+					We are getting ready for on-site Screening and Diagnostic services. Please come back later for more information.
 				</p>
 				<div class="pull-right">
 					<a href="<?php echo home_url('get-screened') ?>" class="btn btn-warning">
-						Get Screened <i class="icon-share-alt"></i>
+						Get Screened
 					</a>
 				</div>
 			</section>
@@ -63,12 +61,12 @@
 				<header>
 					<h3>Resources</h3>
 				</header>
-				<p class="text90">
-					Repudiandae, quo, iure dignissimos architecto error placeat quia vitae pariatur reiciendis mollitia a deleniti maiores possimus ab repellendus ipsum consequatur ullam esse?
+				<p>
+					We have great number of resources regarding Renal Disease, Diabetes, High Blood Pressure, and Transplantation.
 				</p>
 				<div class="pull-right">
 					<a href="<?php echo home_url('resources') ?>" class="btn btn-warning">
-						Find out more <i class="icon-share-alt"></i>
+						Find out more
 					</a>
 				</div>
 			</section>
@@ -78,12 +76,12 @@
 				<header>
 					<h3>Get Involved</h3>
 				</header>
-				<p class="text90">
-					sit amet, consectetur adipisicing elit. Repellendus, ab, distinctio voluptate voluptas reprehenderit dicta fuga sint reiciendis soluta laborum dignissimos optio unde qui voluptatum
+				<p>
+					Are you interested in Renal Disease? Do you want to help out NORD? There are many ways you can participate, including volunteer activities and donations.
 				</p>
 				<div class="pull-right">
 					<a href="<?php echo home_url('get-involved/volunteer') ?>" class="btn btn-warning">
-						Find out more <i class="icon-share-alt"></i>
+						Find out more
 					</a>
 				</div>
 			</section>

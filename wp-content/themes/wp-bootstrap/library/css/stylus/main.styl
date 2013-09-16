@@ -14,7 +14,7 @@ light-yellow  = #EEBB4D
 pastel-yellow = #FFDD92
 
 html, body
-	background bg-color
+	background #ddd
 	height 100%
 html, body
 	font 100%/1.5em "Source Sans Pro", "Helvetica", "Arial", sans-serif
@@ -68,17 +68,13 @@ p
 	font-size 1.2em
 	line-height 1.4em
 
-
-// a, a:hover, a:active, a:visited
-// 	text-decoration none
+a, a:hover, a:active, a:visited
+	text-decoration none
 a
 	color pastel-purple
 	&:hover, &:active
 		color light-yellow
-	&:visited
-		color dark-purple
-		&:hover, &:active
-			color light-yellow
+
 
 img
 	max-width 100%
@@ -195,10 +191,13 @@ img
 		height 400px
 	& > .row > .col-md-4
 		height 400px
+		h1
+			margin-bottom .5em
 		p
 			font-size 1.3em
 			line-height 1.5em
 			padding-right 2em
+			margin-bottom .5em
 		a
 			font-size 1.3em
 			width 90%

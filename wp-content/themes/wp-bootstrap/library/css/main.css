@@ -8,7 +8,7 @@
 .top-shadow{background:url("../img/bg_shadow.png") repeat-x scroll left top transparent}
 hr{background:url("../img/logo-hr.png") no-repeat center center;border:none;min-height:70px;margin:0}
 .hidden{display:none}
-html,body{background:#fafafa;height:100%}
+html,body{background:#ddd;height:100%}
 html,body{font:100%/1.5em "Source Sans Pro","Helvetica","Arial",sans-serif}
 ul{list-style-image:url("../img/list.png")}
 .em{color:#ebb030}
@@ -23,10 +23,9 @@ h5{font-size:1em;color:#320961;font-family:"Droid Serif","Helvetica","Arial",san
 h6{font-size:.667em;color:#320961;font-family:"Droid Serif","Helvetica","Arial",sans-serif;font-weight:700;line-height:1.1em;margin:1em 0}
 p{color:#444;margin-bottom:2em}
 .leading{font-size:1.2em;line-height:1.4em}
+a,a:hover,a:active,a:visited{text-decoration:none}
 a{color:#7b54a8;}
 a:hover,a:active{color:#eebb4d}
-a:visited{color:#320961;}
-a:visited:hover,a:visited:active{color:#eebb4d}
 img{max-width:100%}
 .slogan{padding:10px 30px 0 0}
 .logo{padding-left:1em}
@@ -62,7 +61,8 @@ img{max-width:100%}
 .main-feature-container{background:#fff;webkit-box-shadow:0 12px 20px 0 #858585;-moz-box-shadow:0 12px 20px 0 #858585;-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585;margin:0;}
 .main-feature-container > .row > .col-md-8{height:400px}
 .main-feature-container > .row > .col-md-4{height:400px;}
-.main-feature-container > .row > .col-md-4 p{font-size:1.3em;line-height:1.5em;padding-right:2em}
+.main-feature-container > .row > .col-md-4 h1{margin-bottom:.5em}
+.main-feature-container > .row > .col-md-4 p{font-size:1.3em;line-height:1.5em;padding-right:2em;margin-bottom:.5em}
 .main-feature-container > .row > .col-md-4 a{font-size:1.3em;width:90%}
 .content-container{background-color:#fff;webkit-box-shadow:0 12px 20px 0 #858585;-moz-box-shadow:0 12px 20px 0 #858585;-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585;padding:1em 0}
 .sub-content-container{background-color:#fff;webkit-box-shadow:0 12px 20px 0 #858585;-moz-box-shadow:0 12px 20px 0 #858585;-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585;padding-top:1em;}
