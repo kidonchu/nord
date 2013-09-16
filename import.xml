@@ -29,7 +29,7 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Mon, 16 Sep 2013 02:52:31 +0000</pubDate>
+	<pubDate>Mon, 16 Sep 2013 03:19:52 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
@@ -854,7 +854,7 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=127</guid>
 		<description></description>
-		<content:encoded><![CDATA[<p style="text-align: left;">We have great number of opportunities for volunteers.</p>
+		<content:encoded><![CDATA[We have great number of opportunities for volunteers.
 
 <ul>
 	<li>marketing and public relations coordinator</li>
@@ -864,8 +864,9 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 	<li>corporate board secretary</li>
 	<li>and more</li>
 </ul>
-<p style="text-align: left;">Please visit VolunteerMatch for more information.</p>
-<a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid=11270" target="_blank"><img class="alignnone" alt="" src="http://stop-esrd.org/images/volunteerMatch.gif" width="150" height="71" /></a>]]></content:encoded>
+Please visit <a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid=11270" target="_blank">VolunteerMatch</a> for more information.
+
+<a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid=11270" target="_blank"><img alt="Volunteer Match Org" src="http://stop-esrd.org/images/volunteerMatch.gif" width="150" height="71" /></a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>127</wp:post_id>
 		<wp:post_date>2013-08-19 20:31:41</wp:post_date>
@@ -905,27 +906,20 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 		<description></description>
 		<content:encoded><![CDATA[<div class="event">
 <p class="event-date">Saturday, October 19, 2013</p>
-
 <h4 class="event-header">Health Fair in East Los Angeles</h4>
 <p class="event-text">Sponsored by Assemblyman's Jimmy Gomez's Office</p>
-
 </div>
-<!-- Event start (start copying here) -->
 <div class="event">
 <p class="event-date">Tuesday, October 29, 2013</p>
-
 <h4 class="event-header">Burbank Park and Recreation - Joslyn Center Burbank</h4>
-<p class="event-text"></p>
-
+<p class="event-text">Burbank Park and Recreation - Joslyn Center Burbank</p>
 </div>
-<!-- Event end (end copying here) -->
-<h2>Past Events</h2>
+<hr>
+<h1>Past Events</h1>
 <div class="event">
 <p class="event-date">Friday, May 24, 2013</p>
-
 <h4 class="event-header">Las Palmas Park and Recreation Center's Senior Health Expo</h4>
 <p class="event-text">Health Screening</p>
-
 </div>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

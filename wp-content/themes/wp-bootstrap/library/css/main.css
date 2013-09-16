@@ -23,7 +23,6 @@ h5{font-size:1em;color:#320961;font-family:"Droid Serif","Helvetica","Arial",san
 h6{font-size:.667em;color:#320961;font-family:"Droid Serif","Helvetica","Arial",sans-serif;font-weight:700;line-height:1.1em;margin:1em 0}
 p{color:#444;margin-bottom:2em}
 .leading{font-size:1.2em;line-height:1.4em}
-a,a:hover,a:active,a:visited{text-decoration:none}
 a{color:#7b54a8;}
 a:hover,a:active{color:#eebb4d}
 a:visited{color:#320961;}
@@ -167,7 +166,7 @@ form{margin:0}
 .post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{margin-bottom:.25em;}
 .post-content h2:nth-child(1),.post-content h3:nth-child(1),.post-content h4:nth-child(1),.post-content h5:nth-child(1),.post-content h6:nth-child(1){margin-top:0}
 .list-sitemap{list-style-type:none;padding:0;margin:0 0 2em 1em}
-.event{border-top:3px dotted #aaa;padding:1em 0;margin-bottom:1em}
+.event{padding:1em 0}
 .event-date{margin-bottom:0;font-style:italic}
 .event-header{margin:0 0 .5em}
 .resource-links{margin:0 0 1.5em}
