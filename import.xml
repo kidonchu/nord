@@ -29,13 +29,13 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 13 Sep 2013 21:35:47 +0000</pubDate>
+	<pubDate>Mon, 16 Sep 2013 02:52:31 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
 	<wp:base_blog_url>http://nord.local.com</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>admin@localhost.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>root@local.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 
 	
@@ -253,88 +253,69 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Donate</title>
+		<title>Donate. Prolong and Save LIVES</title>
 		<link>http://nord.local.com/get-involved/donate/</link>
 		<pubDate>Fri, 09 Aug 2013 21:41:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=21</guid>
 		<description></description>
-		<content:encoded><![CDATA[<header class="pageHeader">
-<h1>Donate. Save People.</h1>
-</header>
-<div class="row-fluid">
-<div class="span8"><article class="donation-method">
-<div class="row-fluid">
+		<content:encoded><![CDATA[<div class="donation-quote">
+	<blockquote>
+		<p class="hold">Your contributions are valuable. Your donations help to inform individuals how they can prevent and treat renal disease. Whether it is money, goods, or services, your time and effort are greatly appreciated.</p>
+		<small>Mamie V. Jackson, Founder of NORD</small>
+	</blockquote>
+</div>
 
-<!-- Razoo donation -->
-<div class="span6 razoo"><header>
-<h3>By Credit Card</h3>
-</header>
-<div class="spacer20"></div>
-<div id="razoo_donation_widget"><span><a href="http://www.razoo.com/">Donate online</a> to <a href="http://www.razoo.com/story/National-Organization-For-Renal-Disease">NATIONAL ORGANIZATION FOR RENAL DISEASE</a> at Razoo</span></div>
-<script type="text/javascript">// <![CDATA[
-var r_protocol=(("https:"==document.location.protocol)?"https://":"http://");var r_path='www.razoo.com/javascripts/widget_loader.js';var r_identifier='National-Organization-For-Renal-Disease';document.write(unescape("%3Cscript id='razoo_widget_loader_script' src='"+r_protocol+r_path+"' type='text/javascript'%3E%3C/script%3E"));
-// ]]]]><![CDATA[></script>
+<div class="row">
+	<div class="col-md-6">
+		<div id="paypal-donation-widget">
+			<h3>Donate by Paypal</h3>
+			<div class="spacer10"></div>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="YULECRX8SPYV2"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+		<div id="check-donation">
+			<h3>Donate by Check</h3>
+			<strong>Payable to:</strong>
+			National Organization for Renal Disease
+			<strong>Mail to:</strong>
+			Citibank Studio City
+			12191 Ventura Blvd.
+			Studio City, CA 91604
+		</div>
+	</div>
+	<div class="col-md-6">
+		<h3>Donate by Razoo</h3>
+		<div id='razoo_donation_widget'>
+			<span>
+				<a href="http://www.razoo.com/">Online fundraising</a> for 
+				<a href="http://www.razoo.com/story/National-Organization-For-Renal-Disease">
+					NATIONAL ORGANIZATION FOR RENAL DISEASE
+				</a> at Razoo
+			</span>
+		</div>
+		<script type='text/javascript'>var r_params = {"title":"NATIONAL ORGANIZATION FOR RENAL DISEASE","short_description":"NORD is a nonprofit, health corporation dedicated to preventing renal (kidney) disease, diabetes, hypertension and obesity.","long_description":"  The National Organization for Renal Disease (NORD) provides critical, preventive health screenings and health care information; and research to under insured, under served adults at high risk of developing renal (kidney) disease and its precursors diabetes, high blood pressure and obesity - including organ and tissue donor information  resulting in the betterment of these individuals, their communities and beyond; and to transform the therapies and delivery systems in which these illnesses are treated - until we find better remedies.  ...","color":"#3D9B0C","errors":false,"image":"false"};var r_protocol=(("https:"==document.location.protocol)?"https://":"http://");var r_path='www.razoo.com/javascripts/widget_loader.js';var r_identifier='National-Organization-For-Renal-Disease';document.write(unescape("%3Cscript id='razoo_widget_loader_script' src='"+r_protocol+r_path+"' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+</div>
 
-</div>
-<!-- Check doncation -->
-<div class="span6 check"><header>
-<h3>By Check</h3>
-</header>
-<div class="spacer20"></div>
-<h5>Payable to:</h5>
-National Organization for Renal Disease
-<h5>Mail to:</h5>
-Citibank Studio City
 
-12191 Ventura Blvd.
-
-Studio City, CA 91604
-
+<div id="donors-wish-list">
+	<h3>Donor Wish List</h3>
+	<ul>
+		<li>Laptops for health screenings (on-site)</li>
+		<li>Blood pressure cuffs (large)</li>
+		<li>Screenings supplies (alcohol swabs, sharps containers, latex gloves, glucose tablets, cotton balls, bandages, lancets and test strips)</li>
+		<li>Glucose monitors (diabetic)</li>
+		<li>Nutritious/healthy food stuffs</li>
+		<li>Lightweight collapsible tables and coverings</li>
+		<li>Minivan (transport supplies to on site screenings)</li>
+		<li>Office space</li>
+		<li>Professional Services - Laboratory Technologist or Clinical Licensed Scientist or Medical Technologist</li>
+		<li>Professional Services - Nurses, Doctors, Health Educators and Nutritionists</li>
+	</ul>
 </div>
-</div>
-</article></div>
-<div class="span4">
-<div class="donation-quote">
-<blockquote>
-<div class="clearfix">
-<div class="pull-left"><em>
-Your contributions are valuable. Your donations help to inform individuals
-how they can prevent and treat renal disease. Whether it is money, goods,
-or services, your time and effort are greatly appreciated.
-</em></div>
-</div>
-<div class="spacer20"></div>
-<div class="clearfix">
-<div class="pull-right">- Mamie V. Jackson, Founder -</div>
-</div></blockquote>
-</div>
-<div class="donors-list">
-<h3>Donor Wish List</h3>
-<ul>
-	<li>Laptops for health screenings (on-site)</li>
-	<li>Blood pressure cuffs (large)</li>
-	<li>Screenings supplies (alcohol swabs, sharps containers, latex gloves, glucose tablets, cotton balls, bandages, lancets and test strips)</li>
-	<li>Glucose monitors (diabetic)</li>
-	<li>Nutritious/healthy food stuffs</li>
-	<li>Lightweight collapsible tables and coverings</li>
-	<li>Minivan (transport supplies to on site screenings)</li>
-	<li>Office space</li>
-	<li>Professional Services - Laboratory Technologist or Clinical Licensed Scientist or Medical Technologist</li>
-	<li>Professional Services - Nurses, Doctors, Health Educators and Nutritionists</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- end .row-fluid -->
-<div class="donation-video"><header>
-<h3>Where do donations go? Watch our video!</h3>
-</header>
-<div class="spacer10"></div>
-<iframe src="//www.youtube-nocookie.com/embed/BCHhwxvQqxg?rel=0" height="400" width="100%" allowfullscreen="" frameborder="0"></iframe>
-
-</div>
-<!-- end .donation-video -->]]></content:encoded>
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date>2013-08-09 21:41:52</wp:post_date>
@@ -2418,6 +2399,174 @@ All phrases and logos below are service mark of NORD.
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Debug</title>
+		<link>http://nord.local.com/debug/</link>
+		<pubDate>Sat, 14 Sep 2013 03:23:10 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://nord.local.com/?page_id=290</guid>
+		<description></description>
+		<content:encoded><![CDATA[<pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PHPMailer</i>)[<i>279</i>]
+  <i>public</i> 'Priority' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>3</font>
+  <i>public</i> 'CharSet' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'UTF-8'</font> <i>(length=5)</i>
+  <i>public</i> 'ContentType' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'text/plain'</font> <i>(length=10)</i>
+  <i>public</i> 'Encoding' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'8bit'</font> <i>(length=4)</i>
+  <i>public</i> 'ErrorInfo' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Error: Could not connect to SMTP host.'</font> <i>(length=43)</i>
+  <i>public</i> 'From' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'no-reply@stop-esrd.com'</font> <i>(length=22)</i>
+  <i>public</i> 'FromName' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'NORD'</font> <i>(length=4)</i>
+  <i>public</i> 'Sender' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'no-reply@stop-esrd.com'</font> <i>(length=22)</i>
+  <i>public</i> 'ReturnPath' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Subject' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Testing smtp mail'</font> <i>(length=17)</i>
+  <i>public</i> 'Body' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'hello'</font> <i>(length=5)</i>
+  <i>public</i> 'AltBody' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'MIMEBody' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'hello
+'</font> <i>(length=6)</i>
+  <i>protected</i> 'MIMEHeader' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Date: Sat, 14 Sep 2013 03:22:42 +0000
+Return-Path: no-reply@stop-esrd.com
+To: kidonchu@gmail.com
+From: NORD <no-reply@stop-esrd.com>
+Reply-To: NORD <no-reply@stop-esrd.com>
+Subject: Testing smtp mail
+Message-ID: <be3cae00ec4d620ea46048af04062667@nord.local.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+'</font> <i>(length=451)</i>
+  <i>protected</i> 'mailHeader' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'WordWrap' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>0</font>
+  <i>public</i> 'Mailer' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'smtp'</font> <i>(length=4)</i>
+  <i>public</i> 'Sendmail' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'/usr/sbin/sendmail'</font> <i>(length=18)</i>
+  <i>public</i> 'UseSendmailOptions' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>public</i> 'PluginDir' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'ConfirmReadingTo' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Hostname' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'MessageID' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'MessageDate' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Host' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'smtp.gmail.com'</font> <i>(length=14)</i>
+  <i>public</i> 'Port' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'465'</font> <i>(length=3)</i>
+  <i>public</i> 'Helo' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'SMTPSecure' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'ssl'</font> <i>(length=3)</i>
+  <i>public</i> 'SMTPAuth' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>public</i> 'Username' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'kidonchu@gmail.com'</font> <i>(length=18)</i>
+  <i>public</i> 'Password' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Kdh123go'</font> <i>(length=8)</i>
+  <i>public</i> 'AuthType' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Realm' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Workstation' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Timeout' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>10</font>
+  <i>public</i> 'SMTPDebug' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'Debugoutput' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'echo'</font> <i>(length=4)</i>
+  <i>public</i> 'SMTPKeepAlive' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'SingleTo' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'SingleToArray' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>public</i> 'LE' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'
+'</font> <i>(length=1)</i>
+  <i>public</i> 'DKIM_selector' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'DKIM_identity' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'DKIM_passphrase' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'DKIM_domain' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'DKIM_private' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'action_function' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>public</i> 'Version' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'5.2.4'</font> <i>(length=5)</i>
+  <i>public</i> 'XMailer' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'smtp' <font color='#888a85'>=></font> 
+    <b>object</b>(<i>SMTP</i>)[<i>278</i>]
+      <i>public</i> 'SMTP_PORT' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>25</font>
+      <i>public</i> 'CRLF' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'
+'</font> <i>(length=2)</i>
+      <i>public</i> 'do_debug' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+      <i>public</i> 'Debugoutput' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'echo'</font> <i>(length=4)</i>
+      <i>public</i> 'do_verp' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+      <i>public</i> 'Timeout' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>10</font>
+      <i>public</i> 'Timelimit' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>30</font>
+      <i>public</i> 'Version' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'5.2.4'</font> <i>(length=5)</i>
+      <i>private</i> 'smtp_conn' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>false</font>
+      <i>private</i> 'error' <font color='#888a85'>=></font> 
+        <b>array</b> <i>(size=1)</i>
+          'error' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Called Reset() without being connected'</font> <i>(length=38)</i>
+      <i>private</i> 'helo_rply' <font color='#888a85'>=></font> <font color='#3465a4'>null</font>
+  <i>protected</i> 'to' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=1)</i>
+      0 <font color='#888a85'>=></font> 
+        <b>array</b> <i>(size=2)</i>
+          0 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'kidonchu@gmail.com'</font> <i>(length=18)</i>
+          1 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'cc' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'bcc' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'ReplyTo' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=1)</i>
+      'no-reply@stop-esrd.com' <font color='#888a85'>=></font> 
+        <b>array</b> <i>(size=2)</i>
+          0 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'no-reply@stop-esrd.com'</font> <i>(length=22)</i>
+          1 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'NORD'</font> <i>(length=4)</i>
+  <i>protected</i> 'all_recipients' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=1)</i>
+      'kidonchu@gmail.com' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>protected</i> 'attachment' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'CustomHeader' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'message_type' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'plain'</font> <i>(length=5)</i>
+  <i>protected</i> 'boundary' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=3)</i>
+      1 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'b1_be3cae00ec4d620ea46048af04062667'</font> <i>(length=35)</i>
+      2 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'b2_be3cae00ec4d620ea46048af04062667'</font> <i>(length=35)</i>
+      3 <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'b3_be3cae00ec4d620ea46048af04062667'</font> <i>(length=35)</i>
+  <i>protected</i> 'language' <font color='#888a85'>=></font> 
+    <b>array</b> <i>(size=18)</i>
+      'authenticate' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Error: Could not authenticate.'</font> <i>(length=35)</i>
+      'connect_host' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Error: Could not connect to SMTP host.'</font> <i>(length=43)</i>
+      'data_not_accepted' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Error: Data not accepted.'</font> <i>(length=30)</i>
+      'empty_message' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Message body empty'</font> <i>(length=18)</i>
+      'encoding' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Unknown encoding: '</font> <i>(length=18)</i>
+      'execute' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Could not execute: '</font> <i>(length=19)</i>
+      'file_access' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Could not access file: '</font> <i>(length=23)</i>
+      'file_open' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'File Error: Could not open file: '</font> <i>(length=33)</i>
+      'from_failed' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'The following From address failed: '</font> <i>(length=35)</i>
+      'instantiate' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Could not instantiate mail function.'</font> <i>(length=36)</i>
+      'invalid_address' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Invalid address'</font> <i>(length=15)</i>
+      'mailer_not_supported' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>' mailer is not supported.'</font> <i>(length=25)</i>
+      'provide_address' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'You must provide at least one recipient email address.'</font> <i>(length=54)</i>
+      'recipients_failed' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Error: The following recipients failed: '</font> <i>(length=45)</i>
+      'signing' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Signing Error: '</font> <i>(length=15)</i>
+      'smtp_connect_failed' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP Connect() failed.'</font> <i>(length=22)</i>
+      'smtp_error' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'SMTP server error: '</font> <i>(length=19)</i>
+      'variable_set' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>'Cannot set or reset variable: '</font> <i>(length=30)</i>
+  <i>protected</i> 'error_count' <font color='#888a85'>=></font> <small>int</small> <font color='#4e9a06'>2</font>
+  <i>protected</i> 'sign_cert_file' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'sign_key_file' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'sign_key_pass' <font color='#888a85'>=></font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'exceptions' <font color='#888a85'>=></font> <small>boolean</small> <font color='#75507b'>true</font>
+</pre>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>290</wp:post_id>
+		<wp:post_date>2013-09-14 03:23:10</wp:post_date>
+		<wp:post_date_gmt>2013-09-14 03:23:10</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>debug</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
