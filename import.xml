@@ -27,22 +27,23 @@
 
 <channel>
 	<title>National Organization for Renal Disease</title>
-	<link>http://nord.local.com</link>
-	<description>Just another WordPress site</description>
-	<pubDate>Mon, 16 Sep 2013 03:54:13 +0000</pubDate>
+	<link>http://dev.stop-esrd.org</link>
+	<description>A. P. E.R. fect solution for controlling kidney disease.... prolonging health and life!</description>
+	<pubDate>Tue, 24 Sep 2013 19:59:31 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
-	<wp:base_blog_url>http://nord.local.com</wp:base_blog_url>
+	<wp:base_site_url>http://dev.stop-esrd.org</wp:base_site_url>
+	<wp:base_blog_url>http://dev.stop-esrd.org</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>root@local.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>kidonchu@gmail.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
+	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 
 	
 
 	<item>
 		<title>Renal Disease</title>
-		<link>http://nord.local.com/resources/renal-disease/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease/</link>
 		<pubDate>Wed, 07 Aug 2013 21:18:15 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=6</guid>
@@ -140,7 +141,7 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 	</item>
 	<item>
 		<title>Get Screened</title>
-		<link>http://nord.local.com/get-screened/</link>
+		<link>http://dev.stop-esrd.org/get-screened/</link>
 		<pubDate>Fri, 09 Aug 2013 20:07:29 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=12</guid>
@@ -178,7 +179,7 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 	</item>
 	<item>
 		<title>Get Involved</title>
-		<link>http://nord.local.com/get-involved/</link>
+		<link>http://dev.stop-esrd.org/get-involved/</link>
 		<pubDate>Fri, 09 Aug 2013 20:13:18 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=14</guid>
@@ -216,7 +217,7 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 	</item>
 	<item>
 		<title>About Us</title>
-		<link>http://nord.local.com/about-us/</link>
+		<link>http://dev.stop-esrd.org/about-us/</link>
 		<pubDate>Fri, 09 Aug 2013 21:35:59 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=19</guid>
@@ -254,68 +255,64 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 	</item>
 	<item>
 		<title>Donate. Prolong and Save LIVES</title>
-		<link>http://nord.local.com/get-involved/donate/</link>
+		<link>http://dev.stop-esrd.org/get-involved/donate/</link>
 		<pubDate>Fri, 09 Aug 2013 21:41:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=21</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="donation-quote">
-	<blockquote>
-		<p class="hold">Your contributions are valuable. Your donations help to inform individuals how they can prevent and treat renal disease. Whether it is money, goods, or services, your time and effort are greatly appreciated.</p>
-		<small>Mamie V. Jackson, Founder of NORD</small>
-	</blockquote>
+<blockquote>
+<p class="hold">Your contributions are valuable. Your donations help to inform individuals how they can prevent and treat renal disease. Whether it is money, goods, or services, your time and effort are greatly appreciated.</p>
+<small>Mamie V. Jackson, Founder of NORD</small></blockquote>
 </div>
-
 <div class="row">
-	<div class="col-md-6">
-		<div id="paypal-donation-widget">
-			<h3>Donate by Paypal</h3>
-			<div class="spacer10"></div>
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="YULECRX8SPYV2"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		</div>
-		<div id="check-donation">
-			<h3>Donate by Check</h3>
-			<strong>Payable to:</strong>
-			National Organization for Renal Disease
-			<strong>Mail to:</strong>
-			Citibank Studio City
-			12191 Ventura Blvd.
-			Studio City, CA 91604
-		</div>
-	</div>
-	<div class="col-md-6">
-		<h3>Donate by Razoo</h3>
-		<div id='razoo_donation_widget'>
-			<span>
-				<a href="http://www.razoo.com/">Online fundraising</a> for 
-				<a href="http://www.razoo.com/story/National-Organization-For-Renal-Disease">
-					NATIONAL ORGANIZATION FOR RENAL DISEASE
-				</a> at Razoo
-			</span>
-		</div>
-		<script type='text/javascript'>var r_params = {"title":"NATIONAL ORGANIZATION FOR RENAL DISEASE","short_description":"NORD is a nonprofit, health corporation dedicated to preventing renal (kidney) disease, diabetes, hypertension and obesity.","long_description":"  The National Organization for Renal Disease (NORD) provides critical, preventive health screenings and health care information; and research to under insured, under served adults at high risk of developing renal (kidney) disease and its precursors diabetes, high blood pressure and obesity - including organ and tissue donor information  resulting in the betterment of these individuals, their communities and beyond; and to transform the therapies and delivery systems in which these illnesses are treated - until we find better remedies.  ...","color":"#3D9B0C","errors":false,"image":"false"};var r_protocol=(("https:"==document.location.protocol)?"https://":"http://");var r_path='www.razoo.com/javascripts/widget_loader.js';var r_identifier='National-Organization-For-Renal-Disease';document.write(unescape("%3Cscript id='razoo_widget_loader_script' src='"+r_protocol+r_path+"' type='text/javascript'%3E%3C/script%3E"));</script>
-	</div>
+<div class="col-md-6">
+<div id="paypal-donation-widget">
+<h3>Donate by PayPal</h3>
+<div class="spacer10"></div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /><input type="hidden" name="hosted_button_id" value="BZBZNE9XJGSNE"><input type="image" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"><img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" border="0"></form>
 </div>
+<div class="spacer50"></div>
+<div id="check-donation">
+<h3>Donate by Check</h3>
+<strong>Payable to:</strong>
+National Organization for Renal Disease
+<strong>Mail to:</strong>
+Citibank Studio City
+12191 Ventura Blvd.
+Studio City, CA 91604
 
+</div>
+</div>
+<div class="col-md-6">
+<h3>Donate by Razoo</h3>
+<div id="razoo_donation_widget"><span>
+<a href="http://www.razoo.com/">Online fundraising</a> for
+<a href="http://www.razoo.com/story/National-Organization-For-Renal-Disease">
+NATIONAL ORGANIZATION FOR RENAL DISEASE
+</a> at Razoo
+</span></div>
+<script type="text/javascript">// <![CDATA[
+var r_params = {"title":"NATIONAL ORGANIZATION FOR RENAL DISEASE","short_description":"NORD is a nonprofit, health corporation dedicated to preventing renal (kidney) disease, diabetes, hypertension and obesity.","long_description":"  The National Organization for Renal Disease (NORD) provides critical, preventive health screenings and health care information; and research to under insured, under served adults at high risk of developing renal (kidney) disease and its precursors diabetes, high blood pressure and obesity - including organ and tissue donor information  resulting in the betterment of these individuals, their communities and beyond; and to transform the therapies and delivery systems in which these illnesses are treated - until we find better remedies.  ...","color":"#3D9B0C","errors":false,"image":"false"};var r_protocol=(("https:"==document.location.protocol)?"https://":"http://");var r_path='www.razoo.com/javascripts/widget_loader.js';var r_identifier='National-Organization-For-Renal-Disease';document.write(unescape("%3Cscript id='razoo_widget_loader_script' src='"+r_protocol+r_path+"' type='text/javascript'%3E%3C/script%3E"));
+// ]]]]><![CDATA[></script>
 
+</div>
+</div>
 <div id="donors-wish-list">
-	<h3>Donor Wish List</h3>
-	<ul>
-		<li>Laptops for health screenings (on-site)</li>
-		<li>Blood pressure cuffs (large)</li>
-		<li>Screenings supplies (alcohol swabs, sharps containers, latex gloves, glucose tablets, cotton balls, bandages, lancets and test strips)</li>
-		<li>Glucose monitors (diabetic)</li>
-		<li>Nutritious/healthy food stuffs</li>
-		<li>Lightweight collapsible tables and coverings</li>
-		<li>Minivan (transport supplies to on site screenings)</li>
-		<li>Office space</li>
-		<li>Professional Services - Laboratory Technologist or Clinical Licensed Scientist or Medical Technologist</li>
-		<li>Professional Services - Nurses, Doctors, Health Educators and Nutritionists</li>
-	</ul>
-</div>
-]]></content:encoded>
+<h3>Donor Wish List</h3>
+<ul>
+	<li>Laptops for health screenings (on-site)</li>
+	<li>Blood pressure cuffs (large)</li>
+	<li>Screenings supplies (alcohol swabs, sharps containers, latex gloves, glucose tablets, cotton balls, bandages, lancets and test strips)</li>
+	<li>Glucose monitors (diabetic)</li>
+	<li>Nutritious/healthy food stuffs</li>
+	<li>Lightweight collapsible tables and coverings</li>
+	<li>Minivan (transport supplies to on site screenings)</li>
+	<li>Office space</li>
+	<li>Professional Services - Laboratory Technologist or Clinical Licensed Scientist or Medical Technologist</li>
+	<li>Professional Services - Nurses, Doctors, Health Educators and Nutritionists</li>
+</ul>
+</div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date>2013-08-09 21:41:52</wp:post_date>
@@ -348,7 +345,7 @@ Diabetes, Hypertension and Kidney disease: <a href="http://nkdep.nih.gov/resourc
 	</item>
 	<item>
 		<title>Contact Us</title>
-		<link>http://nord.local.com/about-us/contact-us/</link>
+		<link>http://dev.stop-esrd.org/about-us/contact-us/</link>
 		<pubDate>Mon, 12 Aug 2013 16:56:37 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=24</guid>
@@ -365,7 +362,7 @@ Please use contact information below to contact us.
 </address>
 <address>
 <strong><span class="glyphicon glyphicon-envelope"></span> E-MAIL</strong>
-nord4kidneydisease@yahoo.com
+mvj4nord@stop-esrd.org
 </address>
 <address>
 <strong>MAILING ADDRESS</strong>
@@ -408,7 +405,7 @@ Studio City, CA 91602
 	</item>
 	<item>
 		<title>Resources</title>
-		<link>http://nord.local.com/resources/</link>
+		<link>http://dev.stop-esrd.org/resources/</link>
 		<pubDate>Thu, 15 Aug 2013 20:54:54 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=29</guid>
@@ -438,7 +435,7 @@ Studio City, CA 91602
 	</item>
 	<item>
 		<title>Resource Links</title>
-		<link>http://nord.local.com/resources/resource-links/</link>
+		<link>http://dev.stop-esrd.org/resources/resource-links/</link>
 		<pubDate>Fri, 16 Aug 2013 20:45:00 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=77</guid>
@@ -602,7 +599,7 @@ Studio City, CA 91602
 	</item>
 	<item>
 		<title>Founder</title>
-		<link>http://nord.local.com/about-us/founder/</link>
+		<link>http://dev.stop-esrd.org/about-us/founder/</link>
 		<pubDate>Mon, 19 Aug 2013 18:22:45 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=84</guid>
@@ -641,7 +638,7 @@ Studio City, CA 91602
 	</item>
 	<item>
 		<title>Our Mission</title>
-		<link>http://nord.local.com/about-us/mission/</link>
+		<link>http://dev.stop-esrd.org/about-us/mission/</link>
 		<pubDate>Mon, 19 Aug 2013 18:24:04 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=86</guid>
@@ -683,7 +680,7 @@ NORD promotes organ and tissue transplantation and other progressive therapies i
 	</item>
 	<item>
 		<title>Our History</title>
-		<link>http://nord.local.com/about-us/history/</link>
+		<link>http://dev.stop-esrd.org/about-us/history/</link>
 		<pubDate>Mon, 19 Aug 2013 18:24:27 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=88</guid>
@@ -727,7 +724,7 @@ Joining Mamie in this venture are the Board, Medical advisors, several practicin
 	</item>
 	<item>
 		<title>Our Program</title>
-		<link>http://nord.local.com/about-us/program/</link>
+		<link>http://dev.stop-esrd.org/about-us/program/</link>
 		<pubDate>Mon, 19 Aug 2013 18:24:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=90</guid>
@@ -788,7 +785,7 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 	</item>
 	<item>
 		<title>Online Brochure</title>
-		<link>http://nord.local.com/about-us/brochure/</link>
+		<link>http://dev.stop-esrd.org/about-us/brochure/</link>
 		<pubDate>Mon, 19 Aug 2013 18:25:38 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=92</guid>
@@ -847,7 +844,7 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 	</item>
 	<item>
 		<title>Volunteer</title>
-		<link>http://nord.local.com/get-involved/volunteer/</link>
+		<link>http://dev.stop-esrd.org/get-involved/volunteer/</link>
 		<pubDate>Mon, 19 Aug 2013 20:31:41 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=127</guid>
@@ -897,7 +894,7 @@ Please visit <a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid
 	</item>
 	<item>
 		<title>Upcoming Events</title>
-		<link>http://nord.local.com/get-involved/events/</link>
+		<link>http://dev.stop-esrd.org/get-involved/events/</link>
 		<pubDate>Mon, 19 Aug 2013 20:44:52 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=132</guid>
@@ -952,7 +949,7 @@ Please visit <a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid
 	</item>
 	<item>
 		<title>Causes of Renal Disease</title>
-		<link>http://nord.local.com/resources/causes-of-renal-disease/</link>
+		<link>http://dev.stop-esrd.org/resources/causes-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:32:29 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=144</guid>
@@ -1000,7 +997,7 @@ Please visit <a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid
 	</item>
 	<item>
 		<title>Symptoms</title>
-		<link>http://nord.local.com/resources/symptoms-of-renal-disease/</link>
+		<link>http://dev.stop-esrd.org/resources/symptoms-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:36:25 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=146</guid>
@@ -1052,7 +1049,7 @@ Please visit <a href="http://www.volunteermatch.org/results/org_detail.jsp?orgid
 	</item>
 	<item>
 		<title>Current Research of Renal Disease</title>
-		<link>http://nord.local.com/resources/current-research-of-renal-disease/</link>
+		<link>http://dev.stop-esrd.org/resources/current-research-of-renal-disease/</link>
 		<pubDate>Wed, 21 Aug 2013 18:57:14 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=157</guid>
@@ -1122,7 +1119,7 @@ Not only has the number of minority donors increased, but access to transplantat
 	</item>
 	<item>
 		<title>Transplantation</title>
-		<link>http://nord.local.com/resources/transplantation/</link>
+		<link>http://dev.stop-esrd.org/resources/transplantation/</link>
 		<pubDate>Wed, 21 Aug 2013 18:59:49 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=159</guid>
@@ -1257,7 +1254,7 @@ A fairly new procedure for Renal transplantation is Laproscopy surgery. This pro
 	</item>
 	<item>
 		<title>Renal Disease Statistics</title>
-		<link>http://nord.local.com/resources/renal-disease-statistics/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-statistics/</link>
 		<pubDate>Wed, 21 Aug 2013 19:00:38 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=161</guid>
@@ -1386,7 +1383,7 @@ In general, it costs more than 20 billion to treat kidney disease in the United 
 	</item>
 	<item>
 		<title>New Technologies</title>
-		<link>http://nord.local.com/resources/new-technologies/</link>
+		<link>http://dev.stop-esrd.org/resources/new-technologies/</link>
 		<pubDate>Wed, 21 Aug 2013 19:01:03 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=163</guid>
@@ -1430,7 +1427,7 @@ Blood pressure control can reduce kidney disease by approximately 33%.]]></conte
 	</item>
 	<item>
 		<title>Medications for Renal Disease</title>
-		<link>http://nord.local.com/resources/medications/</link>
+		<link>http://dev.stop-esrd.org/resources/medications/</link>
 		<pubDate>Wed, 21 Aug 2013 19:09:46 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=167</guid>
@@ -1472,7 +1469,7 @@ These medications are used for maintenance therapy for Renal Function after orga
 	</item>
 	<item>
 		<title>African American</title>
-		<link>http://nord.local.com/resources/renal-disease-of-african-american/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-african-american/</link>
 		<pubDate>Wed, 21 Aug 2013 19:15:39 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=169</guid>
@@ -1580,7 +1577,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 	</item>
 	<item>
 		<title>Pacific Islander</title>
-		<link>http://nord.local.com/resources/renal-disease-of-pacific-islander/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-pacific-islander/</link>
 		<pubDate>Wed, 21 Aug 2013 19:19:47 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=171</guid>
@@ -1659,7 +1656,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 	</item>
 	<item>
 		<title>Latino</title>
-		<link>http://nord.local.com/resources/renal-disease-of-latino/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-latino/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:11 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=173</guid>
@@ -1781,7 +1778,7 @@ Some information on this page is found on the National Diabetes Information Clea
 	</item>
 	<item>
 		<title>Asian</title>
-		<link>http://nord.local.com/resources/renal-disease-of-asian/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-asian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:31 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=175</guid>
@@ -1868,7 +1865,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 	</item>
 	<item>
 		<title>Caucasian</title>
-		<link>http://nord.local.com/resources/renal-disease-of-caucasian/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-caucasian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:20:58 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=177</guid>
@@ -1906,7 +1903,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 	</item>
 	<item>
 		<title>American Indian</title>
-		<link>http://nord.local.com/resources/renal-disease-of-american-indian/</link>
+		<link>http://dev.stop-esrd.org/resources/renal-disease-of-american-indian/</link>
 		<pubDate>Wed, 21 Aug 2013 19:21:28 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=179</guid>
@@ -2116,7 +2113,7 @@ Information on this page is found on the National Diabetes Information Clearingh
 	</item>
 	<item>
 		<title>Media Spotlight</title>
-		<link>http://nord.local.com/about-us/media/</link>
+		<link>http://dev.stop-esrd.org/about-us/media/</link>
 		<pubDate>Wed, 21 Aug 2013 19:49:27 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=195</guid>
@@ -2215,16 +2212,15 @@ Mamie V. Jackson appeared on "Community Connection" cable TV (a community forum 
 	</item>
 	<item>
 		<title>Partners</title>
-		<link>http://nord.local.com/about-us/partners/</link>
+		<link>http://dev.stop-esrd.org/about-us/partners/</link>
 		<pubDate>Wed, 21 Aug 2013 21:29:27 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=217</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="row">
-	<div class="col-md-6">
-<a href="http://www.amgen.com/" target="_blank">Amgen Corporation</a>
+<div class="col-md-6"><a href="http://www.amgen.com/" target="_blank">Amgen Corporation</a>
 <a href="http://www.bayerusa.com/" target="_blank"> Bayer HealthCare </a>
-<a href="http://www.bd.com/" target="_blank"> BD&nbsp;(Becton, Dickinson and Company) </a>
+<a href="http://www.bd.com/" target="_blank"> BD (Becton, Dickinson and Company) </a>
 <a href="http://www.mylifepath.com/" target="_blank">Blue Shield of California</a>
 <a href="http://www.gsk.com/" target="_blank">GlaxoSmithKline</a>
 <a href="http://www.lifescan.com/" target="_blank"> LifeScan, Inc. </a>
@@ -2251,9 +2247,9 @@ Stern Family Trust
 <a href="http://www.csun.edu/" target="_blank"> California State University, Northridge </a>
 <a href="http://www.calpoly.edu" target="_blank">Cal Poly Tech</a>
 <a href="http://www.scba.com" target="_blank">Southern California Broadcasters Association</a>
+<a href="http://www.genzyme.com" target="_blank">Genzyme Corporation</a>
 </div>
-<div class="col-md-6">
-<a href="http://www.stanford.edu" target="_blank">Stanford University</a>
+<div class="col-md-6"><a href="http://www.stanford.edu" target="_blank">Stanford University</a>
 <a href="http://www.ucla.edu" target="_blank">UCLA</a>
 <a href="http://www.usc.edu/" target="_blank"> University of Southern California </a>
 <a href="http://www.monstertrak.com/" target="_blank">Monstertrak.com</a>
@@ -2264,7 +2260,7 @@ Burbank Parks and Recreation
 <a href="http://www.energyforothers.org/index.htm" target="_blank">Energy for others</a>
 <a href="http://www.healthnet.com" target="_blank">HealthNet Inc</a>
 <a href="http://www.donatelifecalifornia.org/" target="_blank">Donate Life California</a>
-<a href="https://www.donatelifecalifornia.org/register" target="_blank"><img src="http://stop-esrd.org/donations/donateLogo.gif" width="120" height="124"></a>
+<a href="https://www.donatelifecalifornia.org/register" target="_blank"><img alt="" src="http://stop-esrd.org/donations/donateLogo.gif" width="120" height="124" /></a>
 <a href="http://www.onelegacy.org/prod/components/" target="_blank">One Legacy</a>
 Siemens Diagnositics
 Astellas Pharma US
@@ -2279,9 +2275,8 @@ Original Tommy's Famous Burgers
 7 UP
 Bottling Company
 MOCA
-<a target="_blank" href="http://www.donatelife.org/">DonateLife.org</a>
-<a href="http://www.cvs.com"><img src="images/FATWYCwithsm.jpg" width="183" height="38"></a>
-</div>
+<a href="http://www.donatelife.org/" target="_blank">DonateLife.org</a>
+<a href="http://www.cvs.com" target="_blank">CVS</a></div>
 </div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>217</wp:post_id>
@@ -2315,7 +2310,7 @@ MOCA
 	</item>
 	<item>
 		<title>About Our Website</title>
-		<link>http://nord.local.com/disclaimer/</link>
+		<link>http://dev.stop-esrd.org/disclaimer/</link>
 		<pubDate>Wed, 11 Sep 2013 21:00:16 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=246</guid>
@@ -2368,7 +2363,7 @@ All phrases and logos below are service mark of NORD.
 	</item>
 	<item>
 		<title>Site Map</title>
-		<link>http://nord.local.com/sitemap/</link>
+		<link>http://dev.stop-esrd.org/sitemap/</link>
 		<pubDate>Wed, 11 Sep 2013 21:40:51 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=258</guid>
@@ -2398,7 +2393,7 @@ All phrases and logos below are service mark of NORD.
 	</item>
 	<item>
 		<title>Debug</title>
-		<link>http://nord.local.com/debug/</link>
+		<link>http://dev.stop-esrd.org/debug/</link>
 		<pubDate>Sat, 14 Sep 2013 03:23:10 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://nord.local.com/?page_id=290</guid>

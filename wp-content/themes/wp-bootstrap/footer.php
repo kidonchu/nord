@@ -45,7 +45,7 @@
 				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>
 				A.P.E.R. Awareness, Prevention, Education and Research!<br>
 				11018 Aqua Vista Street #19, Studio City, CA 91602<br>
-				nord4kidneydisease@yahoo.com
+				mvj4nord@stop-esrd.org
 			</p>
 		</div>
 	</footer>
