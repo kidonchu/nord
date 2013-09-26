@@ -29,7 +29,7 @@
 	<title>National Organization for Renal Disease</title>
 	<link>http://nord.local.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Tue, 24 Sep 2013 20:37:55 +0000</pubDate>
+	<pubDate>Thu, 26 Sep 2013 20:47:57 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://nord.local.com</wp:base_site_url>
@@ -793,18 +793,20 @@ Support and fund genetic research. Please volunteer and be a part of clinical or
 		<guid isPermaLink="false">http://nord.local.com/?page_id=92</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="row">
-	<div class="col-md-6">
-		<h5>Outside</h5>
-		<a href="http://stop-esrd.org/images/brochure_outside.doc" target="_blank">
-			<img alt="brochure outside" src="http://stop-esrd.org/images/brochure-outside.png" width="200" height="150">
-		</a>
-	</div>
-	<div class="col-md-6">
-		<h5>Inside</h5>
-		<a href="http://stop-esrd.org/images/brochure_inside.doc" target="_blank">
-			<img alt="brochure inside" src="http://stop-esrd.org/images/brochure-inside.png" width="200" height="150">
-		</a>
-	</div>
+<div class="col-md-6">
+<h5>Outside</h5>
+<a href="[insert_php] echo get_stylesheet_directory_uri();[/insert_php]/library/img/brochure-inside-final.gif">
+<img src="[insert_php] echo get_stylesheet_directory_uri();[/insert_php]/library/img/brochure-inside.png" alt="Brochure Inside"/>
+</a>
+
+</div>
+<div class="col-md-6">
+<h5>Inside</h5>
+<a href="[insert_php] echo get_stylesheet_directory_uri();[/insert_php]/library/img/brochure-outside-final.gif">
+<img src="[insert_php] echo get_stylesheet_directory_uri();[/insert_php]/library/img/brochure-outside.png" alt="Brochure Outside"/>
+</a>
+
+</div>
 </div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>92</wp:post_id>
