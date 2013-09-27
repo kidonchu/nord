@@ -6,15 +6,15 @@
 					<ul>
 						<li class="title">connect</li>
 						<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact info</a></li>
-						<li><a href="https://www.facebook.com/NORDorg" target="_blank"><i class="icon-facebook-sign icon-white"></i> facebook</a></li>
+						<!-- <li><a href="https://www.facebook.com/NORDorg" target="_blank"><i class="icon-facebook-sign icon-white"></i> facebook</a></li> -->
 						<!-- <li><a href="#" target="_blank"><i class="icon-twitter icon-white"></i> twitter</a></li> -->
 					</ul>
 				</div>
 				<div class="col-md-3">
 					<ul>
 						<li class="title">resources</li>
-						<li><a href="<?php echo home_url('resources/what-is-renal-disease') ?>">renal diease</a></li>
-						<li><a href="<?php echo home_url('resources/links') ?>">links</a></li>
+						<li><a href="<?php echo home_url('resources/renal-disease') ?>">renal diease</a></li>
+						<li><a href="<?php echo home_url('resources/resource-links') ?>">links</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3">
@@ -36,23 +36,16 @@
 		</div>
 
 		<div class="footer-bottom">
-			<ul class="pull-right text-right">
-				<li><a href="<?php echo home_url('site-map') ?>">site map</a></li>
-				<li><a href="#">Disclaimer</a></li>
-				<li><a href="#">Copyright</a></li>
-				<li><a href="#">Service mark</a></li>
+			<ul class="list-inline">
+				<li><a href="<?php echo home_url('sitemap') ?>">Site Map</a></li>
+				<li>|</li>
+				<li><a href="<?php echo home_url('disclaimer') ?>">Disclaimer, Copyright, Service mark</a></li>
 			</ul>
 			<p>
-				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?>
-			</p>
-			<p>
-				A.P.E.R. Awareness, Prevention, Education and Research!
-			</p>
-			<p>
-				11018 Aqua Vista Street #19, Studio City, CA 91602
-			</p>
-			<p>
-				nord4kidneydisease@yahoo.com
+				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>
+				A.P.E.R. Awareness, Prevention, Education and Research!<br>
+				11018 Aqua Vista Street #19, Studio City, CA 91602<br>
+				mvj4nord@stop-esrd.org
 			</p>
 		</div>
 	</footer>
@@ -76,12 +69,19 @@ $('form.subscribe').submit(function(e){
 	});
 });
 
-$('.subscription-form-container a.no').click(function(e){
-	e.preventDefault();
-	$('.subscription-form-container').toggle(1000);
+/* Set active class to sidebar item */
+var path = $(location).attr('href').split('/');
+path = path[path.length - 2]; // get second last uri which is page name
+$('.sidebar').find('.post-link').each(function()
+{
+	var target = $(this).data('uri');
+	if (target == path)
+	{
+		$(this).addClass('active');
+	}
 });
 
-$('.topic').on('click', 'h4', function(){
+$('.sidebar').on('click', '.post-link', function(){
 	var topic = $(this).closest('.topic');
 
 	// toggle topic sub-list
@@ -97,27 +97,7 @@ $('.topic').on('click', 'h4', function(){
 	{
 		icon.removeClass('icon-caret-down').addClass('icon-caret-right');
 	}
-
 });
-
-// $('#main-navbar').find('li').on('mouseenter', function(){
-// 	var target = $(this).data('sub-nav');
-// 	$(this).addClass('active');
-// 	$('.sub-nav.' + target).removeClass('hidden');
-// })
-// .on('mouseleave', function(){
-// 	var target = $(this).data('sub-nav');
-// 	$(this).removeClass('active');
-// 	$('.sub-nav.' + target).addClass('hidden');
-// });
-// $('.sub-nav').on('mouseenter', function(){
-// 	var target = $(this).data('sub-nav');
-// 	$('#main-navbar').find('li.' + target).trigger('mouseenter');
-// })
-// .on('mouseleave', function(){
-// 	var target = $(this).data('sub-nav');
-// 	$('#main-navbar').find('li.' + target).trigger('mouseleave');
-// });
 
 var content_height = $('.content').height();
 var sidebar_height = $('.sidebar-container').height();
