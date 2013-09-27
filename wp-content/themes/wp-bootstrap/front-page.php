@@ -93,7 +93,7 @@
 
 		<div class="partners text-center">
 			<header>
-				<h2>Our Partners</h2>
+				<a href="<?php echo home_url('about-us/partners') ?>"><h2>Our Partners</h2></a>
 			</header>
 			<div class="spacer20"></div>
 			<div class="row">
