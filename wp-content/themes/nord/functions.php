@@ -99,6 +99,8 @@ function nord_scripts() {
 
 	wp_enqueue_style('nord-bootstrap', get_stylesheet_directory_uri().'/assets/css/bootstrap.css', array(), '20131009');
 	wp_enqueue_script('nord-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '20131009', true);
+
+	wp_enqueue_style('nord-main', get_stylesheet_directory_uri().'/assets/css/main.css', array(), '20131009');
 }
 add_action( 'wp_enqueue_scripts', 'nord_scripts' );
 
