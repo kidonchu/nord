@@ -96,6 +96,9 @@ function nord_scripts() {
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( 'nord-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
+
+	wp_enqueue_style('nord-bootstrap', get_stylesheet_directory_uri().'/assets/css/bootstrap.css', array(), '20131009');
+	wp_enqueue_script('nord-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '20131009', true);
 }
 add_action( 'wp_enqueue_scripts', 'nord_scripts' );
 
