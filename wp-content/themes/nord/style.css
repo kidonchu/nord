@@ -76,13 +76,6 @@ caption, th, td {
 	font-weight: normal;
 	text-align: left;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
-}
 a:focus {
 	outline: thin dotted;
 }
@@ -122,23 +115,6 @@ hr {
 }
 
 /* Text elements */
-p {
-	margin-bottom: 1.5em;
-}
-ul, ol {
-	margin: 0 0 1.5em 3em;
-}
-ul {
-	list-style: disc;
-}
-ol {
-	list-style: decimal;
-}
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
 dt {
 	font-weight: bold;
 }
@@ -150,9 +126,6 @@ b, strong {
 }
 dfn, cite, em, i {
 	font-style: italic;
-}
-blockquote {
-	margin: 0 1.5em;
 }
 address {
 	margin: 0 0 1.5em;
@@ -370,33 +343,6 @@ a:active {
 	z-index: 100000; /* Above WP toolbar */
 }
 
-/* Clearing */
-.clear:before,
-.clear:after,
-.entry-content:before,
-.entry-content:after,
-.comment-content:before,
-.comment-content:after,
-.site-header:before,
-.site-header:after,
-.site-content:before,
-.site-content:after,
-.site-footer:before,
-.site-footer:after {
-	content: '';
-	display: table;
-}
-
-.clear:after,
-.entry-content:after,
-.comment-content:after,
-.site-header:after,
-.site-content:after,
-.site-footer:after {
-	clear: both;
-}
-
-
 /* =Menu
 ----------------------------------------------- */
 
@@ -450,32 +396,8 @@ a:active {
 .main-navigation li.current-menu-item a {
 }
 
-/* Small menu */
-.menu-toggle {
-	cursor: pointer;
-	display: none;
-}
-
-@media screen and (max-width: 600px) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
-
-	.main-navigation ul {
-		display: none;
-	}
-}
-
-
 /* =Content
 ----------------------------------------------- */
-
-.sticky {
-}
-.hentry {
-	margin: 0 0 1.5em;
-}
 .byline,
 .updated {
 	display: none;
@@ -484,25 +406,10 @@ a:active {
 .group-blog .byline {
 	display: inline;
 }
-.page-content,
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
-}
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
 }
-
-
-/* =Asides
------------------------------------------------ */
-
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-	display: none;
-}
-
 
 /* =Media
 ----------------------------------------------- */

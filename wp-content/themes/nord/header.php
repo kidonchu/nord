@@ -31,16 +31,24 @@
 		</header>
 
 		<nav role="navigation">
-			<h1 class="menu-toggle"><?php _e('Menu', 'nord') ?></h1>
+			<div class="navbar-toggle-wrapper">
+				<button type="button" class="navbar-toggle-button" data-toggle="collapse" data-target=".main-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
 			<div class="skip-link"><a class="screen-reader-text" href="#content"><?php _e('Skip to content', 'nord') ?></a></div>
+
 			<?php wp_nav_menu(array(
 				'theme_location'  => 'primary',
-				'container_class' => 'main-nav-wrapper',
+				'container_class' => 'collapse navbar-collapse main-navbar',
 				'menu_class'      => 'main-nav',
 				'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
 			))
 			?>
 		</nav>
-	</div>
 
-	<div class="content">
+		<div class="content">

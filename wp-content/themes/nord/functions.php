@@ -75,7 +75,39 @@ function nord_widgets_init() {
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
-	) );
+	));
+	register_sidebar( array(
+		'name'          => __('Footer 1', 'nord'),
+		'id'            => 'footer-1',
+		'before_widget' => '<div class="footer-section">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="footer-section-title">',
+		'after_title'   => '</h5>',
+	));
+	register_sidebar( array(
+		'name'          => __('Footer 2', 'nord'),
+		'id'            => 'footer-2',
+		'before_widget' => '<div class="footer-section">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="footer-section-title">',
+		'after_title'   => '</h5>',
+	));
+	register_sidebar( array(
+		'name'          => __('Footer 3', 'nord'),
+		'id'            => 'footer-3',
+		'before_widget' => '<div class="footer-section">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="footer-section-title">',
+		'after_title'   => '</h5>',
+	));
+	register_sidebar( array(
+		'name'          => __('Footer 4', 'nord'),
+		'id'            => 'footer-4',
+		'before_widget' => '<div class="footer-section">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="footer-section-title">',
+		'after_title'   => '</h5>',
+	));
 }
 add_action( 'widgets_init', 'nord_widgets_init' );
 

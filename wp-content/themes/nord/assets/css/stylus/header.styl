@@ -1,6 +1,5 @@
-
 .header
-	height $line-height-rem * 5
+	scale(height, 5)
 	background $dark-purple
 	border-bottom 3px solid orange
 
@@ -10,9 +9,10 @@
 	text-indent -9999px
 
 .main-nav
-	font-size .95em
+	fontSize .95
 	font-weight 600
 	scale('height', 1)
+	lineheight .95
 	list-style none
 	margin 0
 	li
@@ -21,16 +21,52 @@
 		border-left 1px solid #aaa
 		text-align center
 		float left
-		width (100% / 6)
+		width (100% / $main-nav-items)
 		a
 			color white
 			display block
 			padding 0 16px
+			overflow hidden
+			text-decoration none
 			&:hover, &:active
 				background-color $dark-purple
-		&.active
-			border-left none
-			relative top 3px left
-			z-index 2
-			a, a:hover, a:active
-				background-color: mid-purple
+
+.navbar-toggle-wrapper
+	display none
+
+.navbar-collapse
+	padding 0
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.navbar-toggle-wrapper
+	background-color $pastel-purple
+	display block
+	scale(height, 2)
+.navbar-toggle-button, .navbar-toggle-button:hover
+	background-color $pastel-yellow
+	border-radius 4px
+	box-shadow none
+	position relative
+	float right
+	padding 9px 10px
+	scale(height, 1.5)
+	margin ($line-height-px/4) 10px
+	border 1px solid $pastel-yellow
+	.icon-bar
+		background-color $dark-purple
+		display block
+		width 22px
+		height 2px
+		border-radius 1px
+		& + .icon-bar
+			margin-top 4px
+.navbar-toggle-button:hover
+	background-color $light-yellow
+.main-nav
+	li
+		border none
+		scale('height', 1)
+		width 100%
+unquote("}")
+
+

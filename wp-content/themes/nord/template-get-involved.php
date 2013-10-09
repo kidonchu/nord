@@ -1,7 +1,15 @@
+<?php
+/**
+ * Template Name: Get Involved
+ */
+?>
 <?php get_header() ?>
 
 	<div class="row">
 		<div class="col-md-3 col-sm-4">
+			<nav class="sidebar">
+				<?php get_sidebar('get-involved') ?>
+			</nav>
 		</div>
 		<div class="col-md-9 col-sm-8">
 
@@ -18,4 +26,4 @@
 		</div>
 	</div>
 
-<?php get_footer(); ?>
+<?php get_footer() ?>
