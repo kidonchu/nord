@@ -1,0 +1,36 @@
+
+.header
+	height $line-height-rem * 5
+	background $dark-purple
+	border-bottom 3px solid orange
+
+.logo
+	font-size 1px
+	scale('margin-top', 1)
+	text-indent -9999px
+
+.main-nav
+	font-size .95em
+	font-weight 600
+	scale('height', 1)
+	list-style none
+	margin 0
+	li
+		background-color $pastel-purple
+		border-right 1px solid mid-purple
+		border-left 1px solid #aaa
+		text-align center
+		float left
+		width (100% / 6)
+		a
+			color white
+			display block
+			padding 0 16px
+			&:hover, &:active
+				background-color $dark-purple
+		&.active
+			border-left none
+			relative top 3px left
+			z-index 2
+			a, a:hover, a:active
+				background-color: mid-purple
