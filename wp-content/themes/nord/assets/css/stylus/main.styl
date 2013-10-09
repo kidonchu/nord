@@ -1,0 +1,521 @@
+@import url("http://fonts.googleapis.com/css?family=Kreon:400,700")
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700")
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,600")
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,900,700,600")
+@import "nib"
+@import "variables.styl"
+@import "mixins.styl"
+@import "utilities.styl"
+
+dark-purple   = #320961
+pastel-purple = #7B54A8
+violet        = #883288
+light-yellow  = #EEBB4D
+pastel-yellow = #FFDD92
+
+html, body
+	background #ddd
+	height 100%
+html, body
+	font 100%/1.5em "Source Sans Pro", "Helvetica", "Arial", sans-serif
+
+heading(weight)
+	color dark-purple
+	font-family "Droid Serif", "Helvetica", "Arial", sans-serif
+	font-weight weight
+	line-height 1.1em
+	margin 1em 0
+
+ul
+	list-style-image url(../img/list.png)
+
+.em
+	color light-yellow - 10%
+
+th
+	font-weight bold
+
+p + p,
+p + ul + p
+	margin-top -1em
+
+p + ul
+	margin -1.5em 0 2em
+
+h1
+	font-size 2.25em
+	heading(900)
+h2
+	font-size 1.875em
+	heading(700)
+h3
+	font-size 1.5em
+	heading(700)
+h4
+	font-size 1.25em
+	heading(700)
+h5
+	font-size 1em
+	heading(700)
+h6
+	font-size 0.667em
+	heading(700)
+p
+	color #444
+	margin-bottom 2em
+
+.leading
+	font-size 1.2em
+	line-height 1.4em
+
+a, a:hover, a:active, a:visited
+	text-decoration none
+a
+	color pastel-purple
+	&:hover, &:active
+		color light-yellow
+
+
+img
+	max-width 100%
+
+.slogan
+	padding 10px 30px 0 0
+
+.logo
+	padding-left 1em
+
+.search-form
+	border-right 1px solid #ccc
+	margin-right 10px
+	relative: left top 5px
+	.btn
+		padding-bottom 5px
+
+.newsletter
+	border-right 1px solid #ccc
+	padding 0 0 0 5px
+	relative: left top 5px
+
+.social-icons
+	padding-right: 5px
+	relative: left top 5px
+
+
+.subscription-form-container
+	font-size .75em
+	relative: left top 3px
+	vertical-align middle
+	form
+		padding 0
+		margin 0
+
+.joinus
+	relative: right top 8px
+
+.header-meta
+	height 40px
+
+.header-top
+	background mid-purple
+	border-bottom 3px solid orange
+	padding 1em 0
+
+#main-navbar
+	border-top 3px solid mid-purple
+	body-shadow()
+	font-size .95em
+	font-weight 600
+	padding 0
+	.navbar
+		background-color mid-purple
+		border none
+		border-radius 0
+		margin 0
+		min-height 30px
+	.navbar-collapse
+		padding 0
+	.navbar-nav > li > a
+		padding 10px 0
+	.navbar-nav
+		width 100%
+		li
+			background-color lightest-purple
+			border-right 1px solid mid-purple
+			border-left 1px solid #aaa
+			text-align center
+			a
+				color white
+				padding 5px 0
+				&:hover, &:active
+					background-color: mid-purple
+			&.active
+				border-left none
+				relative top 3px left
+				z-index 2
+				a, a:hover, a:active
+					background-color: mid-purple
+		li:nth-child(1)
+			border-left none
+			width 20%
+		li:nth-child(2)
+			width 10%
+		li:nth-child(3)
+			width 10%
+		li:nth-child(4)
+			width 10%
+		li:nth-child(5)
+			width 10%
+		li:nth-child(6)
+			width 10%
+		li:nth-child(7)
+			width 10%
+		li:nth-child(8)
+			width 10%
+		li:nth-child(9)
+			border-right none
+			width 10%
+
+.sub-nav
+	background-color mid-purple
+	color white
+	height 200px
+	width 100%
+	z-index 1
+
+.main-feature-container
+	background white
+	body-shadow()
+	margin 0
+	& > .row > .col-md-8
+		height 400px
+	& > .row > .col-md-4
+		height 400px
+		h1
+			margin-bottom .5em
+		p
+			font-size 1.3em
+			line-height 1.5em
+			padding-right 2em
+			margin-bottom .5em
+		a
+			font-size 1.3em
+			width 90%
+
+.content-container
+	background-color white
+	body-shadow()
+	padding 1em 0
+
+.sub-content-container
+	background-color: white
+	body-shadow()
+	padding-top: 1em
+	section
+		padding 0 2em
+		&:first-child
+			border-right 1px solid #e1e1e1
+		&:last-child
+			border-left 1px solid #e1e1e1
+	// 	&:nth-child(2)
+	// 		padding 0 .5em
+
+.footer
+	background darker-grey
+	clear both
+	color dark-grey
+	font-family "Kreon", sans-serif
+	ul
+		list-style-type none
+		list-style-image none
+		li
+			margin-bottom 5px
+			&.title
+				color light-grey
+				margin-bottom 1em
+	a
+		color dark-grey
+		&.text-emphasize
+			color lighter-purple
+		&:hover, &:active
+			color light-grey
+			text-decoration none
+
+.footer-top
+	border-bottom 1px solid #151515
+	margin 0 auto
+	padding 2em 0
+	width 90%
+
+.footer-bottom
+	border-top 1px solid #515151
+	font-size .9em
+	margin 0 auto
+	padding 2em 0 1em
+	text-align center
+	width 90%
+	a
+		text-decoration underline
+	p
+		color #888
+
+.social
+	background-image url(../img/sprites-social.png)
+	display inline-block
+	float left
+	min-height 34px
+	min-width 34px
+	text-indent -9999px
+
+	&.social-facebook
+		background-position -104px -10px
+
+	&.social-twitter
+		background-position -8px -136px
+
+	&.social-linkedin
+		background-position -331px -3px
+
+	&.social-rss
+		background-position -85px -41px
+
+
+for i in 5 10 15 20 25 30 35 40 45 50 100 200
+	.spacer{i}
+		border 0
+		display block
+		font-size 0
+		height i * 1px
+		margin 0
+		padding 0
+		width 100%
+
+.story p
+	font-size 140%
+	line-height 1.6
+	margin-bottom 2em
+
+
+.address-direction
+	border-left 1px solid #ccc
+	padding-left 30px
+
+
+.text-small p
+	font-size 90%
+
+.breadcrumb
+	background none
+	font-size .8em
+	padding 0 0 0 1.5em
+	margin -1em 0 1em 0
+	a
+		color darkest-purple
+	.active a
+		color lightest-purple
+
+
+// .border
+// 	border 1px solid #ccc
+// 	border-width 0
+// 	min-height 100%
+
+// .right-border
+// 	@extends .border
+// 	border-right-width 1px
+// 	padding-right 2em
+
+// .left-border
+// 	@extends .border
+// 	border-left-width 1px
+// 	padding-left 2em
+
+
+.accordion-inner
+	border-top 1px solid #E5E5E5
+	padding 9px 15px
+
+.sidebar-container
+	padding-right 0
+.sidebar
+	padding 0 10px 0 20px
+	.post-link
+		border-bottom 1px dotted #ccc
+		color dark-purple
+		display block
+		padding 3px 10px
+		z-index 2
+		&:nth-child(1)
+			border-top 1px dotted #ccc
+		&:visited
+			color dark-purple
+		&:hover, &:active
+			color #333
+			webkit-box-shadow 0 2px 5px 0px #858585
+			  -moz-box-shadow 0 2px 5px 0px #858585
+			       box-shadow 0 2px 5px 0px #858585
+		&.active
+			background #eee
+			z-index 1
+			.glyphicon
+				color pastel-purple
+		.glyphicon
+			color white
+
+.sidebar-header
+	color light-yellow - 10%
+	padding-left 20px
+	margin .25em 0
+
+.rss-box
+	.rss-title
+		display none
+	.rss-items
+		list-style-type none
+		margin: 0
+		li
+			margin-bottom 2em
+			line-height 1.5
+		a
+			display block
+			font-size 1.5em
+		span.rss-date
+			display block
+			font-size .8em
+		br
+			display none
+
+
+.affix
+	top 30px
+
+.no-list-style
+	list-style-type none
+	margin-left 0
+
+.partners-list
+	li
+		height 4em
+		img
+			height auto
+			vertical-align middle
+			width 100%
+
+.border-bottom
+	border-bottom 1px solid mid-purple
+
+
+.nav .divider-vertical
+	border-left 1px solid lightest-purple
+	border-right 1px solid lightest-purple
+
+.carousel
+	margin 	0
+	.carousel-control
+		top 50%
+form
+	margin 0
+
+.breadcrumb
+	margin 0
+	padding 0
+
+.pt2
+	padding-top 2em;
+
+.img-polaroid
+	relative: left -5px top
+
+.vertical-divider
+	background-color #444
+	float left
+	min-height 200px
+	width 2px
+
+.text90
+	font-size .9em
+
+for pos in top bottom left right
+	.border-{pos}
+		border-{pos} 1px solid border-color
+.border-all
+	border 1px solid border-color
+
+for pos in top bottom left right
+	.with-padding-{pos}
+		padding-{pos} 1em
+.with-padding-all
+	padding 1em
+
+for pos in top bottom left right
+	.no-padding-{pos}
+		padding-{pos} 0
+
+for height in (100..1000)
+	if ((height % 100) == 0)
+		.min-height-{height}
+			min-height height * 1px
+
+.orange
+	color #BC8B46
+
+.nav > li > a
+	padding 5px 15px
+
+.right-caret {
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+	border-left: 4px solid #000000;
+	display: inline-block;
+	height: 0;
+	opacity: 0.3;
+	vertical-align: top;
+	width: 0;
+}
+
+.page-content
+	padding 0 2em
+	h2, h3, h4, h5, h6
+		margin-bottom 0.25em
+
+.post-content
+	h2, h3, h4, h5, h6
+		margin-bottom 0.25em
+		&:nth-child(1)
+			margin-top 0
+
+.list-sitemap
+	list-style-type none
+	padding 0
+	margin 0 0 2em 1em
+
+.event
+	padding 1em 0
+.event-date
+	margin-bottom 0
+	font-style: italic
+.event-header
+	margin 0 0 .5em
+
+.resource-links
+	margin 0 0 1.5em
+
+.resource-list-header
+	margin 0 0 .5em
+
+.resource-list
+	list-style-image url(../img/list.png)
+	list-style-position inside
+	margin 0 0 0 1em
+	padding 0
+
+
+blockquote
+	p.hold
+		font-style italic
+		&:before
+			content "\201C"
+			display inline-block
+			padding-right .4em
+	small
+		margin-top 1em

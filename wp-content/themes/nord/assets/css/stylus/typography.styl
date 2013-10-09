@@ -1,0 +1,270 @@
+html
+	font-size 100%
+body
+	font 100%/1.5em "Source Sans Pro", "Helvetica", "Arial", sans-serif
+
+heading(weight)
+	color #222
+	font-family "Source Sans Pro", "Helvetica", "Arial", sans-serif
+	font-weight weight
+	line-height 1.1em
+	margin 1em 0
+
+h1
+	font-size 2.25em
+	heading(900)
+h2
+	font-size 1.875em
+	heading(700)
+h3
+	font-size 1.5em
+	heading(700)
+h4
+	font-size 1.25em
+	heading(700)
+h5
+	font-size 1em
+	heading(700)
+h6
+	font-size 0.667em
+	heading(700)
+p
+	color #444
+	margin-bottom 1.5em
+
+.leading
+	font-size 1.2em
+	line-height 1.4em
+
+.text
+	h2, h3, h4, h5, h6
+		margin-bottom 0.25em
+
+html, body
+	color #444
+	font 400 100%/1.5 "Ubuntu", Verdana, Arial
+
+body, input, button
+	text-rendering optimizeLegibility
+	webkit-font-smoothing antialiased
+
+h1, h2, h3, h4, h5, h6
+	font-family "Ubuntu", Arial
+	font-weight 500
+	a:link, a:hover, a:visited, a:focus
+		color #444
+h1, .alpha
+	font-size 36px
+	font-size 2.25rem
+	line-height 1.333333
+h2, .beta
+	font-size 30px
+	font-size 1.875rem
+	line-height 1.6
+h3, .gamma
+	font-size 24px
+	font-size 1.5rem
+	line-height 1
+h4, .delta
+	font-size 20px
+	font-size 1.25em
+	line-height 1.2
+h5, .epsilon
+	font-size 16px
+	font-size 1em
+	line-height 1.5
+h6, .zeta
+	font-size 14px
+	font-size .875em
+	line-height 1.71429
+p
+	line-height 1.5
+	word-break break-word
+.indent p+p
+	text-indent 1.5em
+	margin-top -1.5em
+
+/**
+ * Inline elements
+ */
+b, strong
+	font-weight 500
+em
+	font-style italic
+mark
+	background-color #ff8
+code, pre
+	background-color #eee
+	font-family Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace
+	font-size 14.4px
+	font-size 0.9rem
+p, ol, ul
+	code
+		padding 1px 5px
+a
+	&:link, &:visited
+		color #FF004D
+		text-decoration none
+	&:hover
+		text-decoration underline
+	&:focus
+		outline thin dotted
+
+blockquote
+	font-style italic
+	&:before
+		content "\201C"
+		display inline-block
+		padding-right .4em
+
+@media print
+	*
+		background transparent !important
+		color #000 !important /* Black prints faster h5bp.com/s */
+		box-shadow none !important
+		text-shadow none !important
+	p, h2, h3
+		orphans 3 /* http//css-tricks.com/almanac/properties/o/orphans/ */
+		widows 3  /* http//css-tricks.com/almanac/properties/w/widows/ */
+	h2, h3
+		page-break-after avoid
+
+.entry ul, .comment ul{
+	list-style: square inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol, .comment ol{
+	list-style: decimal inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol ol, .comment ol ol{
+	list-style: upper-alpha inside;
+}
+.entry ol ol ol, .comment ol ol ol{
+	list-style: lower-roman inside;
+}
+.entry ol ol ol ol, .comment ol ol ol ol{
+	list-style: lower-alpha inside;
+}
+.entry ul ul, .comment ul ul,
+.entry ol ol, .comment ol ol,
+.entry ul ol, .comment ul ol
+.entry ol ul, .comment ol ul {
+	margin-bottom: 5px;
+}
+dl {
+	margin: 10px 0 20px 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 20px;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+big {
+	font-size: 1.3em;
+}
+ins {
+	padding: 1px 2px;
+	background: #ffa;
+	text-decoration: none;
+}
+del, strike, s{
+	text-decoration: line-through;
+}
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+small {
+	font-size: 0.7em;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+	font-size: 0.8em;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+.entry var, .entry kbd, .entry tt {
+	font-size: 1.1em;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+blockquote {
+	margin: 20px 10px;
+	padding: 0 10px;
+	font-size: 1.0em;
+	font-weight: normal;
+	font-style: italic;
+	text-align: justify;
+	color: #666;
+	border-left: 5px solid #ddd;
+}
+.entry table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ddd;
+	margin: 20px 0;
+	text-align: left;
+	width: 100%;
+}
+.entry tr th,
+.entry thead th {
+	color: #555;
+	font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1.0em;
+	padding: 5px 15px;
+}
+.entry tr td {
+	border-top: 1px solid #ddd;
+	padding: 5px 15px;
+}
+.entry tr.odd td {
+	background: #eee;
+}
+
+.arh
+	font-size 24px
+	font-size 1.5rem
+	line-height 1
+	padding 11px 5px
+	padding .6875rem .3125rem
+	border-top 1px solid #ddd
+	border-bottom 1px solid #ddd
+
+.more-link
+	background url(../img/button.png) repeat-x #ddd
+	border 1px solid #ddd
+	font-size 14.4px
+	font-size .9rem
+	font-weight 400
+	line-height 1.6667
+	padding 3px 12px
+	relative top -12px left
+	relative top -.75rem left
+	&:link, &:visited, &:hover, &:active
+		color #444
+		text-decoration none
+	&:hover
+		background url(../img/button_hover.png) repeat-x #fff
+
