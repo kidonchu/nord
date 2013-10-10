@@ -1,0 +1,33 @@
+.nord-intro-content
+	padding 0 30px
+	scale('padding-top', .5)
+	scale('padding-bottom', .5)
+.nord-intro-header
+	fontSize 2.25
+	font-weight 700
+	lineHeight 2.25
+.nord-intro-body
+	fontSize 1.25
+	lineHeight 1.25
+
+.feature
+	border-right 1px solid #CCC
+	&.last
+		border none
+
+.feature-content
+	scale('padding-top', .5)
+	scale('padding-bottom', .5)
+	padding-left 20px
+	padding-right 20px
+
+.partners-logo
+	scale(height, 25)
+	scale(padding-bottom, 1)
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.feature
+	border none
+.partners-logo
+	scale(height, 18)
+unquote("}")

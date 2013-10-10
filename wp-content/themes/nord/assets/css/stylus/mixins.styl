@@ -1,0 +1,29 @@
+bodyShadow()
+	webkit-box-shadow 0 12px 20px 0px #858585
+	  -moz-box-shadow 0 12px 20px 0px #858585
+	       box-shadow 0 12px 20px 0px #858585
+
+border-radius()
+	-webkit-border-radius arguments
+	   -moz-border-radius arguments
+	        border-radius arguments
+
+marginBottom($scale)
+	margin-bottom $line-height-px * $scale
+	margin-bottom 1.5rem * $scale
+
+fontSize($scale)
+	font-size $font-size-px * $scale
+	font-size 1rem * $scale
+
+lineHeight($scale)
+	if $scale <= ($line-height)
+		line-height ($line-height / $scale)
+	else if $scale <= ($line-height * 2)
+		line-height ($line-height * 2 / $scale)
+	else
+		line-height ($line-height / $scale)
+
+scale($key, $scale)
+	{$key} $line-height-px * $scale
+	{$key} $line-height-rem * $scale

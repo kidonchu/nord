@@ -1,19 +1,17 @@
 <!doctype html>
-
 <!--[if IEMobile 7 ]> <html <?php language_attributes(); ?>class="no-js iem7"> <![endif]-->
 <!--[if lt IE 7 ]> <html <?php language_attributes(); ?> class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html <?php language_attributes(); ?> class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html <?php language_attributes(); ?> class="no-js ie8"> <![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
-
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<link rel="pingback" href="<?php bloginfo('pingback_url') ?>">
 
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
@@ -25,24 +23,10 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-		<?php wp_head(); ?>
 		<link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/main.css' rel='stylesheet'>
-		<!-- <link href='<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome.min.css' rel='stylesheet'> -->
-
 		<link href='<?php echo get_stylesheet_directory_uri() ?>/favicon.ico' rel='shortcut icon'>
 
-		<!--[if IE 7]>
-			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/library/css/font-awesome-ie7.min.css">
-		<![endif]-->
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-43014291-1', 'stop-esrd.org');
-			ga('send', 'pageview');
-		</script>
+		<?php wp_head(); ?>
 	</head>
 
 	<body <?php body_class(); ?>>

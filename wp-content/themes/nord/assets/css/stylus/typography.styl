@@ -1,0 +1,97 @@
+html
+	font-size 100%
+
+body
+	background-color $bg-color
+	color $font-color
+	font $body-font-weight $font-size/$line-height $font-family-lato
+
+body, input, button
+	text-rendering optimizeLegibility
+	webkit-font-smoothing antialiased
+
+h1, h2, h3, h4, h5, h6
+	color $heading-color
+	font-family $font-family-bitter
+	font-weight $heading-font-weight
+	a:link, a:hover, a:visited, a:focus
+		color $heading-color
+		text-decoration none
+
+h1, .alpha
+	fontSize 2.25
+	lineHeight 2.25
+h2, .beta
+	fontSize(1.875)
+	lineHeight(1.875)
+h3, .gamma
+	fontSize(1.5)
+	lineHeight(1.5)
+h4, .delta
+	fontSize(1.25)
+	lineHeight(1.25)
+h5, .epsilon
+	fontSize(1)
+	lineHeight(1)
+h6, .zeta
+	fontSize(.875)
+	lineHeight(.875)
+
+p
+	word-break break-word
+
+.indent p+p
+	text-indent 1.5em
+	margin-top -1.5em
+
+b, strong
+	font-weight 700
+em
+	font-style italic
+mark
+	background-color #ff8
+code, pre
+	background-color #eee
+	font-family Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace
+	font-size 14.4px
+	font-size 0.9rem
+a
+	&:link, &:visited
+		color $link-color
+		text-decoration none
+	&:hover
+		text-decoration underline
+	&:focus
+		outline thin dotted
+
+blockquote
+	scale(padding-top, .5)
+	scale(padding-bottom, .5)
+	p
+		fontSize 1
+		lineHeight 1
+		font-weight 400
+	small
+		color $dark-grey
+		fontSize .8
+		lineHeight .8
+
+ul
+	list-style inside url(../img/list.png)
+
+.leading
+	fontSize 1.1
+	lineHeight 1.1
+
+
+@media print
+	*
+		background transparent !important
+		color #000 !important /* Black prints faster h5bp.com/s */
+		box-shadow none !important
+		text-shadow none !important
+	p, h2, h3
+		orphans 3 /* http//css-tricks.com/almanac/properties/o/orphans/ */
+		widows 3  /* http//css-tricks.com/almanac/properties/w/widows/ */
+	h2, h3
+		page-break-after avoid

@@ -1,0 +1,25 @@
+.sidebar
+	padding 0 20px
+
+.sidebar-title
+	color $light-yellow
+	fontSize 1.25
+	lineHeight 1.25
+	scale(margin-top, 1)
+	margin-bottom 0
+
+.sidebar-list-item
+	display block
+	z-index 2
+	scale(height, 1)
+
+.sidebar-list-item-link
+	&:visited
+		color $pastel-purple
+	&.active
+		background #eee
+		z-index 1
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+unquote("}")
+
