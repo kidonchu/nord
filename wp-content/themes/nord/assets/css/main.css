@@ -109,7 +109,7 @@ a.btn-success,a.btn-warning,a.btn-danger{color:#fff}
 .footer-border-top,.footer-border-bottom{min-height:23px;margin:0 auto;width:90%}
 .footer-border-top{border-bottom:1px solid #151515}
 .footer-border-bottom{border-top:1px solid #515151}
-.footer-bottom{color:#888;font-size:14.4px;font-size:.9rem;line-height:1.6666666666666665;}
+.footer-bottom{color:#888;font-size:14.4px;font-size:.9rem;line-height:1.6666666666666665;padding:0 20px;}
 .footer-bottom a{color:#888;text-decoration:underline}
 @media screen and (max-width: 767px) {
 }
