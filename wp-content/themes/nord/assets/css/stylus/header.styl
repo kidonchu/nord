@@ -1,6 +1,6 @@
 .header
 	scale(height, 5)
-	background $dark-purple
+	background $purple-dark
 	border-bottom 3px solid orange
 
 .logo
@@ -16,8 +16,8 @@
 	list-style none
 	margin 0
 	li
-		background-color $pastel-purple
-		border-right 1px solid $dark-purple
+		background-color $purple-light
+		border-right 1px solid $purple-dark
 		border-left 1px solid #aaa
 		scale('height', 1)
 		text-align center
@@ -30,7 +30,7 @@
 			overflow hidden
 			text-decoration none
 			&:hover, &:active
-				background-color $dark-purple
+				background-color $purple-dark
 
 .navbar-toggle-wrapper
 	display none
@@ -41,11 +41,11 @@
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .navbar-toggle-wrapper
-	background-color $pastel-purple
+	background-color $purple-light
 	display block
 	scale(height, 2)
 .navbar-toggle-button, .navbar-toggle-button:hover
-	background-color $pastel-yellow
+	background-color $yellow-light
 	border-radius 4px
 	box-shadow none
 	position relative
@@ -53,9 +53,9 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 	padding 9px 10px
 	scale(height, 1.5)
 	margin ($line-height-px/4) 10px
-	border 1px solid $pastel-yellow
+	border 1px solid $yellow-light
 	.icon-bar
-		background-color $dark-purple
+		background-color $purple-dark
 		display block
 		width 22px
 		height 2px
@@ -63,7 +63,7 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 		& + .icon-bar
 			margin-top 4px
 .navbar-toggle-button:hover
-	background-color $light-yellow
+	background-color $yellow
 .main-nav
 	fontSize 1.25
 	height auto

@@ -14,12 +14,7 @@ body{background-color:#ddd;color:#333;font:400 100%/1.5 "Lato","Helvetica","Aria
 body,input,button{text-rendering:optimizeLegibility;webkit-font-smoothing:antialiased}
 h1,h2,h3,h4,h5,h6{color:#320961;font-family:"Bitter","Helvetica","Arial",sans-serif;font-weight:700;}
 h1 a:link,h2 a:link,h3 a:link,h4 a:link,h5 a:link,h6 a:link,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited,h1 a:focus,h2 a:focus,h3 a:focus,h4 a:focus,h5 a:focus,h6 a:focus{color:#320961;text-decoration:none}
-h1,.alpha{font-size:36px;font-size:2.25rem;line-height:1.3333333333333333}
-h2,.beta{font-size:30px;font-size:1.875rem;line-height:1.6}
-h3,.gamma{font-size:24px;font-size:1.5rem;line-height:1}
-h4,.delta{font-size:20px;font-size:1.25rem;line-height:1.2}
-h5,.epsilon{font-size:16px;font-size:1rem;line-height:1.5}
-h6,.zeta{font-size:14px;font-size:.875rem;line-height:1.7142857142857142}
+h1,.alpha{fontSize:2.25;lineHeight:2.25}
 p{word-break:break-word}
 .indent p+p{text-indent:1.5em;margin-top:-1.5em}
 b,strong{font-weight:700}
@@ -30,17 +25,18 @@ a:link,a:visited{color:#7b54a8;text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus{outline:thin dotted}
 blockquote{padding-top:12px;padding-top:.75rem;padding-bottom:12px;padding-bottom:.75rem;}
-blockquote p{font-size:16px;font-size:1rem;line-height:1.5;font-weight:400}
-blockquote small{color:#6e6e6e;font-size:12.8px;font-size:.8rem;line-height:1.875}
+blockquote p{fontSize:1;lineHeight:1;font-weight:400}
+blockquote small{color:#6e6e6e;fontSize:.8;lineHeight:.8}
 ul{list-style:inside url("../img/list.png")}
-.leading{font-size:17.6px;font-size:1.1rem;line-height:1.3636363636363635}
+.leading{fontSize:1.1;lineHeight:1.1}
 @media print{*{background:transparent !important;color:#000 !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important}
 p,h2,h3{orphans:3;widows:3;}
 h2,h3{page-break-after:avoid}
-}.content{background-color:#fff;webkit-box-shadow:0 12px 20px 0 #858585;-moz-box-shadow:0 12px 20px 0 #858585;-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585}
+}.content{background-color:#fff;}
+.content webkit-box-shadow 012px20px0px#858585 -moz-box-shadow 012px20px0px#858585{-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585}
 .header{height:120px;height:7.5rem;background:#320961;border-bottom:3px solid #ffa500}
 .logo{font-size:1px;margin-top:24px;margin-top:1.5rem;text-indent:-9999px}
-.main-nav{font-size:15.2px;font-size:.95rem;font-weight:600;height:24px;height:1.5rem;lineheight:.95;list-style:none;margin:0;}
+.main-nav{fontSize:.95;font-weight:600;height:24px;height:1.5rem;lineheight:.95;list-style:none;margin:0;}
 .main-nav li{background-color:#7b54a8;border-right:1px solid #320961;border-left:1px solid #aaa;height:24px;height:1.5rem;text-align:center;float:left;width:12.5%;}
 .main-nav li a{color:#fff;display:block;padding:0 16px;overflow:hidden;text-decoration:none;}
 .main-nav li a:hover,.main-nav li a:active{background-color:#320961}
@@ -52,10 +48,10 @@ h2,h3{page-break-after:avoid}
 .navbar-toggle-button .icon-bar,.navbar-toggle-button:hover .icon-bar{background-color:#320961;display:block;width:22px;height:2px;-moz-border-radius:1px;-webkit-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;}
 .navbar-toggle-button .icon-bar + .icon-bar,.navbar-toggle-button:hover .icon-bar + .icon-bar{margin-top:4px}
 .navbar-toggle-button:hover{background-color:#eebb4d}
-.main-nav{font-size:20px;font-size:1.25rem;height:auto;lineheight:1.25;}
+.main-nav{fontSize:1.25;height:auto;lineheight:1.25;}
 .main-nav li{border:none;height:auto;width:100%}
 }
-.btn{font-size:16px;font-size:1rem;line-height:1.5;font-weight:700;padding:11px 12px}
+.btn{fontSize:1;lineHeight:1;font-weight:700;padding:11px 12px}
 a.btn-success,a.btn-warning,a.btn-danger{color:#fff}
 .placeholder,.spacer1,.spacer2,.spacer3,.spacer4,.spacer5,.spacer6,.spacer7,.spacer8,.spacer9,.spacer10,.top-shadow,.hr{border:0;display:block;font-size:0;margin:0;padding:0;width:100%}
 .no-ov{overflow:hidden}
@@ -75,16 +71,26 @@ a.btn-success,a.btn-warning,a.btn-danger{color:#fff}
 .top-shadow{background:url("../img/bg_shadow.png") repeat-x scroll left top transparent;min-height:24px;min-height:1.5rem}
 .hidden{display:none}
 .hr{background:url("../img/logo-hr.png") no-repeat center center;min-height:72px;min-height:4.5rem}
+.sidebar-nav-toggle-wrapper{display:none}
+.sidebar-nav-collapse{border:none;padding:0}
 .sidebar{padding:0 20px}
-.sidebar-title{color:#eebb4d;font-size:20px;font-size:1.25rem;line-height:1.2;margin-top:24px;margin-top:1.5rem;margin-bottom:0}
-.sidebar-list-item{display:block;z-index:2;height:24px;height:1.5rem}
-.sidebar-list-item-link:visited{color:#7b54a8}
-.sidebar-list-item-link.active{background:#eee;z-index:1}
+.sidebar-title{color:#eebb4d;font-size:20px;font-size:1.25rem;line-height:1.2;margin:24px 0 0;margin:1.5rem 0 0}
+.sidebar-list-item{display:block;z-index:2;border-bottom:1px dotted #ccc;display:block;}
+.sidebar-list-item:first-child{border-top:1px dotted #ccc}
+.sidebar-list-item-link{display:block;padding-left:20px;}
+.sidebar-list-item-link .glyphicon{color:#fff;position:relative;top:2px}
+.sidebar-list-item-link:hover,.sidebar-list-item-link:active{background:#efefef;text-decoration:none;}
+.sidebar-list-item-link:hover .glyphicon,.sidebar-list-item-link:active .glyphicon{color:#7b54a8}
 @media screen and (max-width: 767px) {
+.sidebar{padding:0}
+.sidebar-title{float:left;margin:12px 0 12px 10px;margin:.75rem 0 .75rem 10px}
+.sidebar-nav-toggle-wrapper{background-color:#fff;border-bottom:1px dotted #6e6e6e;display:block;height:48px;height:3rem;margin-bottom:24px;margin-bottom:1.5rem}
+.sidebar-nav-toggle-button,.sidebar-nav-toggle-button:hover{background-color:#7b54a8;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;-webkit-box-shadow:none;box-shadow:none;position:relative;color:#fff;float:right;padding:3px 10px;height:36px;height:2.25rem;margin:6px 10px;border:1px solid #320961}
+.sidebar-nav-toggle-button:hover{background-color:#320961}
 }
 .nord-intro-content{padding:0 30px;padding-top:12px;padding-top:.75rem;padding-bottom:12px;padding-bottom:.75rem}
-.nord-intro-header{font-size:36px;font-size:2.25rem;font-weight:700;line-height:1.3333333333333333}
-.nord-intro-body{font-size:20px;font-size:1.25rem;line-height:1.2}
+.nord-intro-header{fontSize:2.25;font-weight:700;lineHeight:2.25}
+.nord-intro-body{fontSize:1.25;lineHeight:1.25}
 .feature{border-right:1px solid #ccc;}
 .feature.last{border:none}
 .feature-content{padding-top:12px;padding-top:.75rem;padding-bottom:12px;padding-bottom:.75rem;padding-left:20px;padding-right:20px}
@@ -109,10 +115,8 @@ a.btn-success,a.btn-warning,a.btn-danger{color:#fff}
 .footer-border-top,.footer-border-bottom{min-height:23px;margin:0 auto;width:90%}
 .footer-border-top{border-bottom:1px solid #151515}
 .footer-border-bottom{border-top:1px solid #515151}
-.footer-bottom{color:#888;font-size:14.4px;font-size:.9rem;line-height:1.6666666666666665;padding:0 20px;}
+.footer-bottom{color:#888;fontSize:.9;lineHeight:.9;padding:0 20px;}
 .footer-bottom a{color:#888;text-decoration:underline}
-@media screen and (max-width: 767px) {
-}
 img{max-width:100%}
 .slogan{padding:10px 30px 0 0}
 .search-form{border-right:1px solid #ccc;margin-right:10px;position:relative;left:0;top:5px;}

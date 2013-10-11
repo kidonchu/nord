@@ -1,29 +1,80 @@
 bodyShadow()
 	webkit-box-shadow 0 12px 20px 0px #858585
-	  -moz-box-shadow 0 12px 20px 0px #858585
-	       box-shadow 0 12px 20px 0px #858585
+		-moz-box-shadow 0 12px 20px 0px #858585
+				 box-shadow 0 12px 20px 0px #858585
 
 border-radius()
 	-webkit-border-radius arguments
-	   -moz-border-radius arguments
-	        border-radius arguments
+		 -moz-border-radius arguments
+					border-radius arguments
 
 marginBottom($scale)
 	margin-bottom $line-height-px * $scale
 	margin-bottom 1.5rem * $scale
 
-fontSize($scale)
-	font-size $font-size-px * $scale
-	font-size 1rem * $scale
+fontSizeAndLineHeight($scale)
+	fontSize($scale)
+	lineHeight($scale)
 
-lineHeight($scale)
-	if $scale <= ($line-height)
-		line-height ($line-height / $scale)
-	else if $scale <= ($line-height * 2)
-		line-height ($line-height * 2 / $scale)
+
+
+scalePx($scale)
+	unit(($line-height-px * $scale), px)
+
+scaleRem($scale)
+	unit(($line-height-rem * $scale), rem)
+
+mult(a, b)
+	a * b
+
+// scale($key, $top, $right = null, $bottom = null, $left = null)
+// 	if $right is defined and $bottom is defined and $left is defined
+// 		{$key} scalePx($top) mult(1px, $right) scalePx($bottom) mult(1px, $left)
+// 		{$key} scaleRem($top) mult(1px, $right) scaleRem($bottom) mult(1px, $left)
+// 	else if $right is defined and $bottom is defined
+// 		{$key} scalePx($top) mult(1px, $right) scalePx($bottom)
+// 		{$key} scaleRem($top) mult(1px, $right) scaleRem($bottom)
+// 	else if $right is defined
+// 		{$key} scalePx($top) mult(1px, $right)
+// 		{$key} scaleRem($top) mult(1px, $right)
+// 	else
+// 		{$key} scalePx($top)
+// 		{$key} scaleRem($top)
+
+/**
+ * Scale margin with vertical rythm
+ */
+scale(args...)
+	if length(args) == 5
+		{args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3]) mult(args[4], 1px)
+		{args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3]) mult(args[4], 1px)
+	else if length(args) == 4
+		{args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3])
+		{args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3])
+	else if length(args) == 3
+		{args[0]} scalePx(args[1]) mult(args[2], 1px)
+		{args[0]} scaleRem(args[1]) mult(args[2], 1px)
+	else if length(args) == 2
+		{args[0]} scalePx(args[1])
+		{args[0]} scaleRem(args[1])
 	else
-		line-height ($line-height / $scale)
+		error('at least two arguments are required')
 
-scale($key, $scale)
-	{$key} $line-height-px * $scale
-	{$key} $line-height-rem * $scale
+/**
+ * Font Size
+ */
+fs($size)
+	font-size unit(($font-size-px * $size), px)
+	font-size unit($size, rem)
+
+/**
+ * Line Height
+ */
+lh($size)
+	if $size <= ($line-height)
+		line-height ($line-height / $size)
+	else if $size <= ($line-height * 2)
+		line-height ($line-height * 2 / $size)
+	else
+		line-height ($line-height / $size)
+

@@ -1,8 +1,16 @@
 <h5 class="sidebar-title">Screening</h5>
-<ul class="sidebar-list">
-	<li class="sidebar-list-item"><a href="#service" class="sidebar-list-item-link">Services we provide</a></li>
-	<li class="sidebar-list-item"><a href="#eligible" class="sidebar-list-item-link">Who is eligible</a></li>
-	<li class="sidebar-list-item"><a href="#cost" class="sidebar-list-item-link">Your cost</a></li>
-	<li class="sidebar-list-item"><a href="#prepare" class="sidebar-list-item-link">What to prepare</a></li>
-	<li class="sidebar-list-item"><a href="#location" class="sidebar-list-item-link">Location</a></li>
-</ul>
+<div class="sidebar-nav-toggle-wrapper">
+	<button type="button" class="sidebar-nav-toggle-button" data-toggle="collapse" data-target=".sidebar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		Sub Menu
+	</button>
+</div>
+<nav class="collapse navbar-collapse sidebar-collapse">
+	<ul class="sidebar-list">
+		<li class="sidebar-list-item"><a href="#service" class="sidebar-list-item-link">Services we provide<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+		<li class="sidebar-list-item"><a href="#eligible" class="sidebar-list-item-link">Who is eligible<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+		<li class="sidebar-list-item"><a href="#cost" class="sidebar-list-item-link">Your cost<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+		<li class="sidebar-list-item"><a href="#prepare" class="sidebar-list-item-link">What to prepare<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+		<li class="sidebar-list-item"><a href="#location" class="sidebar-list-item-link">Location<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+	</ul>
+</nav>
