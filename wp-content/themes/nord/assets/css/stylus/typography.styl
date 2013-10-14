@@ -4,7 +4,7 @@ html
 body
 	background-color $bg-color
 	color $font-color
-	font $body-font-weight $font-size/$line-height $font-family-lato
+	font $body-font-weight 100%/$line-height $font-family-lato
 
 body, input, button
 	text-rendering optimizeLegibility
@@ -19,23 +19,23 @@ h1, h2, h3, h4, h5, h6
 		text-decoration none
 
 h1, .alpha
-	fontSize 2.25
-	lineHeight 2.25
+	fs(2.25)
+	lh(2.25)
 h2, .beta
-	fontSize(1.875)
-	lineHeight(1.875)
+	fs(1.875)
+	lh(1.875)
 h3, .gamma
-	fontSize(1.5)
-	lineHeight(1.5)
+	fs(1.5)
+	lh(1.5)
 h4, .delta
-	fontSize(1.25)
-	lineHeight(1.25)
+	fs(1.25)
+	lh(1.25)
 h5, .epsilon
-	fontSize(1)
-	lineHeight(1)
+	fs(1)
+	lh(1)
 h6, .zeta
-	fontSize(.875)
-	lineHeight(.875)
+	fs(.875)
+	lh(.875)
 
 p
 	word-break break-word
@@ -68,20 +68,20 @@ blockquote
 	scale(padding-top, .5)
 	scale(padding-bottom, .5)
 	p
-		fontSize 1
-		lineHeight 1
+		fs 1
+		lh 1
 		font-weight 400
 	small
 		color $grey
-		fontSize .8
-		lineHeight .8
+		fs .8
+		lh .8
 
 ul
 	list-style inside url(../img/list.png)
 
 .leading
-	fontSize 1.1
-	lineHeight 1.1
+	fs 1.1
+	lh 1.1
 
 
 @media print
