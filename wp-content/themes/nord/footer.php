@@ -3,16 +3,24 @@
 		<footer class="footer" role="contentinfo">
 			<div class="row footer-top">
 				<div class="col-md-3 col-xs-6">
-					<?php dynamic_sidebar('footer-1') ?>
+					<?php if (is_active_sidebar('footer-1')): ?>
+						<?php dynamic_sidebar('footer-1') ?>
+					<?php endif ?>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<?php dynamic_sidebar('footer-2') ?>
+					<?php if (is_active_sidebar('footer-2')): ?>
+						<?php dynamic_sidebar('footer-2') ?>
+					<?php endif ?>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<?php dynamic_sidebar('footer-3') ?>
+					<?php if (is_active_sidebar('footer-3')): ?>
+						<?php dynamic_sidebar('footer-3') ?>
+					<?php endif ?>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<?php dynamic_sidebar('footer-4') ?>
+					<?php if (is_active_sidebar('footer-4')): ?>
+						<?php dynamic_sidebar('footer-4') ?>
+					<?php endif ?>
 				</div>
 			</div>
 

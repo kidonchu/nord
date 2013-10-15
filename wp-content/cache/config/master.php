@@ -725,6 +725,5 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
-	'wordpress.home' => 'http://nord.local.com',
 	'pgcache.bad_behavior_path' => '',
 );

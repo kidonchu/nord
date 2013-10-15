@@ -1,25 +1,25 @@
 .header
-	scale(height, 5)
+	scale height 5
 	background $purple-dark
 	border-bottom 3px solid orange
 
 .logo
 	font-size 1px
-	scale('margin-top', 1)
+	scale margin-top 1
 	text-indent -9999px
 
 .main-nav
-	fontSize .95
+	fs .95
 	font-weight 600
-	scale('height', 1)
-	lineheight .95
+	scale height 1
+	lh .95
 	list-style none
 	margin 0
 	li
 		background-color $purple-light
 		border-right 1px solid $purple-dark
 		border-left 1px solid #aaa
-		scale('height', 1)
+		scale height 1
 		text-align center
 		float left
 		width (100% / $main-nav-items)
@@ -43,7 +43,7 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .navbar-toggle-wrapper
 	background-color $purple-light
 	display block
-	scale(height, 2)
+	scale height 2
 .navbar-toggle-button, .navbar-toggle-button:hover
 	background-color $yellow-light
 	border-radius 4px
@@ -51,7 +51,7 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 	position relative
 	float right
 	padding 9px 10px
-	scale(height, 1.5)
+	scale height 1.5
 	margin ($line-height-px/4) 10px
 	border 1px solid $yellow-light
 	.icon-bar
@@ -65,9 +65,9 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .navbar-toggle-button:hover
 	background-color $yellow
 .main-nav
-	fontSize 1.25
+	fs(1.25)
+	lh(1.25)
 	height auto
-	lineheight 1.25
 	li
 		border none
 		height auto
