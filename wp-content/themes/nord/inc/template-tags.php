@@ -27,7 +27,7 @@ function nord_content_nav( $nav_id ) {
 	if ( $wp_query->max_num_pages < 2 && ( is_home() || is_archive() || is_search() ) )
 		return;
 
-	$nav_class = ( is_single() ) ? 'post-navigation' : 'paging-navigation';
+	$nav_class = 'cf '.(( is_single() ) ? 'post-navigation' : 'paging-navigation');
 
 	?>
 	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo $nav_class; ?>">
@@ -76,19 +76,17 @@ function nord_comment( $comment, $args, $depth ) {
 	<li id="comment-<?php comment_ID(); ?>" <?php comment_class( empty( $args['has_children'] ) ? '' : 'parent' ); ?>>
 		<article id="div-comment-<?php comment_ID(); ?>" class="comment-body">
 			<footer class="comment-meta">
-				<div class="comment-author vcard">
-					<?php if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
-					<?php printf( __( '%s <span class="says">says:</span>', 'nord' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
-				</div><!-- .comment-author -->
-
 				<div class="comment-metadata">
-					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>">
-						<time datetime="<?php comment_time( 'c' ); ?>">
-							<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'nord' ), get_comment_date(), get_comment_time() ); ?>
-						</time>
-					</a>
+					<time datetime="<?php comment_time( 'c' ); ?>">
+						<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'nord' ), get_comment_date(), get_comment_time() ); ?>
+					</time>
 					<?php edit_comment_link( __( 'Edit', 'nord' ), '<span class="edit-link">', '</span>' ); ?>
 				</div><!-- .comment-metadata -->
+
+				<div class="comment-author vcard">
+					<?php if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
+					<?php printf( __( '%s says:', 'nord' ), sprintf('%s', get_comment_author_link())) ?>
+				</div><!-- .comment-author -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>
 				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'nord' ); ?></p>

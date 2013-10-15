@@ -60,11 +60,26 @@
 		</section>
 	</div>
 
-	<div class="text-center">
-		<h2>
-			<a href="<?php echo home_url('about-us/partners') ?>">Our Partners</a>
-		</h2>
-		<img class="partners-logo" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/partner_logos.png" alt="Partners Logos">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="feature-content">
+				<h2 class="feature-header"><a href="<?php echo home_url('blog') ?>">Latest from Blog</a></h2>
+				<div class="feature-body">
+					<?php query_posts('showposts=5') ?>
+					<?php while (have_posts()) : the_post() ?>
+						<?php get_template_part('content', 'summary') ?>
+					<?php endwhile ?>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 text-center">
+			<div class="feature-content">
+				<h2>
+					<a href="<?php echo home_url('about-us/partners') ?>">Our Partners</a>
+				</h2>
+				<img class="partners-logo" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/partner_logos.png" alt="Partners Logos">
+			</div>
+		</div>
 	</div>
 	<!-- end .partners -->
 

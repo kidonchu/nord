@@ -1,38 +1,22 @@
 <?php
-/**
- * The template for displaying Comments.
- *
- * The area of the page that contains both current comments
- * and the comment form. The actual display of comments is
- * handled by a callback to nord_comment() which is
- * located in the inc/template-tags.php file.
- *
- * @package nord
- */
-
-/*
- * If the current post is protected by a password and
- * the visitor has not yet entered the password we will
- * return early without loading the comments.
- */
 if ( post_password_required() )
 	return;
 ?>
 
-	<div id="comments" class="comments-area">
+	<div class="comments-wrapper">
 
 	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h3 class="comments-title">
 			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'nord' ),
-					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				printf(_nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'nord' ),
+					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>');
 			?>
-		</h2>
+		</h3>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
-		<nav id="comment-nav-above" class="comment-navigation" role="navigation">
+		<nav id="comment-nav-above" class="comment-navigation cf" role="navigation">
 			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'nord' ); ?></h1>
 			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'nord' ) ); ?></div>
 			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'nord' ) ); ?></div>
@@ -47,12 +31,12 @@ if ( post_password_required() )
 				 * define nord_comment() and that will be used instead.
 				 * See nord_comment() in inc/template-tags.php for more.
 				 */
-				wp_list_comments( array( 'callback' => 'nord_comment' ) );
+				wp_list_comments(array('callback' => 'nord_comment'));
 			?>
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
-		<nav id="comment-nav-below" class="comment-navigation" role="navigation">
+		<nav id="comment-nav-below" class="comment-navigation cf" role="navigation">
 			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'nord' ); ?></h1>
 			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'nord' ) ); ?></div>
 			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'nord' ) ); ?></div>
@@ -68,6 +52,6 @@ if ( post_password_required() )
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'nord' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+	<?php comment_form(array('comment_notes_after' => '')) ?>
 
-</div><!-- #comments -->
+</div><!-- .comments-wrapper -->
