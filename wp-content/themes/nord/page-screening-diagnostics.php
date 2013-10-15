@@ -1,10 +1,11 @@
 <?php get_header() ?>
 
+	<!-- page-screening-diagnostics -->
 	<div class="row">
 		<div class="col-md-3 col-sm-4">
-			<nav class="sidebar">
+			<div class="sidebar">
 				<?php get_sidebar('screening') ?>
-			</nav>
+			</div>
 		</div>
 		<div class="col-md-9 col-sm-8">
 

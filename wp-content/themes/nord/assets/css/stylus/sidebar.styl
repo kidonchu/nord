@@ -1,25 +1,69 @@
+.sidebar-nav-toggle-wrapper
+	display none
+
+.sidebar-nav-collapse
+	border none
+	padding 0
+
 .sidebar
 	padding 0 20px
 
 .sidebar-title
-	color $light-yellow
-	fontSize 1.25
-	lineHeight 1.25
-	scale(margin-top, 1)
-	margin-bottom 0
+	color $yellow
+	fs(1.25)
+	lh(1.25)
+	scale margin 1 0 0
 
 .sidebar-list-item
 	display block
 	z-index 2
-	scale(height, 1)
+	border-bottom 1px dotted #ccc
+	display block
+	&:first-child
+		border-top 1px dotted #ccc
 
 .sidebar-list-item-link
-	&:visited
-		color $pastel-purple
-	&.active
-		background #eee
-		z-index 1
+	display block
+	padding-left 20px
+	.glyphicon
+		color white
+		position relative
+		top 2px
+	&:hover, &:active
+		background $grey-lighter
+		text-decoration none
+		.glyphicon
+			color $purple-light
+
+.sidebar-widget-wrapper
+	ul
+		margin-left 10px
+.sidebar-widget-title
+	margin-bottom 0
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.sidebar
+	padding 0
+.sidebar-title
+	float left
+	scale margin .5 0 .5 10px
+.sidebar-nav-toggle-wrapper
+	background-color white
+	border-bottom 1px dotted $grey
+	display block
+	scale height 2
+	scale margin-bottom 1
+.sidebar-nav-toggle-button, .sidebar-nav-toggle-button:hover
+	background-color $purple-light
+	border-radius 4px
+	box-shadow none
+	position relative
+	color white
+	float right
+	padding 3px 10px
+	scale height 1.5
+	margin ($line-height-px/4) 10px
+	border 1px solid $purple-dark
+.sidebar-nav-toggle-button:hover
+	background-color $purple-dark
 unquote("}")
-

@@ -1,5 +1,6 @@
 <?php get_header() ?>
 
+	<!-- page.php -->
 	<div class="row">
 		<div class="col-md-3 col-sm-4">
 		</div>

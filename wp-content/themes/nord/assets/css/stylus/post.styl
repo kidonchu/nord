@@ -10,6 +10,18 @@
 	margin-bottom 0
 	font-style: italic
 
+.summary-title
+	scale margin-bottom .5
+	a:link
+		color $purple-light
+	a:hover
+		text-decoration underline
+	a:visited, a:active
+		color $purple
+
+.summary-date
+	fs(.8)
+	lh(.8)
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .breadcrumbs, .entry

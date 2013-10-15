@@ -108,6 +108,14 @@ function nord_widgets_init() {
 		'before_title'  => '<h5 class="footer-section-title">',
 		'after_title'   => '</h5>',
 	));
+	register_sidebar( array(
+		'name'          => __('Blog', 'nord'),
+		'id'            => 'blog',
+		'before_widget' => '<div class="sidebar-widget-wrapper">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h5 class="sidebar-widget-title">',
+		'after_title'   => '</h5>',
+	));
 }
 add_action( 'widgets_init', 'nord_widgets_init' );
 

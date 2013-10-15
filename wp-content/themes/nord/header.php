@@ -8,7 +8,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url') ?>">
 <link href='<?php echo get_stylesheet_directory_uri() ?>/favicon.ico' rel='shortcut icon'>
 
-<link rel="stylesheet" href="http://basehold.it/24">
+<!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
 
 <?php wp_head() ?>
 </head>

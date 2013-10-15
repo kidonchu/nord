@@ -1,31 +1,63 @@
-<?php
-/**
- * The Template for displaying all single posts.
- *
- * @package nord
- */
+<?php get_header() ?>
 
-get_header(); ?>
+	<div class="row">
+		<div class="col-md-3 col-sm-4">
+			<div class="spacer2"></div>
+			<div class="sidebar">
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+				<?php if (is_active_sidebar('blog')): ?>
+					<?php dynamic_sidebar('blog') ?>
+				<?php endif ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+			</div>
+		</div>
+		<div class="col-md-9 col-sm-8">
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<?php if ( function_exists('yoast_breadcrumb') ) {
+			yoast_breadcrumb('<p class="breadcrumbs">','</p>');
+			} ?>
 
-			<?php nord_content_nav( 'nav-below' ); ?>
+			<?php while (have_posts()) : the_post() ?>
 
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() )
-					comments_template();
-			?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class('entry'); ?>>
 
-		<?php endwhile; // end of the loop. ?>
+					<header class="entry-header">
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+						<h1 class="entry-title">
+							<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a>
+						</h1><!-- entry-title -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+						<div class="entry-meta">
+							<?php nord_posted_on(); ?>
+						</div><!-- .entry-meta -->
+
+					</header><!-- .entry-header -->
+
+					<div class="row">
+
+						<div class="col-md-8">
+
+							<div class="entry-content">
+								<?php the_content() ?>
+							</div><!-- .entry-content -->
+
+							<?php nord_content_nav('nav-below') ?>
+
+							<?php
+								if (comments_open() || '0' != get_comments_number())
+									comments_template();
+							?>
+
+						</div><!-- .col -->
+
+					</div><!-- .row -->
+
+				</article><!-- #post-## -->
+
+			<?php endwhile ?>
+
+		</div><!-- .col -->
+
+	</div><!-- .row -->
+
+<?php get_footer() ?>

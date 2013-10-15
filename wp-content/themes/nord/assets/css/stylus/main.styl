@@ -1,9 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Kreon:400,700")
-@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700")
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,600")
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,900,700,600")
-@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
-@import url("http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
 @import url("http://fonts.googleapis.com/css?family=Bitter:400,700");
 @import url("http://fonts.googleapis.com/css?family=Lato:400,300,700,900");
 @import "nib"
@@ -18,14 +13,9 @@
 @import "sidebar.styl"
 @import "front-page.styl"
 @import "post.styl"
+@import "comment.styl"
 @import "footer.styl"
 
-
-img
-	max-width 100%
-
-.slogan
-	padding 10px 30px 0 0
 
 .search-form
 	border-right 1px solid #ccc
@@ -58,52 +48,6 @@ img
 .header-meta
 	height 40px
 
-
-.sub-nav
-	background-color mid-purple
-	color white
-	height 200px
-	width 100%
-	z-index 1
-
-// .main-feature-container
-// 	background white
-// 	body-shadow()
-// 	margin 0
-// 	& > .row > .col-md-8
-// 		height 400px
-// 	& > .row > .col-md-4
-// 		height 400px
-// 		h1
-// 			margin-bottom .5em
-// 		p
-// 			font-size 1.3em
-// 			line-height 1.5em
-// 			padding-right 2em
-// 			margin-bottom .5em
-// 		a
-// 			font-size 1.3em
-// 			width 90%
-
-.content-container
-	background-color white
-	body-shadow()
-	padding 1em 0
-
-.sub-content-container
-	background-color: white
-	body-shadow()
-	padding-top: 1em
-	section
-		padding 0 2em
-		&:first-child
-			border-right 1px solid #e1e1e1
-		&:last-child
-			border-left 1px solid #e1e1e1
-	// 	&:nth-child(2)
-	// 		padding 0 .5em
-
-
 .social
 	background-image url(../img/sprites-social.png)
 	display inline-block
@@ -124,56 +68,6 @@ img
 	&.social-rss
 		background-position -85px -41px
 
-
-
-.story p
-	font-size 140%
-	line-height 1.6
-	margin-bottom 2em
-
-
-.address-direction
-	border-left 1px solid #ccc
-	padding-left 30px
-
-
-.text-small p
-	font-size 90%
-
-.breadcrumb
-	background none
-	font-size .8em
-	padding 0 0 0 1.5em
-	margin -1em 0 1em 0
-	a
-		color darkest-purple
-	.active a
-		color lightest-purple
-
-
-// .border
-// 	border 1px solid #ccc
-// 	border-width 0
-// 	min-height 100%
-
-// .right-border
-// 	@extends .border
-// 	border-right-width 1px
-// 	padding-right 2em
-
-// .left-border
-// 	@extends .border
-// 	border-left-width 1px
-// 	padding-left 2em
-
-
-.affix
-	top 30px
-
-.no-list-style
-	list-style-type none
-	margin-left 0
-
 .partners-list
 	li
 		height 4em
@@ -182,54 +76,12 @@ img
 			vertical-align middle
 			width 100%
 
-.border-bottom
-	border-bottom 1px solid mid-purple
-
-
 .nav .divider-vertical
 	border-left 1px solid lightest-purple
 	border-right 1px solid lightest-purple
-
-.carousel
-	margin 	0
-	.carousel-control
-		top 50%
-form
-	margin 0
-
-.pt2
-	padding-top 2em;
 
 .vertical-divider
 	background-color #444
 	float left
 	min-height 200px
 	width 2px
-
-.right-caret {
-	border-bottom: 4px solid transparent;
-	border-top: 4px solid transparent;
-	border-left: 4px solid #000000;
-	display: inline-block;
-	height: 0;
-	opacity: 0.3;
-	vertical-align: top;
-	width: 0;
-}
-
-.list-sitemap
-	list-style-type none
-	padding 0
-	margin 0 0 2em 1em
-
-.resource-links
-	margin 0 0 1.5em
-
-.resource-list-header
-	margin 0 0 .5em
-
-.resource-list
-	list-style-image url(../img/list.png)
-	list-style-position inside
-	margin 0 0 0 1em
-	padding 0
