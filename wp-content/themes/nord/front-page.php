@@ -10,10 +10,7 @@
 				<p class="nord-intro-body">
 					is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research.
 				</p>
-				<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-success">
-					Donate. <br>
-					Prolong and Save Lives
-				</a>
+				<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary">Donate<br>Prolong and Save LIVES</a>
 			</div>
 		</div>
 	</div>
@@ -25,7 +22,6 @@
 				<h2 class="feature-header"><a href="<?php echo home_url('screening-diagnostics') ?>">Screening</a></h2>
 				<p class="feature-body">
 					We provide urinalysis for kidney diesase, finger stick for blood glucose, and high blood pressure checks.
-
 				</p>
 					<a href="<?php echo home_url('screening-diagnostics') ?>" class="btn btn-warning">
 						Get Screened
