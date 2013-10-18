@@ -29,9 +29,9 @@
 
 			<div class="footer-bottom cf">
 				<ul class="list-inline">
-					<li><a href="<?php echo home_url('sitemap') ?>">Site Map</a></li>
+					<li><a href="<?php echo home_url('sitemap') ?>">sitemap</a></li>
 					<li>|</li>
-					<li><a href="<?php echo home_url('disclaimer') ?>">Disclaimer, Copyright, Service mark</a></li>
+					<li><a href="<?php echo home_url('policy') ?>">policy</a></li>
 				</ul>
 				<p>
 					&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>

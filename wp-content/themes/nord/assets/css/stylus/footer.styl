@@ -2,7 +2,6 @@
 	background $grey-dark
 	color $grey
 	font-family $font-family-kreon
-	text-align center
 	.menu
 		margin-bottom 0
 		list-style none
@@ -13,13 +12,12 @@
 			text-decoration none
 
 .footer-section
-	padding 0 24px
-	scale padding-top 1
-	scale padding-bottom 1
+	scale padding 1 24px 0
 
 .footer-section-title
 	color #FFF
 	font-family $font-family-kreon
+	text-transform uppercase
 
 .footer-border-top, .footer-border-bottom
 	min-height $line-height-px - 1
@@ -36,6 +34,9 @@
 	fs(.9)
 	lh(.9)
 	padding 0 20px
+	text-align center
 	a
 		color #888
 		text-decoration underline
+		&:hover
+			color white
