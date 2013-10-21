@@ -68,7 +68,7 @@
 							</p>
 							<p>
 								<strong>
-									<span class="mark">One More Step </span>: Check Your Email to Confirm the Subscription
+									<mark>One More Step</mark> : Check Your Email to Confirm the Subscription
 								</strong>
 							</p>
 							<p>
@@ -81,41 +81,28 @@
 									Look for an email from "subscribe@stop-esrd.org" with the subject <strong>"NORD: Please Confirm Subscription"</strong>
 									<ul>
 										<li>
-											(This confirmation mail may be sitting in your spam folder, so please check there if you don't see it in the inbox. We don't send spam, but your email program can't know this until you start reading the newsletter.)
+											This confirmation mail may be sitting in your spam folder, so please check there if you don't see it in the inbox. We don't send spam, but your email program can't know this until you start reading the newsletter.)
 										</li>
 									</ul>
 								</li>
 							</ul>
 
-							Whitelist Message Sender
+							<h5>Whitelist Message Sender</h5>
 
-							The newsletters will be sent with alertbox @ nngroup.com as the "from" address.
+							<p>
+								The newsletters will be sent with <strong>subscribe</strong> @ <strong>stop-esrd.org</strong> as the "from" address.
+							</p>
+							<p>
+								If you use a spam filter, please add this address to the whitelist to ensure that you will receive the newsletter.
+							</p>
 
-							If you use a spam filter, please add this address to the whitelist to ensure that you will receive the newsletter.
+							<h5>How to Unsubscribe</h5>
 
-							How to Unsubscribe
-
-							At the bottom of each message from this mailing list is a special webpage address that is encoded with your subscriber information. Simply click this link to get a page that will remove you from the mailing list.
-
-							Since this special unsubscribe address is different for each member of the list, we cannot print it here. Instead, look at the bottom of the latest email message you received from the list. You can also go to this generic link to unsubscribe .
-
-							Sample Newsletter
-
-							To: "Alertbox Announcement List"
-							From: alertbox @ nngroup.com (Jakob Nielsen)
-
-							Alertbox: Mobile Sites vs. Apps: The Coming Strategy Shift
-							Mobile apps currently have better usability than mobile sites, but forthcoming changes will eventually make a mobile site the superior strategy.
-
-							Jakob Nielsen's Alertbox for February 13:
-							  > http://www.useit.com/alertbox/mobile-sites-apps.html
-
-							  unsubscribe from this list | update subscription preferences
-
-							Mailing List Host
-
-							We use MailChimp to host this newsletter mailing list. It's reasonably priced (though not the very cheapest), and has much better usability than other mailing list services we investigated.
-
+							<p>
+								At the bottom of each message from this mailing list is a special webpage address that is encoded with your subscriber information. Simply click this link to get a page that will remove you from the mailing list.
+							</p>
+							<p>
+								Since this special unsubscribe address is different for each member of the list, we cannot print it here. Instead, look at the bottom of the latest email message you received from the list. You can also go to this <a href="#">generic link to unsubscribe</a>.
 							</p>
 
 						</div><!-- .entry-content -->
