@@ -1,45 +1,25 @@
 		</div><!-- .content -->
 
 		<footer class="footer" role="contentinfo">
-			<div class="row footer-top">
-				<div class="col-md-3 col-xs-6">
-					<?php if (is_active_sidebar('footer-1')): ?>
-						<?php dynamic_sidebar('footer-1') ?>
-					<?php endif ?>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<?php if (is_active_sidebar('footer-2')): ?>
-						<?php dynamic_sidebar('footer-2') ?>
-					<?php endif ?>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<?php if (is_active_sidebar('footer-3')): ?>
-						<?php dynamic_sidebar('footer-3') ?>
-					<?php endif ?>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<?php if (is_active_sidebar('footer-4')): ?>
-						<?php dynamic_sidebar('footer-4') ?>
-					<?php endif ?>
-				</div>
-			</div>
-
-			<div class="footer-border-top"></div>
-			<div class="footer-border-bottom"></div>
-
-			<div class="footer-bottom cf">
-				<ul class="list-inline">
-					<li><a href="<?php echo home_url('sitemap') ?>">sitemap</a></li>
-					<li>|</li>
-					<li><a href="<?php echo home_url('policy') ?>">policy</a></li>
+			<ul class="list-inline">
+				<li><a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a></li>
+				<li><a href="<?php echo home_url('sitemap') ?>">Sitemap</a></li>
+				<li><a href="<?php echo home_url('policy') ?>">Privacy Policy</a></li>
+				<li><a href="<?php echo home_url('get-involved/volunteer') ?>">Volunteer</a></li>
+				<li><a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a></li>
+			</ul>
+			<div class="social-icons">
+				<ul class="list-inline social-icon-list">
+					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-facebook" href="http://facebook.com/NORDorg">facebook</a></li>
+					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-twitter" href="http://twitter.com/N_0_R_D">twitter</a></li>
 				</ul>
-				<p>
-					&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>
-					A.P.E.R. Awareness, Prevention, Education, and Research<br>
-					11018 Aqua Vista Street #19, Studio City, CA 91602<br>
-					mvj4nord@stop-esrd.org
-				</p>
 			</div>
+			<p class="copyright">
+				&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?><br>
+				A.P.E.R. Awareness, Prevention, Education, and Research<br>
+				11018 Aqua Vista Street #19, Studio City, CA 91602<br>
+				mvj4nord@stop-esrd.org
+			</p>
 		</footer>
 	</div><!-- .container -->
 
