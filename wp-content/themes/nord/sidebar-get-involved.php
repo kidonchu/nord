@@ -10,5 +10,6 @@
 		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/donate') ?>" class="sidebar-list-item-link">DONATE<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
 		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/volunteer') ?>" class="sidebar-list-item-link">Volunteer<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
 		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/events') ?>" class="sidebar-list-item-link">Events<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/e-newsletter') ?>" class="sidebar-list-item-link">E-Newsletter<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
 	</ul>
 </nav>

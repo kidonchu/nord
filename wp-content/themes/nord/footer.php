@@ -3,6 +3,7 @@
 		<footer class="footer" role="contentinfo">
 			<ul class="list-inline">
 				<li><a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a></li>
+				<li><a href="<?php echo home_url('get-involved/e-newsletter') ?>">E-Newsletter</a></li>
 				<li><a href="<?php echo home_url('sitemap') ?>">Sitemap</a></li>
 				<li><a href="<?php echo home_url('policy') ?>">Privacy Policy</a></li>
 				<li><a href="<?php echo home_url('get-involved/volunteer') ?>">Volunteer</a></li>
