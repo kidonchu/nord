@@ -10,7 +10,7 @@
 				<p class="nord-intro-body">
 					is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research.
 				</p>
-				<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary">Donate<br>Prolong and Save LIVES</a>
+				<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-donate">Donate<br>Prolong and Save LIVES</a>
 			</div>
 		</div>
 	</div>
