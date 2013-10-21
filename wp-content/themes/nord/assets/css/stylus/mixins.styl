@@ -1,8 +1,3 @@
-bodyShadow()
-	webkit-box-shadow 0 12px 20px 0px #858585
-		-moz-box-shadow 0 12px 20px 0px #858585
-				 box-shadow 0 12px 20px 0px #858585
-
 border-radius()
 	-webkit-border-radius arguments
 		 -moz-border-radius arguments
@@ -12,12 +7,6 @@ marginBottom($scale)
 	margin-bottom $line-height-px * $scale
 	margin-bottom 1.5rem * $scale
 
-fontSizeAndLineHeight($scale)
-	fontSize($scale)
-	lineHeight($scale)
-
-
-
 scalePx($scale)
 	unit(($line-height-px * $scale), px)
 
@@ -26,20 +15,6 @@ scaleRem($scale)
 
 mult(a, b)
 	a * b
-
-// scale($key, $top, $right = null, $bottom = null, $left = null)
-// 	if $right is defined and $bottom is defined and $left is defined
-// 		{$key} scalePx($top) mult(1px, $right) scalePx($bottom) mult(1px, $left)
-// 		{$key} scaleRem($top) mult(1px, $right) scaleRem($bottom) mult(1px, $left)
-// 	else if $right is defined and $bottom is defined
-// 		{$key} scalePx($top) mult(1px, $right) scalePx($bottom)
-// 		{$key} scaleRem($top) mult(1px, $right) scaleRem($bottom)
-// 	else if $right is defined
-// 		{$key} scalePx($top) mult(1px, $right)
-// 		{$key} scaleRem($top) mult(1px, $right)
-// 	else
-// 		{$key} scalePx($top)
-// 		{$key} scaleRem($top)
 
 /**
  * Scale margin with vertical rythm
