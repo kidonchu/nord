@@ -42,6 +42,8 @@ h2,h3{page-break-after:avoid}
 .social-icon-facebook:hover{background-position:40px 124px}
 .social-icon-twitter{background-position:0 82px;}
 .social-icon-twitter:hover{background-position:40px 82px}
+.social-icon-subscribe{background-position:0 167px;}
+.social-icon-subscribe:hover{background-position:40px 167px}
 .content{background-color:#fff;webkit-box-shadow:0 12px 20px 0 #858585;-moz-box-shadow:0 12px 20px 0 #858585;-webkit-box-shadow:0 12px 20px 0 #858585;box-shadow:0 12px 20px 0 #858585}
 .header{height:112.5px;height:7.5rem;background:#320961;border-bottom:3px solid #ffa500}
 .logo{font-size:1px;margin-top:22.5px;margin-top:1.5rem;text-indent:-9999px}
