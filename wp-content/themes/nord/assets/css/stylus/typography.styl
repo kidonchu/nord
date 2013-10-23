@@ -11,11 +11,9 @@ body, input, button
 	webkit-font-smoothing antialiased
 
 h1, h2, h3, h4, h5, h6
-	color $heading-color
 	font-family $font-family-bitter
 	font-weight $heading-font-weight
 	a:link, a:hover, a:visited, a:focus
-		color $heading-color
 		text-decoration none
 
 h1, .alpha
@@ -45,7 +43,8 @@ p
 	margin-top -1.5em
 
 b, strong
-	font-weight 700
+	color #222
+	font-weight 600
 em
 	font-style italic
 mark
@@ -76,13 +75,19 @@ blockquote
 		fs .8
 		lh .8
 
-ul
-	list-style inside url(../img/list.png)
+.entry
+	ul, ol
+		relative top left 17px
+	ul
+		list-style-type disc
+		ul
+			list-style-type circle
+			ul
+				list-style-type square
 
 .leading
-	fs 1.1
-	lh 1.1
-
+	fs(1.1)
+	lh(1.1)
 
 @media print
 	*

@@ -13,6 +13,7 @@
 				<ul class="list-inline social-icon-list">
 					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-facebook" href="http://facebook.com/NORDorg">facebook</a></li>
 					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-twitter" href="http://twitter.com/N_0_R_D">twitter</a></li>
+					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-subscribe" href="<?php echo home_url('get-involved/subscribe') ?>">subscribe</a></li>
 				</ul>
 			</div>
 			<p class="copyright">
