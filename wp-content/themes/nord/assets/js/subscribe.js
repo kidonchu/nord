@@ -11,6 +11,13 @@ jQuery(document).ready(function($) {
 
 		var email = $('#email').val();
 
+		if ( ! email)
+		{
+			popover_options.content = '<span class="text-danger">E-mail address field is empty</span>';
+			$('#email').popover('destroy').popover(popover_options).popover('show');
+			return;
+		}
+
 		$.ajax({
 			url: subscribe.ajaxUrl,
 			type: 'post',
