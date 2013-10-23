@@ -1,19 +1,20 @@
 		</div><!-- .content -->
 
 		<footer class="footer" role="contentinfo">
-			<ul class="list-inline">
+			<ul class="footer-nav list-inline">
 				<li><a href="<?php echo home_url('get-involved/donate') ?>">DONATE</a></li>
-				<li><a href="<?php echo home_url('get-involved/e-newsletter') ?>">E-Newsletter</a></li>
-				<li><a href="<?php echo home_url('sitemap') ?>">Sitemap</a></li>
-				<li><a href="<?php echo home_url('policy') ?>">Privacy Policy</a></li>
-				<li><a href="<?php echo home_url('get-involved/volunteer') ?>">Volunteer</a></li>
-				<li><a href="<?php echo home_url('about-us/contact-us') ?>">Contact</a></li>
+				<li><a href="<?php echo home_url('get-involved/subscribe') ?>">subscribe</a></li>
+				<li><a href="<?php echo home_url('get-involved/volunteer') ?>">volunteer</a></li>
+				<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact</a></li>
+				<li>|</li>
+				<li><a href="<?php echo home_url('sitemap') ?>">sitemap</a></li>
+				<li><a href="<?php echo home_url('policy') ?>">policy</a></li>
 			</ul>
 			<div class="social-icons">
 				<ul class="list-inline social-icon-list">
 					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-facebook" href="http://facebook.com/NORDorg">facebook</a></li>
 					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-twitter" href="http://twitter.com/N_0_R_D">twitter</a></li>
-					<li class="social-icon-item"><a target="_blank" class="social-icon-link social-icon-subscribe" href="<?php echo home_url('get-involved/subscribe') ?>">subscribe</a></li>
+					<li class="social-icon-item"><a class="social-icon-link social-icon-subscribe" href="<?php echo home_url('get-involved/subscribe') ?>">subscribe</a></li>
 				</ul>
 			</div>
 			<p class="copyright">

@@ -37,7 +37,7 @@ blockquote small{color:#6e6e6e;font-size:12px;font-size:.8rem;line-height:1.875}
 p,h2,h3{orphans:3;widows:3;}
 h2,h3{page-break-after:avoid}
 }.social-icon-link{background-image:url("../img/sprite-social-icons.png");display:block;height:38px;text-indent:-9999px;-webkit-transition:background 0.3s ease 0s;-moz-transition:background 0.3s ease 0s;-o-transition:background 0.3s ease 0s;-ms-transition:background 0.3s ease 0s;transition:background 0.3s ease 0s;width:38px;}
-.social-icon-link:active{outline:none}
+.social-icon-link:focus{outline:0 none}
 .social-icon-facebook{background-position:0 124px;}
 .social-icon-facebook:hover{background-position:40px 124px}
 .social-icon-twitter{background-position:0 82px;}
@@ -142,6 +142,7 @@ a.btn-primary:hover,a.btn-primary:focus,a.btn-primary:active{background-color:#5
 .reply{text-align:right}
 .footer{background:#303030;color:#6e6e6e;font-family:"Kreon","Helvetica","Arial",sans-serif;font-size:13.5px;font-size:.9rem;line-height:1.6666666666666665;padding:22.5px 24px;padding:1.5rem 24px;}
 .footer a{color:#fff}
+.footer-nav li{padding-right:15px}
 .copyright{color:#989b97;margin-bottom:0}
 .search-form{border-right:1px solid #ccc;margin-right:10px;position:relative;left:0;top:5px;}
 .search-form .btn{padding-bottom:5px}
