@@ -141,6 +141,11 @@ function nord_scripts() {
 	wp_enqueue_script('nord-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '20131009', true);
 
 	wp_enqueue_style('nord-main', get_stylesheet_directory_uri().'/assets/css/main.css', array(), '20131009');
+
+	wp_register_script('nord-subscribe', get_template_directory_uri().'/assets/js/subscribe.js', array('jquery'), '20131022');
+	wp_localize_script('nord-subscribe', 'subscribe', array('ajaxUrl' => admin_url('admin-ajax.php')));
+	wp_enqueue_script('nord-subscribe');
+
 }
 add_action( 'wp_enqueue_scripts', 'nord_scripts' );
 
@@ -168,3 +173,40 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Subscribe AJAX request
+ */
+function subscribe ()
+{
+	$email = $_REQUEST['email'];
+
+	$wpMailChimp = wpMailChimp::getInstance();
+
+	$args = array(
+		'email' => array(
+			'email' => $email,
+		),
+	);
+
+	$resp = $wpMailChimp->subscribe($args);
+
+	if (isset($resp->error))
+	{
+		$ret = array(
+			'success' => false,
+			'message' => $resp->error,
+		);
+	}
+	else
+	{
+		$ret = array(
+			'success' => true,
+		);
+	}
+
+	echo json_encode($ret);
+	exit;
+}
+add_action('wp_ajax_subscribe', 'subscribe');
+add_action('wp_ajax_nopriv_subscribe', 'subscribe');
