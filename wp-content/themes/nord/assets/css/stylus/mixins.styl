@@ -1,20 +1,36 @@
+/* Helpers */
 border-radius()
+	-moz-border-radius arguments
 	-webkit-border-radius arguments
-		 -moz-border-radius arguments
-					border-radius arguments
-
-marginBottom($scale)
-	margin-bottom $line-height-px * $scale
-	margin-bottom 1.5rem * $scale
-
+	-khtml-border-radius arguments
+	border-radius arguments
 scalePx($scale)
 	unit(($line-height-px * $scale), px)
-
 scaleRem($scale)
 	unit(($line-height-rem * $scale), rem)
-
 mult(a, b)
 	a * b
+
+/**
+ * Font Size
+ */
+fs($scale)
+	font-size unit(($font-size-px * $scale), px)
+	font-size unit(($font-size-rem * $scale), rem)
+
+/**
+ * Line Height
+ */
+lh($scale)
+	if ($font-size-px * $scale) < $line-height-px
+		line-height unit($line-height-px, px)
+		line-height unit($line-height-rem, rem)
+	else if ($font-size-px * $scale) < ($line-height-px * 2)
+		line-height unit(($line-height-px * 2), px)
+		line-height unit(($line-height-rem * 2), rem)
+	else
+		line-height unit(($line-height-px * 3), px)
+		line-height unit(($line-height-rem * 3), rem)
 
 /**
  * Scale margin with vertical rythm
@@ -34,22 +50,3 @@ scale(args...)
 		{args[0]} scaleRem(args[1])
 	else
 		error('at least two arguments are required')
-
-/**
- * Font Size
- */
-fs($size)
-	font-size unit(($font-size-px * $size), px)
-	font-size unit($size, rem)
-
-/**
- * Line Height
- */
-lh($size)
-	if $size <= ($line-height)
-		line-height ($line-height / $size)
-	else if $size <= ($line-height * 2)
-		line-height ($line-height * 2 / $size)
-	else
-		line-height ($line-height / $size)
-
