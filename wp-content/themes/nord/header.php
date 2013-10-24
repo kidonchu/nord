@@ -17,17 +17,12 @@
 	<?php do_action('before') ?>
 	<div class="container">
 		<header class="header" role="banner">
-			<div class="row">
-				<div class="col-md-6">
-					<h1 class="logo">
-						<a href="<?php echo esc_url(home_url('/')) ?>" rel="home">
-							<?php bloginfo('name') ?>
-							<img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.png" alt="NORD Logo">
-						</a>
-					</h1>
-					<!-- <h2 class="slogan"><?php bloginfo('description') ?></h2> -->
-				</div>
-			</div>
+			<a href="<?php echo esc_url(home_url('/')) ?>" rel="home" class="logo">
+				<h1>
+					<?php bloginfo('name') ?>
+				</h1>
+			</a>
+			<!-- <h2 class="slogan"><?php bloginfo('description') ?></h2> -->
 		</header>
 
 		<nav role="navigation">

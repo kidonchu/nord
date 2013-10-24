@@ -21,21 +21,21 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class('entry'); ?>>
 
-					<header class="entry-header">
-
-						<h1 class="entry-title">
-							<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a>
-						</h1><!-- entry-title -->
-
-						<div class="entry-meta">
-							<?php nord_posted_on(); ?>
-						</div><!-- .entry-meta -->
-
-					</header><!-- .entry-header -->
-
 					<div class="row">
 
 						<div class="col-md-8">
+
+							<header class="entry-header">
+
+								<h1 class="entry-title">
+									<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a>
+								</h1><!-- entry-title -->
+
+								<div class="entry-meta">
+									<?php nord_posted_on(); ?>
+								</div><!-- .entry-meta -->
+
+							</header><!-- .entry-header -->
 
 							<div class="entry-content">
 								<?php the_content() ?>

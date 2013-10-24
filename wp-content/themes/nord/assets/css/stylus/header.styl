@@ -1,18 +1,21 @@
 .header
-	scale height 5
 	background $purple-dark
 	border-bottom 3px solid orange
 
 .logo
+	background url(../img/logo.png) 20px center no-repeat
 	font-size 1px
-	scale margin-top 1
+	scale padding 1 0
+	display block
 	text-indent -9999px
+	&:focus
+		outline 0 none
 
 .main-nav
-	fs .95
+	fs(.95)
 	font-weight 600
 	scale height 1
-	lh .95
+	lh(.95)
 	list-style none
 	margin 0
 	li
