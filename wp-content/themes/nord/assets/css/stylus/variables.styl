@@ -11,7 +11,7 @@ $grey-lighter = #EFEFEF
 
 $bg-color            = #DEDEDE
 $font-color          = #333
-$heading-color       = $purple-dark
+$heading-color       = #333
 $link-color          = $purple-light
 
 $heading-font-weight = 700
@@ -21,10 +21,13 @@ $font-family-bitter   = "Bitter", "Helvetica", "Arial", sans-serif
 $font-family-opensans = "Open Sans", "Helvetica", "Arial", sans-serif
 $font-family-kreon    = "Kreon","Helvetica", "Arial", sans-serif
 
-$font-size-px        = 15px
+$root-font-size      = 62.5%
+$font-size           = 1.5
+$font-size-px        = unit(10 * $font-size, px) /* Since we use 10px (16px * 62.5% = 10px), we need to multiply by 10 */
+$font-size-rem       = unit($font-size, rem)
 $line-height         = 1.5
-$line-height-rem     = 1.5rem
-$line-height-px      = 22.5px
+$line-height-px      = unit($font-size-px * $line-height, px)
+$line-height-rem     = unit($font-size-rem * $line-height, rem)
 
 /* Media queries breakpoints */
 $screen-xs         = 480px

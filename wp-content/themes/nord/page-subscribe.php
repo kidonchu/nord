@@ -29,18 +29,14 @@
 								You will receive one e-mail every two - three months. An e-mail message contains an e-newsletter containing useful information on renal disease.
 							</p>
 
-							<form action="#" class="form-horizontal form-subscribe" accept-charset="utf-8" role="form" method="post">
-								<div class="spacer2"></div>
-								<div class="form-group">
-									<label for="email" class="col-md-3 control-label">E-mail address</label>
-									<div class="col-md-5">
-										<input type="email" class="form-control" name="email" id="email">
-									</div>
-									<div class="col-md-4">
-										<button type="submit" class="btn btn-primary">Subscribe</button>
-									</div>
+							<form action="#" class="form-horizontal form-subscribe cf" accept-charset="utf-8" role="form" method="post">
+								<label for="email" class="col-md-3 control-label">E-mail address</label>
+								<div class="col-md-5">
+									<input type="email" class="form-control" name="email" id="email">
 								</div>
-								<div class="spacer2"></div>
+								<div class="col-md-4">
+									<button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+								</div>
 							</form>
 
 

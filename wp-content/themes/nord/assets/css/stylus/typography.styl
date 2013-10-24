@@ -1,10 +1,11 @@
 html
-	font-size 100%
+	font-size $root-font-size
 
 body
 	background-color $bg-color
 	color $font-color
-	font $body-font-weight 93.75%/$line-height $font-family-opensans
+	font-size $font-size-px
+	font $body-font-weight $font-size-rem/$line-height-rem $font-family-opensans
 
 body, input, button
 	text-rendering optimizeLegibility
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6
 	font-family $font-family-bitter
 	font-weight $heading-font-weight
 	a:link, a:hover, a:visited, a:focus
+		color $heading-color
 		text-decoration none
 
 h1, .alpha
@@ -40,7 +42,7 @@ p
 
 .indent p+p
 	text-indent 1.5em
-	margin-top -1.5em
+	scale margin-top -1
 
 b, strong
 	color #222
@@ -64,12 +66,10 @@ a
 		outline thin dotted
 
 blockquote
-	scale(padding-top, .5)
-	scale(padding-bottom, .5)
+	scale padding .5 0
 	p
 		fs(1)
 		lh(1)
-		font-weight 400
 	small
 		color $grey
 		fs(.8)
@@ -78,7 +78,6 @@ blockquote
 .entry
 	ul
 		relative top left 40px
-	ul
 		list-style-type disc
 		ul
 			list-style-type circle
