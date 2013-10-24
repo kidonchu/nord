@@ -30,7 +30,7 @@ blockquote small{color:#6e6e6e;font-size:12px;font-size:1.2000000000000002rem;li
 .entry ul{position:relative;top:0;left:40px;list-style-type:disc;}
 .entry ul ul{list-style-type:circle;}
 .entry ul ul ul{list-style-type:square}
-.leading{font-size:16.5px;font-size:1.6500000000000001rem;line-height:22.5px;line-height:2.25rem}
+.leading{font-size:16.5px;font-size:1.6500000000000001rem;line-height:28px;line-height:2.8rem}
 @media print{*{background:transparent !important;color:#000 !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important}
 p,h2,h3{orphans:3;widows:3;}
 h2,h3{page-break-after:avoid}
