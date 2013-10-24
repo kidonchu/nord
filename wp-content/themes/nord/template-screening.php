@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Screening & Diagnostics
+ */
+?>
 <?php get_header() ?>
 
 	<!-- page-screening-diagnostics -->
