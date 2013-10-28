@@ -28,6 +28,7 @@ blockquote{padding:11.25px 0;padding:1.125rem 0;}
 blockquote p{font-size:15px;font-size:1.5rem;line-height:22.5px;line-height:2.25rem}
 blockquote small{color:#6e6e6e;font-size:12px;font-size:1.2000000000000002rem;line-height:22.5px;line-height:2.25rem}
 .entry ul{position:relative;top:0;left:40px;list-style-type:disc;}
+.entry ul li{padding-left:10px}
 .entry ul ul{list-style-type:circle;}
 .entry ul ul ul{list-style-type:square}
 .leading{font-size:16.5px;font-size:1.6500000000000001rem;line-height:28px;line-height:2.8rem}
