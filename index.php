@@ -15,4 +15,4 @@ define('WP_USE_THEMES', true);
 define('ENVIRONMENT', isset($_SERVER['ENVIRONMENT']) ? $_SERVER['ENVIRONMENT'] : 'development');
 
 /** Loads the WordPress Environment and Template */
-require('./wp-blog-header.php');
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
