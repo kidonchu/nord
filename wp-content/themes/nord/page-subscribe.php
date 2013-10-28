@@ -29,7 +29,7 @@
 								You will receive one e-mail every two - three months. An e-mail message contains an e-newsletter containing useful information on renal disease.
 							</p>
 
-							<form action="#" class="form-horizontal form-subscribe cf" accept-charset="utf-8" role="form" method="post">
+							<form action="<?php echo admin_url('admin-ajax.php') ?>" class="form-horizontal form-subscribe cf" accept-charset="utf-8" role="form" method="post">
 								<label for="email" class="col-md-3 control-label">E-mail address</label>
 								<div class="col-md-5">
 									<input type="email" class="form-control" name="email" id="email">

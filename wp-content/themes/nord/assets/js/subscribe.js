@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
 	{
 		e.preventDefault();
 
+		var url = $(this).attr('action');
 		var email = $('#email').val();
 
 		if ( ! email)
@@ -19,7 +20,7 @@ jQuery(document).ready(function($) {
 		}
 
 		$.ajax({
-			url: subscribe.ajaxUrl,
+			url: url,
 			type: 'post',
 			dataType: 'json',
 			data: {
