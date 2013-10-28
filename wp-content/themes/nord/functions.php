@@ -151,11 +151,7 @@ function nord_scripts()
 	}
 
 	wp_enqueue_script('nord-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '20131009', true);
-
-	wp_register_script('nord-subscribe', get_template_directory_uri().'/assets/js/subscribe.js', array('jquery'), '20131022');
-	wp_localize_script('nord-subscribe', 'subscribe', array('ajaxUrl' => admin_url('admin-ajax.php')));
-	wp_enqueue_script('nord-subscribe');
-
+	wp_enqueue_script('nord-subscribe', get_template_directory_uri() . '/assets/js/subscribe.js', array('jquery'), '20131009', true);
 }
 add_action( 'wp_enqueue_scripts', 'nord_scripts' );
 
