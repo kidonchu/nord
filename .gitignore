@@ -1,3 +1,4 @@
 wp-config.php
 copy_import.sh
 subdomains/
+wp-admin/error_log
