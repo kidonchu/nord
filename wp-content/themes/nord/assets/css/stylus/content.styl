@@ -1,0 +1,143 @@
+.main-feature
+	background url(../img/header-bg.png)
+	width 100%
+
+.main-feature-content
+	scale padding 5 0 2
+
+.main-feature-body
+	color #ffffff
+	fs(2.25)
+	font-family $font-family-bitter
+	lh(2.25)
+	font-weight bold
+	text-shadow 0px 1px 3px rgb(0, 0, 0)
+	text-shadow 0px 1px 3px rgba(0, 0, 0, 0.2)
+	.em a
+		color #eaba6d
+		fs(5)
+		&:hover
+			text-decoration none
+
+.main-feature-button-container
+	scale margin-top 1
+	text-align center
+
+.feature-container
+	&.grey
+		background-color #fff
+		background-image -moz-linear-gradient(top, #666, #fff 9px)
+		background-image -webkit-gradient(linear, 0 0, 0 100%, color-stop(9px, #666), to(#fff))
+		background-image -webkit-linear-gradient(top, #666, #fff 9px)
+		background-image -o-linear-gradient(top, #666, #fff 9px)
+		background-image linear-gradient(to bottom, #666, #fff 9px)
+		background-repeat repeat-x
+		.feature-header
+			color	#674397
+		.feature-content
+			color #444
+	&.purple
+		background #674397
+		.feature-header
+			color	#fff
+		.feature-content
+			color #dec3ff
+			strong
+				color	#fff
+
+.feature
+	scale margin-bottom 3
+	scale padding-top 3
+
+.feature-header
+	color	#674397
+	scale margin-bottom 1
+	text-align center
+	text-shadow 0 2px 3px #eee
+
+	text-transform uppercase
+
+.feature-content
+	color #777
+	fs(1.2)
+	line-height 1.5
+	padding 0 24px
+	.em
+		color #e05048
+		fs(2.25)
+		lh(1.2)
+		font-weight bold
+
+.content
+	background-color #fff
+	background-image -moz-linear-gradient(top, #666, #fff 9px)
+	background-image -webkit-gradient(linear, 0 0, 0 100%, color-stop(9px, #666), to(#fff))
+	background-image -webkit-linear-gradient(top, #666, #fff 9px)
+	background-image -o-linear-gradient(top, #666, #fff 9px)
+	background-image linear-gradient(to bottom, #666, #fff 9px)
+	background-repeat repeat-x
+
+.breadcrumbs
+	fs(.8)
+	margin-bottom 0
+	scale(padding-top, 1)
+
+.entry
+	scale margin-bottom 3
+
+.entry-title
+	color	#674397
+	scale margin-bottom 1
+	text-transform uppercase
+
+.entry-content
+	color #444
+	fs(1)
+	line-height 1.5
+	.em
+		color #e05048
+		font-weight bold
+
+.paypal-form
+	scale(height, 3)
+
+.event-table
+	border-top 3px solid #3F3F3F
+	border-bottom 1px solid #3F3F3F
+	th, td
+		padding-top 5px
+		padding-bottom 5px
+
+.event-year td
+	border-top 1px solid #3F3F3F
+	border-bottom 1px dotted #CCC
+.event
+	border-bottom 1px dotted #CCC
+.event-date
+	padding-left 20px
+	width 20%
+.event-title
+	width 50%
+.event-city
+	width 20%
+.event-state
+	width 10%
+
+.summary-title
+	scale margin-bottom .5
+	a:link
+		color $purple-light
+	a:hover
+		text-decoration underline
+	a:visited, a:active
+		color $purple
+
+.summary-date
+	fs(.8)
+	lh(.8)
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.breadcrumbs, .entry
+	padding 0 20px
+unquote("}")
+

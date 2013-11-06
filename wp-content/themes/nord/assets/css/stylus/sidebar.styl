@@ -1,45 +1,45 @@
 .sidebar-nav-toggle-wrapper
 	display none
 
-.sidebar-nav-collapse
+.sidebar-collapse
 	border none
 	padding 0
 
 .sidebar
-	padding 0 20px
+	padding 0
+	scale margin-top 1
+	scale margin-bottom 2
+	border-radius(15px)
 
 .sidebar-title
-	color $yellow
-	fs(1.25)
-	lh(1.25)
-	scale margin 1 0 0
+	color $purple
+	fs(1)
+	font-weight normal
+	scale margin-bottom .5
 
-.sidebar-list-item
-	display block
-	z-index 2
-	border-bottom 1px dotted #ccc
-	display block
-	&:first-child
-		border-top 1px dotted #ccc
+.sidebar-navs
+	padding 0
 
-.sidebar-list-item-link
-	display block
-	padding-left 20px
-	.glyphicon
-		color white
-		position relative
-		top 2px
-	&:hover, &:active
-		background $grey-lighter
-		text-decoration none
-		.glyphicon
-			color $purple-light
+.sidebar-nav
+	border-bottom 1px solid rgba(0,0,0,0.1)
+	color #999
+	fs(.95)
+	line-height 1.75
+	list-style none
+	vertical-align middle
 
-.sidebar-widget-wrapper
-	ul
-		margin-left 10px
-.sidebar-widget-title
-	margin-bottom 0
+.sidebar-nav-link
+	color $purple
+	display block
+	font-weight bold
+	padding 5px 0
+	&:hover, &.active
+		color #121214
+
+.sidebar-nav-desc
+	display block
+	font-weight normal
+	padding-left 1px
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .sidebar

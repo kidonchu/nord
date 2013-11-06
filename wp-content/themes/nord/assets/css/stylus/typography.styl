@@ -38,6 +38,8 @@ h6, .zeta
 	lh(.875)
 
 p
+	fs(1)
+	lh(1)
 	word-break break-word
 
 .indent p+p
@@ -45,8 +47,7 @@ p
 	scale margin-top -1
 
 b, strong
-	color #222
-	font-weight 600
+	font-weight 700
 em
 	font-style italic
 mark
@@ -58,7 +59,6 @@ code, pre
 	font-size 0.9rem
 a
 	&:link, &:visited
-		color $link-color
 		text-decoration none
 	&:hover
 		text-decoration underline
@@ -66,7 +66,7 @@ a
 		outline thin dotted
 
 blockquote
-	scale padding .5 0
+	scale padding .5 0 .5 12px
 	p
 		fs(1)
 		lh(1)
@@ -90,6 +90,10 @@ blockquote
 	fs(1.1)
 	line-height 28px
 	line-height 2.8rem
+
+.em
+	color #e05048
+	font-weight bold
 
 @media print
 	*

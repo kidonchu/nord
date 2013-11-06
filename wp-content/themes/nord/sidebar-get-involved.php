@@ -6,11 +6,30 @@
 	</button>
 </div>
 <nav class="collapse navbar-collapse sidebar-collapse">
-	<ul class="sidebar-list">
-		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/donate') ?>" class="sidebar-list-item-link">DONATE<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/volunteer') ?>" class="sidebar-list-item-link">Volunteer<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/events') ?>" class="sidebar-list-item-link">Events<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/e-newsletter') ?>" class="sidebar-list-item-link">E-Newsletter<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('get-involved/subscribe') ?>" class="sidebar-list-item-link">Subscribe<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+	<ul class="sidebar-navs">
+		<li class="sidebar-nav">
+			<a href="<?php echo esc_url(home_url('get-involved/donate')) ?>" class="sidebar-nav-link" data-target="donate">
+				DONATE
+				<small class="sidebar-nav-desc">Help us expending NORD center</small>
+			</a>
+		</li>
+		<li class="sidebar-nav">
+			<a href="<?php echo esc_url(home_url('get-involved/volunteer')) ?>" class="sidebar-nav-link" data-target="volunteer">
+				Volunteer
+				<small class="sidebar-nav-desc">Become part of great cause</small>
+			</a>
+		</li>
+		<li class="sidebar-nav">
+			<a href="<?php echo esc_url(home_url('get-involved/events')) ?>" class="sidebar-nav-link" data-target="events">
+				Events
+				<small class="sidebar-nav-desc">Participate in our health events</small>
+			</a>
+		</li>
+		<li class="sidebar-nav">
+			<a href="<?php echo esc_url(home_url('get-involved/subscribe')) ?>" class="sidebar-nav-link" data-target="subscribe">
+				Subscribe
+				<small class="sidebar-nav-desc">Get most recent updates automatically</small>
+			</a>
+		</li>
 	</ul>
 </nav>
