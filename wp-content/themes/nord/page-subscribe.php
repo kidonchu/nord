@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<div class="container">
 	<div class="row">
 		<div class="col-md-3 col-sm-4">
 			<div class="sidebar">
@@ -13,9 +14,7 @@
 
 			<article id="post-<?php the_ID() ?>" <?php post_class('entry') ?>>
 
-				<h1 class="entry-title">
-					<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a>
-				</h1><!-- entry-title -->
+				<h1 class="entry-title"><?php the_title() ?></h1>
 
 				<div class="row">
 					<div class="col-md-8">
@@ -29,7 +28,7 @@
 								You will receive one e-mail every two - three months. An e-mail message contains an e-newsletter containing useful information on renal disease.
 							</p>
 
-							<form action="<?php echo admin_url('admin-ajax.php') ?>" class="form-horizontal form-subscribe cf" accept-charset="utf-8" role="form" method="post">
+							<form action="<?php echo admin_url('admin-ajax.php') ?>" class="form-horizontal form-subscribe clearfix" accept-charset="utf-8" role="form" method="post">
 								<label for="email" class="col-md-3 control-label">E-mail address</label>
 								<div class="col-md-5">
 									<input type="email" class="form-control" name="email" id="email">
@@ -38,7 +37,6 @@
 									<button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
 								</div>
 							</form>
-
 
 							<div class="one-more-step" style="display:none">
 								<h5 class="text-success">ALMOST THERE!</h5>
@@ -99,5 +97,6 @@
 
 		</div>
 	</div>
-
+</div>
 <?php get_footer() ?>
+

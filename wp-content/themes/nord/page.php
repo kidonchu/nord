@@ -1,22 +1,22 @@
 <?php get_header() ?>
 
-	<!-- page.php -->
-	<div class="row">
-		<div class="col-md-3 col-sm-4">
-		</div>
-		<div class="col-md-9 col-sm-8">
+<!-- ===================================================================== -->
+<!-- =========================== DEFAULT PAGE ============================ -->
+<!-- ===================================================================== -->
+<div class="container">
 
-			<?php if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb('<p class="breadcrumbs">','</p>');
-			} ?>
+	<?php if ( function_exists('yoast_breadcrumb') ) {
+	yoast_breadcrumb('<p class="breadcrumbs">','</p>');
+	} ?>
 
-			<?php while (have_posts()) : the_post() ?>
+	<h1 class="entry-title"><?php the_title() ?></h1>
 
-				<?php get_template_part('content', 'page') ?>
+	<div class="entry-content">
 
-			<?php endwhile ?>
+		<?php the_content() ?>
 
-		</div>
 	</div>
 
-<?php get_footer(); ?>
+</div>
+
+<?php get_footer() ?>

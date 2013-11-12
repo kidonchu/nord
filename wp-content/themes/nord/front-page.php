@@ -1,82 +1,102 @@
 <?php get_header() ?>
 
-	<div class="row main-feature">
-		<div class="col-md-8">
-			<iframe width="100%" height="384px" src="//www.youtube.com/embed/M60yzOXTl0Y?rel=0&autoplay=0&autohide=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="col-md-4">
-			<div class="nord-intro-content">
-				<h1 class="nord-intro-header">NORD</h1>
-				<p class="nord-intro-body">
-					is a nonprofit health agency dedicated to preventing kidney (renal) disease, diabetes and high blood pressure through education and research.
-				</p>
-				<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-donate">Donate<br>Prolong and Save LIVES</a>
-			</div>
-		</div>
-	</div>
-	<div class="top-shadow"></div>
-	<div class="hr"></div>
-	<div class="row">
-		<section class="col-md-4 feature cf">
-			<div class="feature-content">
-				<h2 class="feature-header"><a href="<?php echo home_url('screening-diagnostics') ?>">Screening</a></h2>
-				<p class="feature-body">
-					We provide urinalysis for kidney diesase, finger stick for blood glucose, and high blood pressure checks.
-				</p>
-					<a href="<?php echo home_url('screening-diagnostics') ?>" class="btn btn-warning">
-						Get Screened
-					</a>
-			</div>
-		</section>
-
-		<!-- Renal Disease Library -->
-		<section class="col-md-4 feature cf">
-			<div class="feature-content">
-				<h2 class="feature-header"><a href="<?php echo home_url('resources/renal-disease') ?>">Resources</a></h2>
-				<p class="feature-body">
-					We have great number of resources regarding Renal Disease, Diabetes, High Blood Pressure, and Transplantation.
-				</p>
-					<a href="<?php echo home_url('resources/renal-disease') ?>" class="btn btn-warning">
-						Find out more
-					</a>
-			</div>
-		</section>
-
-		<!-- Get Invoved -->
-		<section class="col-md-4 feature last cf">
-			<div class="feature-content">
-				<h2 class="feature-header"><a href="<?php echo home_url('get-involved/volunteer') ?>">Get Involved</a></h2>
-				<p class="feature-body">
-					Are you interested in Renal Disease? Do you want to help out NORD? There are many ways you can participate.
-				</p>
-					<a href="<?php echo home_url('get-involved/volunteer') ?>" class="btn btn-warning">
-						Find out more
-					</a>
-			</div>
-		</section>
-	</div>
-
-	<div class="row">
-		<div class="col-md-6">
-			<div class="feature-content">
-				<h2 class="feature-header"><a href="<?php echo home_url('blog') ?>">Latest from Blog</a></h2>
-				<div class="feature-body">
-					<?php query_posts('showposts=5') ?>
-					<?php while (have_posts()) : the_post() ?>
-						<?php get_template_part('content', 'summary') ?>
-					<?php endwhile ?>
+	<div class="main-feature">
+		<div class="container">
+			<div class="main-feature-content clearfix">
+				<div class="main-feature-body pull-right">
+					<span class="em"><a href="<?php echo home_url('about-us/program') ?>">A.P.E.R.</a></span>FECT SOLUTION<br>
+					for Controlling Kidney Disease<br>
+					and Prolonging Health and Life!<br><br>
+					<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-large pull-right">Donate<br>Prolong Health<br>Save LIVES</a>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6 text-center">
-			<div class="feature-content">
-				<h2>
-					<a href="<?php echo home_url('about-us/partners') ?>">Our Partners</a>
-				</h2>
-				<img class="partners-logo" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/partner_logos.png" alt="Partners Logos">
+	</div>
+	<div class="down-arrow"></div>
+
+	<section class="feature-container grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature">
+						<h2 class="feature-header">
+							who we are
+						</h2>
+						<p class="feature-content">
+							National Organization for Renal Disease(NORD)	is a nonprofit health agency
+							dedicated to preventing kidney (renal) disease, diabetes and high blood
+							pressure through education and research.
+						</p>
+					</div>
+					<div class="divider"></div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature">
+						<h2 class="feature-header">
+						what we do
+						</h2>
+						<p class="feature-content">
+							National Organization for Renal Disease(NORD) strives to provide the latest
+							preventive and critical medical information to populations at high
+							risk for developing renal disease and its precursors through their
+							programs of awareness, prevention, education and research.
+						</p>
+						<p class="feature-content">
+							In addition, we seek to transform the remedies and delivery
+							systems in which these illnesses are treated for the betterment
+							of individuals and their communities.
+						</p>
+						<p class="feature-content">
+							NORD promotes organ and tissue transplantation and other progressive
+							therapies in treatment modalities through innovative, cutting
+							edge, research and permanent testing sites until we find an
+							effective way to treat these chronic diseases.
+						</p>
+					</div>
+					<div class="divider"></div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature">
+						<h2 class="feature-header">
+							how we are doing
+						</h2>
+						<p class="feature-content">
+							In the past 15 years, we have screened and educated over
+							<span class="em">70,000</span> clients.
+						</p>
+						<p class="feature-content">
+							We have distributed over <span class="em">200,000</span> pieces
+							of educational materials related to kidney disease, diabetes, high blood
+							pressure, obesity, and other related illnesses.
+						</p>
+						<p class="feature-content">
+							We provide monitoring tools when available for blood pressure and blood glucose.
+						</p>
+						<p class="feature-content">
+							We have reached over <span class="em">650,000</span> on television,
+							radio, and cable through various Media resources.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end .partners -->
-
+	</section>
+	<section class="feature-container purple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="feature repeat">
+						<p class="feature-content text-center">
+							<strong>Everyone is equal when they are sick.</strong><br>
+							<strong>Change must happen. But, it can only happen with Your support!</strong>
+						</p>
+						<div class="text-center">
+							<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-large btn-primary">Donate</a>
+							<a href="<?php echo home_url('get-involved/volunteer') ?>" class="btn btn-large">Volunteer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 <?php get_footer() ?>

@@ -1,3 +1,9 @@
+.clearfix:before, .clearfix:after
+	display table
+	content " "
+.clearfix:after
+	clear both
+
 .placeholder
 	border 0
 	display block
@@ -14,18 +20,10 @@ for i in 1 2 3 4 5 6 7 8 9 10
 		@extends .placeholder
 		scale height (i/2)
 
-.cf
-	clearfix()
-
-.top-shadow
-	@extends .placeholder
-	background url("../img/bg_shadow.png") repeat-x scroll left top transparent
-	scale('min-height', 1)
-
 .hidden
 	display none
 
-.hr
-	@extends .placeholder
-	background url(../img/logo-hr.png) no-repeat center center
-	scale('min-height', 3)
+.divider
+	border-top 2px solid #eee
+	border-top 2px solid rgba(0, 0, 0, 0.1)
+	clear both

@@ -1,38 +1,36 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package nord
- */
+<?php get_header() ?>
 
-get_header(); ?>
+<!-- ===================================================================== -->
+<!--  =========================== SEARCH PAGE ============================ -->
+<!-- ===================================================================== -->
+<div class="container">
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<?php if ( have_posts() ) : ?>
 
-		<?php if ( have_posts() ) : ?>
+		<?php if ( function_exists('yoast_breadcrumb') ) {
+		yoast_breadcrumb('<p class="breadcrumbs">','</p>');
+		} ?>
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'nord' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
+		<h1 class="entry-title"><?php printf( __( 'Search Results for: %s', 'nord' ), '<span class="em">' . get_search_query() . '</span>' ) ?></h1>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+		<?php /* Start the Loop */ ?>
+		<?php while ( have_posts() ) : the_post() ?>
 
-				<?php get_template_part( 'content', 'search' ); ?>
+			<article id="post-<?php the_ID() ?>" <?php post_class() ?>>
+				<h3 class="entry-title"><a href="<?php echo the_permalink() ?>"><?php the_title() ?></a></h3>
+				<div class="entry-content">
+					<?php the_excerpt() ?>
+				</div>
+			</article>
 
-			<?php endwhile; ?>
+		<?php endwhile ?>
 
-			<?php nord_content_nav( 'nav-below' ); ?>
+	<?php else : ?>
 
-		<?php else : ?>
+		<?php get_template_part( 'no-results', 'search' ) ?>
 
-			<?php get_template_part( 'no-results', 'search' ); ?>
+	<?php endif ?>
 
-		<?php endif; ?>
+</div>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_footer() ?>

@@ -14,36 +14,65 @@
 </head>
 
 <body <?php body_class() ?>>
+
 	<?php do_action('before') ?>
-	<div class="container">
-		<header class="header" role="banner">
-			<a href="<?php echo esc_url(home_url('/')) ?>" rel="home" class="logo">
-				<h1>
+
+	<!-- ===================================================================== -->
+	<!-- ============================ HEADER ================================= -->
+	<!-- ===================================================================== -->
+	<header class="header" role="banner">
+
+		<div class="container">
+			<div class="logo">
+
+				<!-- Not visible. Used for SEO optimization -->
+				<h1 class="logo-text">
 					<?php bloginfo('name') ?>
 				</h1>
-			</a>
-			<!-- <h2 class="slogan"><?php bloginfo('description') ?></h2> -->
-		</header>
 
-		<nav role="navigation">
-			<div class="navbar-toggle-wrapper">
-				<button type="button" class="navbar-toggle-button" data-toggle="collapse" data-target=".main-navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+				<!-- Logo image -->
+				<a href="<?php echo esc_url(home_url('/')) ?>" rel="home" class="logo-link">
+					<img class="logo-img"
+					     src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/logo.png') ?>"
+					     alt="National Organization for Renal Disease">
+				</a>
+
 			</div>
 
-			<div class="skip-link"><a class="screen-reader-text" href="#content"><?php _e('Skip to content', 'nord') ?></a></div>
+			<div class="main-btn-grp">
+				<a href="<?php echo esc_url(home_url('get-involved/donate')) ?>" class="btn-donate">DONATE</a>
+				<a href="<?php echo esc_url(home_url('get-involved/volunteer')) ?>" class="btn-volunteer">VOLUNTEER</a>
+			</div>
 
-			<?php wp_nav_menu(array(
-				'theme_location'  => 'primary',
-				'container_class' => 'collapse navbar-collapse main-navbar',
-				'menu_class'      => 'main-nav',
-				'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
-			))
-			?>
-		</nav>
+			<nav class="main-navigation">
+				<ul class="main-navs">
+					<li class="main-nav">
+						<a class="main-nav-link" href="<?php echo esc_url(home_url('about-us/contact-us')) ?>" data-target="contact-us">
+							<span>Contact</span>
+						</a>
+					</li>
+					<li class="main-nav">
+						<a class="main-nav-link" href="<?php echo esc_url(home_url('renal-disease-screening-diagnostics')) ?>" data-target="renal-disease-screening-diagnostics">
+							<span>Screening</span>
+						</a>
+					</li>
+					<li class="main-nav">
+						<a class="main-nav-link" href="<?php echo esc_url(home_url('get-involved/events')) ?>" data-target="events">
+							<span>Events</span>
+						</a>
+					</li>
+					<li class="main-nav">
+						<a class="main-nav-link" href="<?php echo esc_url(home_url('about-us/mission')) ?>" data-target="mission">
+							<span>About</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 
-		<div class="content">
+	</header>
+
+	<!-- ===================================================================== -->
+	<!-- ============================= PAGE ================================== -->
+	<!-- ===================================================================== -->
+	<div class="content clearfix">
