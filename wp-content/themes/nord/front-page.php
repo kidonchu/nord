@@ -7,7 +7,7 @@
 					<span class="em"><a href="<?php echo home_url('about-us/program') ?>">A.P.E.R.</a></span>FECT SOLUTION<br>
 					for Controlling Kidney Disease<br>
 					and Prolonging Health and Life!<br><br>
-					<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-large pull-right">Donate<br>Prolong Health<br>Save LIVES</a>
+					<a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-large pull-right">Donate. Prolong Health and Save LIVES</a>
 				</div>
 			</div>
 		</div>
