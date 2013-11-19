@@ -1,23 +1,83 @@
 <h5 class="sidebar-title">Resources</h5>
 <div class="sidebar-nav-toggle-wrapper">
-	<button type="button" class="sidebar-nav-toggle-button" data-toggle="collapse" data-target=".sidebar-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		Sub Menu
-	</button>
+    <button type="button" class="sidebar-nav-toggle-button" data-toggle="collapse" data-target=".sidebar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        Sub Menu
+    </button>
 </div>
 <nav class="collapse navbar-collapse sidebar-collapse">
-	<ul class="sidebar-list">
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease') ?>" class="sidebar-list-item-link">Renal Disease<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/transplantation') ?>" class="sidebar-list-item-link">Transplantation<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/medications') ?>" class="sidebar-list-item-link">Medications<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-statistics') ?>" class="sidebar-list-item-link">Statistics<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/new-technologies') ?>" class="sidebar-list-item-link">New Technologies<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-african-american') ?>" class="sidebar-list-item-link">African American<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-american-indian') ?>" class="sidebar-list-item-link">American Indian<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-asian') ?>" class="sidebar-list-item-link">Asian<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-caucasian') ?>" class="sidebar-list-item-link">Caucasian<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-latino') ?>" class="sidebar-list-item-link">Latino<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/renal-disease-of-pacific-islander') ?>" class="sidebar-list-item-link">Pacific Islander<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-		<li class="sidebar-list-item"><a href="<?php echo home_url('resources/resource-links') ?>" class="sidebar-list-item-link">Resource Links<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-	</ul>
+    <ul class="sidebar-navs">
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease')) ?>" class="sidebar-nav-link" data-target="renal-disease">
+                Renal Disease
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/transplantation')) ?>" class="sidebar-nav-link" data-target="transplantation">
+                Transplantation
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/medications')) ?>" class="sidebar-nav-link" data-target="medications">
+                Medications
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-statistics')) ?>" class="sidebar-nav-link" data-target="renal-disease-statistics">
+                Statistics
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/new-technologies')) ?>" class="sidebar-nav-link" data-target="new-technologies">
+                New Technologies
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-african-american')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-african-american">
+                African American
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-american-indian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-american-indian">
+                American Indian
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-asian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-asian">
+                Asian
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-caucasian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-caucasian">
+                Caucasian
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-latino')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-latino">
+                Latino
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/renal-disease-of-pacific-islander')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-pacific-islander">
+                Pacific Islander
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+        <li class="sidebar-nav">
+            <a href="<?php echo esc_url(home_url('resources/resource-links')) ?>" class="sidebar-nav-link" data-target="resource-links">
+                Resource Links
+                <small class="sidebar-nav-desc"></small>
+            </a>
+        </li>
+    </ul>
 </nav>
