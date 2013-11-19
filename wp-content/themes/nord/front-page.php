@@ -12,7 +12,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="down-arrow"></div>
 
 	<section class="feature-container grey">
 		<div class="container">
