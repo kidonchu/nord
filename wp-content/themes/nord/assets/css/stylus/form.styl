@@ -1,16 +1,22 @@
 .search-form
-	border-right 1px solid #ccc
-	margin-right 10px
-	relative: left top 5px
+    border-right 1px solid #ccc
+    margin-right 10px
+    relative: left top 5px
 
 .form-subscribe
-	scale padding 1 0
-	scale margin-bottom 1
-	.control-label
-		lh(2)
-		padding 0
-	input, .btn-subscribe
-		scale height 2
+    scale padding 1 0
+    scale margin-bottom 1
+    .control-label
+        lh(2)
+        padding 0
+    input, .btn-subscribe
+        scale height 2
 
 a.btn-success, a.btn-warning, a.btn-danger
-	color white
+    color white
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.form-subscribe
+    .control-label
+        lh(2 * $mobile-mult)
+unquote("}")

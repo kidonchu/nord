@@ -3,7 +3,7 @@
 	<div class="main-feature">
 		<div class="container">
 			<div class="main-feature-content clearfix">
-				<div class="main-feature-body pull-right">
+				<div class="main-feature-body">
 					<span class="em"><a href="<?php echo home_url('about-us/program') ?>">A.P.E.R.</a></span>FECT SOLUTION<br>
 					for Controlling Kidney Disease<br>
 					and Prolonging Health and Life!<br><br>
