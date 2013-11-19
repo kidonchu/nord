@@ -1,67 +1,75 @@
 .header
-	background url(../img/header-bg.png)
-	scale padding 1 0
+    background url(../img/header-bg.png)
+    scale padding 1 0
 
 .logo
-	float left
+    float left
 .logo-text
-	height 0
-	margin 0
-	text-indent -9999px
+    height 0
+    margin 0
+    text-indent -9999px
 
 .main-btn-grp
-	float right
-	scale margin-bottom .5
+    float right
+    scale margin-bottom .5
 
 .main-navigation
-	clear right
-	float right
+    clear right
+    float right
 
 .main-navs
-	list-style none
+    list-style none
 
 .main-nav
-	font-weight bold
-	float right
-	margin 0 6px
-	text-transform uppercase
+    font-weight bold
+    float right
+    margin 0 6px
+    text-transform uppercase
 
 .main-nav-link,
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link.active
-	-webkit-border-radius 5px
-	-moz-border-radius 5px
-	border-radius 5px
-	color #eaba6d
-	display block
-	fs(.9)
-	lh(.9)
-	scale padding .5 12px
-	text-decoration none
+    -webkit-border-radius 5px
+    -moz-border-radius 5px
+    border-radius 5px
+    color #eaba6d
+    display block
+    fs(.9)
+    lh(.9)
+    scale padding .5 12px
+    text-decoration none
 
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link.active
-	background rgb(192, 192, 192)
-	background rgba(0, 0, 0, 0.15)
+    background rgb(192, 192, 192)
+    background rgba(0, 0, 0, 0.15)
 
 .main-navigation-toggle
-	border-color #ddd
-	&.hover
-		background-color #ddd
+    border-color #ddd
+    &.hover
+        background-color #ddd
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
-/*.main-btn-grp, .logo
-	left 0
-	position absolute
-	text-align center
-	width 100%
-
-.main-btn-grp
-	scale top 1
-
 .logo
-	scale top 4
-*/
+    float none
+.logo-img
+    display block
+    max-width 100%
+.main-btn-grp
+    float none
+.main-navigation
+    float none
+.main-navs
+    padding 0
+.main-nav
+    float none
+.main-nav-link,
+.main-nav-link:hover,
+.main-nav-link:active,
+.main-nav-link.active
+    -webkit-border-radius 0
+    -moz-border-radius 0
+    border-radius 0
 unquote("}")

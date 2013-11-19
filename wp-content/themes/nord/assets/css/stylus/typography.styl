@@ -1,108 +1,139 @@
 html
-	font-size $root-font-size
+    font-size $root-font-size
 
 body
-	background-color $bg-color
-	color $font-color
-	font-size $font-size-px
-	font $body-font-weight $font-size-rem/$line-height-rem $font-family-opensans
+    background-color $bg-color
+    color $font-color
+    font-size $font-size-px
+    font $body-font-weight $font-size-rem/$line-height-rem $font-family-opensans
 
 body, input, button
-	text-rendering optimizeLegibility
-	webkit-font-smoothing antialiased
+    text-rendering optimizeLegibility
+    webkit-font-smoothing antialiased
 
 h1, h2, h3, h4, h5, h6
-	font-family $font-family-bitter
-	font-weight $heading-font-weight
-	a:link, a:hover, a:visited, a:focus
-		color $heading-color
-		text-decoration none
+    font-family $font-family-bitter
+    font-weight $heading-font-weight
+    a:link, a:hover, a:visited, a:focus
+        color $heading-color
+        text-decoration none
 
 h1, .alpha
-	fs(2.25)
-	lh(2.25)
+    fs(2.25)
+    lh(2.25)
 h2, .beta
-	fs(1.875)
-	lh(1.875)
+    fs(1.875)
+    lh(1.875)
 h3, .gamma
-	fs(1.5)
-	lh(1.5)
+    fs(1.5)
+    lh(1.5)
 h4, .delta
-	fs(1.25)
-	lh(1.25)
+    fs(1.25)
+    lh(1.25)
 h5, .epsilon
-	fs(1)
-	lh(1)
+    fs(1)
+    lh(1)
 h6, .zeta
-	fs(.875)
-	lh(.875)
+    fs(.875)
+    lh(.875)
 
 p
-	fs(1)
-	lh(1)
-	word-break break-word
+    fs(1)
+    lh(1)
+    word-break break-word
 
 .indent p+p
-	text-indent 1.5em
-	scale margin-top -1
+    text-indent 1.5em
+    scale margin-top -1
 
 b, strong
-	font-weight 700
+    font-weight 700
 em
-	font-style italic
+    font-style italic
 mark
-	background-color #ff8
+    background-color #ff8
 code, pre
-	background-color #eee
-	font-family Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace
-	font-size 14.4px
-	font-size 0.9rem
+    background-color #eee
+    font-family Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace
+    font-size 14.4px
+    font-size 0.9rem
 a
-	&:link, &:visited
-		text-decoration none
-	&:hover
-		text-decoration underline
-	&:focus
-		outline thin dotted
+    &:link, &:visited
+        text-decoration none
+    &:hover
+        text-decoration underline
+    &:focus
+        outline thin dotted
 
 blockquote
-	scale padding .5 0 .5 12px
-	p
-		fs(1)
-		lh(1)
-	small
-		color $grey
-		fs(.8)
-		lh(.8)
+    scale padding .5 0 .5 12px
+    p
+        fs(1)
+        lh(1)
+    small
+        color $grey
+        fs(.8)
+        lh(.8)
 
 .entry
-	ul
-		relative top left 40px
-		list-style-type disc
-		li
-			padding-left 10px
-		ul
-			list-style-type circle
-			ul
-				list-style-type square
+    ul
+        relative top left 40px
+        list-style-type disc
+        li
+            padding-left 10px
+        ul
+            list-style-type circle
+            ul
+                list-style-type square
 
 .leading
-	fs(1.1)
-	line-height 28px
-	line-height 2.8rem
+    fs(1.1)
+    line-height 28px
+    line-height 2.8rem
 
 .em
-	color #e05048
-	font-weight bold
+    color #e05048
+    font-weight bold
 
-@media print
-	*
-		background transparent !important
-		color #000 !important /* Black prints faster h5bp.com/s */
-		box-shadow none !important
-		text-shadow none !important
-	p, h2, h3
-		orphans 3 /* http//css-tricks.com/almanac/properties/o/orphans/ */
-		widows 3  /* http//css-tricks.com/almanac/properties/w/widows/ */
-	h2, h3
-		page-break-after avoid
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+body
+    font-size ($font-size-px * $mobile-mult)
+    font-size ($font-size-rem * $mobile-mult)
+    line-height ($line-height-px * $mobile-mult)
+    line-height ($line-height-rem * $mobile-mult)
+h1, .alpha
+    fs(2.25 * $mobile-mult)
+    lh(2.25)
+h2, .beta
+    fs(1.875 * $mobile-mult)
+    lh(1.875)
+h3, .gamma
+    fs(1.5 * $mobile-mult)
+    lh(1.5)
+h4, .delta
+    fs(1.25 * $mobile-mult)
+    lh(1.25)
+h5, .epsilon
+    fs(1 * $mobile-mult)
+    lh(1)
+h6, .zeta
+    fs(.875 * $mobile-mult)
+    lh(.875)
+p
+    fs(1 * $mobile-mult)
+    lh(1)
+code, pre
+    font-size (14.4px * $mobile-mult)
+    font-size (0.9rem * $mobile-mult)
+blockquote
+    p
+        fs(1 * $mobile-mult)
+        lh(1)
+    small
+        fs(.8 * $mobile-mult)
+        lh(.8)
+.leading
+    fs(1.1 * $mobile-mult)
+    line-height 28px * $mobile-mult
+    line-height 2.8rem * $mobile-mult
+unquote("}")
