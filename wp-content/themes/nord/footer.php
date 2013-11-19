@@ -9,6 +9,7 @@
 					<li><a href="<?php echo home_url('get-involved/volunteer') ?>">volunteer</a></li>
 					<li><a href="<?php echo home_url('about-us/contact-us') ?>">contact</a></li>
 					<li>|</li>
+					<li><a href="<?php echo get_stylesheet_directory_uri().'/assets/img/brochure.jpg' ?>" target="_blank">brochure</a></li>
 					<li><a href="<?php echo home_url('policy') ?>">policy</a></li>
 				</ul>
 				<div class="social-icons">
