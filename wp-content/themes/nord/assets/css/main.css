@@ -171,6 +171,9 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .logo-text{height:0;margin:0;text-indent:-9999px}
 .main-btn-grp{float:right;margin-bottom:12px;margin-bottom:1.2000000000000002rem}
 .main-navigation{clear:right;float:right}
+.main-navs-toggle{display:none;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;border:1px solid #eaba6d;border-radius:4px}
+.main-navs-toggle .icon-bar{background-color:#eaba6d;display:block;width:22px;height:2px;border-radius:1px}
+.main-navs-toggle .icon-bar + .icon-bar{margin-top:4px}
 .main-navs{list-style:none}
 .main-nav{font-weight:bold;float:right;margin:0 6px;text-transform:uppercase}
 .main-nav-link,.main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:#eaba6d;display:block;font-size:14.4px;font-size:1.4400000000000002rem;line-height:24px;line-height:2.4000000000000004rem;padding:12px 12px;padding:1.2000000000000002rem 12px;text-decoration:none}
@@ -178,11 +181,13 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .main-navigation-toggle{border-color:#ddd;}
 .main-navigation-toggle.hover{background-color:#ddd}
 @media screen and (max-width: 767px) {
+.header{padding:0}
 .logo{float:none}
 .logo-img{display:block;max-width:100%}
 .main-btn-grp{float:none}
-.main-navigation{float:none}
-.main-navs{padding:0}
+.main-navigation{border:1px solid #eee;border-width:1px 0;float:none;margin-bottom:24px;margin-bottom:2.4000000000000004rem}
+.main-navs-toggle{display:block}
+.main-navs{padding:0;margin:0}
 .main-nav{float:none}
 .main-nav-link,.main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
 }
@@ -225,7 +230,7 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .summary-title a:visited,.summary-title a:active{color:#674397}
 .summary-date{font-size:12.8px;font-size:1.2800000000000002rem;line-height:24px;line-height:2.4000000000000004rem}
 @media screen and (max-width: 767px) {
-.main-feature-content{padding:24px 0 24px;padding:2.4000000000000004rem 0 2.4000000000000004rem}
+.main-feature-content{padding:0 0 24px;padding:0 0 2.4000000000000004rem}
 .main-feature-body{float:none;font-size:23.040000000000003px;font-size:2.3040000000000003rem;line-height:48px;line-height:4.800000000000001rem;text-align:center;}
 .main-feature-body .em a{font-size:51.2px;font-size:5.120000000000001rem}
 .main-feature-body .btn-primary{width:100%}
