@@ -1,19 +1,25 @@
 .footer
-	background $grey-dark
-	color $grey
-	font-family $font-family-kreon
-	scale padding 1 24px
-	a
-		color white
+    background $grey-dark
+    color $grey
+    font-family $font-family-kreon
+    scale padding 1 24px
+    a
+        color white
 
 .footer, .footer p
-	fs(.9)
-	lh(.9)
+    fs(.9)
+    lh(.9)
 
 .footer-nav
-	li
-		padding-right 15px
+    li
+        padding-right 15px
 
 .copyright
-	color #989b97
-	margin-bottom 0
+    color #989b97
+    margin-bottom 0
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.footer, .footer p
+    fs(.9 * $mobile-mult)
+    lh(.9)
+unquote("}")
