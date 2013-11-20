@@ -187,6 +187,8 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .main-feature-body{color:#fff;float:right;font-size:36px;font-size:3.6rem;font-family:"Bitter","Helvetica","Arial",sans-serif;line-height:48px;line-height:4.800000000000001rem;font-weight:bold;text-shadow:0 1px 3px #000;text-shadow:0 1px 3px rgba(0,0,0,0.2);}
 .main-feature-body .em a{color:#eaba6d;font-size:80px;font-size:8rem;}
 .main-feature-body .em a:hover{text-decoration:none}
+.main-feature-body .line{display:block}
+.main-feature-body-content{margin-bottom:24px;margin-bottom:2.4000000000000004rem}
 .feature-container.grey{background-color:#fff;background-image:-moz-linear-gradient(top,#666,#fff 9px);background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(9px,#666),to(#fff));background-image:-webkit-linear-gradient(top,#666,#fff 9px);background-image:-o-linear-gradient(top,#666,#fff 9px);background-image:linear-gradient(to bottom,#666,#fff 9px);background-repeat:repeat-x;}
 .feature-container.grey .feature-header{color:#674397}
 .feature-container.grey .feature-content{color:#444}
@@ -223,6 +225,7 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .main-feature-body{float:none;font-size:23.040000000000003px;font-size:2.3040000000000003rem;line-height:48px;line-height:4.800000000000001rem;text-align:center;}
 .main-feature-body .em a{font-size:51.2px;font-size:5.120000000000001rem}
 .main-feature-body .btn-primary{width:100%}
+.main-feature-body .line{display:inline}
 .feature{margin-bottom:48px;margin-bottom:4.800000000000001rem;padding-top:48px;padding-top:4.800000000000001rem}
 .feature-content{font-size:15.36px;font-size:1.536rem;}
 .feature-content .em{font-size:28.8px;font-size:2.8800000000000003rem}
@@ -245,3 +248,6 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .footer,.footer p{font-size:14.4px;font-size:1.4400000000000002rem;line-height:24px;line-height:2.4000000000000004rem}
 .footer-nav li{padding-right:15px}
 .copyright{color:#989b97;margin-bottom:0}
+@media screen and (max-width: 767px) {
+.footer,.footer p{font-size:11.520000000000001px;font-size:1.1520000000000001rem;line-height:24px;line-height:2.4000000000000004rem}
+}
