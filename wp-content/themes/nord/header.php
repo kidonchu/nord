@@ -18,8 +18,18 @@
 
         <ul class="resp-nav-ul">
             <li class="resp-nav-li">
-                <a class="resp-nav-link" href="<?php echo esc_url(home_url('about-us/contact-us')) ?>" data-target="contact-us">
-                    <span>Contact</span>
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('about-us')) ?>" data-target="about-us">
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('program')) ?>" data-target="program">
+                    <span>Program</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('media')) ?>" data-target="media">
+                    <span>Media</span>
                 </a>
             </li>
             <li class="resp-nav-li">
@@ -33,13 +43,13 @@
                 </a>
             </li>
             <li class="resp-nav-li">
-                <a class="resp-nav-link" href="<?php echo esc_url(home_url('get-involved/events')) ?>" data-target="events">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('events')) ?>" data-target="events">
                     <span>Events</span>
                 </a>
             </li>
             <li class="resp-nav-li">
-                <a class="resp-nav-link" href="<?php echo esc_url(home_url('about-us/mission')) ?>" data-target="mission">
-                    <span>About</span>
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('contact-us')) ?>" data-target="contact-us">
+                    <span>Contact</span>
                 </a>
             </li>
         </ul>
@@ -71,16 +81,22 @@
             </div>
 
             <div class="main-btn-grp">
-                <a href="<?php echo esc_url(home_url('get-involved/donate')) ?>" class="btn-donate">DONATE</a>
-                <a href="<?php echo esc_url(home_url('get-involved/volunteer')) ?>" class="btn-volunteer">VOLUNTEER</a>
+                <a href="<?php echo esc_url(home_url('donate')) ?>" class="btn-donate">DONATE</a>
+                <a href="<?php echo esc_url(home_url('volunteer')) ?>" class="btn-volunteer">VOLUNTEER</a>
+                <a href="<?php echo esc_url(home_url('subscribe')) ?>" class="btn-volunteer">SUBSCRIBE</a>
             </div>
 
             <nav class="main-navigation">
 
                 <ul class="main-navs">
                     <li class="main-nav">
-                        <a class="main-nav-link" href="<?php echo esc_url(home_url('about-us/contact-us')) ?>" data-target="contact-us">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('contact-us')) ?>" data-target="contact-us">
                             <span>Contact</span>
+                        </a>
+                    </li>
+                    <li class="main-nav">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('media')) ?>" data-target="media">
+                            <span>Media</span>
                         </a>
                     </li>
                     <li class="main-nav">
@@ -94,12 +110,17 @@
                         </a>
                     </li>
                     <li class="main-nav">
-                        <a class="main-nav-link" href="<?php echo esc_url(home_url('get-involved/events')) ?>" data-target="events">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('program')) ?>" data-target="program">
+                            <span>Program</span>
+                        </a>
+                    </li>
+                    <li class="main-nav">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('events')) ?>" data-target="events">
                             <span>Events</span>
                         </a>
                     </li>
                     <li class="main-nav">
-                        <a class="main-nav-link" href="<?php echo esc_url(home_url('about-us/mission')) ?>" data-target="mission">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('about-us')) ?>" data-target="about-us">
                             <span>About</span>
                         </a>
                     </li>
@@ -110,8 +131,3 @@
         </div>
 
     </header>
-
-    <!-- ===================================================================== -->
-    <!-- ============================= PAGE ================================== -->
-    <!-- ===================================================================== -->
-    <div class="content clearfix">
