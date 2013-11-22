@@ -1,14 +1,18 @@
 body
-	overflow-y scroll
-
+    overflow-y scroll
 h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, blockquote, p, address, table,
 fieldset, figure, pre, .post, .entry-meta, .comment, .comment-navigation, iframe
-	margin-top 0
-	scale margin-bottom 1
-
+    margin-top 0
+    scale margin-bottom 1
 .post-navigation, .paging-navigation
-	margin-top 0
-	scale margin-bottom 2
-
+    margin-top 0
+    scale margin-bottom 2
 iframe
-	display block
+    display block
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, blockquote, p, address, table,
+fieldset, figure, pre, .post, .entry-meta, .comment, .comment-navigation, iframe
+    scale margin-bottom .5
+.post-navigation, .paging-navigation
+    scale margin-bottom 1
+unquote("}")

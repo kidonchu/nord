@@ -2,6 +2,10 @@ body{overflow-y:scroll}
 h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dl,blockquote,p,address,table,fieldset,figure,pre,.post,.entry-meta,.comment,.comment-navigation,iframe{margin-top:0;margin-bottom:24px;margin-bottom:2.4000000000000004rem}
 .post-navigation,.paging-navigation{margin-top:0;margin-bottom:48px;margin-bottom:4.800000000000001rem}
 iframe{display:block}
+@media screen and (max-width: 767px) {
+h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dl,blockquote,p,address,table,fieldset,figure,pre,.post,.entry-meta,.comment,.comment-navigation,iframe{margin-bottom:12px;margin-bottom:1.2000000000000002rem}
+.post-navigation,.paging-navigation{margin-bottom:24px;margin-bottom:2.4000000000000004rem}
+}
 html{font-size:62.5%}
 body{background-color:#fff;color:#222;font-size:16px;font:400 1.6rem/2.4000000000000004rem "Open Sans","Helvetica","Arial",sans-serif}
 body,input,button{text-rendering:optimizeLegibility;webkit-font-smoothing:antialiased}
@@ -167,18 +171,32 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .logo-text{height:0;margin:0;text-indent:-9999px}
 .main-btn-grp{float:right;margin-bottom:12px;margin-bottom:1.2000000000000002rem}
 .main-navigation{clear:right;float:right}
+.main-navs-toggle{display:none;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;border:1px solid #eaba6d;border-radius:4px}
+.main-navs-toggle .icon-bar{background-color:#eaba6d;display:block;width:22px;height:2px;border-radius:1px}
+.main-navs-toggle .icon-bar + .icon-bar{margin-top:4px}
 .main-navs{list-style:none}
 .main-nav{font-weight:bold;float:right;margin:0 6px;text-transform:uppercase}
 .main-nav-link,.main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:#eaba6d;display:block;font-size:14.4px;font-size:1.4400000000000002rem;line-height:24px;line-height:2.4000000000000004rem;padding:12px 12px;padding:1.2000000000000002rem 12px;text-decoration:none}
 .main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{background:#c0c0c0;background:rgba(0,0,0,0.15)}
 .main-navigation-toggle{border-color:#ddd;}
 .main-navigation-toggle.hover{background-color:#ddd}
+.resp-nav{background:#3e285b;display:none;font-size:12.8px;font-size:1.2800000000000002rem;font-weight:bold}
+.resp-nav-ul{display:none;padding:0;margin:0}
+.resp-nav-li{display:block}
+.resp-nav-link,.resp-nav-toggle{line-height:36px;line-height:3.6000000000000005rem;text-align:left;text-indent:25px;width:100%}
+.resp-nav-link{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-bottom:1px solid #150d1e;color:#eaba6d;display:inline-block;}
+.resp-nav-link:hover,.resp-nav-link:active,.resp-nav-link:visited{background-color:#523679;color:#eaba6d;text-decoration:none}
+.resp-nav-toggle{background:#291b3c;color:#fff;cursor:pointer;display:inline-block;position:relative;}
+.resp-nav-toggle:hover,.resp-nav-toggle:active,.resp-nav-toggle:visited{color:#fff;text-decoration:none}
+.resp-nav-toggle:after{content:"";background:url("../img/nav-icon.png") no-repeat;width:30px;height:30px;display:inline-block;position:absolute;right:15px;top:7.5px}
 @media screen and (max-width: 767px) {
+.header{padding:0}
 .logo{float:none}
 .logo-img{display:block;max-width:100%}
 .main-btn-grp{float:none}
-.main-navigation{float:none}
-.main-navs{padding:0}
+.main-navigation{display:none}
+.resp-nav{display:block}
+.main-navs{padding:0;margin:0}
 .main-nav{float:none}
 .main-nav-link,.main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
 }
@@ -221,19 +239,21 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .summary-title a:visited,.summary-title a:active{color:#674397}
 .summary-date{font-size:12.8px;font-size:1.2800000000000002rem;line-height:24px;line-height:2.4000000000000004rem}
 @media screen and (max-width: 767px) {
-.main-feature-content{padding:24px 0 24px;padding:2.4000000000000004rem 0 2.4000000000000004rem}
+.main-feature-content{padding:0 0 24px;padding:0 0 2.4000000000000004rem}
 .main-feature-body{float:none;font-size:23.040000000000003px;font-size:2.3040000000000003rem;line-height:48px;line-height:4.800000000000001rem;text-align:center;}
 .main-feature-body .em a{font-size:51.2px;font-size:5.120000000000001rem}
 .main-feature-body .btn-primary{width:100%}
 .main-feature-body .line{display:inline}
-.feature{margin-bottom:48px;margin-bottom:4.800000000000001rem;padding-top:48px;padding-top:4.800000000000001rem}
-.feature-content{font-size:15.36px;font-size:1.536rem;}
+.main-feature-body-content{margin-bottom:12px;margin-bottom:1.2000000000000002rem}
+.feature{margin-bottom:48px;margin-bottom:4.800000000000001rem;padding-top:36px;padding-top:3.6000000000000005rem}
+.feature-header{margin-bottom:12px;margin-bottom:1.2000000000000002rem}
+.feature-content{font-size:15.36px;font-size:1.536rem;padding:0 12px;}
 .feature-content .em{font-size:28.8px;font-size:2.8800000000000003rem}
-.breadcrumbs,.entry{font-size:10.240000000000002px;font-size:1.0240000000000002rem;padding:0 20px}
-.entry{margin-bottom:48px;margin-bottom:4.800000000000001rem}
-.entry-title{margin-bottom:24px;margin-bottom:2.4000000000000004rem}
-.entry-content{font-size:12.8px;font-size:1.2800000000000002rem;line-height:1.5}
-.event-date{padding-left:0}
+.breadcrumbs,.entry{font-size:10.240000000000002px;font-size:1.0240000000000002rem;padding:0 10px}
+.entry{margin-bottom:36px;margin-bottom:3.6000000000000005rem}
+.entry-title{margin-bottom:12px;margin-bottom:1.2000000000000002rem}
+.entry-content{font-size:12.8px;font-size:1.2800000000000002rem}
+.event-date{padding-left:10px}
 .summary-date{font-size:10.240000000000002px;font-size:1.0240000000000002rem}
 }
 .comments-wrapper{clear:both}
@@ -249,5 +269,6 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .footer-nav li{padding-right:15px}
 .copyright{color:#989b97;margin-bottom:0}
 @media screen and (max-width: 767px) {
-.footer,.footer p{font-size:11.520000000000001px;font-size:1.1520000000000001rem;line-height:24px;line-height:2.4000000000000004rem}
+.footer{padding:12px 12px;padding:1.2000000000000002rem 12px}
+.footer,.footer p{font-size:11.520000000000001px;font-size:1.1520000000000001rem}
 }

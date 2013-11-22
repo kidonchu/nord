@@ -1,46 +1,50 @@
+boxSizing()
+    box-sizing arguments
+    -moz-box-sizing arguments
+    -webkit-box-sizing arguments
 scalePx($scale)
-	unit(($line-height-px * $scale), px)
+    unit(($line-height-px * $scale), px)
 scaleRem($scale)
-	unit(($line-height-rem * $scale), rem)
+    unit(($line-height-rem * $scale), rem)
 mult(a, b)
-	a * b
+    a * b
 
 /**
  * Font Size
  */
 fs($scale)
-	font-size unit(($font-size-px * $scale), px)
-	font-size unit(($font-size-rem * $scale), rem)
+    font-size unit(($font-size-px * $scale), px)
+    font-size unit(($font-size-rem * $scale), rem)
 
 /**
  * Line Height
  */
 lh($scale)
-	if ($font-size-px * $scale) < $line-height-px
-		line-height unit($line-height-px, px)
-		line-height unit($line-height-rem, rem)
-	else if ($font-size-px * $scale) < ($line-height-px * 2)
-		line-height unit(($line-height-px * 2), px)
-		line-height unit(($line-height-rem * 2), rem)
-	else
-		line-height unit(($line-height-px * 3), px)
-		line-height unit(($line-height-rem * 3), rem)
+    if ($font-size-px * $scale) < $line-height-px
+        line-height unit($line-height-px, px)
+        line-height unit($line-height-rem, rem)
+    else if ($font-size-px * $scale) < ($line-height-px * 2)
+        line-height unit(($line-height-px * 2), px)
+        line-height unit(($line-height-rem * 2), rem)
+    else
+        line-height unit(($line-height-px * 3), px)
+        line-height unit(($line-height-rem * 3), rem)
 
 /**
  * Scale margin with vertical rythm
  */
 scale(args...)
-	if length(args) == 5
-		{args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3]) mult(args[4], 1px)
-		{args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3]) mult(args[4], 1px)
-	else if length(args) == 4
-		{args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3])
-		{args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3])
-	else if length(args) == 3
-		{args[0]} scalePx(args[1]) mult(args[2], 1px)
-		{args[0]} scaleRem(args[1]) mult(args[2], 1px)
-	else if length(args) == 2
-		{args[0]} scalePx(args[1])
-		{args[0]} scaleRem(args[1])
-	else
-		error('at least two arguments are required')
+    if length(args) == 5
+        {args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3]) mult(args[4], 1px)
+        {args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3]) mult(args[4], 1px)
+    else if length(args) == 4
+        {args[0]} scalePx(args[1]) mult(args[2], 1px) scalePx(args[3])
+        {args[0]} scaleRem(args[1]) mult(args[2], 1px) scaleRem(args[3])
+    else if length(args) == 3
+        {args[0]} scalePx(args[1]) mult(args[2], 1px)
+        {args[0]} scaleRem(args[1]) mult(args[2], 1px)
+    else if length(args) == 2
+        {args[0]} scalePx(args[1])
+        {args[0]} scaleRem(args[1])
+    else
+        error('at least two arguments are required')

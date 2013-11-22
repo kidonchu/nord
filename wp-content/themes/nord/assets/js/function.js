@@ -18,4 +18,22 @@ jQuery(document).ready(function($) {
 			$(this).addClass('active');
 		}
 	});
+
+    // main navigation toggle
+    $(function() {
+        var toggle     = $('.resp-nav-toggle'),
+            menu       = $('.resp-nav-ul'),
+            menuHeight = menu.height();
+
+        toggle.on('click', function() {
+            menu.slideToggle();
+        });
+
+        $(window).resize(function(){
+            var w = $(this).width();
+            if (w > 320 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+    });
 });

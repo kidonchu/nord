@@ -1,10 +1,8 @@
 .main-feature
     background url(../img/header-bg.png)
     width 100%
-
 .main-feature-content
     scale padding 5 0 2
-
 .main-feature-body
     color #ffffff
     float right
@@ -21,10 +19,8 @@
             text-decoration none
     .line
         display block
-
 .main-feature-body-content
     scale margin-bottom 1
-
 .feature-container
     &.grey
         background-color #fff
@@ -46,19 +42,15 @@
             color #dec3ff
             strong
                 color   #fff
-
 .feature
     scale margin-bottom 3
     scale padding-top 3
-
 .feature-header
     color   #674397
     scale margin-bottom 1
     text-align center
     text-shadow 0 2px 3px #eee
-
     text-transform uppercase
-
 .feature-content
     color #777
     fs(1.2)
@@ -69,7 +61,6 @@
         fs(2.25)
         lh(1.2)
         font-weight bold
-
 .content
     background-color #fff
     background-image -moz-linear-gradient(top, #666, #fff 9px)
@@ -78,20 +69,16 @@
     background-image -o-linear-gradient(top, #666, #fff 9px)
     background-image linear-gradient(to bottom, #666, #fff 9px)
     background-repeat repeat-x
-
 .breadcrumbs
     fs(.8)
     margin-bottom 0
     scale(padding-top, 1)
-
 .entry
     scale margin-bottom 3
-
 .entry-title
     color   #674397
     scale margin-bottom 1
     text-transform uppercase
-
 .entry-content
     color #444
     fs(1)
@@ -99,7 +86,6 @@
     .em
         color #e05048
         font-weight bold
-
 .paypal-form
     scale(height, 3)
 
@@ -109,7 +95,6 @@
     th, td
         padding-top 5px
         padding-bottom 5px
-
 .event-year td
     border-top 1px solid #3F3F3F
     border-bottom 1px dotted #CCC
@@ -124,7 +109,6 @@
     width 20%
 .event-state
     width 10%
-
 .summary-title
     scale margin-bottom .5
     a:link
@@ -133,14 +117,12 @@
         text-decoration underline
     a:visited, a:active
         color $purple
-
 .summary-date
     fs(.8)
     lh(.8)
-
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .main-feature-content
-    scale padding 1 0 1
+    scale padding 0 0 1
 .main-feature-body
     float none
     fs(2.25 * $mobile-mult * $mobile-mult)
@@ -152,26 +134,29 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
         width 100%
     .line
         display inline
+.main-feature-body-content
+    scale margin-bottom .5
 .feature
     scale margin-bottom 2
-    scale padding-top 2
+    scale padding-top 1.5
+.feature-header
+    scale margin-bottom .5
 .feature-content
     fs(1.2 * $mobile-mult)
+    padding 0 12px
     .em
         fs(2.25 * $mobile-mult)
 .breadcrumbs, .entry
     fs(.8 * $mobile-mult)
-    padding 0 20px
+    padding 0 10px
 .entry
-    scale margin-bottom 2
+    scale margin-bottom 1.5
 .entry-title
-    scale margin-bottom 1
+    scale margin-bottom .5
 .entry-content
     fs(1 * $mobile-mult)
-    line-height 1.5
 .event-date
-    padding-left 0
+    padding-left 10px
 .summary-date
     fs(.8 * $mobile-mult)
 unquote("}")
-
