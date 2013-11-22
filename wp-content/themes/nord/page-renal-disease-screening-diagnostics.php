@@ -1,17 +1,8 @@
-<?php
-/**
- * Template Name: Screening & Diagnostics
- */
-?>
 <?php get_header() ?>
-
 <div class="content">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <?php if ( function_exists('yoast_breadcrumb') ) {
-                yoast_breadcrumb('<p class="breadcrumbs">','</p>');
-                } ?>
                 <div class="entry-container">
                     <div class="entry">
                         <h1 class="entry-title text-center"><?php the_title() ?></h1>
