@@ -16,10 +16,26 @@
 .main-navigation
     clear right
     float right
-
+.main-navs-toggle
+    display none
+    float right
+    padding 9px 10px
+    margin-top 8px
+    margin-right 15px
+    margin-bottom 8px
+    background-color transparent
+    border 1px solid $orange
+    border-radius 4px
+.main-navs-toggle .icon-bar
+    background-color $orange
+    display block
+    width 22px
+    height 2px
+    border-radius 1px
+.main-navs-toggle .icon-bar + .icon-bar
+    margin-top 4px
 .main-navs
     list-style none
-
 .main-nav
     font-weight bold
     float right
@@ -51,25 +67,124 @@
     &.hover
         background-color #ddd
 
-unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.resp-nav
+    background $purple - 40%
+    display none
+    fs(.8)
+    font-weight bold
+.resp-nav-ul
+    display none
+    padding 0
+    margin 0
+.resp-nav-li
+    display block
+.resp-nav-link,
+.resp-nav-toggle
+    text-align left
+    text-indent 25px
+    width 100%
+.resp-nav-link
+    boxSizing(border-box)
+    border-bottom 1px solid $purple - 80%
+    color $orange
+    display inline-block
+    scale line-height 1.5
+    &:hover, &:active, &:visited
+        background-color $purple - 20%
+        color $orange
+        text-decoration none
+.resp-nav-toggle
+    background $purple - 60%
+    color $orange
+    cursor pointer
+    display inline-block
+    fs(1.5)
+    line-height 1
+    font-family: $font-family-bitter
+    padding 5px 0
+    position relative
+    &:hover, &:active, &:visited
+        color $orange
+        text-decoration none
+    &:after
+        content ""
+        background url('../img/nav-icon.png') no-repeat
+        width 30px
+        height 30px
+        display inline-block
+        position absolute
+        right 15px
+        top 10px
+    img
+        max-height 100%
+
+/**
+ * Responsive main button group
+ */
+.resp-btn-group
+    display none
+
+.resp-btn-donate,
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    display block
+    font-weight bold
+    scale line-height 2
+    text-align center
+
+.resp-btn-donate
+    background-color $orange + 30%
+    color $purple
+    width 100%
+    &:hover, &:active, &:visited
+        color $purple
+        text-decoration: none
+    &:hover
+        background-color $orange
+
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    background-color #ddd
+    color #333
+    float left
+    width 50%
+    &:hover, &:active, &:visited
+        color #333
+        text-decoration: none
+    &:hover
+        background-color #bbb
+
+.resp-btn-volunteer
+    border-right 1px solid #ccc
+
+unquote("@media screen and (max-width: " + $screen-sm-max + ") {")
+.header
+    display none
+.main-btn-grp,
+.main-navigation
+    display none
+.resp-nav,
+.resp-btn-group
+    display block
+.resp-nav-li
+    float left
+    width 50%
+.resp-nav-link
+    border-right 1px solid $purple - 80%
 .logo
     float none
+    text-align: center
 .logo-img
-    display block
+    display inline-block
     max-width 100%
-.main-btn-grp
+unquote("}")
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+.resp-btn-donate,
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    scale line-height 1.5
+.resp-nav-li
     float none
-.main-navigation
-    float none
-.main-navs
-    padding 0
-.main-nav
-    float none
-.main-nav-link,
-.main-nav-link:hover,
-.main-nav-link:active,
-.main-nav-link.active
-    -webkit-border-radius 0
-    -moz-border-radius 0
-    border-radius 0
+    width 100%
 unquote("}")

@@ -5,11 +5,11 @@
             <div class="main-feature-content clearfix">
                 <div class="main-feature-body">
                     <div class="main-feature-body-content">
-                        <span class="line"><span class="em"><a href="<?php echo home_url('about-us/program') ?>">A.P.E.R.</a></span>FECT SOLUTION</span>
+                        <span class="line"><span class="em"><a href="<?php echo home_url('program') ?>">A.P.E.R.</a></span>FECT SOLUTION</span>
                         <span class="line">for Controlling Kidney Disease</span>
                         <span class="line">and Prolonging Health and Life!</span>
                     </div>
-                    <a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-primary btn-large pull-right">Donate. Prolong Health and Save LIVES</a>
+                    <a href="<?php echo home_url('donate') ?>" class="btn btn-primary btn-large pull-right">Donate. Prolong Health and Save LIVES</a>
                 </div>
             </div>
         </div>
@@ -92,8 +92,8 @@
                             <strong>Change must happen. But, it can only happen with Your support!</strong>
                         </p>
                         <div class="text-center">
-                            <a href="<?php echo home_url('get-involved/donate') ?>" class="btn btn-large btn-primary">Donate</a>
-                            <a href="<?php echo home_url('get-involved/volunteer') ?>" class="btn btn-large">Volunteer</a>
+                            <a href="<?php echo home_url('donate') ?>" class="btn btn-large btn-primary">Donate</a>
+                            <a href="<?php echo home_url('volunteer') ?>" class="btn btn-large">Volunteer</a>
                         </div>
                     </div>
                 </div>
