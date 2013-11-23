@@ -190,7 +190,7 @@ a.btn-volunteer:active,a.btn-subscribe:active{background-color:rgba(0,0,0,0);bac
 .resp-nav-toggle:hover,.resp-nav-toggle:active,.resp-nav-toggle:visited{color:#eaba6d;text-decoration:none}
 .resp-nav-toggle:after{content:"";background:url("../img/nav-icon.png") no-repeat;width:30px;height:30px;display:inline-block;position:absolute;right:15px;top:10px}
 .resp-nav-toggle img{max-height:100%}
-.resp-btn-group{display:none}
+.resp-btn-grp{display:none}
 .resp-btn-donate,.resp-btn-volunteer,.resp-btn-subscribe{display:block;font-weight:bold;line-height:48px;line-height:4.800000000000001rem;text-align:center}
 .resp-btn-donate{background-color:#f0cf99;color:#674397;width:100%;}
 .resp-btn-donate:hover,.resp-btn-donate:active,.resp-btn-donate:visited{color:#674397;text-decoration:none}
@@ -202,7 +202,7 @@ a.btn-volunteer:active,a.btn-subscribe:active{background-color:rgba(0,0,0,0);bac
 @media screen and (max-width: 991px) {
 .header{display:none}
 .main-btn-grp,.main-navigation{display:none}
-.resp-nav,.resp-btn-group{display:block}
+.resp-nav,.resp-btn-grp{display:block}
 .resp-nav-li{float:left;width:50%}
 .resp-nav-link{border-right:1px solid #150d1e}
 .logo{float:none;text-align:center}
