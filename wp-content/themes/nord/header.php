@@ -18,6 +18,11 @@
 
         <ul class="resp-nav-ul">
             <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('/')) ?>" data-target="">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
                 <a class="resp-nav-link" href="<?php echo esc_url(home_url('about-us')) ?>" data-target="about-us">
                     <span>About</span>
                 </a>
@@ -54,9 +59,20 @@
             </li>
         </ul>
 
-        <span href="#" class="resp-nav-toggle">Menu</span>
+        <span href="#" class="resp-nav-toggle">
+            <img class="logo-img"
+            src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/logo-small.png') ?>"
+            alt="National Organization for Renal Disease">
+            NORD
+        </span>
 
     </nav>
+
+    <div class="resp-btn-grp clearfix">
+        <a href="<?php echo esc_url(home_url('donate')) ?>" class="resp-btn-donate">DONATE. Prolong Health and Save LIVES</a>
+        <a href="<?php echo esc_url(home_url('volunteer')) ?>" class="resp-btn-volunteer">VOLUNTEER</a>
+        <a href="<?php echo esc_url(home_url('subscribe')) ?>" class="resp-btn-subscribe">SUBSCRIBE</a>
+    </div>
 
     <!-- ===================================================================== -->
     <!-- ============================ HEADER ================================= -->

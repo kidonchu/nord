@@ -111,9 +111,22 @@
 .summary-date
     fs(.8)
     lh(.8)
-unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
+
+unquote("@media screen and (max-width: " + $screen-sm-max + ") {")
+.main-feature
+    border-top 3px solid $purple + 40%
 .main-feature-content
-    scale padding 0 0 1
+    scale padding 1 0
+.main-feature-body
+    float none
+    text-align center
+    .btn-primary
+        width 100%
+    .line
+        display inline
+unquote("}")
+
+unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .main-feature-body
     float none
     fs(2.25 * $mobile-mult * $mobile-mult)

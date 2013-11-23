@@ -2,7 +2,7 @@
 <div class="content">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 ">
+            <div class="col-sm-8 col-sm-offset-2 ">
                 <article id="post-<?php the_ID() ?>" <?php post_class('entry') ?>>
                     <h1 class="entry-title text-center"><?php the_title() ?></h1>
                     <div class="entry-content">

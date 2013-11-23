@@ -95,13 +95,16 @@
         text-decoration none
 .resp-nav-toggle
     background $purple - 60%
-    color white
+    color $orange
     cursor pointer
     display inline-block
-    scale line-height 2
+    fs(1.5)
+    line-height 1
+    font-family: $font-family-bitter
+    padding 5px 0
     position relative
     &:hover, &:active, &:visited
-        color white
+        color $orange
         text-decoration none
     &:after
         content ""
@@ -111,31 +114,77 @@
         display inline-block
         position absolute
         right 15px
-        top 13px
+        top 10px
+    img
+        max-height 100%
+
+/**
+ * Responsive main button group
+ */
+.resp-btn-group
+    display none
+
+.resp-btn-donate,
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    display block
+    font-weight bold
+    scale line-height 2
+    text-align center
+
+.resp-btn-donate
+    background-color $orange + 30%
+    color $purple
+    width 100%
+    &:hover, &:active, &:visited
+        color $purple
+        text-decoration: none
+    &:hover
+        background-color $orange
+
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    background-color #ddd
+    color #333
+    float left
+    width 50%
+    &:hover, &:active, &:visited
+        color #333
+        text-decoration: none
+    &:hover
+        background-color #bbb
+
+.resp-btn-volunteer
+    border-right 1px solid #ccc
 
 unquote("@media screen and (max-width: " + $screen-sm-max + ") {")
+.header
+    display none
+.main-btn-grp,
 .main-navigation
     display none
-.resp-nav
+.resp-nav,
+.resp-btn-group
     display block
 .resp-nav-li
     float left
     width 50%
 .resp-nav-link
     border-right 1px solid $purple - 80%
+.logo
+    float none
+    text-align: center
+.logo-img
+    display inline-block
+    max-width 100%
 unquote("}")
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
-.header
-    padding 0
-.logo
-    float none
-.logo-img
-    display block
-    max-width 100%
+.resp-btn-donate,
+.resp-btn-volunteer,
+.resp-btn-subscribe
+    scale line-height 1.5
 .resp-nav-li
     float none
     width 100%
-.resp-nav-link
-    border-bottom 0
 unquote("}")
