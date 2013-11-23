@@ -80,7 +80,6 @@
     display block
 .resp-nav-link,
 .resp-nav-toggle
-    scale line-height 1.5
     text-align left
     text-indent 25px
     width 100%
@@ -89,6 +88,7 @@
     border-bottom 1px solid $purple - 80%
     color $orange
     display inline-block
+    scale line-height 1.5
     &:hover, &:active, &:visited
         background-color $purple - 20%
         color $orange
@@ -98,6 +98,7 @@
     color white
     cursor pointer
     display inline-block
+    scale line-height 2
     position relative
     &:hover, &:active, &:visited
         color white
@@ -110,7 +111,19 @@
         display inline-block
         position absolute
         right 15px
-        top 7.5px
+        top 13px
+
+unquote("@media screen and (max-width: " + $screen-sm-max + ") {")
+.main-navigation
+    display none
+.resp-nav
+    display block
+.resp-nav-li
+    float left
+    width 50%
+.resp-nav-link
+    border-right 1px solid $purple - 80%
+unquote("}")
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .header
@@ -120,22 +133,9 @@ unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .logo-img
     display block
     max-width 100%
-.main-btn-grp
+.resp-nav-li
     float none
-.main-navigation
-    display none
-.resp-nav
-    display block
-.main-navs
-    padding 0
-    margin 0
-.main-nav
-    float none
-.main-nav-link,
-.main-nav-link:hover,
-.main-nav-link:active,
-.main-nav-link.active
-    -webkit-border-radius 0
-    -moz-border-radius 0
-    border-radius 0
+    width 100%
+.resp-nav-link
+    border-bottom 0
 unquote("}")

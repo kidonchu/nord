@@ -183,22 +183,24 @@ a.btn-volunteer:active{background-color:rgba(0,0,0,0);background-image:-moz-line
 .resp-nav{background:#3e285b;display:none;font-size:12.8px;font-size:1.2800000000000002rem;font-weight:bold}
 .resp-nav-ul{display:none;padding:0;margin:0}
 .resp-nav-li{display:block}
-.resp-nav-link,.resp-nav-toggle{line-height:36px;line-height:3.6000000000000005rem;text-align:left;text-indent:25px;width:100%}
-.resp-nav-link{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-bottom:1px solid #150d1e;color:#eaba6d;display:inline-block;}
+.resp-nav-link,.resp-nav-toggle{text-align:left;text-indent:25px;width:100%}
+.resp-nav-link{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-bottom:1px solid #150d1e;color:#eaba6d;display:inline-block;line-height:36px;line-height:3.6000000000000005rem;}
 .resp-nav-link:hover,.resp-nav-link:active,.resp-nav-link:visited{background-color:#523679;color:#eaba6d;text-decoration:none}
-.resp-nav-toggle{background:#291b3c;color:#fff;cursor:pointer;display:inline-block;position:relative;}
+.resp-nav-toggle{background:#291b3c;color:#fff;cursor:pointer;display:inline-block;line-height:48px;line-height:4.800000000000001rem;position:relative;}
 .resp-nav-toggle:hover,.resp-nav-toggle:active,.resp-nav-toggle:visited{color:#fff;text-decoration:none}
-.resp-nav-toggle:after{content:"";background:url("../img/nav-icon.png") no-repeat;width:30px;height:30px;display:inline-block;position:absolute;right:15px;top:7.5px}
+.resp-nav-toggle:after{content:"";background:url("../img/nav-icon.png") no-repeat;width:30px;height:30px;display:inline-block;position:absolute;right:15px;top:13px}
+@media screen and (max-width: 991px) {
+.main-navigation{display:none}
+.resp-nav{display:block}
+.resp-nav-li{float:left;width:50%}
+.resp-nav-link{border-right:1px solid #150d1e}
+}
 @media screen and (max-width: 767px) {
 .header{padding:0}
 .logo{float:none}
 .logo-img{display:block;max-width:100%}
-.main-btn-grp{float:none}
-.main-navigation{display:none}
-.resp-nav{display:block}
-.main-navs{padding:0;margin:0}
-.main-nav{float:none}
-.main-nav-link,.main-nav-link:hover,.main-nav-link:active,.main-nav-link.active{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+.resp-nav-li{float:none;width:100%}
+.resp-nav-link{border-bottom:0}
 }
 .main-feature{background:url("../img/header-bg.png");width:100%}
 .main-feature-content{padding:120px 0 48px;padding:12.000000000000002rem 0 4.800000000000001rem}
