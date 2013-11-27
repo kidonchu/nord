@@ -25,13 +25,13 @@
                                     </tr>
                                     <tr class="event">
                                         <td class="event-date">Oct. 19</td>
-                                        <td class="event-title"><a title="Senior Health Expo 50+" href="http://nord.local.com/get-involved/events/senior-health-expo-50/">Senior Health Expo 50+</a></td>
+                                        <td class="event-title"><a title="Senior Health Expo 50+" href="<?php echo esc_url(home_url('events/senior-health-expo-50')) ?>">Senior Health Expo 50+</a></td>
                                         <td class="event-city">Monrovia</td>
                                         <td class="event-state">CA</td>
                                     </tr>
                                     <tr class="event">
                                         <td class="event-date">Oct. 29</td>
-                                        <td class="event-title"><a title="Burbank Senior Health Expo" href="http://nord.local.com/get-involved/events/burbank-senior-health-expo/">Burbank Senior Health Expo</a></td>
+                                        <td class="event-title"><a title="Burbank Senior Health Expo" href="<?php echo esc_url(home_url('events/burbank-senior-health-expo')) ?>">Burbank Senior Health Expo</a></td>
                                         <td class="event-city">Burbank</td>
                                         <td class="event-state">CA</td>
                                     </tr>
