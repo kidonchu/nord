@@ -251,6 +251,7 @@ a.btn-volunteer:active,a.btn-subscribe:active{background-color:rgba(0,0,0,0);bac
 .summary-title a:hover{text-decoration:underline}
 .summary-title a:visited,.summary-title a:active{color:#674397}
 .summary-date{font-size:12.8px;font-size:1.2800000000000002rem;line-height:24px;line-height:2.4000000000000004rem}
+.partner-logo-img{display:inline-block;max-width:100%}
 @media screen and (max-width: 991px) {
 .main-feature{border-top:3px solid #a386c9}
 .main-feature-content{padding:24px 0;padding:2.4000000000000004rem 0}
