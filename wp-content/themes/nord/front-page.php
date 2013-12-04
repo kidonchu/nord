@@ -78,6 +78,17 @@
                             radio, and cable through various Media resources.
                         </p>
                     </div>
+                    <div class="divider"></div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="feature">
+                        <h2 class="feature-header">
+                            our partners
+                        </h2>
+                        <img class="partner-logo-img"
+                        src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/partner_logos.png') ?>"
+                        alt="National Organization for Renal Disease Partners">
+                    </div>
                 </div>
             </div>
         </div>
