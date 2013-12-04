@@ -83,11 +83,13 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="feature">
                         <h2 class="feature-header">
-                            our partners
+                            <a href="<?php echo home_url('partners') ?>">our partners</a>
                         </h2>
-                        <img class="partner-logo-img"
-                        src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/partner_logos.png') ?>"
-                        alt="National Organization for Renal Disease Partners">
+                        <a href="<?php echo home_url('partners') ?>">
+                            <img class="partner-logo-img"
+                            src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/partner_logos.png') ?>"
+                            alt="National Organization for Renal Disease Partners">
+                        </a>
                     </div>
                 </div>
             </div>
