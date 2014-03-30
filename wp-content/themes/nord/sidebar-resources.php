@@ -39,37 +39,37 @@
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-african-american')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-african-american">
-                African American
+                African Americans
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-american-indian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-american-indian">
-                American Indian
+                American Indians
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-asian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-asian">
-                Asian
+                Asian Americans
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-caucasian')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-caucasian">
-                Caucasian
+                Caucasians
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-latino')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-latino">
-                Latino
+                Latinos
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
         <li class="sidebar-nav">
             <a href="<?php echo esc_url(home_url('resources/renal-disease-of-pacific-islander')) ?>" class="sidebar-nav-link" data-target="renal-disease-of-pacific-islander">
-                Pacific Islander
+                Pacific Islanders
                 <small class="sidebar-nav-desc"></small>
             </a>
         </li>
