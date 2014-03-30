@@ -1,190 +1,217 @@
 .header
-    background url(../img/header-bg.png)
-    scale padding 1 0
+  background url(../img/header-bg.png)
+  scale padding 1 0
 
 .logo
-    float left
+  float left
+
 .logo-text
-    height 0
-    margin 0
-    text-indent -9999px
+  height 0
+  margin 0
+  text-indent - 9999px
+
+.search-bar
+  float right
+  scale margin-bottom 1
+.search-form-li .resp-nav-link
+  text-indent 0
 
 .main-btn-grp
-    float right
-    scale margin-bottom .5
+  clear right
+  float right
+  scale margin-bottom .5
 
 .main-navigation
-    clear right
-    float right
+  clear right
+  float right
+
 .main-navs-toggle
-    display none
-    float right
-    padding 9px 10px
-    margin-top 8px
-    margin-right 15px
-    margin-bottom 8px
-    background-color transparent
-    border 1px solid $orange
-    border-radius 4px
+  display none
+  float right
+  padding 9px 10px
+  margin-top 7px
+  margin-right 15px
+  margin-bottom 8px
+  background-color transparent
+  border 1px solid $orange
+  border-radius 4px
+
 .main-navs-toggle .icon-bar
-    background-color $orange
-    display block
-    width 22px
-    height 2px
-    border-radius 1px
+  background-color $orange
+  display block
+  width 22px
+  height 2px
+  border-radius 1px
+
 .main-navs-toggle .icon-bar + .icon-bar
-    margin-top 4px
+  margin-top 4px
+
 .main-navs
-    list-style none
+  list-style none
+
 .main-nav
-    font-weight bold
-    float right
-    margin 0 6px
-    text-transform uppercase
+  font-weight bold
+  float right
+  margin 0 6px
+  text-transform uppercase
 
 .main-nav-link,
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link.active
-    -webkit-border-radius 5px
-    -moz-border-radius 5px
-    border-radius 5px
-    color #eaba6d
-    display block
-    fs(.9)
-    lh(.9)
-    scale padding .5 12px
-    text-decoration none
+  -webkit-border-radius 5px
+  -moz-border-radius 5px
+  border-radius 5px
+  color #eaba6d
+  display block
+  fs(.9)
+  lh(.9)
+  scale padding .5 12px
+  text-decoration none
 
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link.active
-    background rgb(192, 192, 192)
-    background rgba(0, 0, 0, 0.15)
+  background rgb(192, 192, 192)
+  background rgba(0, 0, 0, 0.15)
 
 .main-navigation-toggle
-    border-color #ddd
-    &.hover
-        background-color #ddd
+  border-color #ddd
+  &.hover
+    background-color #ddd
 
 .resp-nav
-    background $purple - 40%
-    display none
-    fs(.8)
-    font-weight bold
+  background $purple - 40%
+  display none
+  fs(.8)
+  font-weight bold
+
 .resp-nav-ul
-    display none
-    padding 0
-    margin 0
+  display none
+  padding 0
+  margin 0
+
 .resp-nav-li
-    display block
+  display block
+
 .resp-nav-link,
 .resp-nav-toggle
-    text-align left
-    text-indent 25px
-    width 100%
+  text-align left
+  text-indent 25px
+  width 100%
+
 .resp-nav-link
-    boxSizing(border-box)
-    border-bottom 1px solid $purple - 80%
+  boxSizing(border-box)
+  border-bottom 1px solid $purple - 80%
+  color $orange
+  display inline-block
+  scale line-height 1.5
+  &:hover, &:active, &:visited
+    background-color $purple - 20%
     color $orange
-    display inline-block
-    scale line-height 1.5
-    &:hover, &:active, &:visited
-        background-color $purple - 20%
-        color $orange
-        text-decoration none
+    text-decoration none
+
 .resp-nav-toggle
-    background $purple - 60%
+  background $purple - 60%
+  color $orange
+  cursor pointer
+  display inline-block
+  fs(1.5)
+  line-height 1
+  font-family: $font-family-bitter
+  padding 5px 0
+  position relative
+  &:hover, &:active, &:visited
     color $orange
-    cursor pointer
+    text-decoration none
+  &:after
+    content ""
+    background url('../img/nav-icon.png') no-repeat
+    width 30px
+    height 30px
     display inline-block
-    fs(1.5)
-    line-height 1
-    font-family: $font-family-bitter
-    padding 5px 0
-    position relative
-    &:hover, &:active, &:visited
-        color $orange
-        text-decoration none
-    &:after
-        content ""
-        background url('../img/nav-icon.png') no-repeat
-        width 30px
-        height 30px
-        display inline-block
-        position absolute
-        right 15px
-        top 10px
-    img
-        max-height 100%
+    position absolute
+    right 15px
+    top 10px
+  img
+    max-height 100%
 
 /**
  * Responsive main button group
  */
 .resp-btn-grp
-    display none
+  display none
 
 .resp-btn-donate,
 .resp-btn-volunteer,
 .resp-btn-subscribe
-    display block
-    font-weight bold
-    scale line-height 2
-    text-align center
+  display block
+  font-weight bold
+  scale line-height 2
+  text-align center
 
 .resp-btn-donate
-    background-color $orange + 30%
+  background-color $orange + 30%
+  color $purple
+  width 100%
+  &:hover, &:active, &:visited
     color $purple
-    width 100%
-    &:hover, &:active, &:visited
-        color $purple
-        text-decoration: none
-    &:hover
-        background-color $orange
+    text-decoration: none
+  &:hover
+    background-color $orange
 
 .resp-btn-volunteer,
 .resp-btn-subscribe
-    background-color #ddd
+  background-color #ddd
+  color #333
+  float left
+  width 50%
+  &:hover, &:active, &:visited
     color #333
-    float left
-    width 50%
-    &:hover, &:active, &:visited
-        color #333
-        text-decoration: none
-    &:hover
-        background-color #bbb
+    text-decoration: none
+  &:hover
+    background-color #bbb
 
 .resp-btn-volunteer
-    border-right 1px solid #ccc
+  border-right 1px solid #ccc
 
 unquote("@media screen and (max-width: " + $screen-sm-max + ") {")
 .header
-    display none
+  display none
+
 .main-btn-grp,
 .main-navigation
-    display none
+  display none
+
 .resp-nav,
 .resp-btn-grp
-    display block
+  display block
+
 .resp-nav-li
-    float left
-    width 50%
+  float left
+  width 50%
+
 .resp-nav-link
-    border-right 1px solid $purple - 80%
+  border-right 1px solid $purple - 80%
+
 .logo
-    float none
-    text-align: center
+  float none
+  text-align: center
+
 .logo-img
-    display inline-block
-    max-width 100%
+  display inline-block
+  max-width 100%
+
 unquote("}")
 
 unquote("@media screen and (max-width: " + $screen-xs-max + ") {")
 .resp-btn-donate,
 .resp-btn-volunteer,
 .resp-btn-subscribe
-    scale line-height 1.5
+  scale line-height 1.5
+
 .resp-nav-li
-    float none
-    width 100%
+  float none
+  width 100%
+
 unquote("}")

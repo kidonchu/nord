@@ -17,6 +17,11 @@
     <nav class="resp-nav">
 
         <ul class="resp-nav-ul">
+            <li class="resp-nav-li search-form-li">
+                <a class="resp-nav-link">
+                    <?php get_search_form(true) ?>
+                </a>
+            </li>
             <li class="resp-nav-li">
                 <a class="resp-nav-link" href="<?php echo esc_url(home_url('/')) ?>" data-target="">
                     <span>Home</span>
@@ -80,6 +85,7 @@
     <header class="header" role="banner">
 
         <div class="container">
+
             <div class="logo">
 
                 <!-- Not visible. Used for SEO optimization -->
@@ -94,6 +100,10 @@
                     alt="National Organization for Renal Disease">
                 </a>
 
+            </div>
+
+            <div class="search-bar">
+                <?php get_search_form(true) ?>
             </div>
 
             <div class="main-btn-grp">
