@@ -1,4 +1,5 @@
 <?php
+return;
 /*
 Plugin Name: Redirection
 Plugin URI: http://urbangiraffe.com/plugins/redirection/
