@@ -73,6 +73,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <span>Contact</span>
                 </a>
             </li>
+	        <li class="resp-nav-li">
+		        <a class="resp-nav-link" href="<?php echo esc_url(home_url('blog')) ?>" data-target="blog">
+			        <span>Blog</span>
+		        </a>
+	        </li>
         </ul>
 
         <span href="#" class="resp-nav-toggle">
@@ -126,6 +131,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <nav class="main-navigation">
 
                 <ul class="main-navs">
+	                <li class="main-nav">
+		                <a class="main-nav-link" href="<?php echo esc_url(home_url('blog')) ?>" data-target="blog">
+			                <span>Blog</span>
+		                </a>
+	                </li>
                     <li class="main-nav">
                         <a class="main-nav-link" href="<?php echo esc_url(home_url('contact-us')) ?>" data-target="contact-us">
                             <span>Contact</span>
