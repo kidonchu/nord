@@ -132,6 +132,7 @@ function nord_scripts()
 	wp_enqueue_script('nord-skip-link-focus-fix', get_template_directory_uri().'/assets/js/skip-link-focus-fix.js', array(), '20130115', true);
 	wp_enqueue_script('nord-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '20131009', true);
 	wp_enqueue_script('nord-subscribe', get_template_directory_uri() . '/assets/js/subscribe.js', array('jquery'), '20131028', true);
+	wp_enqueue_script('nord-function', get_template_directory_uri() . '/assets/js/function.js', array('jquery'), '20131107', true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 	{
