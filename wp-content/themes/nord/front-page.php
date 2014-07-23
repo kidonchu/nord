@@ -6,7 +6,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="main-feature-video-header">
-                            Are you aware of Renal Disease?
+                            Renal Disease? <br/>
+                            <div class="text-right">
+                                We have the <a href="<?php echo home_url( 'program' ) ?>"><span class="em">Solution.</span></a>
+                            </div>
                         </div>
                         <div class="main-feature-video">
                             <?php $num = rand(1, 3); ?>
