@@ -3,3 +3,4 @@ copy_import.sh
 subdomains/
 wp-admin/error_log
 wp-content/uploads
+google*.html
