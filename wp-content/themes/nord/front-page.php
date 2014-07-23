@@ -146,7 +146,7 @@
 
                         <p class="feature-content">
                             In the past 15 years, we have screened and educated over
-                            <span class="em">70,000</span> clients.
+                            <span class="em">100,000</span> clients.
                         </p>
 
                         <p class="feature-content">
@@ -160,7 +160,7 @@
                         </p>
 
                         <p class="feature-content">
-                            We have reached over <span class="em">650,000</span> on television,
+                            We have reached over <span class="em">1,000,000</span> on television,
                             radio, and cable through various Media resources.
                         </p>
                     </div>
