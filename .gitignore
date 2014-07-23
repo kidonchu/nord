@@ -4,3 +4,4 @@ subdomains/
 wp-admin/error_log
 wp-content/uploads
 google*.html
+.idea/

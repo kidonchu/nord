@@ -3,13 +3,42 @@
     <div class="main-feature">
         <div class="container">
             <div class="main-feature-content clearfix">
-                <div class="main-feature-body">
-                    <div class="main-feature-body-content">
-                        <span class="line"><span class="em"><a href="<?php echo home_url('program') ?>">A.P.E.R.</a></span>FECT SOLUTION</span>
-                        <span class="line">for Controlling Kidney Disease</span>
-                        <span class="line">and Prolonging Health and Life!</span>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="main-feature-video-header">
+                            Renal Disease? <br/>
+                            <div class="text-right">
+                                We have the <a href="<?php echo home_url( 'program' ) ?>"><span class="em">Solution.</span></a>
+                            </div>
+                        </div>
+                        <div class="main-feature-video">
+                            <?php $num = rand(1, 3); ?>
+                            <?php if($num == 1) : ?>
+                                <iframe src="//www.youtube.com/embed/dyvy9C9C8SA?showinfo=0&autohide=1"
+                                        frameborder="0" allowfullscreen>
+                                </iframe>
+                            <?php elseif ($num == 2) : ?>
+                                <iframe src="//www.youtube.com/embed/ZfZfyA0t_qo?showinfo=0&autohide=1"
+                                        frameborder="0" allowfullscreen>
+                                </iframe>
+                            <?php else : ?>
+                                <iframe src="//www.youtube.com/embed/Mhj4na0P6T0?showinfo=0&autohide=1"
+                                        frameborder="0" allowfullscreen>
+                                </iframe>
+                            <?php endif; ?>
+                        </div>
                     </div>
-                    <a href="<?php echo home_url('donate') ?>" class="btn btn-primary btn-large pull-right">Donate. Prolong Health and Save LIVES</a>
+                    <div class="col-md-7">
+                        <div class="main-feature-body">
+                            <div class="main-feature-body-content">
+                                <span class="line"><span class="em"><a href="<?php echo home_url( 'program' ) ?>">A.P.E.R.</a></span>FECT SOLUTION</span>
+                                <span class="line">for Controlling Kidney Disease</span>
+                                <span class="line">and Prolonging Health and Life!</span>
+                            </div>
+                            <a href="<?php echo home_url( 'donate' ) ?>" class="btn btn-primary btn-large pull-right">Donate.
+                                Prolong Health and Save LIVES</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -18,13 +47,63 @@
     <section class="feature-container grey">
         <div class="container">
             <div class="row">
+                <div class="col-md-12">
+                    <div class="feature">
+                        <h2 class="feature-header">
+                            Raise Awareness of Renal Disease
+                        </h2>
+
+                        <div class="feature-video">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <iframe src="//www.youtube.com/embed/dyvy9C9C8SA?showinfo=0&autohide=1"
+                                            frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="col-md-4">
+                                    <iframe src="//www.youtube.com/embed/ZfZfyA0t_qo?showinfo=0&autohide=1"
+                                            frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="col-md-4">
+                                    <iframe src="//www.youtube.com/embed/Mhj4na0P6T0?showinfo=0&autohide=1"
+                                            frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <p class="feature-content">
+                                    Renal Disease can happen to anybody at any age. You won't notice until your kidney
+                                    shuts down. Once you get it, half of your life will be spent hooked up to dialysis
+                                    machine, and the other half will be spent waiting for your kidney transplant.
+                                    Ask your doctor today about diabetes, high blood pressure, obesity, and a 5-minute
+                                    kidney test.
+                                </p>
+                                <p class="text-center feature-content">
+                                    <span class="em-sm">
+                                        You can prevent these from happening to you, your friend, or family.
+                                    </span>
+                                </p>
+                                <div class="text-center">
+                                    <a href="<?php echo home_url( 'renal-disease-screening-diagnostics' ) ?>"
+                                       class="btn btn-large btn-primary">Take Action NOW
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
                 <div class="col-md-8 col-md-offset-2">
                     <div class="feature">
                         <h2 class="feature-header">
                             who we are
                         </h2>
+
                         <p class="feature-content">
-                            National Organization for Renal Disease(NORD)   is a nonprofit health agency
+                            National Organization for Renal Disease(NORD) is a nonprofit health agency
                             dedicated to preventing kidney (renal) disease, diabetes and high blood
                             pressure through education and research.
                         </p>
@@ -34,19 +113,22 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="feature">
                         <h2 class="feature-header">
-                        what we do
+                            what we do
                         </h2>
+
                         <p class="feature-content">
                             National Organization for Renal Disease(NORD) strives to provide the latest
                             preventive and critical medical information to populations at high
                             risk for developing renal disease and its precursors through their
                             programs of awareness, prevention, education and research.
                         </p>
+
                         <p class="feature-content">
                             In addition, we seek to transform the remedies and delivery
                             systems in which these illnesses are treated for the betterment
                             of individuals and their communities.
                         </p>
+
                         <p class="feature-content">
                             NORD promotes organ and tissue transplantation and other progressive
                             therapies in treatment modalities through innovative, cutting
@@ -61,18 +143,22 @@
                         <h2 class="feature-header">
                             how we are doing
                         </h2>
+
                         <p class="feature-content">
                             In the past 15 years, we have screened and educated over
                             <span class="em">70,000</span> clients.
                         </p>
+
                         <p class="feature-content">
                             We have distributed over <span class="em">200,000</span> pieces
                             of educational materials related to kidney disease, diabetes, high blood
                             pressure, obesity, and other related illnesses.
                         </p>
+
                         <p class="feature-content">
                             We provide monitoring tools when available for blood pressure and blood glucose.
                         </p>
+
                         <p class="feature-content">
                             We have reached over <span class="em">650,000</span> on television,
                             radio, and cable through various Media resources.
@@ -83,12 +169,12 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="feature">
                         <h2 class="feature-header">
-                            <a href="<?php echo home_url('partners') ?>">our partners</a>
+                            <a href="<?php echo home_url( 'partners' ) ?>">our partners</a>
                         </h2>
-                        <a href="<?php echo home_url('partners') ?>">
+                        <a href="<?php echo home_url( 'partners' ) ?>">
                             <img class="partner-logo-img"
-                            src="<?php echo esc_url(get_stylesheet_directory_uri().'/assets/img/partner_logos.png') ?>"
-                            alt="National Organization for Renal Disease Partners">
+                                 src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/img/partner_logos.png' ) ?>"
+                                 alt="National Organization for Renal Disease Partners">
                         </a>
                     </div>
                 </div>
@@ -104,9 +190,10 @@
                             <strong>Everyone is equal when they are sick.</strong><br>
                             <strong>Change must happen. But, it can only happen with Your support!</strong>
                         </p>
+
                         <div class="text-center">
-                            <a href="<?php echo home_url('donate') ?>" class="btn btn-large btn-primary">Donate</a>
-                            <a href="<?php echo home_url('volunteer') ?>" class="btn btn-large">Volunteer</a>
+                            <a href="<?php echo home_url( 'donate' ) ?>" class="btn btn-large btn-primary">Donate</a>
+                            <a href="<?php echo home_url( 'volunteer' ) ?>" class="btn btn-large">Volunteer</a>
                         </div>
                     </div>
                 </div>
