@@ -11,7 +11,7 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-  
+
   <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WXF4J2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -74,11 +74,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <span>Contact</span>
                 </a>
             </li>
-<!--	        <li class="resp-nav-li">-->
-<!--		        <a class="resp-nav-link" href="--><?php //echo esc_url(home_url('blog')) ?><!--" data-target="blog">-->
-<!--			        <span>Blog</span>-->
-<!--		        </a>-->
-<!--	        </li>-->
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('/')) ?>" data-target="">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('about-us')) ?>" data-target="about-us">
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('program')) ?>" data-target="program">
+                    <span>Program</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('media')) ?>" data-target="media">
+                    <span>Media</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('renal-disease-screening-diagnostics')) ?>" data-target="renal-disease-screening-diagnostics">
+                    <span>Screening</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('resources/renal-disease')) ?>" data-target="renal-disease">
+                    <span>Resources</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('events')) ?>" data-target="events">
+                    <span>Events</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('contact-us')) ?>" data-target="contact-us">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li class="resp-nav-li">
+                <a class="resp-nav-link" href="<?php echo esc_url(home_url('blog')) ?>" data-target="blog">
+                    <span>Blog</span>
+                </a>
+            </li>
         </ul>
 
         <span href="#" class="resp-nav-toggle">
@@ -132,11 +172,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <nav class="main-navigation">
 
                 <ul class="main-navs">
-<!--	                <li class="main-nav">-->
-<!--		                <a class="main-nav-link" href="--><?php //echo esc_url(home_url('blog')) ?><!--" data-target="blog">-->
-<!--			                <span>Blog</span>-->
-<!--		                </a>-->
-<!--	                </li>-->
+                    <li class="main-nav">
+                        <a class="main-nav-link" href="<?php echo esc_url(home_url('blog')) ?>" data-target="blog">
+                            <span>Blog</span>
+                        </a>
+                    </li>
                     <li class="main-nav">
                         <a class="main-nav-link" href="<?php echo esc_url(home_url('contact-us')) ?>" data-target="contact-us">
                             <span>Contact</span>
