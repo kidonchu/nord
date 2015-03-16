@@ -12,20 +12,20 @@
                             </div>
                         </div>
                         <div class="main-feature-video">
-                            <?php $num = rand(1, 3); ?>
-                            <?php if($num == 1) : ?>
-                                <iframe src="//www.youtube.com/embed/dyvy9C9C8SA?showinfo=0&autohide=1"
+<!--                            --><?php //$num = rand(1, 3); ?>
+<!--                            --><?php //if($num == 1) : ?>
+                                <iframe src="//www.youtube.com/embed/odvsqiV7nXY"
                                         frameborder="0" allowfullscreen>
                                 </iframe>
-                            <?php elseif ($num == 2) : ?>
-                                <iframe src="//www.youtube.com/embed/ZfZfyA0t_qo?showinfo=0&autohide=1"
-                                        frameborder="0" allowfullscreen>
-                                </iframe>
-                            <?php else : ?>
-                                <iframe src="//www.youtube.com/embed/Mhj4na0P6T0?showinfo=0&autohide=1"
-                                        frameborder="0" allowfullscreen>
-                                </iframe>
-                            <?php endif; ?>
+<!--                            --><?php //elseif ($num == 2) : ?>
+<!--                                <iframe src="//www.youtube.com/embed/ZfZfyA0t_qo?showinfo=0&autohide=1"-->
+<!--                                        frameborder="0" allowfullscreen>-->
+<!--                                </iframe>-->
+<!--                            --><?php //else : ?>
+<!--                                <iframe src="//www.youtube.com/embed/Mhj4na0P6T0?showinfo=0&autohide=1"-->
+<!--                                        frameborder="0" allowfullscreen>-->
+<!--                                </iframe>-->
+<!--                            --><?php //endif; ?>
                         </div>
                     </div>
                     <div class="col-md-7">
